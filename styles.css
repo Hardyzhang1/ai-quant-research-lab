@@ -276,6 +276,10 @@ p {
   background: var(--green);
 }
 
+.accent-d::after {
+  background: linear-gradient(90deg, var(--rose), var(--amber));
+}
+
 .card-kicker {
   display: block;
   margin-bottom: 56px;
@@ -360,6 +364,150 @@ pre {
 
 .snapshot-section {
   background: rgba(255,255,255,0.025);
+}
+
+.agent-briefs {
+  background:
+    radial-gradient(circle at 12% 30%, rgba(64, 217, 255, 0.08), transparent 24%),
+    radial-gradient(circle at 86% 14%, rgba(255, 200, 87, 0.08), transparent 28%),
+    rgba(255,255,255,0.018);
+}
+
+.brief-meta {
+  margin: -8px 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.brief-pulse {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 18px;
+}
+
+.pulse-item {
+  min-height: 86px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(255,255,255,0.045);
+}
+
+.pulse-item span {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pulse-item strong {
+  display: block;
+  color: var(--text);
+  font-size: 22px;
+  line-height: 1.15;
+}
+
+.pulse-item.wide strong {
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.brief-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.brief-card {
+  position: relative;
+  min-height: 300px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(16, 24, 38, 0.84), rgba(9, 13, 22, 0.66));
+  backdrop-filter: blur(16px);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.25);
+}
+
+.brief-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, rgba(64,217,255,0.12), transparent 30%),
+    linear-gradient(315deg, rgba(99,245,178,0.08), transparent 36%);
+}
+
+.brief-card > * {
+  position: relative;
+}
+
+.brief-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 22px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brief-card h3 {
+  margin-bottom: 8px;
+}
+
+.brief-card p {
+  margin: 0;
+}
+
+.brief-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.brief-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 9px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  color: #dbe7fb;
+  background: rgba(255,255,255,0.05);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.brief-list {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brief-list li {
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  color: #cbd7e8;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.brief-disclaimer {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .snapshot-meta {
@@ -456,6 +604,8 @@ footer {
   .split,
   .system-grid,
   .flow,
+  .brief-pulse,
+  .brief-grid,
   .snapshot-grid,
   .boundary-grid {
     grid-template-columns: 1fr;

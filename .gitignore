@@ -10,3 +10,8 @@ build/
 __pycache__/
 .venv/
 venv/
+private/
+raw-mail/
+mail-previews/
+agent-briefs-source/
+local.config.ps1

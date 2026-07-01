@@ -103,6 +103,15 @@ function tone(value) {
   return value >= 0 ? "positive" : "negative";
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function periodBlock(label, data, field) {
   const value = data ? data[field] : null;
   return `
@@ -149,3 +158,85 @@ async function loadSnapshot() {
 }
 
 loadSnapshot();
+
+function briefCard(brief) {
+  const tags = Array.isArray(brief.tags) ? brief.tags : [];
+  const bullets = Array.isArray(brief.bullets) ? brief.bullets : [];
+  const updated = brief.updated_at || "--";
+  return `
+    <article class="brief-card">
+      <div class="brief-topline">
+        <span>${escapeHtml(brief.market || "Agent")}</span>
+        <span>${escapeHtml(updated)}</span>
+      </div>
+      <h3>${escapeHtml(brief.title || "Sanitized agent brief")}</h3>
+      <p>${escapeHtml(brief.summary || "A public-safe snapshot will appear here after the next refresh.")}</p>
+      <div class="brief-pill-row">
+        ${tags.map((tag) => `<span class="brief-pill">${escapeHtml(tag)}</span>`).join("")}
+      </div>
+      <ul class="brief-list">
+        ${bullets.slice(0, 5).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+      </ul>
+      <div class="brief-disclaimer">
+        Public display only. Not investment advice. Core models, prompts, data sources,
+        trading logic, infrastructure details, and live recommendations are intentionally withheld.
+      </div>
+    </article>
+  `;
+}
+
+function renderBriefPulse(payload, briefs) {
+  const pulse = document.getElementById("briefPulse");
+  if (!pulse) return;
+  const guardCount = new Set(
+    briefs.flatMap((brief) => Array.isArray(brief.tags) ? brief.tags : [])
+  ).size;
+  const surfaces = briefs.length;
+  const updated = payload.published_at || "pending";
+  const scope = payload.scope || "sanitized_public_showcase";
+  pulse.innerHTML = `
+    <div class="pulse-item">
+      <span>Surfaces</span>
+      <strong>${surfaces}</strong>
+    </div>
+    <div class="pulse-item">
+      <span>Privacy Guards</span>
+      <strong>${guardCount}</strong>
+    </div>
+    <div class="pulse-item">
+      <span>Refresh</span>
+      <strong>Manual</strong>
+    </div>
+    <div class="pulse-item wide">
+      <span>Scope</span>
+      <strong>${escapeHtml(scope.replaceAll("_", " "))}</strong>
+    </div>
+    <div class="pulse-item wide">
+      <span>Updated</span>
+      <strong>${escapeHtml(updated)}</strong>
+    </div>
+  `;
+}
+
+async function loadAgentBriefs() {
+  const grid = document.getElementById("briefGrid");
+  const meta = document.getElementById("briefMeta");
+  if (!grid || !meta) return;
+  try {
+    const response = await fetch("data/agent-briefs.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("No agent brief snapshot published yet");
+    const payload = await response.json();
+    const briefs = Array.isArray(payload.briefs) ? payload.briefs : [];
+    renderBriefPulse(payload, briefs);
+    meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized surfaces | Private implementation withheld`;
+    grid.innerHTML = briefs.length
+      ? briefs.map(briefCard).join("")
+      : "";
+  } catch (error) {
+    renderBriefPulse({ published_at: "waiting", scope: "no_public_snapshot" }, []);
+    meta.textContent = "No public agent brief snapshot has been published yet.";
+    grid.innerHTML = "";
+  }
+}
+
+loadAgentBriefs();

@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "published_at": "2026-07-01 12:15 local",
+  "scope": "sanitized_public_showcase",
+  "briefs": [
+    {
+      "id": "market-news-agent",
+      "market": "News Agent",
+      "title": "Market News Agent",
+      "updated_at": "ready for daily refresh",
+      "summary": "Transforms market, macro, and company news into concise research context while keeping private ingestion, prompting, scoring, and data-source details withheld.",
+      "tags": [
+        "macro context",
+        "company catalysts",
+        "market sentiment"
+      ],
+      "bullets": [
+        "Produces pre-market and post-market intelligence surfaces for private review.",
+        "Separates broad index recaps from higher-information company and macro events.",
+        "Publishes only redacted public snapshots; raw feeds and private prompts are excluded."
+      ]
+    },
+    {
+      "id": "trading-recommendation-agent",
+      "market": "Trading Agent",
+      "title": "Trading Recommendation Agent",
+      "updated_at": "ready for daily refresh",
+      "summary": "Combines technical scans, ranking overlays, and close validation into private email briefs; the public layer is intentionally non-actionable.",
+      "tags": [
+        "technical scan",
+        "ranking overlay",
+        "validation loop"
+      ],
+      "bullets": [
+        "Generates pre-market opportunity scans and post-market validation summaries.",
+        "Keeps ticker-level signals, model internals, and strategy rules private.",
+        "Public showcase displays capabilities and workflow only, not live recommendations."
+      ]
+    },
+    {
+      "id": "portfolio-safe-disclosure",
+      "market": "Disclosure",
+      "title": "Public Boundary",
+      "updated_at": "always on",
+      "summary": "This GitHub Pages site is a portfolio layer for demonstrating engineering systems, not a trading signal distribution channel.",
+      "tags": [
+        "showcase only",
+        "redacted",
+        "no advice"
+      ],
+      "bullets": [
+        "No credentials, infrastructure addresses, true local paths, raw logs, or private recipients are published.",
+        "No core training code, strategy implementation, or data-source details are exposed.",
+        "Content is for system-demonstration purposes and is not financial advice."
+      ]
+    }
+  ]
+}

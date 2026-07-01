@@ -8,6 +8,7 @@ This repository is intentionally presentation-only. It describes the system arch
 
 - **RD-Agent Quant Lab**: Remote quant research execution, safe-run resource controls, Qlib evaluation, and result dashboards.
 - **Market News Agent**: Market intelligence workflow for monitoring, structuring, and summarizing research context.
+- **Trading Recommendation Agent**: Private pre-market opportunity scan and post-market validation workflow with only sanitized public surfaces.
 - **VWAP Learning Agent**: Execution-strategy learning track focused on VWAP-style enhancement and experiment comparison.
 
 ## Public Scope
@@ -38,6 +39,34 @@ python -m http.server 8080
 ```
 
 Then open `http://127.0.0.1:8080/`.
+
+## Daily Agent Briefs
+
+The homepage reads `data/agent-briefs.json` and renders sanitized public cards for the news agent and trading recommendation agent.
+
+Refresh the public data after private emails are delivered:
+
+```powershell
+.\scripts\refresh_agent_briefs.ps1
+```
+
+Optionally point the refresher at private HTML email previews without committing those previews:
+
+```powershell
+$env:NEWS_AGENT_PUBLIC_SOURCE = "path-to-private-news-email-preview.html"
+$env:TRADING_AGENT_PUBLIC_SOURCE = "path-to-private-trading-email-preview.html"
+.\scripts\refresh_agent_briefs.ps1
+```
+
+The refresher redacts paths, email addresses, IP addresses, links, credential-like text, model identifiers, and lines that look like live trading signals. Only `data/agent-briefs.json` should be committed.
+
+To publish the refreshed cards to GitHub Pages after email delivery:
+
+```powershell
+.\scripts\publish_pages_update.ps1 -Commit -Push
+```
+
+Use `-Push` only on the machine where GitHub credentials are already configured. The script commits only the sanitized JSON surface.
 
 ## Maintenance
 

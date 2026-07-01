@@ -21,6 +21,7 @@
     <nav aria-label="Primary navigation">
       <a href="#systems">Systems</a>
       <a href="#workflow">Workflow</a>
+      <a href="#agent-briefs">Daily Briefs</a>
       <a href="#results">Results</a>
       <a href="#rdagent-snapshot">Snapshot</a>
       <a href="#boundary">Disclosure</a>
@@ -52,7 +53,7 @@
         </div>
         <div class="signal-row">
           <span>Research agents</span>
-          <strong>3 active tracks</strong>
+          <strong>4 active tracks</strong>
         </div>
         <div class="sparkline" aria-hidden="true">
           <span style="height: 34%"></span>
@@ -70,7 +71,7 @@
     <section id="systems" class="section">
       <div class="section-head">
         <p class="eyebrow">Systems</p>
-        <h2>Three private agent tracks, one public showcase.</h2>
+        <h2>Private agent tracks, one public showcase.</h2>
       </div>
       <div class="system-grid">
         <article class="system-card accent-a">
@@ -90,17 +91,30 @@
           <span class="card-kicker">02</span>
           <h3>Market News Agent</h3>
           <p>
-            A market intelligence assistant for collecting, structuring, and summarizing
-            news signals into research-ready context without exposing private data pipelines.
+            A market intelligence assistant that turns macro, market, and company news
+            into sanitized daily context panels for research review.
           </p>
           <ul>
-            <li>News monitoring</li>
-            <li>Event and sentiment framing</li>
-            <li>Research briefs</li>
+            <li>Pre-market and post-market brief surfaces</li>
+            <li>Event, sentiment, and catalyst framing</li>
+            <li>Public snapshots with private pipelines withheld</li>
           </ul>
         </article>
         <article class="system-card accent-c">
           <span class="card-kicker">03</span>
+          <h3>Trading Recommendation Agent</h3>
+          <p>
+            A technical-analysis and model-ranking layer that produces private email briefs,
+            then publishes a redacted portfolio-friendly snapshot after delivery.
+          </p>
+          <ul>
+            <li>Daily opportunity scan surface</li>
+            <li>Market-close validation summary</li>
+            <li>No strategy internals or live recommendations exposed</li>
+          </ul>
+        </article>
+        <article class="system-card accent-d">
+          <span class="card-kicker">04</span>
           <h3>VWAP Learning Agent</h3>
           <p>
             An execution-strategy learning track focused on VWAP-style enhancement,
@@ -113,6 +127,21 @@
           </ul>
         </article>
       </div>
+    </section>
+
+    <section id="agent-briefs" class="section agent-briefs">
+      <div class="section-head">
+        <p class="eyebrow">Daily agent briefs</p>
+        <h2>Sanitized email surfaces, refreshed after delivery.</h2>
+        <p>
+          The private news and trading agents send full internal emails. This public page
+          receives only redacted, display-safe summaries: no model internals, no data-source
+          details, no file paths, no credentials, and no actionable recommendation text.
+        </p>
+      </div>
+      <div class="brief-pulse" id="briefPulse" aria-label="Agent brief public status"></div>
+      <div class="brief-meta" id="briefMeta">Waiting for the latest sanitized agent snapshot.</div>
+      <div class="brief-grid" id="briefGrid"></div>
     </section>
 
     <section id="workflow" class="section workflow">
