@@ -921,38 +921,6 @@ pre {
   font-size: 13px;
 }
 
-.snapshot-chart-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-  margin-top: 18px;
-}
-
-.snapshot-wide-chart {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 20px;
-  background: var(--panel);
-  backdrop-filter: blur(16px);
-}
-
-.snapshot-wide-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 8px;
-}
-
-.snapshot-wide-head span {
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.snapshot-wide-chart .snapshot-chart {
-  height: 310px;
-}
-
 .positive {
   color: var(--green);
 }

@@ -166,7 +166,6 @@ function groupReturnSvg(series) {
 
 async function loadSnapshot() {
   const grid = document.getElementById("snapshotGrid");
-  const chartGrid = document.getElementById("snapshotChartGrid");
   const meta = document.getElementById("snapshotMeta");
   if (!grid || !meta) return;
   try {
@@ -192,21 +191,9 @@ async function loadSnapshot() {
         </article>
       `;
     }).join("");
-    if (chartGrid) {
-      chartGrid.innerHTML = rows.map((row, index) => `
-        <article class="snapshot-wide-chart">
-          <div class="snapshot-wide-head">
-            <h3>Factor ${index + 1} Group Return Curves</h3>
-            <span>${escapeHtml(row.latest_date || "--")}</span>
-          </div>
-          ${groupReturnSvg(row.chart?.group_return || [])}
-        </article>
-      `).join("");
-    }
   } catch (error) {
     meta.textContent = "No public snapshot has been published yet.";
     grid.innerHTML = "";
-    if (chartGrid) chartGrid.innerHTML = "";
   }
 }
 
