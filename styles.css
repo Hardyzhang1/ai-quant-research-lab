@@ -366,6 +366,12 @@ pre {
   background: rgba(255,255,255,0.025);
 }
 
+.email-mirror {
+  background:
+    radial-gradient(circle at 80% 24%, rgba(99, 245, 178, 0.08), transparent 26%),
+    rgba(255,255,255,0.022);
+}
+
 .agent-briefs {
   background:
     radial-gradient(circle at 12% 30%, rgba(64, 217, 255, 0.08), transparent 24%),
@@ -374,6 +380,12 @@ pre {
 }
 
 .brief-meta {
+  margin: -8px 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.email-meta {
   margin: -8px 0 18px;
   color: var(--muted);
   font-size: 14px;
@@ -422,7 +434,14 @@ pre {
   gap: 14px;
 }
 
-.brief-card {
+.email-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+.brief-card,
+.email-card {
   position: relative;
   min-height: 300px;
   border: 1px solid var(--line);
@@ -434,7 +453,8 @@ pre {
   box-shadow: 0 24px 80px rgba(0,0,0,0.25);
 }
 
-.brief-card::before {
+.brief-card::before,
+.email-card::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -444,7 +464,8 @@ pre {
     linear-gradient(315deg, rgba(99,245,178,0.08), transparent 36%);
 }
 
-.brief-card > * {
+.brief-card > *,
+.email-card > * {
   position: relative;
 }
 
@@ -488,6 +509,113 @@ pre {
   font-weight: 700;
 }
 
+.brief-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.brief-stat {
+  min-height: 62px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 9px;
+  background: rgba(255,255,255,0.04);
+}
+
+.brief-stat span,
+.brief-item-top span {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brief-stat strong {
+  display: block;
+  margin-top: 6px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.brief-section-title {
+  margin: 18px 0 10px;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brief-item-list {
+  display: grid;
+  gap: 9px;
+  margin: 0 0 18px;
+}
+
+.brief-item {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 7px;
+  padding: 12px;
+  background: rgba(2, 6, 12, 0.36);
+}
+
+.brief-item-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.brief-item strong {
+  display: block;
+  color: #f1f6ff;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.brief-item p {
+  margin: 7px 0 0;
+  color: #c4cfdf;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.brief-related,
+.brief-symbol {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.brief-symbol {
+  color: var(--amber);
+  font-weight: 800;
+}
+
+.brief-metric-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.brief-metric-row span {
+  min-height: 24px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 999px;
+  padding: 4px 8px;
+  color: #dbe7fb;
+  background: rgba(255,255,255,0.04);
+  font-size: 11px;
+  font-weight: 700;
+}
+
 .brief-list {
   margin: 18px 0 0;
   padding: 0;
@@ -508,6 +636,58 @@ pre {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.5;
+}
+
+.email-line-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.email-line-list p {
+  margin: 0;
+  color: #d6e1f2;
+  font-size: 14px;
+  line-height: 1.58;
+}
+
+.email-line-list p:first-child {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.email-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+.email-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  background: rgba(2, 6, 12, 0.42);
+}
+
+.email-table th,
+.email-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  color: #dbe7fb;
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: left;
+  vertical-align: top;
+}
+
+.email-table th {
+  color: var(--green);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .snapshot-meta {
@@ -606,6 +786,7 @@ footer {
   .flow,
   .brief-pulse,
   .brief-grid,
+  .email-grid,
   .snapshot-grid,
   .boundary-grid {
     grid-template-columns: 1fr;

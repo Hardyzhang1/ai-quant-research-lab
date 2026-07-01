@@ -162,6 +162,9 @@ loadSnapshot();
 function briefCard(brief) {
   const tags = Array.isArray(brief.tags) ? brief.tags : [];
   const bullets = Array.isArray(brief.bullets) ? brief.bullets : [];
+  const stats = Array.isArray(brief.stats) ? brief.stats : [];
+  const items = Array.isArray(brief.items) ? brief.items : [];
+  const recommendations = Array.isArray(brief.recommendations) ? brief.recommendations : [];
   const updated = brief.updated_at || "--";
   return `
     <article class="brief-card">
@@ -174,12 +177,62 @@ function briefCard(brief) {
       <div class="brief-pill-row">
         ${tags.map((tag) => `<span class="brief-pill">${escapeHtml(tag)}</span>`).join("")}
       </div>
+      ${stats.length ? `
+        <div class="brief-stat-grid">
+          ${stats.slice(0, 4).map((stat) => `
+            <div class="brief-stat">
+              <span>${escapeHtml(stat.label)}</span>
+              <strong>${escapeHtml(stat.value)}</strong>
+            </div>
+          `).join("")}
+        </div>
+      ` : ""}
+      ${items.length ? `
+        <div class="brief-section-title">Latest public news digest</div>
+        <div class="brief-item-list">
+          ${items.slice(0, 8).map((item) => `
+            <div class="brief-item">
+              <div class="brief-item-top">
+                <span>${escapeHtml(item.market || "news")}</span>
+                <span>${escapeHtml(item.tone || "--")}</span>
+              </div>
+              <strong>${escapeHtml(item.title || "Untitled item")}</strong>
+              <p>${escapeHtml(item.summary || "")}</p>
+              ${item.related ? `<div class="brief-related">${escapeHtml(item.related)}</div>` : ""}
+            </div>
+          `).join("")}
+        </div>
+      ` : ""}
+      ${recommendations.length ? `
+        <div class="brief-section-title">Latest public research signals</div>
+        <div class="brief-item-list">
+          ${recommendations.slice(0, 5).map((item) => `
+            <div class="brief-item recommendation-item">
+              <div class="brief-item-top">
+                <span>${escapeHtml(item.status || "research state")}</span>
+                <span>${escapeHtml(item.horizon || "--")}</span>
+              </div>
+              <strong>${escapeHtml(item.title || "Research item")}</strong>
+              ${(item.symbol || item.name) ? `<div class="brief-symbol">${escapeHtml([item.symbol, item.name].filter(Boolean).join(" | "))}</div>` : ""}
+              <p>${escapeHtml(item.summary || "")}</p>
+              <div class="brief-related">${escapeHtml(item.industry || "")}${item.reason ? ` · ${escapeHtml(item.reason)}` : ""}</div>
+              ${Array.isArray(item.metrics) && item.metrics.length ? `
+                <div class="brief-metric-row">
+                  ${item.metrics.slice(0, 4).map((metric) => `
+                    <span>${escapeHtml(metric.label)}: ${escapeHtml(metric.value)}</span>
+                  `).join("")}
+                </div>
+              ` : ""}
+            </div>
+          `).join("")}
+        </div>
+      ` : ""}
       <ul class="brief-list">
         ${bullets.slice(0, 5).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
       </ul>
       <div class="brief-disclaimer">
         Public display only. Not investment advice. Core models, prompts, data sources,
-        trading logic, infrastructure details, and live recommendations are intentionally withheld.
+        trading logic, infrastructure details, and execution rules are intentionally withheld.
       </div>
     </article>
   `;
@@ -218,6 +271,64 @@ function renderBriefPulse(payload, briefs) {
   `;
 }
 
+function emailTable(table) {
+  const headers = Array.isArray(table.headers) ? table.headers : [];
+  const rows = Array.isArray(table.rows) ? table.rows : [];
+  if (!headers.length && !rows.length) return "";
+  return `
+    <div class="email-table-wrap">
+      <table class="email-table">
+        ${headers.length ? `
+          <thead>
+            <tr>${headers.map((cell) => `<th>${escapeHtml(cell)}</th>`).join("")}</tr>
+          </thead>
+        ` : ""}
+        <tbody>
+          ${rows.map((row) => `
+            <tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function emailMirrorCard(email) {
+  const lines = Array.isArray(email.lines) ? email.lines : [];
+  const tables = Array.isArray(email.tables) ? email.tables : [];
+  return `
+    <article class="email-card">
+      <div class="brief-topline">
+        <span>${escapeHtml(email.source || "public mirror")}</span>
+        <span>${escapeHtml(email.updated_at || "--")}</span>
+      </div>
+      <h3>${escapeHtml(email.title || "Published email")}</h3>
+      <div class="email-line-list">
+        ${lines.slice(0, 90).map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+      </div>
+      ${tables.length ? `
+        <div class="brief-section-title">Mirrored tables</div>
+        ${tables.slice(0, 6).map(emailTable).join("")}
+      ` : ""}
+      <div class="brief-disclaimer">
+        Mirrored after email delivery. Private recipients, secrets, local paths,
+        infrastructure details, source links, and implementation internals are redacted.
+      </div>
+    </article>
+  `;
+}
+
+function renderEmailMirrors(payload) {
+  const grid = document.getElementById("emailMirrorGrid");
+  const meta = document.getElementById("emailMirrorMeta");
+  if (!grid || !meta) return;
+  const emails = Array.isArray(payload.email_mirrors) ? payload.email_mirrors : [];
+  meta.textContent = emails.length
+    ? `Published ${payload.published_at || "recently"} | ${emails.length} mirrored email surfaces`
+    : "No mirrored email content has been published yet. Pass private email preview paths to the refresh script.";
+  grid.innerHTML = emails.length ? emails.map(emailMirrorCard).join("") : "";
+}
+
 async function loadAgentBriefs() {
   const grid = document.getElementById("briefGrid");
   const meta = document.getElementById("briefMeta");
@@ -228,12 +339,14 @@ async function loadAgentBriefs() {
     const payload = await response.json();
     const briefs = Array.isArray(payload.briefs) ? payload.briefs : [];
     renderBriefPulse(payload, briefs);
+    renderEmailMirrors(payload);
     meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized surfaces | Private implementation withheld`;
     grid.innerHTML = briefs.length
       ? briefs.map(briefCard).join("")
       : "";
   } catch (error) {
     renderBriefPulse({ published_at: "waiting", scope: "no_public_snapshot" }, []);
+    renderEmailMirrors({ email_mirrors: [] });
     meta.textContent = "No public agent brief snapshot has been published yet.";
     grid.innerHTML = "";
   }

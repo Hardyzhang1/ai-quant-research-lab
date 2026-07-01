@@ -22,6 +22,7 @@
       <a href="#systems">Systems</a>
       <a href="#workflow">Workflow</a>
       <a href="#agent-briefs">Daily Briefs</a>
+      <a href="#email-mirror">Email Mirror</a>
       <a href="#results">Results</a>
       <a href="#rdagent-snapshot">Snapshot</a>
       <a href="#boundary">Disclosure</a>
@@ -104,13 +105,13 @@
           <span class="card-kicker">03</span>
           <h3>Trading Recommendation Agent</h3>
           <p>
-            A technical-analysis and model-ranking layer that produces private email briefs,
-            then publishes a redacted portfolio-friendly snapshot after delivery.
+            A technical-analysis and model-ranking layer that produces email briefs,
+            then publishes a redacted public mirror after delivery.
           </p>
           <ul>
             <li>Daily opportunity scan surface</li>
             <li>Market-close validation summary</li>
-            <li>No strategy internals or live recommendations exposed</li>
+            <li>Email content mirrored with private internals withheld</li>
           </ul>
         </article>
         <article class="system-card accent-d">
@@ -134,14 +135,29 @@
         <p class="eyebrow">Daily agent briefs</p>
         <h2>Sanitized email surfaces, refreshed after delivery.</h2>
         <p>
-          The private news and trading agents send full internal emails. This public page
-          receives only redacted, display-safe summaries: no model internals, no data-source
-          details, no file paths, no credentials, and no actionable recommendation text.
+          The news and trading agents send private emails first. After delivery, this page
+          receives a public mirror of the email content: recommendations and review text can
+          be displayed, while model internals, data-source details, file paths, credentials,
+          private recipients, and infrastructure details are withheld.
         </p>
       </div>
       <div class="brief-pulse" id="briefPulse" aria-label="Agent brief public status"></div>
       <div class="brief-meta" id="briefMeta">Waiting for the latest sanitized agent snapshot.</div>
       <div class="brief-grid" id="briefGrid"></div>
+    </section>
+
+    <section id="email-mirror" class="section email-mirror">
+      <div class="section-head">
+        <p class="eyebrow">Published email mirror</p>
+        <h2>What was sent by email, mirrored for the public page.</h2>
+        <p>
+          This area is generated from the same post-delivery email previews. It is designed
+          to show the public-facing report content while stripping secrets, local paths,
+          private recipients, infrastructure details, and implementation internals.
+        </p>
+      </div>
+      <div class="email-meta" id="emailMirrorMeta">Waiting for mirrored email content.</div>
+      <div class="email-grid" id="emailMirrorGrid"></div>
     </section>
 
     <section id="workflow" class="section workflow">
