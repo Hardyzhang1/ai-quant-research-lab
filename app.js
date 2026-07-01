@@ -92,3 +92,60 @@ window.addEventListener("pointerleave", () => {
 
 resize();
 draw();
+
+function pct(value) {
+  if (typeof value !== "number" || !Number.isFinite(value)) return "--";
+  return `${(value * 100).toFixed(2)}%`;
+}
+
+function tone(value) {
+  if (typeof value !== "number" || !Number.isFinite(value)) return "";
+  return value >= 0 ? "positive" : "negative";
+}
+
+function periodBlock(label, data, field) {
+  const value = data ? data[field] : null;
+  return `
+    <div class="period-cell">
+      <span>${label} ${field === "long" ? "long" : "long-short"}</span>
+      <strong class="${tone(value)}">${pct(value)}</strong>
+    </div>
+  `;
+}
+
+async function loadSnapshot() {
+  const grid = document.getElementById("snapshotGrid");
+  const meta = document.getElementById("snapshotMeta");
+  if (!grid || !meta) return;
+  try {
+    const response = await fetch("data/top3-performance.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("No snapshot published yet");
+    const snapshot = await response.json();
+    const rows = snapshot.top || [];
+    meta.textContent = `Published ${snapshot.published_at || snapshot.collected_at || "recently"} | Latest source date ${rows[0]?.latest_date || "--"} | Manual snapshot`;
+    grid.innerHTML = rows.map((row, index) => {
+      const p = row.periods || {};
+      return `
+        <article class="snapshot-card">
+          <h3>#${index + 1} ${row.name || "Signal"}</h3>
+          <div class="snapshot-date">Latest: ${row.latest_date || "--"}</div>
+          <div class="period-grid">
+            ${periodBlock("1D", p["1D"], "long")}
+            ${periodBlock("1D", p["1D"], "long_short")}
+            ${periodBlock("7D", p["7D"], "long")}
+            ${periodBlock("7D", p["7D"], "long_short")}
+            ${periodBlock("1M", p["1M"], "long")}
+            ${periodBlock("1M", p["1M"], "long_short")}
+            ${periodBlock("Jul 1+", p.since_2026_07_01, "long")}
+            ${periodBlock("Jul 1+", p.since_2026_07_01, "long_short")}
+          </div>
+        </article>
+      `;
+    }).join("");
+  } catch (error) {
+    meta.textContent = "No public snapshot has been published yet.";
+    grid.innerHTML = "";
+  }
+}
+
+loadSnapshot();

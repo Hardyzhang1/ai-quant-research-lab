@@ -358,6 +358,75 @@ pre {
   font: 14px/1.7 "SFMono-Regular", Consolas, monospace;
 }
 
+.snapshot-section {
+  background: rgba(255,255,255,0.025);
+}
+
+.snapshot-meta {
+  margin: -8px 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.snapshot-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  background: var(--panel);
+  backdrop-filter: blur(16px);
+}
+
+.snapshot-card h3 {
+  margin-bottom: 6px;
+}
+
+.snapshot-date {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.period-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.period-cell {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(255,255,255,0.04);
+}
+
+.period-cell span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.period-cell strong {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.positive {
+  color: var(--green);
+}
+
+.negative {
+  color: var(--rose);
+}
+
 .boundary-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -387,6 +456,7 @@ footer {
   .split,
   .system-grid,
   .flow,
+  .snapshot-grid,
   .boundary-grid {
     grid-template-columns: 1fr;
   }
