@@ -4,10 +4,8 @@
   "since_date": "2026-07-01",
   "top": [
     {
-      "id": "977a35bc35644f9abd207545bb52b920/eb83fff24dab4a4ca5e46f5118b8007e",
-      "name": "GeneralPTNN",
-      "workspace": "977a35bc35644f9abd207545bb52b920",
-      "run_id": "eb83fff24dab4a4ca5e46f5118b8007e",
+      "id": "factor_1",
+      "name": "Factor 1",
       "updated_at": "2026-06-30 12:40:56",
       "latest_date": "2026-06-24",
       "metrics": {
@@ -49,10 +47,8 @@
       }
     },
     {
-      "id": "13d587574e6445d2a53174f398bbd111/0e3f960620f94b6fbb69617ff4a306b2",
-      "name": "GeneralPTNN",
-      "workspace": "13d587574e6445d2a53174f398bbd111",
-      "run_id": "0e3f960620f94b6fbb69617ff4a306b2",
+      "id": "factor_2",
+      "name": "Factor 2",
       "updated_at": "2026-06-30 10:51:40",
       "latest_date": "2026-06-24",
       "metrics": {
@@ -94,10 +90,8 @@
       }
     },
     {
-      "id": "f11fffd12c164003b428f075c5fd6624/49d8fe32632540a8876bcfb1c10a7547",
-      "name": "LGBModel",
-      "workspace": "f11fffd12c164003b428f075c5fd6624",
-      "run_id": "49d8fe32632540a8876bcfb1c10a7547",
+      "id": "factor_3",
+      "name": "Factor 3",
       "updated_at": "2026-06-30 10:37:03",
       "latest_date": "2026-06-24",
       "metrics": {

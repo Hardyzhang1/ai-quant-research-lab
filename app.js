@@ -127,7 +127,7 @@ async function loadSnapshot() {
       const p = row.periods || {};
       return `
         <article class="snapshot-card">
-          <h3>#${index + 1} ${row.name || "Signal"}</h3>
+          <h3>Factor ${index + 1}</h3>
           <div class="snapshot-date">Latest: ${row.latest_date || "--"}</div>
           <div class="period-grid">
             ${periodBlock("1D", p["1D"], "long")}
