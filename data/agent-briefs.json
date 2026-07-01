@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "published_at": "2026-07-01 13:57 local",
-  "scope": "public_email_mirror_with_private_internals_withheld",
+  "published_at": "2026-07-01 14:01 local",
+  "scope": "public_email_mirror_preserved_from_previous_refresh",
   "email_mirrors": [
     {
       "id": "news-agent-preview-us-premarket",
@@ -1534,231 +1534,39 @@
       "id": "market-news-agent",
       "market": "News Agent",
       "title": "Market News Agent",
-      "updated_at": "refreshed from private snapshots at 2026-07-01 08:55 local",
+      "updated_at": "ready for daily refresh",
       "summary": "Transforms market, macro, and company news into concise research context while keeping private ingestion, prompting, scoring, and data-source details withheld.",
       "tags": [
         "macro context",
         "company catalysts",
         "market sentiment"
       ],
-      "stats": [
-        {
-          "label": "generated",
-          "value": "2026-06-30 16:38 CST；覆盖窗口：过去24小时"
-        },
-        {
-          "label": "mood",
-          "value": "偏乐观（+40） / 偏乐观（+29）"
-        }
-      ],
+      "stats": [],
       "bullets": [
         "Produces pre-market and post-market intelligence surfaces for private review.",
         "Separates broad index recaps from higher-information company and macro events.",
-        "Publishes only redacted public snapshots; raw feeds and private prompts are excluded.",
-        "其中关于“利好/利空/中性/分化”、市场情绪等判断均为基于公开信息的自动化分析，可能存在事实错误、遗漏、延迟或模型误判。",
-        "任何证券交易决策均应由收件人独立判断并自行承担风险；如需投资建议，请咨询具备相应资质的专业机构或人员。"
+        "Publishes only redacted public snapshots; raw feeds and private prompts are excluded."
       ],
-      "items": [
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "美联储7月按兵不动预期上升",
-          "tone": "CME FedWatch显示7月维持利率不变概率约70...",
-          "related": "新闻未列明具体时点；以FOMC议息日历为准",
-          "summary": "利率预期直接影响美股估值，尤其是大盘科技与高久期成长股。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "美国5月PCE通胀高于预期",
-          "tone": "媒体摘要称美国5月PCE同比上涨4.1%，强化更久更高...",
-          "related": "已公布；见新闻发布时间",
-          "summary": "核心通胀数据会影响Fed路径、2年期美债收益率和成长股估值。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "美国中东地缘风险缓和带动风险偏好回升",
-          "tone": "市场标题称美伊对话缓解后，美股期指与风险资产上行",
-          "related": "官媒/市场摘要已发生，见新闻发布时间",
-          "summary": "地缘降温通常压低油价与避险溢价，利好股指期货和高贝塔科技。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "美国股指期货在地缘与利率叙事间拉锯",
-          "tone": "期指一度在风险偏好修复与芯片股回落之间震荡",
-          "related": "新闻未列明具体时点；盘前时段持续变化",
-          "summary": "决定开盘前beta偏好与板块轮动，尤其影响科技和半导体。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "美国银行压力测试后提升分红与回购",
-          "tone": "市场摘要称多家银行在压力测试后上调分红并宣布回购",
-          "related": "新闻未列明具体时点；以Fed/银行正式公告为准",
-          "summary": "直接影响大型银行资本回报预期与金融板块开盘表现。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "NVIDIA Corporation (NVDA) Stocktwits; Yahoo Finance; Reuters-style market wrap aggregations in feed · 2026-06-29T14:50:...",
-          "tone": "中性",
-          "related": "NVDA",
-          "summary": "新闻主要是板块联动与技术面解读，未出现NVDA独立、可验证的公司级新事件；但作为AI权重股，盘前波动仍可能较大。 位置：AI加速器、数据中心GPU与推理/训练算力供应核心 瓶颈：高端AI GPU供给与先进封装/HBM配套 证据：弱；研究优先级：中 反方风险：若后续宏观风险情绪逆转或出现更强的竞争/供给链负面消息，盘前相关涨幅可能回吐。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "Alphabet Inc. Class A (GOOGL) Barron's; MarketBeat; Seeking Alpha · 2026-06-29T18:59:00+00:00 - Barron's - MarketBeat -...",
-          "tone": "中性",
-          "related": "GOOGL, GOOG",
-          "summary": "有价格与主题性报道支撑，但缺乏公司独立催化的硬证据；影响更多来自大型科技板块联动。 位置：搜索、广告、云与AI模型分发平台 瓶颈：高质量流量入口与AI分发能力 证据：中；研究优先级：中 反方风险：若后续宏观风险升温或监管消息转负，板块重估可能受压。"
-        },
-        {
-          "kind": "news",
-          "market": "US",
-          "title": "Microsoft Corporation (MSFT) foreignpolicyjournal.com; Seeking Alpha; Stocktwits · 2026-06-30T02:11:00+00:00 - foreignp...",
-          "tone": "中性",
-          "related": "MSFT",
-          "summary": "缺少可验证的新业务、财务或监管事件；现有信息主要是行情叙述和分析师观点。 位置：企业软件、云基础设施与AI Copilot平台 瓶颈：AI云算力与企业软件分发 证据：弱；研究优先级：低 反方风险：若后续财报/云业务指引强于预期，当前的盘前疲弱可能迅速被逆转。"
-        }
-      ]
+      "items": []
     },
     {
       "id": "trading-recommendation-agent",
       "market": "Trading Agent",
       "title": "Trading Recommendation Agent",
-      "updated_at": "refreshed from private snapshots at 2026-06-30 16:04 local",
+      "updated_at": "ready for daily refresh",
       "summary": "Combines technical scans, ranking overlays, and close validation into private email briefs; the public layer mirrors report content while withholding private internals.",
       "tags": [
         "technical scan",
         "ranking overlay",
         "validation loop"
       ],
-      "stats": [
-        {
-          "label": "trade date",
-          "value": ""
-        },
-        {
-          "label": "selected",
-          "value": ""
-        },
-        {
-          "label": "universe",
-          "value": ""
-        }
-      ],
+      "stats": [],
       "bullets": [
         "Generates pre-market opportunity scans and post-market validation summaries.",
         "Keeps ticker-level signals, model internals, and strategy rules private.",
-        "Public showcase displays redacted paper-tracking state, not executable live recommendations.",
-        "技术指标具有滞后性，可能出现假突破、数据错误、延迟或模型误判。任何证券交易决策均应由收件人独立判断并自行承担风险；如需投资建议，请咨询具备相应资质的专业机构或人员。",
-        "生成时间：2026-06-30 16:04 中国标准时间；数据周期：日线；股票池：美股大盘股约 200 只；只展示达到阈值的股票。"
+        "Public showcase displays redacted paper-tracking state, not executable live recommendations."
       ],
-      "recommendations": [
-        {
-          "kind": "research_signal",
-          "title": "Research candidate 1",
-          "symbol": "LLY",
-          "name": "",
-          "status": "paper signal",
-          "industry": "withheld",
-          "horizon": "-- trading days",
-          "summary": "Private ranking workflow selected this paper-tracked candidate; implementation rules and model internals are withheld.",
-          "reason": "score bucket: withheld; channel and policy withheld.",
-          "metrics": [
-            {
-              "label": "trade date",
-              "value": ""
-            },
-            {
-              "label": "universe",
-              "value": ""
-            },
-            {
-              "label": "research only",
-              "value": "yes"
-            }
-          ]
-        },
-        {
-          "kind": "research_signal",
-          "title": "Research candidate 2",
-          "symbol": "TMO",
-          "name": "",
-          "status": "paper signal",
-          "industry": "withheld",
-          "horizon": "-- trading days",
-          "summary": "Private ranking workflow selected this paper-tracked candidate; implementation rules and model internals are withheld.",
-          "reason": "score bucket: withheld; channel and policy withheld.",
-          "metrics": [
-            {
-              "label": "trade date",
-              "value": ""
-            },
-            {
-              "label": "universe",
-              "value": ""
-            },
-            {
-              "label": "research only",
-              "value": "yes"
-            }
-          ]
-        },
-        {
-          "kind": "research_signal",
-          "title": "Research candidate 3",
-          "symbol": "KLAC",
-          "name": "",
-          "status": "paper signal",
-          "industry": "withheld",
-          "horizon": "-- trading days",
-          "summary": "Private ranking workflow selected this paper-tracked candidate; implementation rules and model internals are withheld.",
-          "reason": "score bucket: withheld; channel and policy withheld.",
-          "metrics": [
-            {
-              "label": "trade date",
-              "value": ""
-            },
-            {
-              "label": "universe",
-              "value": ""
-            },
-            {
-              "label": "research only",
-              "value": "yes"
-            }
-          ]
-        },
-        {
-          "kind": "research_signal",
-          "title": "Research candidate 4",
-          "symbol": "RTX",
-          "name": "",
-          "status": "paper signal",
-          "industry": "withheld",
-          "horizon": "-- trading days",
-          "summary": "Private ranking workflow selected this paper-tracked candidate; implementation rules and model internals are withheld.",
-          "reason": "score bucket: withheld; channel and policy withheld.",
-          "metrics": [
-            {
-              "label": "trade date",
-              "value": ""
-            },
-            {
-              "label": "universe",
-              "value": ""
-            },
-            {
-              "label": "research only",
-              "value": "yes"
-            }
-          ]
-        }
-      ]
+      "recommendations": []
     },
     {
       "id": "portfolio-safe-disclosure",

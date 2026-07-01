@@ -578,6 +578,16 @@ def main() -> None:
         args.trading_signal_json,
         args.trading_close_html,
     )
+    has_email_sources = any([news_source, args.trading_html, args.trading_close_html])
+    if not has_email_sources and output.exists():
+        try:
+            previous = json.loads(output.read_text(encoding="utf-8", errors="ignore"))
+            previous_mirrors = previous.get("email_mirrors")
+            if isinstance(previous_mirrors, list) and previous_mirrors:
+                payload["email_mirrors"] = previous_mirrors
+                payload["scope"] = "public_email_mirror_preserved_from_previous_refresh"
+        except json.JSONDecodeError:
+            pass
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote sanitized public brief data to {output}")
 
