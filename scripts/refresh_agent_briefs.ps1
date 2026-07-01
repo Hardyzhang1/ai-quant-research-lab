@@ -2,8 +2,9 @@ param(
   [string]$NewsHtml = $env:NEWS_AGENT_PUBLIC_SOURCE,
   [string]$NewsHtmls = $env:NEWS_AGENT_PUBLIC_SOURCES,
   [string]$TradingHtml = $env:TRADING_AGENT_PUBLIC_SOURCE,
-  [string]$TradingSignalJson = $env:TRADING_AGENT_SIGNAL_JSON,
   [string]$TradingCloseHtml = $env:TRADING_AGENT_CLOSE_SOURCE,
+  [string]$AShareTradingHtml = $env:ASHARE_TRADING_AGENT_PUBLIC_SOURCE,
+  [string]$AShareTradingCloseHtml = $env:ASHARE_TRADING_AGENT_CLOSE_SOURCE,
   [string]$Output = "data/agent-briefs.json"
 )
 
@@ -26,12 +27,16 @@ if ($TradingHtml) {
   $ArgsList += @("--trading-html", $TradingHtml)
 }
 
-if ($TradingSignalJson) {
-  $ArgsList += @("--trading-signal-json", $TradingSignalJson)
-}
-
 if ($TradingCloseHtml) {
   $ArgsList += @("--trading-close-html", $TradingCloseHtml)
+}
+
+if ($AShareTradingHtml) {
+  $ArgsList += @("--ashare-trading-html", $AShareTradingHtml)
+}
+
+if ($AShareTradingCloseHtml) {
+  $ArgsList += @("--ashare-trading-close-html", $AShareTradingCloseHtml)
 }
 
 python @ArgsList

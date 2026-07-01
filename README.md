@@ -42,7 +42,12 @@ Then open `http://127.0.0.1:8080/`.
 
 ## Daily Agent Briefs
 
-The homepage reads `data/agent-briefs.json` and renders sanitized public cards plus a public mirror of selected post-delivery email previews for the news agent and trading recommendation agent.
+The homepage reads `data/agent-briefs.json` and renders sanitized public cards plus four collapsible latest-report digests:
+
+- A share pre market
+- A share post market
+- US pre market
+- US post market
 
 Refresh the public data after private emails are delivered:
 
@@ -58,7 +63,7 @@ $env:TRADING_AGENT_PUBLIC_SOURCE = "path-to-private-trading-email-preview.html"
 .\scripts\refresh_agent_briefs.ps1
 ```
 
-The refresher redacts paths, email addresses, IP addresses, links, credential-like text, model identifiers, private recipients, and infrastructure details. The public mirror can include report content such as recommendations, validation summaries, and news tables when those are present in the supplied email previews. Only `data/agent-briefs.json` should be committed.
+The refresher redacts paths, email addresses, IP addresses, links, credential-like text, model identifiers, private recipients, and infrastructure details. It does not copy full emails verbatim; it transforms the latest supplied reports into concise web highlights and small table excerpts. Only `data/agent-briefs.json` should be committed.
 
 To publish the refreshed cards to GitHub Pages after email delivery:
 

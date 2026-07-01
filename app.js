@@ -271,7 +271,7 @@ function renderBriefPulse(payload, briefs) {
   `;
 }
 
-function emailTable(table) {
+function reportTable(table) {
   const headers = Array.isArray(table.headers) ? table.headers : [];
   const rows = Array.isArray(table.rows) ? table.rows : [];
   if (!headers.length && !rows.length) return "";
@@ -293,40 +293,64 @@ function emailTable(table) {
   `;
 }
 
-function emailMirrorCard(email) {
-  const lines = Array.isArray(email.lines) ? email.lines : [];
-  const tables = Array.isArray(email.tables) ? email.tables : [];
+function reportSourceCard(report) {
+  const highlights = Array.isArray(report.highlights) ? report.highlights : [];
+  const tables = Array.isArray(report.tables) ? report.tables : [];
   return `
-    <article class="email-card">
+    <article class="report-source-card">
       <div class="brief-topline">
-        <span>${escapeHtml(email.source || "public mirror")}</span>
-        <span>${escapeHtml(email.updated_at || "--")}</span>
+        <span>${escapeHtml(report.source || "agent report")}</span>
+        <span>${escapeHtml(report.generated_at || report.updated_at || "--")}</span>
       </div>
-      <h3>${escapeHtml(email.title || "Published email")}</h3>
-      <div class="email-line-list">
-        ${lines.slice(0, 90).map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
-      </div>
+      <h3>${escapeHtml(report.title || "Latest report")}</h3>
+      ${highlights.length ? `
+        <ul class="report-highlight-list">
+          ${highlights.slice(0, 5).map((line) => `<li>${escapeHtml(line)}</li>`).join("")}
+        </ul>
+      ` : `<p class="report-empty">No compact highlights were extracted from this report.</p>`}
       ${tables.length ? `
-        <div class="brief-section-title">Mirrored tables</div>
-        ${tables.slice(0, 6).map(emailTable).join("")}
+        <div class="brief-section-title">Compact table excerpts</div>
+        ${tables.slice(0, 2).map(reportTable).join("")}
       ` : ""}
-      <div class="brief-disclaimer">
-        Mirrored after email delivery. Private recipients, secrets, local paths,
-        infrastructure details, source links, and implementation internals are redacted.
-      </div>
     </article>
   `;
 }
 
-function renderEmailMirrors(payload) {
-  const grid = document.getElementById("emailMirrorGrid");
-  const meta = document.getElementById("emailMirrorMeta");
+function reportSection(section) {
+  const reports = Array.isArray(section.reports) ? section.reports : [];
+  return `
+    <details class="report-panel">
+      <summary>
+        <span>
+          <strong>${escapeHtml(section.title || "Latest report")}</strong>
+          <small>${escapeHtml(section.updated_at || "waiting")}</small>
+        </span>
+        <em>${reports.length ? `${reports.length} source${reports.length > 1 ? "s" : ""}` : "no report yet"}</em>
+      </summary>
+      <div class="report-panel-body">
+        <p>${escapeHtml(section.summary || "Latest web-formatted report digest.")}</p>
+        ${reports.length ? reports.map(reportSourceCard).join("") : `
+          <div class="report-empty">No latest report has been published for this slot yet.</div>
+        `}
+        <div class="brief-disclaimer">
+          Compact public digest only. Not financial advice. Raw email text, repeated boilerplate,
+          private recipients, secrets, local paths, infrastructure details, source links,
+          and implementation internals are not published.
+        </div>
+      </div>
+    </details>
+  `;
+}
+
+function renderReportSections(payload) {
+  const grid = document.getElementById("reportSectionGrid");
+  const meta = document.getElementById("reportSectionMeta");
   if (!grid || !meta) return;
-  const emails = Array.isArray(payload.email_mirrors) ? payload.email_mirrors : [];
-  meta.textContent = emails.length
-    ? `Published ${payload.published_at || "recently"} | ${emails.length} mirrored email surfaces`
-    : "No mirrored email content has been published yet. Pass private email preview paths to the refresh script.";
-  grid.innerHTML = emails.length ? emails.map(emailMirrorCard).join("") : "";
+  const sections = Array.isArray(payload.report_sections) ? payload.report_sections : [];
+  meta.textContent = sections.length
+    ? `Published ${payload.published_at || "recently"} | ${sections.length} latest report panels`
+    : "No report digests have been published yet.";
+  grid.innerHTML = sections.length ? sections.map(reportSection).join("") : "";
 }
 
 async function loadAgentBriefs() {
@@ -339,14 +363,14 @@ async function loadAgentBriefs() {
     const payload = await response.json();
     const briefs = Array.isArray(payload.briefs) ? payload.briefs : [];
     renderBriefPulse(payload, briefs);
-    renderEmailMirrors(payload);
+    renderReportSections(payload);
     meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized surfaces | Private implementation withheld`;
     grid.innerHTML = briefs.length
       ? briefs.map(briefCard).join("")
       : "";
   } catch (error) {
     renderBriefPulse({ published_at: "waiting", scope: "no_public_snapshot" }, []);
-    renderEmailMirrors({ email_mirrors: [] });
+    renderReportSections({ report_sections: [] });
     meta.textContent = "No public agent brief snapshot has been published yet.";
     grid.innerHTML = "";
   }
