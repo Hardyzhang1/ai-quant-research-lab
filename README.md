@@ -9,7 +9,7 @@ This repository is intentionally presentation-only. It describes the system arch
 - **RD-Agent Quant Lab**: Remote quant research execution, safe-run resource controls, Qlib evaluation, and result dashboards.
 - **Market News Agent**: Market intelligence workflow for monitoring, structuring, and summarizing research context.
 - **Trading Recommendation Agent**: Private pre-market opportunity scan and post-market validation workflow with only sanitized public surfaces.
-- **VWAP Learning Agent**: Execution-strategy learning track focused on VWAP-style enhancement and experiment comparison.
+- **Execution Alpha Lab**: Market-impact-aware execution research focused on adaptive participation, VWAP-style scheduling, and AC/IS optimizer comparison.
 
 ## Public Scope
 

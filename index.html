@@ -21,6 +21,7 @@
     <nav aria-label="Primary navigation">
       <a href="#systems">Systems</a>
       <a href="#workflow">Workflow</a>
+      <a href="#execution-alpha">Execution</a>
       <a href="#agent-briefs">Daily Briefs</a>
       <a href="#email-mirror">Reports</a>
       <a href="#results">Results</a>
@@ -116,15 +117,15 @@
         </article>
         <article class="system-card accent-d">
           <span class="card-kicker">04</span>
-          <h3>VWAP Learning Agent</h3>
+          <h3>Execution Alpha Lab</h3>
           <p>
-            An execution-strategy learning track focused on VWAP-style enhancement,
-            experiment comparison, and reproducible analysis surfaces.
+            A market-impact-aware execution research track that studies adaptive
+            participation, VWAP-style scheduling, and AC/IS optimizer variants.
           </p>
           <ul>
-            <li>Execution learning workflow</li>
-            <li>Backtest-oriented summaries</li>
-            <li>Strategy comparison views</li>
+            <li>Rolling liquidity and impact signals</li>
+            <li>Constrained AC/IS execution scheduler</li>
+            <li>Walk-forward strategy comparisons</li>
           </ul>
         </article>
       </div>
@@ -181,6 +182,102 @@
         <div class="step">
           <span>Learn</span>
           <p>Carry forward lessons and avoid repeating low-value experimental paths.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="execution-alpha" class="section execution-alpha">
+      <div class="section-head">
+        <p class="eyebrow">Execution alpha</p>
+        <h2>Adaptive participation for VWAP-style execution.</h2>
+        <p>
+          This public snapshot summarizes the execution research track at a high level.
+          The model converts rolling trade-profile and liquidity signals into a constrained
+          AC/IS-style schedule, then adjusts minute-level participation around a historical
+          VWAP plan while controlling inventory risk and schedule drift.
+        </p>
+      </div>
+      <div class="execution-layout">
+        <div class="execution-methods">
+          <article class="method-card">
+            <span>Signal layer</span>
+            <h3>Short-horizon market state</h3>
+            <p>
+              Minute-level price and volume-profile features estimate near-term
+              liquidity, impact, and price-pressure conditions without publishing
+              private raw data or training code.
+            </p>
+          </article>
+          <article class="method-card">
+            <span>Optimizer layer</span>
+            <h3>AC/IS participation scheduler</h3>
+            <p>
+              Expected cost, inventory risk, progress pressure, and participation
+              caps are balanced to decide whether the next slice should speed up,
+              slow down, or stay close to the baseline trajectory.
+            </p>
+          </article>
+          <article class="method-card">
+            <span>Risk layer</span>
+            <h3>Walk-forward guardrails</h3>
+            <p>
+              Backtests use rolling training windows, one-minute decisions, and
+              fixed execution constraints so the displayed metrics remain comparable
+              across model variants.
+            </p>
+          </article>
+        </div>
+        <div class="execution-results">
+          <div class="result-meta-grid" aria-label="Execution experiment coverage">
+            <div><span>Universe</span><strong>500 A-share names</strong></div>
+            <div><span>Test window</span><strong>230 trading days</strong></div>
+            <div><span>Tasks</span><strong>113,294</strong></div>
+            <div><span>Decision step</span><strong>1 minute</strong></div>
+          </div>
+          <div class="execution-table-wrap">
+            <table class="execution-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Role</th>
+                  <th>Mean</th>
+                  <th>Median</th>
+                  <th>Positive</th>
+                  <th>P10</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>LGBM standard</td>
+                  <td>Standard benchmark</td>
+                  <td class="positive">+7.16 bps</td>
+                  <td class="positive">+1.18 bps</td>
+                  <td>54.1%</td>
+                  <td class="negative">-15.36 bps</td>
+                </tr>
+                <tr>
+                  <td>LGBM std10 low-alpha</td>
+                  <td>Robust candidate</td>
+                  <td class="positive">+6.36 bps</td>
+                  <td class="positive">+1.57 bps</td>
+                  <td>56.3%</td>
+                  <td class="negative">-12.70 bps</td>
+                </tr>
+                <tr>
+                  <td>LGBM std12 low-alpha</td>
+                  <td>Return-seeking candidate</td>
+                  <td class="positive">+8.13 bps</td>
+                  <td class="positive">+1.20 bps</td>
+                  <td>53.9%</td>
+                  <td class="negative">-16.82 bps</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="execution-note">
+            Results are simulated improvement versus the execution benchmark. The table is a
+            sanitized public summary only and is not a live trading system or investment advice.
+          </p>
         </div>
       </div>
     </section>
