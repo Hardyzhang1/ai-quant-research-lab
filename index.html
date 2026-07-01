@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A private AI quant research workbench for agentic research, remote experiment control, and result visualization." />
+  <title>AI Quant Research Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="AI Quant Research Lab home">
+      <span class="mark"></span>
+      <span>AI Quant Research Lab</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#systems">Systems</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#results">Results</a>
+      <a href="#boundary">Disclosure</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Agentic research infrastructure</p>
+        <h1>AI Quant Research Workbench</h1>
+        <p class="lede">
+          A personal research stack for automated factor exploration, market news intelligence,
+          execution-learning experiments, remote compute control, and clean result dashboards.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#systems">Explore systems</a>
+          <a class="button ghost" href="#boundary">What is public</a>
+        </div>
+      </div>
+      <aside class="signal-panel" aria-label="Research lab snapshot">
+        <div class="signal-row">
+          <span>Remote orchestration</span>
+          <strong>Online</strong>
+        </div>
+        <div class="signal-row">
+          <span>Resource guard</span>
+          <strong>Safe-run</strong>
+        </div>
+        <div class="signal-row">
+          <span>Research agents</span>
+          <strong>3 active tracks</strong>
+        </div>
+        <div class="sparkline" aria-hidden="true">
+          <span style="height: 34%"></span>
+          <span style="height: 58%"></span>
+          <span style="height: 42%"></span>
+          <span style="height: 68%"></span>
+          <span style="height: 51%"></span>
+          <span style="height: 83%"></span>
+          <span style="height: 63%"></span>
+          <span style="height: 91%"></span>
+        </div>
+      </aside>
+    </section>
+
+    <section id="systems" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Systems</p>
+        <h2>Three private agent tracks, one public showcase.</h2>
+      </div>
+      <div class="system-grid">
+        <article class="system-card accent-a">
+          <span class="card-kicker">01</span>
+          <h3>RD-Agent Quant Lab</h3>
+          <p>
+            A remote quant research environment that coordinates agentic experiment runs,
+            guarded compute execution, Qlib-based evaluation, and ranked result summaries.
+          </p>
+          <ul>
+            <li>Remote workstation execution</li>
+            <li>Safe termination and resource limits</li>
+            <li>Group-return visualization</li>
+          </ul>
+        </article>
+        <article class="system-card accent-b">
+          <span class="card-kicker">02</span>
+          <h3>Market News Agent</h3>
+          <p>
+            A market intelligence assistant for collecting, structuring, and summarizing
+            news signals into research-ready context without exposing private data pipelines.
+          </p>
+          <ul>
+            <li>News monitoring</li>
+            <li>Event and sentiment framing</li>
+            <li>Research briefs</li>
+          </ul>
+        </article>
+        <article class="system-card accent-c">
+          <span class="card-kicker">03</span>
+          <h3>VWAP Learning Agent</h3>
+          <p>
+            An execution-strategy learning track focused on VWAP-style enhancement,
+            experiment comparison, and reproducible analysis surfaces.
+          </p>
+          <ul>
+            <li>Execution learning workflow</li>
+            <li>Backtest-oriented summaries</li>
+            <li>Strategy comparison views</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="workflow" class="section workflow">
+      <div class="section-head">
+        <p class="eyebrow">Workflow</p>
+        <h2>Designed for research loops, not one-off notebooks.</h2>
+      </div>
+      <div class="flow">
+        <div class="step">
+          <span>Prompt</span>
+          <p>Start from a research direction, task budget, and safety envelope.</p>
+        </div>
+        <div class="step">
+          <span>Run</span>
+          <p>Dispatch experiments to a workstation with timeout, memory, and GPU-temperature guards.</p>
+        </div>
+        <div class="step">
+          <span>Review</span>
+          <p>Surface metrics, logs, and group-return time series in a lightweight dashboard.</p>
+        </div>
+        <div class="step">
+          <span>Learn</span>
+          <p>Carry forward lessons and avoid repeating low-value experimental paths.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section split">
+      <div>
+        <p class="eyebrow">Result surface</p>
+        <h2>A dashboard-first view of private experiments.</h2>
+        <p>
+          The public repository presents the research platform and selected, sanitized
+          outputs. Core source code, datasets, model artifacts, credentials, and detailed
+          training logs remain private.
+        </p>
+      </div>
+      <div class="terminal">
+        <div class="terminal-head">
+          <span></span><span></span><span></span>
+        </div>
+        <pre><code>run: rdagent fin_quant
+safe_run: timeout + memory guard + gpu guard
+output: metrics table
+chart: Q1-Q5 group return time series
+status: private implementation withheld</code></pre>
+      </div>
+    </section>
+
+    <section id="boundary" class="section boundary">
+      <div class="section-head">
+        <p class="eyebrow">Disclosure boundary</p>
+        <h2>What this repository intentionally does not include.</h2>
+      </div>
+      <div class="boundary-grid">
+        <div>
+          <h3>Not published</h3>
+          <p>Core trading logic, training code, raw logs, datasets, API keys, infrastructure addresses, and private prompts.</p>
+        </div>
+        <div>
+          <h3>Published</h3>
+          <p>Architecture narrative, project summaries, sanitized screenshots, dashboard concepts, and a maintenance-friendly presentation layer.</p>
+        </div>
+        <div>
+          <h3>Maintained with Codex</h3>
+          <p>The showcase is structured so future project cards, screenshots, and notes can be updated quickly through Codex-assisted edits.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Hao Zhang</span>
+    <span>Private research systems. Public showcase only.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
