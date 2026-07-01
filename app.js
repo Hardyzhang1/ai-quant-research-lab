@@ -112,12 +112,54 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function periodBlock(label, data, field) {
-  const value = data ? data[field] : null;
+function metricBlock(label, value, suffix = "") {
   return `
     <div class="period-cell">
-      <span>${label} ${field === "long" ? "long" : "long-short"}</span>
-      <strong class="${tone(value)}">${pct(value)}</strong>
+      <span>${label}</span>
+      <strong class="${tone(value)}">${suffix === "ratio" ? ratio(value) : pct(value)}</strong>
+    </div>
+  `;
+}
+
+function ratio(value) {
+  if (typeof value !== "number" || !Number.isFinite(value)) return "--";
+  return value.toFixed(2);
+}
+
+function groupReturnSvg(series) {
+  const rows = Array.isArray(series) ? series.filter((s) => Array.isArray(s.data) && s.data.length) : [];
+  if (!rows.length) return `<div class="snapshot-empty-chart">No group-return chart yet</div>`;
+  const widthSvg = 640;
+  const heightSvg = 210;
+  const pad = { left: 46, right: 18, top: 18, bottom: 34 };
+  const values = rows.flatMap((row) => row.data.map((point) => Number(point[1])).filter(Number.isFinite));
+  const min = Math.min(...values, 0);
+  const max = Math.max(...values, 0);
+  const span = max - min || 1;
+  const colors = ["#ff6b8b", "#ffc857", "#40d9ff", "#63f5b2", "#b9f"];
+  const xFor = (i, n) => pad.left + (n <= 1 ? 0 : (i / (n - 1)) * (widthSvg - pad.left - pad.right));
+  const yFor = (v) => pad.top + (1 - ((v - min) / span)) * (heightSvg - pad.top - pad.bottom);
+  const zeroY = yFor(0);
+  const lines = rows.map((row, rowIndex) => {
+    const points = row.data.map((point, i) => `${xFor(i, row.data.length).toFixed(1)},${yFor(Number(point[1])).toFixed(1)}`).join(" ");
+    return `<polyline points="${points}" fill="none" stroke="${colors[rowIndex % colors.length]}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />`;
+  }).join("");
+  const firstDate = rows[0].data[0]?.[0] || "";
+  const lastDate = rows[0].data.at(-1)?.[0] || "";
+  const legend = rows.map((row, i) => `
+    <span><i style="background:${colors[i % colors.length]}"></i>${escapeHtml(row.name || `Q${i + 1}`)}</span>
+  `).join("");
+  return `
+    <div class="snapshot-chart-wrap">
+      <svg class="snapshot-chart" viewBox="0 0 ${widthSvg} ${heightSvg}" role="img" aria-label="Group return time series">
+        <line x1="${pad.left}" x2="${widthSvg - pad.right}" y1="${zeroY.toFixed(1)}" y2="${zeroY.toFixed(1)}" class="chart-zero" />
+        <text x="${pad.left}" y="${heightSvg - 12}" class="chart-axis">${escapeHtml(firstDate)}</text>
+        <text x="${widthSvg - pad.right}" y="${heightSvg - 12}" text-anchor="end" class="chart-axis">${escapeHtml(lastDate)}</text>
+        <text x="10" y="${yFor(max).toFixed(1)}" class="chart-axis">${pct(max)}</text>
+        <text x="10" y="${yFor(min).toFixed(1)}" class="chart-axis">${pct(min)}</text>
+        ${lines}
+      </svg>
+      <div class="snapshot-legend">${legend}</div>
     </div>
   `;
 }
@@ -133,21 +175,19 @@ async function loadSnapshot() {
     const rows = snapshot.top || [];
     meta.textContent = `Published ${snapshot.published_at || snapshot.collected_at || "recently"} | Latest source date ${rows[0]?.latest_date || "--"} | Manual snapshot`;
     grid.innerHTML = rows.map((row, index) => {
-      const p = row.periods || {};
+      const m = row.metrics || {};
+      const chart = row.chart?.group_return || [];
       return `
         <article class="snapshot-card">
           <h3>Factor ${index + 1}</h3>
           <div class="snapshot-date">Latest: ${row.latest_date || "--"}</div>
           <div class="period-grid">
-            ${periodBlock("1D", p["1D"], "long")}
-            ${periodBlock("1D", p["1D"], "long_short")}
-            ${periodBlock("7D", p["7D"], "long")}
-            ${periodBlock("7D", p["7D"], "long_short")}
-            ${periodBlock("1M", p["1M"], "long")}
-            ${periodBlock("1M", p["1M"], "long_short")}
-            ${periodBlock("Jul 1+", p.since_2026_07_01, "long")}
-            ${periodBlock("Jul 1+", p.since_2026_07_01, "long_short")}
+            ${metricBlock("Long annualized", m.long_ann)}
+            ${metricBlock("Long excess annualized", m.long_excess_ann)}
+            ${metricBlock("Long-short annualized", m.long_short_ann)}
+            ${metricBlock("Factor Sharpe", m.factor_sharpe, "ratio")}
           </div>
+          ${groupReturnSvg(chart)}
         </article>
       `;
     }).join("");
