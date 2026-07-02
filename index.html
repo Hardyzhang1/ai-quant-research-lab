@@ -131,6 +131,67 @@
       </div>
     </section>
 
+    <section id="workflow" class="section workflow">
+      <div class="section-head">
+        <p class="eyebrow">Workflow</p>
+        <h2>Designed for research loops, not one-off notebooks.</h2>
+      </div>
+      <div class="flow">
+        <div class="step">
+          <span>Prompt</span>
+          <p>Start from a research direction, task budget, and safety envelope.</p>
+        </div>
+        <div class="step">
+          <span>Run</span>
+          <p>Dispatch experiments to a workstation with timeout, memory, and GPU-temperature guards.</p>
+        </div>
+        <div class="step">
+          <span>Review</span>
+          <p>Surface metrics, logs, and group-return time series in a lightweight dashboard.</p>
+        </div>
+        <div class="step">
+          <span>Learn</span>
+          <p>Carry forward lessons and avoid repeating low-value experimental paths.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section split">
+      <div>
+        <p class="eyebrow">Result surface</p>
+        <h2>A dashboard-first view of private experiments.</h2>
+        <p>
+          The public repository presents the research platform and selected, sanitized
+          outputs. Core source code, datasets, model artifacts, credentials, and detailed
+          training logs remain private.
+        </p>
+      </div>
+      <div class="terminal">
+        <div class="terminal-head">
+          <span></span><span></span><span></span>
+        </div>
+        <pre><code>run: rdagent fin_quant
+safe_run: timeout + memory guard + gpu guard
+output: metrics table
+chart: Q1-Q5 group return time series
+status: private implementation withheld</code></pre>
+      </div>
+    </section>
+
+    <section id="rdagent-snapshot" class="section snapshot-section">
+      <div class="section-head">
+        <p class="eyebrow">Manual snapshot</p>
+        <h2>RD-Agent top ranked signals.</h2>
+          <p>
+            This section is updated manually from the private local dashboard. It publishes
+            static Top 3 factor summaries and group-return curves from completed private runs;
+            implementation details, datasets, logs, and training traces remain private.
+          </p>
+      </div>
+      <div class="snapshot-meta" id="snapshotMeta">Waiting for a published snapshot.</div>
+      <div class="snapshot-grid" id="snapshotGrid"></div>
+    </section>
+
     <section id="agent-briefs" class="section agent-briefs">
       <div class="section-head">
         <p class="eyebrow">Daily agent briefs</p>
@@ -159,31 +220,6 @@
       </div>
       <div class="email-meta" id="reportSectionMeta">Waiting for latest report digests.</div>
       <div class="email-grid" id="reportSectionGrid"></div>
-    </section>
-
-    <section id="workflow" class="section workflow">
-      <div class="section-head">
-        <p class="eyebrow">Workflow</p>
-        <h2>Designed for research loops, not one-off notebooks.</h2>
-      </div>
-      <div class="flow">
-        <div class="step">
-          <span>Prompt</span>
-          <p>Start from a research direction, task budget, and safety envelope.</p>
-        </div>
-        <div class="step">
-          <span>Run</span>
-          <p>Dispatch experiments to a workstation with timeout, memory, and GPU-temperature guards.</p>
-        </div>
-        <div class="step">
-          <span>Review</span>
-          <p>Surface metrics, logs, and group-return time series in a lightweight dashboard.</p>
-        </div>
-        <div class="step">
-          <span>Learn</span>
-          <p>Carry forward lessons and avoid repeating low-value experimental paths.</p>
-        </div>
-      </div>
     </section>
 
     <section id="execution-alpha" class="section execution-alpha">
@@ -280,42 +316,6 @@
           </p>
         </div>
       </div>
-    </section>
-
-    <section id="results" class="section split">
-      <div>
-        <p class="eyebrow">Result surface</p>
-        <h2>A dashboard-first view of private experiments.</h2>
-        <p>
-          The public repository presents the research platform and selected, sanitized
-          outputs. Core source code, datasets, model artifacts, credentials, and detailed
-          training logs remain private.
-        </p>
-      </div>
-      <div class="terminal">
-        <div class="terminal-head">
-          <span></span><span></span><span></span>
-        </div>
-        <pre><code>run: rdagent fin_quant
-safe_run: timeout + memory guard + gpu guard
-output: metrics table
-chart: Q1-Q5 group return time series
-status: private implementation withheld</code></pre>
-      </div>
-    </section>
-
-    <section id="rdagent-snapshot" class="section snapshot-section">
-      <div class="section-head">
-        <p class="eyebrow">Manual snapshot</p>
-        <h2>RD-Agent top ranked signals.</h2>
-          <p>
-            This section is updated manually from the private local dashboard. It publishes
-            static Top 3 factor summaries and group-return curves from completed private runs;
-            implementation details, datasets, logs, and training traces remain private.
-          </p>
-      </div>
-      <div class="snapshot-meta" id="snapshotMeta">Waiting for a published snapshot.</div>
-      <div class="snapshot-grid" id="snapshotGrid"></div>
     </section>
 
     <section id="boundary" class="section boundary">
