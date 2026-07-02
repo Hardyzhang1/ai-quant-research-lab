@@ -270,49 +270,109 @@ status: private implementation withheld</code></pre>
             <div><span>Tasks</span><strong>113,294</strong></div>
             <div><span>Decision step</span><strong>1 minute</strong></div>
           </div>
+          <p class="execution-note compact">
+            Model names below are public display aliases. Internal thresholds, feature recipes,
+            data paths, and training code are intentionally omitted.
+          </p>
           <div class="execution-table-wrap">
             <table class="execution-table">
               <thead>
                 <tr>
                   <th>Model</th>
                   <th>Role</th>
+                  <th>Tasks</th>
                   <th>Mean</th>
                   <th>Median</th>
                   <th>Positive</th>
                   <th>P10</th>
+                  <th>Tail score</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>LGBM standard</td>
-                  <td>Standard benchmark</td>
+                  <td>Core Adaptive</td>
+                  <td>Rule-based baseline</td>
+                  <td>110,843</td>
+                  <td class="positive">+6.94 bps</td>
+                  <td class="positive">+0.82 bps</td>
+                  <td>52.7%</td>
+                  <td class="negative">-15.33 bps</td>
+                  <td class="positive">+3.10</td>
+                </tr>
+                <tr>
+                  <td>Tail Guard</td>
+                  <td>Risk-balanced rule set</td>
+                  <td>110,843</td>
+                  <td class="positive">+4.98 bps</td>
+                  <td class="positive">+1.39 bps</td>
+                  <td>56.3%</td>
+                  <td class="negative">-10.79 bps</td>
+                  <td class="positive">+2.28</td>
+                </tr>
+                <tr>
+                  <td>Deep Guard</td>
+                  <td>Tail-defense candidate</td>
+                  <td>110,843</td>
+                  <td class="positive">+3.08 bps</td>
+                  <td class="positive">+1.30 bps</td>
+                  <td>58.4%</td>
+                  <td class="negative">-7.69 bps</td>
+                  <td class="positive">+1.16</td>
+                </tr>
+                <tr>
+                  <td>ML Adaptive</td>
+                  <td>Machine-learning front end</td>
+                  <td>113,294</td>
                   <td class="positive">+7.16 bps</td>
                   <td class="positive">+1.18 bps</td>
                   <td>54.1%</td>
                   <td class="negative">-15.36 bps</td>
+                  <td class="positive">+3.32</td>
                 </tr>
                 <tr>
-                  <td>LGBM std10 low-alpha</td>
-                  <td>Robust candidate</td>
+                  <td>ML Stable</td>
+                  <td>ML with steadier execution</td>
+                  <td>113,294</td>
                   <td class="positive">+6.36 bps</td>
                   <td class="positive">+1.57 bps</td>
                   <td>56.3%</td>
                   <td class="negative">-12.70 bps</td>
+                  <td class="positive">+3.19</td>
                 </tr>
                 <tr>
-                  <td>LGBM std12 low-alpha</td>
-                  <td>Return-seeking candidate</td>
-                  <td class="positive">+8.13 bps</td>
-                  <td class="positive">+1.20 bps</td>
-                  <td>53.9%</td>
-                  <td class="negative">-16.82 bps</td>
+                  <td>ML Switch</td>
+                  <td>Dynamic model switching</td>
+                  <td>113,294</td>
+                  <td class="positive">+8.16 bps</td>
+                  <td class="positive">+1.43 bps</td>
+                  <td>54.7%</td>
+                  <td class="negative">-15.71 bps</td>
+                  <td class="positive">+4.24</td>
+                </tr>
+                <tr>
+                  <td>Selective ML Switch</td>
+                  <td>Filtered research upper bound</td>
+                  <td>51,480</td>
+                  <td class="positive">+9.34 bps</td>
+                  <td class="positive">+2.17 bps</td>
+                  <td>56.0%</td>
+                  <td class="negative">-17.14 bps</td>
+                  <td class="positive">+5.06</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <figure class="execution-case">
+            <img src="assets/execution-alpha-case-study.png" alt="Sanitized execution-alpha case study showing price path, baseline schedule, and adaptive execution curve.">
+            <figcaption>
+              Example task replay: minute VWAP price, historical baseline schedule, adaptive execution
+              curve, and minute child orders. The figure is sanitized and contains no raw data export.
+            </figcaption>
+          </figure>
           <p class="execution-note">
             Results are simulated improvement versus the execution benchmark. The table is a
             sanitized public summary only and is not a live trading system or investment advice.
+            Tail score is a compact display metric combining average improvement and left-tail risk.
           </p>
         </div>
       </div>
