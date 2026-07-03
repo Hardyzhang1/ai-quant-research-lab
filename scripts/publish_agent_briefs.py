@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import html
@@ -225,6 +225,22 @@ def source_label(path: Path) -> str:
     return "Market News Agent"
 
 
+
+def is_standalone_market_number(line: str) -> bool:
+    """Filter orphan index levels/percentages extracted from tables into highlights."""
+    text = normalize(line).replace(",", "")
+    return bool(re.fullmatch(r"[+-]?(?:\d{1,7}(?:\.\d+)?|\d+(?:\.\d+)?%)", text))
+
+
+def is_global_index_heading(line: str) -> bool:
+    text = normalize(line).lower().replace(" ", "")
+    return (
+        "过去24小时全球主要股指" in text
+        or "globalmajorindices" in text
+        or "majorglobalindices" in text
+        or "globalindices" in text
+    )
+
 def meaningful_lines(path: Path, limit: int = 8) -> list[str]:
     lines: list[str] = []
     seen: set[str] = set()
@@ -237,6 +253,10 @@ def meaningful_lines(path: Path, limit: int = 8) -> list[str]:
         if any(hint.lower() in line.lower() for hint in NOISE_HINTS):
             continue
         if line in HEADER_HINTS:
+            continue
+        if is_global_index_heading(line):
+            continue
+        if is_standalone_market_number(line):
             continue
         if len(line) <= 5 and re.search(r"^[A-Z0-9.^+-]+$", line):
             continue
@@ -309,6 +329,18 @@ def report_from_path(path: Path) -> dict:
     }
 
 
+def clean_report_sections(sections: list[dict]) -> list[dict]:
+    """Apply the public highlight filters even when preserving previous JSON."""
+    for section in sections:
+        for report in section.get("reports", []):
+            report["highlights"] = [
+                line
+                for line in report.get("highlights", [])
+                if not is_global_index_heading(line) and not is_standalone_market_number(line)
+            ]
+    return sections
+
+
 def latest(paths: list[Path]) -> Path | None:
     if not paths:
         return None
@@ -375,15 +407,17 @@ def build_payload(args: argparse.Namespace, previous: dict | None = None) -> dic
         ]
     )
     if not has_sources and previous and isinstance(previous.get("report_sections"), list):
-        sections = previous["report_sections"]
+        sections = clean_report_sections(previous["report_sections"])
         scope = "accordion_report_digest_preserved_from_previous_refresh"
     else:
-        sections = build_report_sections(
-            news_source,
-            args.trading_html,
-            args.trading_close_html,
-            args.ashare_trading_html,
-            args.ashare_trading_close_html,
+        sections = clean_report_sections(
+            build_report_sections(
+                news_source,
+                args.trading_html,
+                args.trading_close_html,
+                args.ashare_trading_html,
+                args.ashare_trading_close_html,
+            )
         )
         scope = "accordion_report_digest_latest_only"
 
@@ -462,3 +496,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
