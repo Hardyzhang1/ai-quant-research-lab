@@ -183,6 +183,23 @@ def parse_tables(path: Path) -> list[list[list[str]]]:
     return parser.tables
 
 
+def fragment_text(fragment: str) -> str:
+    parser = VisibleTextParser()
+    parser.feed(fragment)
+    return normalize(parser.text())
+
+
+def iter_h3_sections(raw: str) -> list[tuple[str, str]]:
+    sections: list[tuple[str, str]] = []
+    pattern = re.compile(r"(?is)<h3\b[^>]*>(.*?)</h3>(.*?)(?=<h[23]\b|</body>|$)")
+    for match in pattern.finditer(raw):
+        heading = fragment_text(match.group(1))
+        body = match.group(2)
+        if heading:
+            sections.append((heading, body))
+    return sections
+
+
 def redact(text: str, limit: int = 180) -> str:
     cleaned = normalize(text)
     for pattern, replacement in REDACTIONS:
@@ -298,6 +315,41 @@ def compact_tables(path: Path, max_tables: int = 2, max_rows: int = 5, max_cols:
     return out
 
 
+def post_market_section_highlights(path: Path) -> list[str]:
+    if not is_post(path) or path.suffix.lower() not in {".html", ".htm"}:
+        return []
+
+    raw = read_text(path)
+    highlights: list[str] = []
+    for heading, body in iter_h3_sections(raw):
+        if heading.startswith("市场情绪"):
+            p_match = re.search(r"(?is)<p\b[^>]*>(.*?)</p>", body)
+            summary = fragment_text(p_match.group(1) if p_match else body)
+            if summary:
+                highlights.append(redact(f"{heading} - {summary}", 260))
+        elif heading == "主要驱动":
+            items = [fragment_text(item) for item in re.findall(r"(?is)<li\b[^>]*>(.*?)</li>", body)]
+            items = [item for item in items if item][:3]
+            if items:
+                highlights.append(redact("主要驱动 - " + "；".join(items), 260))
+        elif heading == "下一交易日关注":
+            items = [fragment_text(item) for item in re.findall(r"(?is)<li\b[^>]*>(.*?)</li>", body)]
+            items = [item for item in items if item][:3]
+            if items:
+                highlights.append(redact("下一交易日关注 - " + "；".join(items), 260))
+
+    ordered: list[str] = []
+    seen_prefixes: set[str] = set()
+    for line in highlights:
+        prefix = line.split(" - ", 1)[0].strip()
+        if prefix not in seen_prefixes:
+            ordered.append(line)
+            seen_prefixes.add(prefix)
+        if len(ordered) >= 3:
+            break
+    return ordered
+
+
 def pick_report_title(lines: list[str], fallback: str) -> str:
     title_hints = ("盘前", "收盘", "总结", "技术分析", "机会扫描", "成熟期验证", "复盘")
     for line in lines:
@@ -317,7 +369,9 @@ def report_from_path(path: Path) -> dict:
         title = "A股盘前重要金融新闻" if is_ashare(path) else "美股盘前重要金融新闻"
     else:
         title = pick_report_title(lines, path.stem.replace("_", " "))
-    highlights = [line for line in lines if line != title and "生成时间" not in line][:5]
+    section_highlights = post_market_section_highlights(path)
+    fallback_highlights = [line for line in lines if line != title and "生成时间" not in line]
+    highlights = section_highlights[:3] if section_highlights else fallback_highlights[:5]
     stamp = datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d %H:%M local")
     return {
         "source": source_label(path),
