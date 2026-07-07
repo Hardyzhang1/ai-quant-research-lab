@@ -204,7 +204,6 @@ async function loadSnapshot() {
     const strategyCards = strategies.map((strategy) => {
       const m = strategy.metrics || {};
       const tracking = strategy.tracking || {};
-      const holdings = Array.isArray(strategy.holdings) ? strategy.holdings : [];
       return `
         <article class="snapshot-card strategy-snapshot-card">
           <h3>${escapeHtml(strategy.name || "Strategy")}</h3>
@@ -216,12 +215,6 @@ async function loadSnapshot() {
             ${metricBlock("Tracked since build", tracking.total_return)}
             ${metricBlock("Latest day reference", tracking.day_return)}
             ${metricValue("Sharpe", ratio(m.sharpe))}
-          </div>
-          <div class="snapshot-strategy-note">
-            ${escapeHtml(strategy.execution || "Close-price / after-hours fixed-price paper tracking.")}
-          </div>
-          <div class="snapshot-holdings">
-            ${holdings.slice(0, 10).map((item) => `<span>${escapeHtml(item)}</span>`).join("") || "<span>No public holdings snapshot</span>"}
           </div>
         </article>
       `;
