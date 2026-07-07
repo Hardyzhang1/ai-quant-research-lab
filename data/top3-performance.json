@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-07 19:47:45",
+  "collected_at": "2026-07-07 20:42:42",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,14 +32692,13 @@
       }
     }
   ],
-  "elapsed_ms": 46020,
-  "published_at": "2026-07-07 19:47:47",
+  "elapsed_ms": 92790,
+  "published_at": "2026-07-07 20:42:42",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
       "id": "strategy_1",
       "name": "Strategy 1",
-      "type": "close execution rule",
       "latest_date": "2026-07-07",
       "metrics": {
         "annualized_return": 1.218004575165025,
@@ -32720,23 +32719,11 @@
         "day_return": -0.02683666957229831,
         "updated_at": "2026-07-07 15:28:04",
         "note": "Paper tracking from close-price / after-hours fixed-price assumption."
-      },
-      "holdings": [
-        "SH601012",
-        "SH601868",
-        "SH600176",
-        "SZ002241",
-        "SH600188",
-        "SH600549",
-        "SH600221",
-        "SH688303"
-      ],
-      "execution": "Close-price / after-hours fixed-price paper tracking; no brokerage automation."
+      }
     },
     {
       "id": "strategy_2",
       "name": "Strategy 2",
-      "type": "score-weighted close execution rule",
       "latest_date": "2026-07-07",
       "metrics": {
         "annualized_return": 1.6717106942053683,
@@ -32757,13 +32744,7 @@
         "day_return": -0.02055599760946583,
         "updated_at": "2026-07-07 15:45:18",
         "note": "Paper tracking from close-price / after-hours fixed-price assumption."
-      },
-      "holdings": [
-        "SH601012",
-        "SH601868",
-        "SH600176"
-      ],
-      "execution": "Score-shift weighted, capped, 100-share-lot paper tracking at close."
+      }
     }
   ]
 }
