@@ -835,6 +835,35 @@ pre {
   margin-bottom: 6px;
 }
 
+.strategy-snapshot-card {
+  border-color: rgba(99, 245, 178, 0.24);
+  background: linear-gradient(180deg, rgba(99, 245, 178, 0.08), rgba(255,255,255,0.045));
+}
+
+.snapshot-strategy-note {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.snapshot-holdings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.snapshot-holdings span {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  padding: 5px 8px;
+  color: var(--text);
+  background: rgba(255,255,255,0.055);
+  font-size: 12px;
+  font-family: "SFMono-Regular", Consolas, monospace;
+}
+
 .snapshot-date {
   color: var(--muted);
   font-size: 13px;

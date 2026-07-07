@@ -121,6 +121,15 @@ function metricBlock(label, value, suffix = "") {
   `;
 }
 
+function metricValue(label, value) {
+  return `
+    <div class="period-cell">
+      <span>${escapeHtml(label)}</span>
+      <strong>${escapeHtml(value ?? "--")}</strong>
+    </div>
+  `;
+}
+
 function ratio(value) {
   if (typeof value !== "number" || !Number.isFinite(value)) return "--";
   return value.toFixed(2);
@@ -173,8 +182,9 @@ async function loadSnapshot() {
     if (!response.ok) throw new Error("No snapshot published yet");
     const snapshot = await response.json();
     const rows = snapshot.top || [];
+    const strategies = Array.isArray(snapshot.strategies) ? snapshot.strategies : [];
     meta.textContent = `Published ${snapshot.published_at || snapshot.collected_at || "recently"} | Latest source date ${rows[0]?.latest_date || "--"} | Manual snapshot`;
-    grid.innerHTML = rows.map((row, index) => {
+    const factorCards = rows.map((row, index) => {
       const m = row.metrics || {};
       const chart = row.chart?.group_return || [];
       return `
@@ -191,6 +201,32 @@ async function loadSnapshot() {
         </article>
       `;
     }).join("");
+    const strategyCards = strategies.map((strategy) => {
+      const m = strategy.metrics || {};
+      const tracking = strategy.tracking || {};
+      const holdings = Array.isArray(strategy.holdings) ? strategy.holdings : [];
+      return `
+        <article class="snapshot-card strategy-snapshot-card">
+          <h3>${escapeHtml(strategy.name || "Strategy")}</h3>
+          <div class="snapshot-date">Tracking date: ${escapeHtml(tracking.latest_date || strategy.latest_date || "--")}</div>
+          <div class="period-grid">
+            ${metricBlock("Backtest annualized", m.annualized_return)}
+            ${metricBlock("Backtest total return", m.total_return)}
+            ${metricBlock("Max drawdown", m.max_drawdown)}
+            ${metricBlock("Tracked since build", tracking.total_return)}
+            ${metricBlock("Latest day reference", tracking.day_return)}
+            ${metricValue("Sharpe", ratio(m.sharpe))}
+          </div>
+          <div class="snapshot-strategy-note">
+            ${escapeHtml(strategy.execution || "Close-price / after-hours fixed-price paper tracking.")}
+          </div>
+          <div class="snapshot-holdings">
+            ${holdings.slice(0, 10).map((item) => `<span>${escapeHtml(item)}</span>`).join("") || "<span>No public holdings snapshot</span>"}
+          </div>
+        </article>
+      `;
+    }).join("");
+    grid.innerHTML = factorCards + strategyCards;
   } catch (error) {
     meta.textContent = "No public snapshot has been published yet.";
     grid.innerHTML = "";
