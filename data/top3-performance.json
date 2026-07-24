@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-24 19:18:47",
+  "collected_at": "2026-07-24 19:31:23",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,8 +32692,8 @@
       }
     }
   ],
-  "elapsed_ms": 76058,
-  "published_at": "2026-07-24 19:18:47",
+  "elapsed_ms": 75316,
+  "published_at": "2026-07-24 19:31:23",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
@@ -32706,21 +32706,21 @@
         "sharpe": 5.806759695632924,
         "max_drawdown": -0.07316856669994287,
         "recent_30d_return": 0.05086598320206992,
-        "tracking_benchmark_total_return": 0.01106292975470513,
-        "tracking_excess_total_return": -0.025452561874858115
+        "tracking_benchmark_total_return": -0.029854521321703742,
+        "tracking_excess_total_return": 0.015464889201550758
       },
       "benchmark": {
         "ok": true,
         "index": "000300.XSHG",
-        "requested_start": "2026-07-20",
+        "requested_start": "2026-07-07",
         "requested_end": "2026-07-24",
         "source": "rqdatac",
-        "actual_start": "2026-07-20",
+        "actual_start": "2026-07-07",
         "actual_end": "2026-07-24",
-        "days": 5,
-        "start_close": 4598.3208,
+        "days": 14,
+        "start_close": 4792.2624,
         "end_close": 4649.1917,
-        "total_return": 0.01106292975470513,
+        "total_return": -0.029854521321703742,
         "name": "CSI 300"
       },
       "tracking": {
