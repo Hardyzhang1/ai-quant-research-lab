@@ -204,13 +204,19 @@ async function loadSnapshot() {
     const strategyCards = strategies.map((strategy) => {
       const m = strategy.metrics || {};
       const tracking = strategy.tracking || {};
+      const benchmark = strategy.benchmark || {};
       return `
         <article class="snapshot-card strategy-snapshot-card">
           <h3>${escapeHtml(strategy.name || "Strategy")}</h3>
-          <div class="snapshot-date">Tracking date: ${escapeHtml(tracking.latest_date || strategy.latest_date || "--")}</div>
+          <div class="snapshot-date">
+            Tracking date: ${escapeHtml(tracking.latest_date || strategy.latest_date || "--")}
+            ${benchmark.actual_start && benchmark.actual_end ? `<br>Benchmark: CSI 300, ${escapeHtml(benchmark.actual_start)} to ${escapeHtml(benchmark.actual_end)}` : ""}
+          </div>
           <div class="period-grid">
             ${metricBlock("Backtest annualized", m.annualized_return)}
             ${metricBlock("Backtest total return", m.total_return)}
+            ${typeof m.benchmark_total_return === "number" ? metricBlock("CSI 300 return", m.benchmark_total_return) : ""}
+            ${typeof m.excess_total_return === "number" ? metricBlock("Excess vs CSI 300", m.excess_total_return) : ""}
             ${metricBlock("Max drawdown", m.max_drawdown)}
             ${metricBlock("Tracked since build", tracking.total_return)}
             ${metricBlock("Latest day reference", tracking.day_return)}
