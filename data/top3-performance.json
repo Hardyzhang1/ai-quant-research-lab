@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-24 19:06:45",
+  "collected_at": "2026-07-24 19:11:11",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,8 +32692,8 @@
       }
     }
   ],
-  "elapsed_ms": 77255,
-  "published_at": "2026-07-24 19:06:45",
+  "elapsed_ms": 71813,
+  "published_at": "2026-07-24 19:11:11",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
