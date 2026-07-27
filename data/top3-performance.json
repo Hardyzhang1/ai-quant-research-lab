@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-27 19:24:18",
+  "collected_at": "2026-07-27 19:28:10",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,8 +32692,8 @@
       }
     }
   ],
-  "elapsed_ms": 124872,
-  "published_at": "2026-07-27 19:24:20",
+  "elapsed_ms": 123921,
+  "published_at": "2026-07-27 19:28:10",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
@@ -32726,23 +32726,19 @@
       "tracking": {
         "latest_date": "2026-07-27",
         "prev_date": "2026-07-07",
-        "holdings_count": null,
-        "priced_count": null,
+        "tracking_start": "2026-07-07",
+        "tracking_end": "2026-07-27",
+        "tracking_days": 15,
         "total_value": 72837.71336673501,
-        "total_pnl": null,
+        "total_pnl": -7162.286633264986,
         "total_return": -0.08929501782561422,
-        "total_pnl_after_latest_rebalance_fee_estimate": null,
-        "latest_rebalance_fee_estimate": null,
-        "equal_weight_total_return": null,
-        "equal_weight_priced_count": null,
-        "no_capital": {
-          "holdings_count": null,
-          "priced_count": null,
-          "total_return": null,
-          "latest_date": null
-        },
-        "updated_at": null,
-        "note": "Paper tracking from close-price / after-hours fixed-price assumption."
+        "annualized_return": -0.7922478296575873,
+        "sharpe": -4.38562086597936,
+        "max_drawdown": -0.12591836584716265,
+        "latest_day_pnl": 898.4722258949332,
+        "latest_day_return": 0.012489320315958619,
+        "updated_at": "2026-07-27 19:18:56",
+        "note": "Website tracking only: reset to empty portfolio on 2026-07-03 and follow fixed Strategy 1 signals."
       }
     },
     {
