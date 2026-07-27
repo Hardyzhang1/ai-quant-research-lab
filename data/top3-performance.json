@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-27 19:11:20",
+  "collected_at": "2026-07-27 19:17:19",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,8 +32692,8 @@
       }
     }
   ],
-  "elapsed_ms": 127292,
-  "published_at": "2026-07-27 19:11:21",
+  "elapsed_ms": 124494,
+  "published_at": "2026-07-27 19:17:21",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
@@ -32701,13 +32701,13 @@
       "name": "Strategy 1",
       "latest_date": "2026-07-27",
       "metrics": {
-        "annualized_return": -0.2858875500553709,
-        "total_return": -0.021151814780633105,
-        "sharpe": -9.234127760905722,
-        "max_drawdown": -0.022159353888134947,
-        "recent_30d_return": -0.021151814780633105,
+        "annualized_return": -0.4748848097219144,
+        "total_return": -0.04252314355605924,
+        "sharpe": -8.913885333566796,
+        "max_drawdown": -0.04454867803387974,
+        "recent_30d_return": -0.04252314355605924,
         "tracking_benchmark_total_return": -0.02886028231494464,
-        "tracking_excess_total_return": 0.007708467534311536
+        "tracking_excess_total_return": -0.013662861241114599
       },
       "benchmark": {
         "ok": true,
@@ -32728,9 +32728,9 @@
         "prev_date": "2026-07-03",
         "holdings_count": null,
         "priced_count": null,
-        "total_value": 157386.5605534395,
-        "total_pnl": -3400.947591317439,
-        "total_return": -0.021151814780633105,
+        "total_value": 76577.7959094747,
+        "total_pnl": null,
+        "total_return": -0.04252314355605924,
         "total_pnl_after_latest_rebalance_fee_estimate": null,
         "latest_rebalance_fee_estimate": null,
         "equal_weight_total_return": null,
