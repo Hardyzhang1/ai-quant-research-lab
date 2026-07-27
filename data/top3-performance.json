@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-27 19:17:19",
+  "collected_at": "2026-07-27 19:21:56",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,8 +32692,8 @@
       }
     }
   ],
-  "elapsed_ms": 124494,
-  "published_at": "2026-07-27 19:17:21",
+  "elapsed_ms": 124103,
+  "published_at": "2026-07-27 19:21:58",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
@@ -32701,36 +32701,36 @@
       "name": "Strategy 1",
       "latest_date": "2026-07-27",
       "metrics": {
-        "annualized_return": -0.4748848097219144,
-        "total_return": -0.04252314355605924,
-        "sharpe": -8.913885333566796,
-        "max_drawdown": -0.04454867803387974,
-        "recent_30d_return": -0.04252314355605924,
-        "tracking_benchmark_total_return": -0.02886028231494464,
-        "tracking_excess_total_return": -0.013662861241114599
+        "annualized_return": -0.7922478296575873,
+        "total_return": -0.08929501782561422,
+        "sharpe": -4.38562086597936,
+        "max_drawdown": -0.12591836584716265,
+        "recent_30d_return": -0.08929501782561422,
+        "tracking_benchmark_total_return": -0.018745885033340293,
+        "tracking_excess_total_return": -0.07054913279227393
       },
       "benchmark": {
         "ok": true,
         "index": "000300.XSHG",
-        "requested_start": "2026-07-03",
+        "requested_start": "2026-07-07",
         "requested_end": "2026-07-27",
         "source": "rqdatac",
-        "actual_start": "2026-07-03",
+        "actual_start": "2026-07-07",
         "actual_end": "2026-07-27",
-        "days": 17,
-        "start_close": 4842.1737,
+        "days": 15,
+        "start_close": 4792.2624,
         "end_close": 4702.4272,
-        "total_return": -0.02886028231494464,
+        "total_return": -0.018745885033340293,
         "name": "CSI 300"
       },
       "tracking": {
         "latest_date": "2026-07-27",
-        "prev_date": "2026-07-03",
+        "prev_date": "2026-07-07",
         "holdings_count": null,
         "priced_count": null,
-        "total_value": 76577.7959094747,
+        "total_value": 72837.71336673501,
         "total_pnl": null,
-        "total_return": -0.04252314355605924,
+        "total_return": -0.08929501782561422,
         "total_pnl_after_latest_rebalance_fee_estimate": null,
         "latest_rebalance_fee_estimate": null,
         "equal_weight_total_return": null,
