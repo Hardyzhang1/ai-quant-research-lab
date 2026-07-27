@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "collected_at": "2026-07-24 19:31:23",
+  "collected_at": "2026-07-27 19:11:20",
   "since_date": "2026-07-01",
   "top": [
     {
@@ -32692,68 +32692,56 @@
       }
     }
   ],
-  "elapsed_ms": 75316,
-  "published_at": "2026-07-24 19:31:23",
+  "elapsed_ms": 127292,
+  "published_at": "2026-07-27 19:11:21",
   "source": "manual_refresh_from_local_8766",
   "strategies": [
     {
       "id": "strategy_1",
       "name": "Strategy 1",
-      "latest_date": "2026-07-24",
+      "latest_date": "2026-07-27",
       "metrics": {
-        "annualized_return": 1.218004575165025,
-        "total_return": 1.155790909691655,
-        "sharpe": 5.806759695632924,
-        "max_drawdown": -0.07316856669994287,
-        "recent_30d_return": 0.05086598320206992,
-        "tracking_benchmark_total_return": -0.029854521321703742,
-        "tracking_excess_total_return": 0.015464889201550758
+        "annualized_return": -0.2858875500553709,
+        "total_return": -0.021151814780633105,
+        "sharpe": -9.234127760905722,
+        "max_drawdown": -0.022159353888134947,
+        "recent_30d_return": -0.021151814780633105,
+        "tracking_benchmark_total_return": -0.02886028231494464,
+        "tracking_excess_total_return": 0.007708467534311536
       },
       "benchmark": {
         "ok": true,
         "index": "000300.XSHG",
-        "requested_start": "2026-07-07",
-        "requested_end": "2026-07-24",
+        "requested_start": "2026-07-03",
+        "requested_end": "2026-07-27",
         "source": "rqdatac",
-        "actual_start": "2026-07-07",
-        "actual_end": "2026-07-24",
-        "days": 14,
-        "start_close": 4792.2624,
-        "end_close": 4649.1917,
-        "total_return": -0.029854521321703742,
+        "actual_start": "2026-07-03",
+        "actual_end": "2026-07-27",
+        "days": 17,
+        "start_close": 4842.1737,
+        "end_close": 4702.4272,
+        "total_return": -0.02886028231494464,
         "name": "CSI 300"
       },
       "tracking": {
-        "latest_date": "2026-07-24",
-        "prev_date": "2026-07-23",
-        "holdings_count": 8,
-        "priced_count": 8,
-        "total_value": 68836.99932098389,
-        "total_pnl": -1005.0006866455078,
-        "total_return": -0.014389632120152984,
-        "total_pnl_after_latest_rebalance_fee_estimate": -1041.5601864624023,
-        "latest_rebalance_fee_estimate": {
-          "buy_fee_rate": 0.0003,
-          "sell_fee_rate": 0.0005,
-          "min_fee": 0.0,
-          "buy_count": 5,
-          "sell_count": 5,
-          "buy_notional": 45484.99927520752,
-          "sell_notional": 45828.00006866455,
-          "buy_fee": 13.645499782562254,
-          "sell_fee": 22.914000034332275,
-          "total_fee": 36.55949981689453,
-          "note": "Fee estimate uses 0.03% buy fee and 0.05% sell fee on estimated notional, with no minimum fee."
-        },
-        "equal_weight_total_return": -0.013217521451962935,
-        "equal_weight_priced_count": 8,
+        "latest_date": "2026-07-27",
+        "prev_date": "2026-07-03",
+        "holdings_count": null,
+        "priced_count": null,
+        "total_value": 157386.5605534395,
+        "total_pnl": -3400.947591317439,
+        "total_return": -0.021151814780633105,
+        "total_pnl_after_latest_rebalance_fee_estimate": null,
+        "latest_rebalance_fee_estimate": null,
+        "equal_weight_total_return": null,
+        "equal_weight_priced_count": null,
         "no_capital": {
-          "holdings_count": 8,
-          "priced_count": 8,
-          "total_return": -0.013217521451962935,
-          "latest_date": "2026-07-24"
+          "holdings_count": null,
+          "priced_count": null,
+          "total_return": null,
+          "latest_date": null
         },
-        "updated_at": "2026-07-24 15:39:07",
+        "updated_at": null,
         "note": "Paper tracking from close-price / after-hours fixed-price assumption."
       }
     },
