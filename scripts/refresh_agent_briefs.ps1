@@ -40,3 +40,6 @@ if ($AShareTradingCloseHtml) {
 }
 
 python @ArgsList
+if ($LASTEXITCODE -ne 0) {
+  throw "publish_agent_briefs.py failed with exit code $LASTEXITCODE"
+}

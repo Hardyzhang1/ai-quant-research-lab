@@ -301,6 +301,64 @@ li + li {
   background: rgba(255,255,255,0.035);
 }
 
+.market-indices {
+  background:
+    linear-gradient(180deg, rgba(64, 217, 255, 0.05), rgba(255,255,255,0.014)),
+    rgba(255,255,255,0.018);
+}
+
+.index-meta {
+  margin: -8px 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.index-card {
+  min-height: 156px;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 8px;
+  padding: 16px;
+  background: linear-gradient(180deg, rgba(16, 24, 38, 0.82), rgba(8, 13, 22, 0.62));
+  box-shadow: 0 18px 60px rgba(0,0,0,0.22);
+}
+
+.index-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 18px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.index-card h3 {
+  min-height: 52px;
+  font-size: 18px;
+  line-height: 1.28;
+}
+
+.index-level {
+  margin-top: 10px;
+  color: #d9e7fb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.index-change {
+  margin-top: 6px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
 .flow {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1110,6 +1168,7 @@ footer {
   .hero,
   .split,
   .system-grid,
+  .index-grid,
   .flow,
   .execution-layout,
   .brief-pulse,
@@ -1151,6 +1210,10 @@ footer {
   }
 
   .result-meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .index-grid {
     grid-template-columns: 1fr;
   }
 }

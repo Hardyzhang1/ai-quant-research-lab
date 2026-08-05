@@ -1,0 +1,90 @@
+{
+  "ok": true,
+  "published_at": "2026-08-05 10:33:55 Asia/Shanghai",
+  "as_of": "2026-08-05",
+  "scope": "major_global_indices_latest_vs_previous_close",
+  "note": "Latest level and change versus previous close. Session timing differs by market.",
+  "indices": [
+    {
+      "region": "China",
+      "name": "SSE Composite",
+      "symbol": "sh000001",
+      "last": 3853.58,
+      "change_pct": 0.82,
+      "status": "Intraday"
+    },
+    {
+      "region": "China",
+      "name": "CSI 300",
+      "symbol": "sh000300",
+      "last": 4615.3,
+      "change_pct": 0.31,
+      "status": "Intraday"
+    },
+    {
+      "region": "Hong Kong",
+      "name": "Hang Seng",
+      "symbol": "hkHSI",
+      "last": 25917.49,
+      "change_pct": 0.25,
+      "status": "Intraday"
+    },
+    {
+      "region": "Japan",
+      "name": "Nikkei 225",
+      "symbol": ".N225",
+      "last": 65966.38,
+      "change_pct": 3.14,
+      "status": "Intraday"
+    },
+    {
+      "region": "United Kingdom",
+      "name": "FTSE 100",
+      "symbol": ".FTSE",
+      "last": 10879.38,
+      "change_pct": 0.2,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "Germany",
+      "name": "DAX",
+      "symbol": ".GDAXI",
+      "last": 26202.35,
+      "change_pct": 0.77,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "France",
+      "name": "CAC 40",
+      "symbol": ".FCHI",
+      "last": 8666.63,
+      "change_pct": 0.0,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "United States",
+      "name": "S&P 500",
+      "symbol": "us.INX",
+      "last": 7736.52,
+      "change_pct": 1.79,
+      "status": "Latest / overnight"
+    },
+    {
+      "region": "United States",
+      "name": "Nasdaq",
+      "symbol": "us.IXIC",
+      "last": 26584.99,
+      "change_pct": 2.59,
+      "status": "Latest / overnight"
+    },
+    {
+      "region": "United States",
+      "name": "Dow Jones",
+      "symbol": "us.DJI",
+      "last": 54085.88,
+      "change_pct": 1.71,
+      "status": "Latest / overnight"
+    }
+  ],
+  "errors": []
+}

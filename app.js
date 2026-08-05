@@ -135,6 +135,45 @@ function ratio(value) {
   return value.toFixed(2);
 }
 
+function signedPct(value) {
+  if (typeof value !== "number" || !Number.isFinite(value)) return "--";
+  return `${value >= 0 ? "+" : ""}${value.toFixed(2)}%`;
+}
+
+async function loadMarketIndices() {
+  const grid = document.getElementById("indexGrid");
+  const meta = document.getElementById("indexMeta");
+  if (!grid || !meta) return;
+  try {
+    const response = await fetch("data/index-performance.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("No index snapshot published yet");
+    const payload = await response.json();
+    const rows = Array.isArray(payload.indices) ? payload.indices : [];
+    meta.textContent = rows.length
+      ? `Published ${payload.published_at || "recently"} | ${rows.length} major indices | ${payload.note || "Latest vs previous close"}`
+      : "No public index snapshot has been published yet.";
+    grid.innerHTML = rows.map((row) => {
+      const move = Number(row.change_pct);
+      return `
+        <article class="index-card">
+          <div class="index-topline">
+            <span>${escapeHtml(row.region || "Market")}</span>
+            <span>${escapeHtml(row.status || "Latest")}</span>
+          </div>
+          <h3>${escapeHtml(row.name || "Index")}</h3>
+          <div class="index-level">${escapeHtml(row.last ?? "--")}</div>
+          <div class="index-change ${tone(move)}">${signedPct(move)}</div>
+        </article>
+      `;
+    }).join("");
+  } catch (error) {
+    meta.textContent = "No public index snapshot has been published yet.";
+    grid.innerHTML = "";
+  }
+}
+
+loadMarketIndices();
+
 function groupReturnSvg(series) {
   const rows = Array.isArray(series) ? series.filter((s) => Array.isArray(s.data) && s.data.length) : [];
   if (!rows.length) return `<div class="snapshot-empty-chart">No group-return chart yet</div>`;
