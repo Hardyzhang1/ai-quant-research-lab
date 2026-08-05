@@ -237,7 +237,10 @@ def is_post(path: Path) -> bool:
 
 def source_label(path: Path) -> str:
     lower = str(path).lower()
-    if "technical" in lower or "trading" in lower:
+    name = path.name.lower()
+    if "market-news-agent" in lower:
+        return "Market News Agent"
+    if "technical" in lower or "trading" in lower or "ashare-rq-agent" in lower or name.startswith("preview_ashare"):
         return "Trading Recommendation Agent"
     return "Market News Agent"
 
@@ -350,6 +353,47 @@ def post_market_section_highlights(path: Path) -> list[str]:
     return ordered
 
 
+def pre_market_news_highlights(path: Path) -> list[str]:
+    if is_post(path) or source_label(path) != "Market News Agent":
+        return []
+
+    highlights: list[str] = []
+    for table in parse_tables(path):
+        if len(table) < 2:
+            continue
+        headers = [normalize(cell) for cell in table[0]]
+        if not headers:
+            continue
+        first_header = headers[0]
+        if first_header in {"事件/数据", "Event/Data"}:
+            prefix = "宏观"
+        elif first_header in {"新闻", "News"}:
+            prefix = "公司/市场"
+        else:
+            continue
+        for row in table[1:]:
+            if not row:
+                continue
+            title = redact(row[0], 210)
+            if not title:
+                continue
+            highlights.append(f"{prefix} - {title}")
+            if len(highlights) >= 5:
+                break
+        if len(highlights) >= 5:
+            break
+
+    ordered: list[str] = []
+    seen: set[str] = set()
+    for line in highlights:
+        if line not in seen:
+            ordered.append(line)
+            seen.add(line)
+        if len(ordered) >= 5:
+            break
+    return ordered
+
+
 def pick_report_title(lines: list[str], fallback: str) -> str:
     title_hints = ("盘前", "收盘", "总结", "技术分析", "机会扫描", "成熟期验证", "复盘")
     for line in lines:
@@ -367,9 +411,11 @@ def report_from_path(path: Path) -> dict:
         title = "A股收盘总结" if is_ashare(path) else "美股收盘总结"
     elif source_label(path) == "Market News Agent" and not is_post(path):
         title = "A股盘前重要金融新闻" if is_ashare(path) else "美股盘前重要金融新闻"
+    elif source_label(path) == "Trading Recommendation Agent" and is_ashare(path) and not is_post(path):
+        title = "A股开盘信息"
     else:
         title = pick_report_title(lines, path.stem.replace("_", " "))
-    section_highlights = post_market_section_highlights(path)
+    section_highlights = pre_market_news_highlights(path) or post_market_section_highlights(path)
     fallback_highlights = [line for line in lines if line != title and "生成时间" not in line]
     highlights = section_highlights[:3] if section_highlights else fallback_highlights[:5]
     stamp = datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d %H:%M local")
@@ -408,7 +454,6 @@ def build_section(section_id: str, title: str, candidates: list[Path]) -> dict:
         path = latest([p for p in candidates if source_label(p) == label])
         if path:
             chosen.append(path)
-    chosen = sorted(chosen, key=lambda p: p.stat().st_mtime, reverse=True)
     reports = [report_from_path(path) for path in chosen]
     updated = (
         datetime.fromtimestamp(max(path.stat().st_mtime for path in chosen)).strftime("%Y-%m-%d %H:%M local")
@@ -550,4 +595,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

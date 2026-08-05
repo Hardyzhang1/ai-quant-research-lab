@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-08-05 10:33:55 Asia/Shanghai",
+  "published_at": "2026-08-05 15:27:28 Asia/Shanghai",
   "as_of": "2026-08-05",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,56 +9,56 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3853.58,
-      "change_pct": 0.82,
-      "status": "Intraday"
+      "last": 3878.43,
+      "change_pct": 1.47,
+      "status": "Latest close"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 4615.3,
-      "change_pct": 0.31,
-      "status": "Intraday"
+      "last": 4658.15,
+      "change_pct": 1.24,
+      "status": "Latest close"
     },
     {
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
-      "last": 25917.49,
+      "last": 25918.42,
       "change_pct": 0.25,
-      "status": "Intraday"
+      "status": "Latest close"
     },
     {
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 65966.38,
-      "change_pct": 3.14,
-      "status": "Intraday"
+      "last": 66300.44,
+      "change_pct": 3.66,
+      "status": "Latest close"
     },
     {
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10879.38,
-      "change_pct": 0.2,
+      "last": 10923.05,
+      "change_pct": 0.4,
       "status": "Latest / overseas"
     },
     {
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 26202.35,
-      "change_pct": 0.77,
+      "last": 26348.18,
+      "change_pct": 0.56,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8666.63,
-      "change_pct": 0.0,
+      "last": 8678.1,
+      "change_pct": 0.13,
       "status": "Latest / overseas"
     },
     {
