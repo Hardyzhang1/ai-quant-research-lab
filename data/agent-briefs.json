@@ -1,7 +1,53 @@
 {
   "ok": true,
-  "published_at": "2026-09-01 15:25 local",
+  "published_at": "2026-09-01 16:12 local",
   "scope": "accordion_report_digest_latest_only",
+  "ashare_signal_tracking": {
+    "ok": true,
+    "market": "A-share technical signal",
+    "title": "Mature tracking signal digest",
+    "updated_at": "2026-09-01 15:04 local",
+    "signal_date": "2026-09-01",
+    "data_date": "2026-09-01",
+    "mode": "live tracking",
+    "universe": "300 names",
+    "stats": [
+      {
+        "label": "Buy candidates",
+        "value": "4"
+      },
+      {
+        "label": "Sell candidates",
+        "value": "4"
+      },
+      {
+        "label": "Skipped candidates",
+        "value": "2"
+      },
+      {
+        "label": "Target basket size",
+        "value": "8"
+      },
+      {
+        "label": "Average listed rank",
+        "value": "77.5"
+      },
+      {
+        "label": "Displayed gross turnover",
+        "value": "6.69w CNY"
+      }
+    ],
+    "action_counts": {
+      "buy": 4,
+      "sell": 4,
+      "skip": 2
+    },
+    "public_notes": [
+      "Generated from the same A-share technical signal preview used by the daily email pipeline.",
+      "This public card reports only aggregate maturity-tracking information.",
+      "Symbols, prices, exact order rows, data-source details, model internals, and execution rules are withheld."
+    ]
+  },
   "report_sections": [
     {
       "id": "a-share-pre-market",
