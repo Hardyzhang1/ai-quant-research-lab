@@ -318,6 +318,109 @@ def compact_tables(path: Path, max_tables: int = 2, max_rows: int = 5, max_cols:
     return out
 
 
+def safe_int(value: object) -> int | None:
+    match = re.search(r"\d+", normalize(value))
+    return int(match.group(0)) if match else None
+
+
+def safe_float(value: object) -> float | None:
+    match = re.search(r"-?\d+(?:\.\d+)?", normalize(value).replace(",", ""))
+    return float(match.group(0)) if match else None
+
+
+def parse_ashare_signal_tracking(source: str | None, previous: dict | None = None) -> dict:
+    paths = existing_paths(source)
+    path = latest(paths)
+    if path is None:
+        preserved = (previous or {}).get("ashare_signal_tracking")
+        if isinstance(preserved, dict):
+            return preserved
+        return {"ok": False}
+
+    text = visible_text(path)
+    raw = read_text(path)
+    dates = re.findall(r"\b20\d{2}-\d{2}-\d{2}\b", text)
+    stock_codes = re.findall(r"\b(?:SH|SZ|BJ)\d{6}\b", text)
+    action_counts = {"buy": 0, "sell": 0, "skip": 0}
+    notional = {"buy": 0.0, "sell": 0.0}
+    rank_values: list[int] = []
+
+    for table in parse_tables(path):
+        for row in table[1:]:
+            if not row:
+                continue
+            action = normalize(row[0]).lower()
+            if action not in action_counts:
+                continue
+            action_counts[action] += 1
+            if len(row) >= 3:
+                rank = safe_int(row[2])
+                if rank is not None:
+                    rank_values.append(rank)
+            if action in notional and row:
+                value = safe_float(row[-1])
+                if value is not None:
+                    notional[action] += value
+
+    target_count = 0
+    for paragraph in re.findall(r"(?is)<p\b[^>]*>(.*?)</p>", raw):
+        codes = re.findall(r"\b(?:SH|SZ|BJ)\d{6}\b", fragment_text(paragraph))
+        if len(codes) >= target_count:
+            target_count = len(set(codes))
+    if not target_count:
+        target_count = len(set(stock_codes))
+
+    universe_match = re.search(r"(\d+)\s*(?:只|stocks|names)", text, flags=re.I)
+    universe_count = universe_match.group(1) if universe_match else None
+    if universe_count is None:
+        header_fragment = raw.split("<h3", 1)[0]
+        candidates = [
+            int(value)
+            for value in re.findall(r"\b\d{2,5}\b", header_fragment)
+            if not 2020 <= int(value) <= 2035
+        ]
+        if candidates:
+            universe_count = str(max(candidates))
+    universe = f"{universe_count} names" if universe_count else "--"
+    mode = "production tracking" if "正式" in text else "live tracking"
+    stamp = datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d %H:%M local")
+    average_rank = sum(rank_values) / len(rank_values) if rank_values else None
+
+    stats = [
+        {"label": "Buy candidates", "value": str(action_counts["buy"])},
+        {"label": "Sell candidates", "value": str(action_counts["sell"])},
+        {"label": "Skipped candidates", "value": str(action_counts["skip"])},
+        {"label": "Target basket size", "value": str(target_count) if target_count else "--"},
+    ]
+    if average_rank is not None:
+        stats.append({"label": "Average listed rank", "value": f"{average_rank:.1f}"})
+    if notional["buy"] or notional["sell"]:
+        stats.append(
+            {
+                "label": "Displayed gross turnover",
+                "value": f"{(notional['buy'] + notional['sell']) / 10000:.2f}w CNY",
+            }
+        )
+
+    return {
+        "ok": True,
+        "market": "A-share technical signal",
+        "title": "Mature tracking signal digest",
+        "updated_at": stamp,
+        "signal_date": dates[0] if dates else "--",
+        "data_date": dates[1] if len(dates) > 1 else (dates[0] if dates else "--"),
+        "mode": mode,
+        "universe": universe,
+        "stats": stats,
+        "action_counts": action_counts,
+        "public_notes": [
+            "Generated from the same A-share technical signal preview used by the daily email pipeline.",
+            "This public card reports only aggregate maturity-tracking information.",
+            "Symbols, prices, exact order rows, data-source details, model internals, and execution rules are withheld.",
+        ],
+    }
+
+
 def post_market_section_highlights(path: Path) -> list[str]:
     if not is_post(path) or path.suffix.lower() not in {".html", ".htm"}:
         return []
@@ -524,6 +627,7 @@ def build_payload(args: argparse.Namespace, previous: dict | None = None) -> dic
         "ok": True,
         "published_at": datetime.now().strftime("%Y-%m-%d %H:%M local"),
         "scope": scope,
+        "ashare_signal_tracking": parse_ashare_signal_tracking(args.ashare_signal_html, previous),
         "report_sections": sections,
         "briefs": [
             {
@@ -577,6 +681,7 @@ def main() -> None:
     parser.add_argument("--trading-close-html", default=os.getenv("TRADING_AGENT_CLOSE_SOURCE"))
     parser.add_argument("--ashare-trading-html", default=os.getenv("ASHARE_TRADING_AGENT_PUBLIC_SOURCE"))
     parser.add_argument("--ashare-trading-close-html", default=os.getenv("ASHARE_TRADING_AGENT_CLOSE_SOURCE"))
+    parser.add_argument("--ashare-signal-html", default=os.getenv("ASHARE_SIGNAL_PUBLIC_SOURCE"))
     parser.add_argument("--output", default="data/agent-briefs.json")
     args = parser.parse_args()
 

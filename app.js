@@ -270,6 +270,52 @@ async function loadSnapshot() {
 
 loadSnapshot();
 
+function renderAshareSignalTracking(payload) {
+  const meta = document.getElementById("signalTrackingMeta");
+  const panel = document.getElementById("signalTrackingPanel");
+  if (!meta || !panel) return;
+  const tracking = payload?.ashare_signal_tracking || {};
+  if (!tracking.ok) {
+    meta.textContent = "No mature A-share technical signal digest has been published yet.";
+    panel.innerHTML = "";
+    return;
+  }
+
+  const stats = Array.isArray(tracking.stats) ? tracking.stats : [];
+  const notes = Array.isArray(tracking.public_notes) ? tracking.public_notes : [];
+  meta.textContent = `Published ${payload.published_at || "recently"} | Signal date ${tracking.signal_date || "--"} | Public-safe aggregate view`;
+  panel.innerHTML = `
+    <article class="signal-tracking-card">
+      <div class="brief-topline">
+        <span>${escapeHtml(tracking.market || "A-share")}</span>
+        <span>${escapeHtml(tracking.updated_at || "--")}</span>
+      </div>
+      <h3>${escapeHtml(tracking.title || "Mature A-share signal tracking")}</h3>
+      <div class="signal-tracking-status">
+        ${metricValue("Signal date", tracking.signal_date || "--")}
+        ${metricValue("Data date", tracking.data_date || "--")}
+        ${metricValue("Mode", tracking.mode || "--")}
+        ${metricValue("Universe", tracking.universe || "--")}
+      </div>
+      <div class="signal-tracking-grid">
+        ${stats.map((item) => `
+          <div class="signal-tracking-stat">
+            <span>${escapeHtml(item.label)}</span>
+            <strong>${escapeHtml(item.value)}</strong>
+          </div>
+        `).join("")}
+      </div>
+      <ul class="signal-tracking-notes">
+        ${notes.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}
+      </ul>
+      <div class="brief-disclaimer">
+        Public display only. Not investment advice. Symbols, exact prices, order tables,
+        model details, data paths, and private execution rules are intentionally withheld.
+      </div>
+    </article>
+  `;
+}
+
 function briefCard(brief) {
   const tags = Array.isArray(brief.tags) ? brief.tags : [];
   const bullets = Array.isArray(brief.bullets) ? brief.bullets : [];
@@ -471,6 +517,7 @@ async function loadAgentBriefs() {
   try {
     const payload = await fetchPublishedJson("data/agent-briefs.json");
     const briefs = Array.isArray(payload.briefs) ? payload.briefs : [];
+    renderAshareSignalTracking(payload);
     renderBriefPulse(payload, briefs);
     renderReportSections(payload);
     meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized surfaces | Private implementation withheld`;
@@ -478,6 +525,7 @@ async function loadAgentBriefs() {
       ? briefs.map(briefCard).join("")
       : "";
   } catch (error) {
+    renderAshareSignalTracking({});
     renderBriefPulse({ published_at: "waiting", scope: "no_public_snapshot" }, []);
     renderReportSections({ report_sections: [] });
     meta.textContent = "No public agent brief snapshot has been published yet.";

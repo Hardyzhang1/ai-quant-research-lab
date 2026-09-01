@@ -424,6 +424,12 @@ pre {
   background: rgba(255,255,255,0.025);
 }
 
+.ashare-signal-section {
+  background:
+    linear-gradient(180deg, rgba(99, 245, 178, 0.045), rgba(255,255,255,0.018)),
+    rgba(255,255,255,0.018);
+}
+
 .email-mirror {
   background:
     radial-gradient(circle at 80% 24%, rgba(99, 245, 178, 0.08), transparent 26%),
@@ -984,6 +990,93 @@ pre {
   font-size: 13px;
 }
 
+.signal-tracking-meta {
+  margin: -8px 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.signal-tracking-panel {
+  max-width: 1040px;
+}
+
+.signal-tracking-card {
+  border: 1px solid rgba(99, 245, 178, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(16, 24, 38, 0.84), rgba(8, 13, 22, 0.64));
+  backdrop-filter: blur(16px);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.24);
+}
+
+.signal-tracking-card h3 {
+  margin-bottom: 16px;
+}
+
+.signal-tracking-status,
+.signal-tracking-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.signal-tracking-grid {
+  margin-top: 10px;
+}
+
+.signal-tracking-stat {
+  min-height: 78px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 11px;
+  background: rgba(255,255,255,0.04);
+}
+
+.signal-tracking-stat span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.signal-tracking-stat strong {
+  display: block;
+  margin-top: 8px;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.signal-tracking-notes {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.signal-tracking-notes li {
+  position: relative;
+  margin: 0;
+  padding-left: 16px;
+  color: #cbd7e8;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.signal-tracking-notes li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+}
+
 .positive {
   color: var(--green);
 }
@@ -1174,6 +1267,8 @@ footer {
   .brief-pulse,
   .brief-grid,
   .email-grid,
+  .signal-tracking-status,
+  .signal-tracking-grid,
   .snapshot-grid,
   .boundary-grid {
     grid-template-columns: 1fr;

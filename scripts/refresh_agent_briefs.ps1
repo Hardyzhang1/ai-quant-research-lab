@@ -5,6 +5,7 @@ param(
   [string]$TradingCloseHtml = $env:TRADING_AGENT_CLOSE_SOURCE,
   [string]$AShareTradingHtml = $env:ASHARE_TRADING_AGENT_PUBLIC_SOURCE,
   [string]$AShareTradingCloseHtml = $env:ASHARE_TRADING_AGENT_CLOSE_SOURCE,
+  [string]$AShareSignalHtml = $env:ASHARE_SIGNAL_PUBLIC_SOURCE,
   [string]$Output = "data/agent-briefs.json"
 )
 
@@ -37,6 +38,10 @@ if ($AShareTradingHtml) {
 
 if ($AShareTradingCloseHtml) {
   $ArgsList += @("--ashare-trading-close-html", $AShareTradingCloseHtml)
+}
+
+if ($AShareSignalHtml) {
+  $ArgsList += @("--ashare-signal-html", $AShareSignalHtml)
 }
 
 python @ArgsList
