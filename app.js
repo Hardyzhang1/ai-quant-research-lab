@@ -274,28 +274,29 @@ function renderAshareSignalTracking(payload) {
   const meta = document.getElementById("signalTrackingMeta");
   const panel = document.getElementById("signalTrackingPanel");
   if (!meta || !panel) return;
-  const tracking = payload?.ashare_signal_tracking || {};
+  const tracking = payload?.ashare_maturity_validation || payload?.ashare_signal_tracking || {};
   if (!tracking.ok) {
-    meta.textContent = "No mature A-share technical signal digest has been published yet.";
+    meta.textContent = "No mature A-share validation digest has been published yet.";
     panel.innerHTML = "";
     return;
   }
 
   const stats = Array.isArray(tracking.stats) ? tracking.stats : [];
   const notes = Array.isArray(tracking.public_notes) ? tracking.public_notes : [];
-  meta.textContent = `Published ${payload.published_at || "recently"} | Signal date ${tracking.signal_date || "--"} | Public-safe aggregate view`;
+  const rows = Array.isArray(tracking.rows) ? tracking.rows : [];
+  meta.textContent = `Published ${payload.published_at || "recently"} | As of ${tracking.updated_at || "--"} | ${rows.length} mature records`;
   panel.innerHTML = `
     <article class="signal-tracking-card">
       <div class="brief-topline">
         <span>${escapeHtml(tracking.market || "A-share")}</span>
         <span>${escapeHtml(tracking.updated_at || "--")}</span>
       </div>
-      <h3>${escapeHtml(tracking.title || "Mature A-share signal tracking")}</h3>
+      <h3>${escapeHtml(tracking.title || "Maturity validation digest")}</h3>
       <div class="signal-tracking-status">
-        ${metricValue("Signal date", tracking.signal_date || "--")}
-        ${metricValue("Data date", tracking.data_date || "--")}
-        ${metricValue("Mode", tracking.mode || "--")}
-        ${metricValue("Universe", tracking.universe || "--")}
+        ${metricValue("Reached horizon", tracking.matured_count ?? "--")}
+        ${metricValue("Wins", tracking.win_count ?? "--")}
+        ${metricValue("Win rate", tracking.win_rate || "--")}
+        ${metricValue("Still tracking", tracking.tracking_count ?? "--")}
       </div>
       <div class="signal-tracking-grid">
         ${stats.map((item) => `
@@ -305,12 +306,42 @@ function renderAshareSignalTracking(payload) {
           </div>
         `).join("")}
       </div>
+      ${rows.length ? `
+        <div class="signal-validation-table-wrap">
+          <table class="signal-validation-table">
+            <thead>
+              <tr>
+                <th>Signal date</th>
+                <th>Stock</th>
+                <th>Entry</th>
+                <th>Exit</th>
+                <th>Holding period</th>
+                <th>Final return</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map((row) => `
+                <tr>
+                  <td>${escapeHtml(row.signal_date || "--")}</td>
+                  <td><strong>${escapeHtml(row.stock || "--")}</strong></td>
+                  <td>${escapeHtml(row.entry || "--")}</td>
+                  <td>${escapeHtml(row.exit || "--")}</td>
+                  <td>${escapeHtml(row.holding_period || "--")}</td>
+                  <td class="${tone(row.return_value)}">${escapeHtml(row.final_return || "--")}</td>
+                  <td>${escapeHtml(row.result || "--")}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      ` : ""}
       <ul class="signal-tracking-notes">
         ${notes.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}
       </ul>
       <div class="brief-disclaimer">
-        Public display only. Not investment advice. Symbols, exact prices, order tables,
-        model details, data paths, and private execution rules are intentionally withheld.
+        Public display only. Not investment advice. Model details, raw data, local paths,
+        credentials, and private execution rules are intentionally withheld.
       </div>
     </article>
   `;

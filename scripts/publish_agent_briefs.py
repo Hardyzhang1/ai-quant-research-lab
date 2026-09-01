@@ -328,95 +328,125 @@ def safe_float(value: object) -> float | None:
     return float(match.group(0)) if match else None
 
 
-def parse_ashare_signal_tracking(source: str | None, previous: dict | None = None) -> dict:
+def pct(value: float | None) -> str:
+    if value is None:
+        return "--"
+    return f"{value * 100:.2f}%"
+
+
+def parse_percent_value(value: object) -> float | None:
+    text = normalize(value).replace(",", "")
+    match = re.search(r"([+-]?\d+(?:\.\d+)?)\s*%", text)
+    if not match:
+        return None
+    return float(match.group(1)) / 100.0
+
+
+def parse_ashare_maturity_validation(source: str | None, previous: dict | None = None) -> dict:
     paths = existing_paths(source)
     path = latest(paths)
     if path is None:
-        preserved = (previous or {}).get("ashare_signal_tracking")
+        preserved = (previous or {}).get("ashare_maturity_validation") or (previous or {}).get("ashare_signal_tracking")
         if isinstance(preserved, dict):
             return preserved
         return {"ok": False}
 
     text = visible_text(path)
-    raw = read_text(path)
-    dates = re.findall(r"\b20\d{2}-\d{2}-\d{2}\b", text)
-    stock_codes = re.findall(r"\b(?:SH|SZ|BJ)\d{6}\b", text)
-    action_counts = {"buy": 0, "sell": 0, "skip": 0}
-    notional = {"buy": 0.0, "sell": 0.0}
-    rank_values: list[int] = []
+    rows: list[dict] = []
+    returns: list[float] = []
 
     for table in parse_tables(path):
+        candidate_rows: list[dict] = []
         for row in table[1:]:
-            if not row:
+            if len(row) < 7:
                 continue
-            action = normalize(row[0]).lower()
-            if action not in action_counts:
+            signal_date = normalize(row[0])
+            stock = normalize(row[1])
+            final_return = normalize(row[5])
+            if not re.fullmatch(r"20\d{2}-\d{2}-\d{2}", signal_date):
                 continue
-            action_counts[action] += 1
-            if len(row) >= 3:
-                rank = safe_int(row[2])
-                if rank is not None:
-                    rank_values.append(rank)
-            if action in notional and row:
-                value = safe_float(row[-1])
-                if value is not None:
-                    notional[action] += value
+            if not re.fullmatch(r"\d{6}\.(?:XSHG|XSHE|BJ|XBEI)", stock):
+                continue
+            return_value = parse_percent_value(final_return)
+            if return_value is not None:
+                returns.append(return_value)
+            holding_days = safe_int(row[4])
+            result = "Win" if (return_value is not None and return_value > 0) else "Loss"
+            candidate_rows.append(
+                {
+                    "signal_date": signal_date,
+                    "stock": stock,
+                    "entry": redact(row[2], 80),
+                    "exit": redact(row[3], 80),
+                    "holding_period": f"{holding_days} trading days" if holding_days is not None else redact(row[4], 50),
+                    "final_return": final_return,
+                    "return_value": return_value,
+                    "result": result,
+                }
+            )
+        if len(candidate_rows) > len(rows):
+            rows = candidate_rows
 
-    target_count = 0
-    for paragraph in re.findall(r"(?is)<p\b[^>]*>(.*?)</p>", raw):
-        codes = re.findall(r"\b(?:SH|SZ|BJ)\d{6}\b", fragment_text(paragraph))
-        if len(codes) >= target_count:
-            target_count = len(set(codes))
-    if not target_count:
-        target_count = len(set(stock_codes))
+    matured_count = len(rows)
+    win_count = sum(1 for value in returns if value > 0)
+    win_rate = win_count / matured_count if matured_count else None
+    average_return = sum(returns) / len(returns) if returns else None
+    median_return = None
+    if returns:
+        ordered = sorted(returns)
+        middle = len(ordered) // 2
+        if len(ordered) % 2:
+            median_return = ordered[middle]
+        else:
+            median_return = (ordered[middle - 1] + ordered[middle]) / 2
 
-    universe_match = re.search(r"(\d+)\s*(?:只|stocks|names)", text, flags=re.I)
-    universe_count = universe_match.group(1) if universe_match else None
-    if universe_count is None:
-        header_fragment = raw.split("<h3", 1)[0]
-        candidates = [
-            int(value)
-            for value in re.findall(r"\b\d{2,5}\b", header_fragment)
-            if not 2020 <= int(value) <= 2035
-        ]
-        if candidates:
-            universe_count = str(max(candidates))
-    universe = f"{universe_count} names" if universe_count else "--"
-    mode = "production tracking" if "正式" in text else "live tracking"
+    tracking_count = None
+    tracking_match = re.search(r"仍在跟踪[^0-9]*(\d+)", text)
+    if tracking_match:
+        tracking_count = int(tracking_match.group(1))
+
+    summary_match = re.search(
+        r"已到推荐持有期[^0-9]*(\d+).*?胜[^0-9]*(\d+).*?胜率[^0-9]*([0-9.]+%).*?平均收益[^0-9+-]*([+-]?[0-9.]+%).*?中位数收益[^0-9+-]*([+-]?[0-9.]+%)",
+        text,
+        flags=re.S,
+    )
+    if summary_match:
+        matured_count = int(summary_match.group(1))
+        win_count = int(summary_match.group(2))
+        win_rate_text = summary_match.group(3)
+        average_return_text = summary_match.group(4)
+        median_return_text = summary_match.group(5)
+    else:
+        win_rate_text = pct(win_rate) if win_rate is not None else "--"
+        average_return_text = pct(average_return) if average_return is not None else "--"
+        median_return_text = pct(median_return) if median_return is not None else "--"
+
     stamp = datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d %H:%M local")
-    average_rank = sum(rank_values) / len(rank_values) if rank_values else None
 
     stats = [
-        {"label": "Buy candidates", "value": str(action_counts["buy"])},
-        {"label": "Sell candidates", "value": str(action_counts["sell"])},
-        {"label": "Skipped candidates", "value": str(action_counts["skip"])},
-        {"label": "Target basket size", "value": str(target_count) if target_count else "--"},
+        {"label": "Win rate", "value": win_rate_text},
+        {"label": "Average return", "value": average_return_text},
+        {"label": "Median return", "value": median_return_text},
+        {"label": "Still tracking", "value": str(tracking_count) if tracking_count is not None else "--"},
     ]
-    if average_rank is not None:
-        stats.append({"label": "Average listed rank", "value": f"{average_rank:.1f}"})
-    if notional["buy"] or notional["sell"]:
-        stats.append(
-            {
-                "label": "Displayed gross turnover",
-                "value": f"{(notional['buy'] + notional['sell']) / 10000:.2f}w CNY",
-            }
-        )
 
     return {
         "ok": True,
-        "market": "A-share technical signal",
-        "title": "Mature tracking signal digest",
+        "market": "A-share technical validation",
+        "title": "Maturity validation digest",
         "updated_at": stamp,
-        "signal_date": dates[0] if dates else "--",
-        "data_date": dates[1] if len(dates) > 1 else (dates[0] if dates else "--"),
-        "mode": mode,
-        "universe": universe,
+        "matured_count": matured_count,
+        "win_count": win_count,
+        "win_rate": win_rate_text,
+        "average_return": average_return_text,
+        "median_return": median_return_text,
+        "tracking_count": tracking_count,
         "stats": stats,
-        "action_counts": action_counts,
+        "rows": rows,
         "public_notes": [
-            "Generated from the same A-share technical signal preview used by the daily email pipeline.",
-            "This public card reports only aggregate maturity-tracking information.",
-            "Symbols, prices, exact order rows, data-source details, model internals, and execution rules are withheld.",
+            "Generated from the maturity-validation section of the daily A-share technical-analysis email.",
+            "Records are shown after they reach the recommended holding horizon.",
+            "Model internals, raw data, local paths, credentials, and private execution rules are withheld.",
         ],
     }
 
@@ -623,11 +653,14 @@ def build_payload(args: argparse.Namespace, previous: dict | None = None) -> dic
         )
         scope = "accordion_report_digest_latest_only"
 
+    ashare_maturity_validation = parse_ashare_maturity_validation(args.ashare_signal_html, previous)
+
     return {
         "ok": True,
         "published_at": datetime.now().strftime("%Y-%m-%d %H:%M local"),
         "scope": scope,
-        "ashare_signal_tracking": parse_ashare_signal_tracking(args.ashare_signal_html, previous),
+        "ashare_maturity_validation": ashare_maturity_validation,
+        "ashare_signal_tracking": ashare_maturity_validation,
         "report_sections": sections,
         "briefs": [
             {

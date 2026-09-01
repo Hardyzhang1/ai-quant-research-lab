@@ -87,7 +87,6 @@ $RemotePreviews = @{
   "preview_a_close_latest.html" = "D:/Codex/work/market-news-agent/preview_a_close.html"
   "preview_us_close_latest.html" = "D:/Codex/work/market-news-agent/preview_us_close.html"
   "preview_ashare_close_latest.html" = "D:/Codex/work/ashare-rq-agent/preview_ashare_close.html"
-  "preview_rdagent_signal_latest.html" = "D:/Codex/work/ashare-rq-agent/preview_rdagent_signal.html"
   "preview_technical_us_validation_latest.html" = "D:/Codex/work/technical-analysis-agent/preview_technical_us_validation.html"
 }
 foreach ($entry in $RemotePreviews.GetEnumerator()) {
@@ -149,8 +148,8 @@ if (-not $AShareTradingCloseHtml) {
 
 if (-not $AShareSignalHtml) {
   $AShareSignalHtml = Newest-Existing @(
-    (Join-Path $AShareTradingAgentOutput "preview_rdagent_signal.html"),
-    (Join-Path $PrivatePreviewDir "preview_rdagent_signal_latest.html")
+    (Join-Path $AShareTradingAgentOutput "preview_ashare_close.html"),
+    (Join-Path $PrivatePreviewDir "preview_ashare_close_latest.html")
   )
 }
 
