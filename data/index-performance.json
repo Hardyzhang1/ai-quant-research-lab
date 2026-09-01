@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-01 16:48:51 Asia/Shanghai",
+  "published_at": "2026-09-01 16:50:19 Asia/Shanghai",
   "as_of": "2026-09-01",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -41,24 +41,24 @@
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10728.55,
-      "change_pct": -0.88,
+      "last": 10733.65,
+      "change_pct": -0.84,
       "status": "Latest / overseas"
     },
     {
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 26075.62,
-      "change_pct": -0.69,
+      "last": 26075.16,
+      "change_pct": -0.7,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8325.14,
-      "change_pct": -0.11,
+      "last": 8324.67,
+      "change_pct": -0.12,
       "status": "Latest / overseas"
     },
     {
