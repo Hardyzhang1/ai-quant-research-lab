@@ -1,51 +1,419 @@
 {
   "ok": true,
-  "published_at": "2026-09-01 16:12 local",
+  "published_at": "2026-09-01 16:48 local",
   "scope": "accordion_report_digest_latest_only",
-  "ashare_signal_tracking": {
+  "ashare_maturity_validation": {
     "ok": true,
-    "market": "A-share technical signal",
-    "title": "Mature tracking signal digest",
-    "updated_at": "2026-09-01 15:04 local",
-    "signal_date": "2026-09-01",
-    "data_date": "2026-09-01",
-    "mode": "live tracking",
-    "universe": "300 names",
+    "market": "A-share technical validation",
+    "title": "Maturity validation digest",
+    "updated_at": "2026-09-01 16:31 local",
+    "matured_count": 17,
+    "win_count": 12,
+    "win_rate": "70.59%",
+    "average_return": "12.29%",
+    "median_return": "4.65%",
+    "tracking_count": 1,
     "stats": [
       {
-        "label": "Buy candidates",
-        "value": "4"
+        "label": "Win rate",
+        "value": "70.59%"
       },
       {
-        "label": "Sell candidates",
-        "value": "4"
+        "label": "Average return",
+        "value": "12.29%"
       },
       {
-        "label": "Skipped candidates",
-        "value": "2"
+        "label": "Median return",
+        "value": "4.65%"
       },
       {
-        "label": "Target basket size",
-        "value": "8"
-      },
-      {
-        "label": "Average listed rank",
-        "value": "77.5"
-      },
-      {
-        "label": "Displayed gross turnover",
-        "value": "6.69w CNY"
+        "label": "Still tracking",
+        "value": "1"
       }
     ],
-    "action_counts": {
-      "buy": 4,
-      "sell": 4,
-      "skip": 2
-    },
+    "rows": [
+      {
+        "signal_date": "2026-07-13",
+        "stock": "600033.XSHG",
+        "entry": "2026-07-14 @ 3.401",
+        "exit": "2026-07-28 @ 3.550",
+        "holding_period": "10个交易日",
+        "final_return": "+4.24%",
+        "return_value": 0.0424,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-17",
+        "stock": "300319.XSHE",
+        "entry": "2026-07-20 @ 16.650",
+        "exit": "2026-08-03 @ 14.300",
+        "holding_period": "10个交易日",
+        "final_return": "-14.26%",
+        "return_value": -0.1426,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-07-20",
+        "stock": "603005.XSHG",
+        "entry": "2026-07-21 @ 28.700",
+        "exit": "2026-08-04 @ 30.460",
+        "holding_period": "10个交易日",
+        "final_return": "+5.98%",
+        "return_value": 0.059800000000000006,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-21",
+        "stock": "002636.XSHE",
+        "entry": "2026-07-22 @ 70.770",
+        "exit": "2026-08-05 @ 56.180",
+        "holding_period": "10个交易日",
+        "final_return": "-20.77%",
+        "return_value": -0.2077,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-07-22",
+        "stock": "300398.XSHE",
+        "entry": "2026-07-23 @ 33.960",
+        "exit": "2026-08-06 @ 35.590",
+        "holding_period": "10个交易日",
+        "final_return": "+4.65%",
+        "return_value": 0.04650000000000001,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-23",
+        "stock": "300398.XSHE",
+        "entry": "2026-07-24 @ 33.260",
+        "exit": "2026-08-07 @ 36.810",
+        "holding_period": "10个交易日",
+        "final_return": "+10.52%",
+        "return_value": 0.1052,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-24",
+        "stock": "301205.XSHE",
+        "entry": "2026-07-27 @ 236.640",
+        "exit": "2026-08-10 @ 287.000",
+        "holding_period": "10个交易日",
+        "final_return": "+21.13%",
+        "return_value": 0.2113,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-27",
+        "stock": "688403.XSHG",
+        "entry": "2026-07-28 @ 24.290",
+        "exit": "2026-08-11 @ 24.290",
+        "holding_period": "10个交易日",
+        "final_return": "-0.15%",
+        "return_value": -0.0015,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-07-28",
+        "stock": "688596.XSHG",
+        "entry": "2026-07-29 @ 49.450",
+        "exit": "2026-08-12 @ 75.350",
+        "holding_period": "10个交易日",
+        "final_return": "+52.23%",
+        "return_value": 0.5223,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-29",
+        "stock": "688630.XSHG",
+        "entry": "2026-07-30 @ 348.230",
+        "exit": "2026-08-13 @ 419.000",
+        "holding_period": "10个交易日",
+        "final_return": "+20.17%",
+        "return_value": 0.20170000000000002,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-30",
+        "stock": "688519.XSHG",
+        "entry": "2026-07-31 @ 228.890",
+        "exit": "2026-08-14 @ 309.000",
+        "holding_period": "10个交易日",
+        "final_return": "+34.85%",
+        "return_value": 0.34850000000000003,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-31",
+        "stock": "002536.XSHE",
+        "entry": "2026-08-03 @ 33.610",
+        "exit": "2026-08-17 @ 46.110",
+        "holding_period": "10个交易日",
+        "final_return": "+37.04%",
+        "return_value": 0.3704,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-03",
+        "stock": "688147.XSHG",
+        "entry": "2026-08-04 @ 79.000",
+        "exit": "2026-08-18 @ 129.660",
+        "holding_period": "10个交易日",
+        "final_return": "+63.98%",
+        "return_value": 0.6397999999999999,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-04",
+        "stock": "000672.XSHE",
+        "entry": "2026-08-05 @ 13.340",
+        "exit": "2026-08-19 @ 13.680",
+        "holding_period": "10个交易日",
+        "final_return": "+2.40%",
+        "return_value": 0.024,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-05",
+        "stock": "000672.XSHE",
+        "entry": "2026-08-06 @ 13.710",
+        "exit": "2026-08-20 @ 13.690",
+        "holding_period": "10个交易日",
+        "final_return": "-0.30%",
+        "return_value": -0.003,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-08-06",
+        "stock": "688486.XSHG",
+        "entry": "2026-08-07 @ 45.210",
+        "exit": "2026-08-21 @ 45.420",
+        "holding_period": "10个交易日",
+        "final_return": "+0.31%",
+        "return_value": 0.0031,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-07",
+        "stock": "300257.XSHE",
+        "entry": "2026-08-10 @ 19.690",
+        "exit": "2026-08-24 @ 17.150",
+        "holding_period": "10个交易日",
+        "final_return": "-13.05%",
+        "return_value": -0.1305,
+        "result": "负"
+      }
+    ],
     "public_notes": [
-      "Generated from the same A-share technical signal preview used by the daily email pipeline.",
-      "This public card reports only aggregate maturity-tracking information.",
-      "Symbols, prices, exact order rows, data-source details, model internals, and execution rules are withheld."
+      "Generated from the maturity-validation section of the daily A-share technical-analysis email.",
+      "Records are shown after they reach the recommended holding horizon.",
+      "Model internals, raw data, local paths, credentials, and private execution rules are withheld."
+    ]
+  },
+  "ashare_signal_tracking": {
+    "ok": true,
+    "market": "A-share technical validation",
+    "title": "Maturity validation digest",
+    "updated_at": "2026-09-01 16:31 local",
+    "matured_count": 17,
+    "win_count": 12,
+    "win_rate": "70.59%",
+    "average_return": "12.29%",
+    "median_return": "4.65%",
+    "tracking_count": 1,
+    "stats": [
+      {
+        "label": "Win rate",
+        "value": "70.59%"
+      },
+      {
+        "label": "Average return",
+        "value": "12.29%"
+      },
+      {
+        "label": "Median return",
+        "value": "4.65%"
+      },
+      {
+        "label": "Still tracking",
+        "value": "1"
+      }
+    ],
+    "rows": [
+      {
+        "signal_date": "2026-07-13",
+        "stock": "600033.XSHG",
+        "entry": "2026-07-14 @ 3.401",
+        "exit": "2026-07-28 @ 3.550",
+        "holding_period": "10个交易日",
+        "final_return": "+4.24%",
+        "return_value": 0.0424,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-17",
+        "stock": "300319.XSHE",
+        "entry": "2026-07-20 @ 16.650",
+        "exit": "2026-08-03 @ 14.300",
+        "holding_period": "10个交易日",
+        "final_return": "-14.26%",
+        "return_value": -0.1426,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-07-20",
+        "stock": "603005.XSHG",
+        "entry": "2026-07-21 @ 28.700",
+        "exit": "2026-08-04 @ 30.460",
+        "holding_period": "10个交易日",
+        "final_return": "+5.98%",
+        "return_value": 0.059800000000000006,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-21",
+        "stock": "002636.XSHE",
+        "entry": "2026-07-22 @ 70.770",
+        "exit": "2026-08-05 @ 56.180",
+        "holding_period": "10个交易日",
+        "final_return": "-20.77%",
+        "return_value": -0.2077,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-07-22",
+        "stock": "300398.XSHE",
+        "entry": "2026-07-23 @ 33.960",
+        "exit": "2026-08-06 @ 35.590",
+        "holding_period": "10个交易日",
+        "final_return": "+4.65%",
+        "return_value": 0.04650000000000001,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-23",
+        "stock": "300398.XSHE",
+        "entry": "2026-07-24 @ 33.260",
+        "exit": "2026-08-07 @ 36.810",
+        "holding_period": "10个交易日",
+        "final_return": "+10.52%",
+        "return_value": 0.1052,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-24",
+        "stock": "301205.XSHE",
+        "entry": "2026-07-27 @ 236.640",
+        "exit": "2026-08-10 @ 287.000",
+        "holding_period": "10个交易日",
+        "final_return": "+21.13%",
+        "return_value": 0.2113,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-27",
+        "stock": "688403.XSHG",
+        "entry": "2026-07-28 @ 24.290",
+        "exit": "2026-08-11 @ 24.290",
+        "holding_period": "10个交易日",
+        "final_return": "-0.15%",
+        "return_value": -0.0015,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-07-28",
+        "stock": "688596.XSHG",
+        "entry": "2026-07-29 @ 49.450",
+        "exit": "2026-08-12 @ 75.350",
+        "holding_period": "10个交易日",
+        "final_return": "+52.23%",
+        "return_value": 0.5223,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-29",
+        "stock": "688630.XSHG",
+        "entry": "2026-07-30 @ 348.230",
+        "exit": "2026-08-13 @ 419.000",
+        "holding_period": "10个交易日",
+        "final_return": "+20.17%",
+        "return_value": 0.20170000000000002,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-30",
+        "stock": "688519.XSHG",
+        "entry": "2026-07-31 @ 228.890",
+        "exit": "2026-08-14 @ 309.000",
+        "holding_period": "10个交易日",
+        "final_return": "+34.85%",
+        "return_value": 0.34850000000000003,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-07-31",
+        "stock": "002536.XSHE",
+        "entry": "2026-08-03 @ 33.610",
+        "exit": "2026-08-17 @ 46.110",
+        "holding_period": "10个交易日",
+        "final_return": "+37.04%",
+        "return_value": 0.3704,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-03",
+        "stock": "688147.XSHG",
+        "entry": "2026-08-04 @ 79.000",
+        "exit": "2026-08-18 @ 129.660",
+        "holding_period": "10个交易日",
+        "final_return": "+63.98%",
+        "return_value": 0.6397999999999999,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-04",
+        "stock": "000672.XSHE",
+        "entry": "2026-08-05 @ 13.340",
+        "exit": "2026-08-19 @ 13.680",
+        "holding_period": "10个交易日",
+        "final_return": "+2.40%",
+        "return_value": 0.024,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-05",
+        "stock": "000672.XSHE",
+        "entry": "2026-08-06 @ 13.710",
+        "exit": "2026-08-20 @ 13.690",
+        "holding_period": "10个交易日",
+        "final_return": "-0.30%",
+        "return_value": -0.003,
+        "result": "负"
+      },
+      {
+        "signal_date": "2026-08-06",
+        "stock": "688486.XSHG",
+        "entry": "2026-08-07 @ 45.210",
+        "exit": "2026-08-21 @ 45.420",
+        "holding_period": "10个交易日",
+        "final_return": "+0.31%",
+        "return_value": 0.0031,
+        "result": "胜"
+      },
+      {
+        "signal_date": "2026-08-07",
+        "stock": "300257.XSHE",
+        "entry": "2026-08-10 @ 19.690",
+        "exit": "2026-08-24 @ 17.150",
+        "holding_period": "10个交易日",
+        "final_return": "-13.05%",
+        "return_value": -0.1305,
+        "result": "负"
+      }
+    ],
+    "public_notes": [
+      "Generated from the maturity-validation section of the daily A-share technical-analysis email.",
+      "Records are shown after they reach the recommended holding horizon.",
+      "Model internals, raw data, local paths, credentials, and private execution rules are withheld."
     ]
   },
   "report_sections": [
@@ -194,18 +562,18 @@
     {
       "id": "a-share-post-market",
       "title": "A share post market",
-      "updated_at": "2026-08-31 15:54 local",
+      "updated_at": "2026-09-01 16:31 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "A股收盘总结",
-          "generated_at": "2026-08-31 15:54 中国标准时间",
-          "updated_at": "2026-08-31 15:54 local",
+          "generated_at": "2026-09-01 16:31 中国标准时间",
+          "updated_at": "2026-09-01 16:31 local",
           "highlights": [
-            "市场情绪：中性（+10） - 今日A股主要指数小幅收涨，上证指数涨0.86%报3986.3点，沪深300涨0.35%，深证成指涨0.44%，创业板指涨0.42%。银行板块受房地产信贷新规影响走强，招商银行涨1.96%；中国移动涨1.22%；贵州茅台涨0.16%。宁德时代跌1.34%，比亚迪跌4.46%。中国8月官方制造业PMI为49.8%，较上月上升0.6个百分点，但仍低于荣枯线。市场情绪偏乐观，受政策利好及PMI改善提振。",
-            "主要驱动 - 房地产信贷新规后银行板块走强，地产信贷逻辑或将改变；中国8月官方制造业PMI升至49.8%，较上月上升0.6个百分点；日本经产省申请创纪录预算投向AI及半导体，全球半导体产业链受关注",
-            "下一交易日关注 - 房地产政策组合拳后续落地情况，关注头部房企及银行表现；中国8月PMI数据对市场信心影响，关注制造业景气度；全球半导体需求及涨价趋势，关注国内相关公司"
+            "市场情绪：中性（-4） - 今日A股市场震荡回落，上证指数微跌0.16%收于3979.89点，深证成指和创业板指分别下跌1.02%和1.32%，显示成长板块承压。银行股表现强势，工商银行、中国银行、建设银行均创历史新高，招商银行上涨1.84%，中国平安大涨2.53%。此外，财政部和税务总局发布外籍个人股息红利个税政策，或影响相关外资持股。欧股PMI数据喜忧参半，德国制造业扩张超预期，法国略低于预期。当前市场结构性分化明显，权重蓝筹相对抗跌，而科技成长板块回调幅度较大。",
+            "主要驱动 - 银行股创历史新高，招商银行、中国平安等金融权重股领涨；财政部、税务总局发布外籍个人股息红利个税政策，或影响外资持股；欧元区8月制造业PMI终值52.7，德国54.3高于预期，法国51.1低于预期",
+            "下一交易日关注 - 关注外籍个人股息红利个税政策对北向资金的影响；留意AI产业链（华为、算力/光模块、存储）能否止跌企稳；警惕成长风格（创业板、科技）继续调整风险，权重蓝筹或维持抗跌"
           ],
           "tables": [
             {
@@ -220,36 +588,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3986.3",
-                  "+0.86%",
+                  "3979.89",
+                  "-0.16%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4625.09",
-                  "+0.35%",
+                  "4611.44",
+                  "-0.30%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "25542.69",
-                  "-0.16%",
-                  "盘中"
+                  "25329.73",
+                  "-0.93%",
+                  "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "66311.93",
-                  "-0.14%",
+                  "66215.34",
+                  "-0.15%",
                   "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10824.26",
-                  "+0.29%",
+                  "10767.61",
+                  "-0.52%",
                   "盘中"
                 ]
               ]
@@ -263,18 +631,18 @@
               "rows": [
                 [
                   "主要指数贡献",
-                  "+15.3",
-                  "加权指数涨跌 +0.51%"
+                  "-18.4",
+                  "加权指数涨跌 -0.61%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "-5.2",
-                  "样本平均涨跌 -0.42%"
+                  "+9.0",
+                  "样本平均涨跌 +0.72%"
                 ],
                 [
                   "权重股广度贡献",
-                  "+0.0",
-                  "样本权重股上涨比例 50%"
+                  "+5.0",
+                  "样本权重股上涨比例 67%"
                 ]
               ]
             }
@@ -283,20 +651,20 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "覆盖 zz1000 股票池 1000 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。",
-          "generated_at": "2026-08-31 15:54 CST；交易日：2026-08-31；数据日期：2026-08-31；股票池：zz1000。",
-          "updated_at": "2026-08-31 15:54 local",
+          "generated_at": "2026-09-01 16:31 CST；交易日：2026-09-01；数据日期：2026-09-01；股票池：zz1000。",
+          "updated_at": "2026-09-01 16:31 local",
           "highlights": [
-            "市场情绪：中性（+10） - 今日A股主要指数小幅收涨，上证指数涨0.86%报3986.3点，沪深300涨0.35%，深证成指涨0.44%，创业板指涨0.42%。银行板块受房地产信贷新规影响走强，招商银行涨1.96%；中国移动涨1.22%；贵州茅台涨0.16%。宁德时代跌1.34%，比亚迪跌4.46%。中国8月官方制造业PMI为49.8%，较上月上升0.6个百分点，但仍低于荣枯线。市场情绪偏乐观，受政策利好及PMI改善提振。",
-            "主要驱动 - 房地产信贷新规后银行板块走强，地产信贷逻辑或将改变；中国8月官方制造业PMI升至49.8%，较上月上升0.6个百分点；日本经产省申请创纪录预算投向AI及半导体，全球半导体产业链受关注",
-            "下一交易日关注 - 房地产政策组合拳后续落地情况，关注头部房企及银行表现；中国8月PMI数据对市场信心影响，关注制造业景气度；全球半导体需求及涨价趋势，关注国内相关公司"
+            "市场情绪：中性（-4） - 今日A股市场震荡回落，上证指数微跌0.16%收于3979.89点，深证成指和创业板指分别下跌1.02%和1.32%，显示成长板块承压。银行股表现强势，工商银行、中国银行、建设银行均创历史新高，招商银行上涨1.84%，中国平安大涨2.53%。此外，财政部和税务总局发布外籍个人股息红利个税政策，或影响相关外资持股。欧股PMI数据喜忧参半，德国制造业扩张超预期，法国略低于预期。当前市场结构性分化明显，权重蓝筹相对抗跌，而科技成长板块回调幅度较大。",
+            "主要驱动 - 银行股创历史新高，招商银行、中国平安等金融权重股领涨；财政部、税务总局发布外籍个人股息红利个税政策，或影响外资持股；欧元区8月制造业PMI终值52.7，德国54.3高于预期，法国51.1低于预期",
+            "下一交易日关注 - 关注外籍个人股息红利个税政策对北向资金的影响；留意AI产业链（华为、算力/光模块、存储）能否止跌企稳；警惕成长风格（创业板、科技）继续调整风险，权重蓝筹或维持抗跌"
           ],
           "tables": [
             {
               "headers": [
-                "市场情绪 偏强",
-                "上涨/下跌/平盘 626/365/9",
-                "平均开盘-收盘 +1.45%",
-                "中位数 +0.87%"
+                "市场情绪 中性",
+                "上涨/下跌/平盘 567/423/10",
+                "平均开盘-收盘 +0.01%",
+                "中位数 +0.47%"
               ],
               "rows": []
             },
@@ -312,36 +680,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3986.3",
-                  "+0.86%",
+                  "3979.89",
+                  "-0.16%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4625.09",
-                  "+0.35%",
+                  "4611.44",
+                  "-0.30%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "25542.69",
-                  "-0.16%",
-                  "盘中"
+                  "25329.73",
+                  "-0.93%",
+                  "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "66311.93",
-                  "-0.14%",
+                  "66215.34",
+                  "-0.15%",
                   "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10824.26",
-                  "+0.29%",
+                  "10767.61",
+                  "-0.52%",
                   "盘中"
                 ]
               ]
