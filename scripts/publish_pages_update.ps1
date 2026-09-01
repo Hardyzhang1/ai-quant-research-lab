@@ -14,6 +14,9 @@ $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $RepoRoot
 
+$PublishVersion = Get-Date -Format "yyyyMMddHHmmss"
+$PublishedAt = Get-Date -Format "yyyy-MM-ddTHH:mm:ssK"
+
 function Latest-File {
   param(
     [string]$Dir,
@@ -152,8 +155,20 @@ if (-not $AShareTradingCloseHtml) {
 
 & "$PSScriptRoot\refresh_market_indices.ps1"
 
+$SiteVersionPath = Join-Path $RepoRoot "data\site-version.json"
+[ordered]@{
+  version = $PublishVersion
+  published_at = $PublishedAt
+} | ConvertTo-Json | Set-Content -LiteralPath $SiteVersionPath -Encoding UTF8
+
+$IndexPath = Join-Path $RepoRoot "index.html"
+$IndexHtml = Get-Content -LiteralPath $IndexPath -Raw -Encoding UTF8
+$IndexHtml = $IndexHtml -replace 'styles\.css\?v=[0-9A-Za-z_.:-]+', "styles.css?v=$PublishVersion"
+$IndexHtml = $IndexHtml -replace 'app\.js\?v=[0-9A-Za-z_.:-]+', "app.js?v=$PublishVersion"
+Set-Content -LiteralPath $IndexPath -Value $IndexHtml -Encoding UTF8
+
 if ($Commit) {
-  git add data/agent-briefs.json data/index-performance.json
+  git add index.html data/agent-briefs.json data/index-performance.json data/site-version.json
 
   $hasStagedChanges = git diff --cached --quiet
   if ($LASTEXITCODE -ne 0) {

@@ -140,14 +140,38 @@ function signedPct(value) {
   return `${value >= 0 ? "+" : ""}${value.toFixed(2)}%`;
 }
 
+const siteVersionPromise = loadSiteVersion();
+
+function versionedDataUrl(path, version) {
+  const separator = path.includes("?") ? "&" : "?";
+  return `${path}${separator}v=${encodeURIComponent(version)}`;
+}
+
+async function loadSiteVersion() {
+  const fallback = String(Date.now());
+  try {
+    const response = await fetch(`data/site-version.json?t=${fallback}`, { cache: "no-store" });
+    if (!response.ok) return fallback;
+    const payload = await response.json();
+    return String(payload.version || payload.published_at || fallback);
+  } catch (error) {
+    return fallback;
+  }
+}
+
+async function fetchPublishedJson(path) {
+  const version = await siteVersionPromise;
+  const response = await fetch(versionedDataUrl(path, version), { cache: "no-store" });
+  if (!response.ok) throw new Error(`No published snapshot for ${path}`);
+  return response.json();
+}
+
 async function loadMarketIndices() {
   const grid = document.getElementById("indexGrid");
   const meta = document.getElementById("indexMeta");
   if (!grid || !meta) return;
   try {
-    const response = await fetch("data/index-performance.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("No index snapshot published yet");
-    const payload = await response.json();
+    const payload = await fetchPublishedJson("data/index-performance.json");
     const rows = Array.isArray(payload.indices) ? payload.indices : [];
     meta.textContent = rows.length
       ? `Published ${payload.published_at || "recently"} | ${rows.length} major indices | ${payload.note || "Latest vs previous close"}`
@@ -217,9 +241,7 @@ async function loadSnapshot() {
   const meta = document.getElementById("snapshotMeta");
   if (!grid || !meta) return;
   try {
-    const response = await fetch("data/top3-performance.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("No snapshot published yet");
-    const snapshot = await response.json();
+    const snapshot = await fetchPublishedJson("data/top3-performance.json");
     const rows = snapshot.top || [];
     meta.textContent = `Published ${snapshot.published_at || snapshot.collected_at || "recently"} | Latest source date ${rows[0]?.latest_date || "--"} | Manual snapshot`;
     const factorCards = rows.map((row, index) => {
@@ -447,9 +469,7 @@ async function loadAgentBriefs() {
   const meta = document.getElementById("briefMeta");
   if (!grid || !meta) return;
   try {
-    const response = await fetch("data/agent-briefs.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("No agent brief snapshot published yet");
-    const payload = await response.json();
+    const payload = await fetchPublishedJson("data/agent-briefs.json");
     const briefs = Array.isArray(payload.briefs) ? payload.briefs : [];
     renderBriefPulse(payload, briefs);
     renderReportSections(payload);
