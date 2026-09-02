@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-02 11:41:56 Asia/Shanghai",
+  "published_at": "2026-09-02 15:55:34 Asia/Shanghai",
   "as_of": "2026-09-02",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,56 +9,56 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3947.26,
-      "change_pct": -0.82,
-      "status": "Intraday"
+      "last": 3941.39,
+      "change_pct": -0.97,
+      "status": "Latest close"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 4553.99,
-      "change_pct": -1.25,
-      "status": "Intraday"
+      "last": 4547.96,
+      "change_pct": -1.38,
+      "status": "Latest close"
     },
     {
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
-      "last": 25065.35,
-      "change_pct": -1.04,
-      "status": "Intraday"
+      "last": 25257.53,
+      "change_pct": -0.29,
+      "status": "Latest close"
     },
     {
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 64473.16,
-      "change_pct": -2.63,
-      "status": "Intraday"
+      "last": 64325.64,
+      "change_pct": -2.85,
+      "status": "Latest close"
     },
     {
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10789.28,
-      "change_pct": -0.32,
+      "last": 10752.04,
+      "change_pct": -0.35,
       "status": "Latest / overseas"
     },
     {
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 25970.11,
-      "change_pct": 0.0,
+      "last": 25884.64,
+      "change_pct": -0.33,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8301.85,
-      "change_pct": 0.0,
+      "last": 8278.22,
+      "change_pct": -0.28,
       "status": "Latest / overseas"
     },
     {
