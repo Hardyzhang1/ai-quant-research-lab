@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-02 15:55:34 Asia/Shanghai",
+  "published_at": "2026-09-02 21:31:53 Asia/Shanghai",
   "as_of": "2026-09-02",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -25,8 +25,8 @@
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
-      "last": 25257.53,
-      "change_pct": -0.29,
+      "last": 25311.21,
+      "change_pct": -0.07,
       "status": "Latest close"
     },
     {
@@ -41,48 +41,48 @@
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10752.04,
-      "change_pct": -0.35,
+      "last": 10748.49,
+      "change_pct": -0.38,
       "status": "Latest / overseas"
     },
     {
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 25884.64,
-      "change_pct": -0.33,
+      "last": 25858.17,
+      "change_pct": -0.43,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8278.22,
-      "change_pct": -0.28,
+      "last": 8293.44,
+      "change_pct": -0.1,
       "status": "Latest / overseas"
     },
     {
       "region": "United States",
       "name": "S&P 500",
       "symbol": "us.INX",
-      "last": 7631.47,
-      "change_pct": -0.71,
+      "last": 7636.56,
+      "change_pct": 0.07,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Nasdaq",
       "symbol": "us.IXIC",
-      "last": 26099.77,
-      "change_pct": -1.03,
+      "last": 26083.79,
+      "change_pct": -0.06,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Dow Jones",
       "symbol": "us.DJI",
-      "last": 52766.88,
-      "change_pct": -0.79,
+      "last": 52954.82,
+      "change_pct": 0.36,
       "status": "Latest / overnight"
     }
   ],
