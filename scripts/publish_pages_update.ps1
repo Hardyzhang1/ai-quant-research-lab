@@ -189,8 +189,19 @@ if ($Commit) {
 }
 
 if ($Push) {
-  git push
-  if ($LASTEXITCODE -ne 0) {
-    throw "git push failed with exit code $LASTEXITCODE"
+  $pushExit = 1
+  for ($attempt = 1; $attempt -le 4; $attempt++) {
+    Write-Host "git push attempt $attempt/4"
+    git push
+    $pushExit = $LASTEXITCODE
+    if ($pushExit -eq 0) {
+      break
+    }
+    if ($attempt -lt 4) {
+      Start-Sleep -Seconds (15 * $attempt)
+    }
+  }
+  if ($pushExit -ne 0) {
+    throw "git push failed with exit code $pushExit after retries"
   }
 }
