@@ -175,7 +175,7 @@ async function loadMarketIndices() {
     const rows = Array.isArray(payload.indices) ? payload.indices : [];
     meta.textContent = rows.length
       ? `Published ${payload.published_at || "recently"} | ${rows.length} major indices | ${payload.note || "Latest vs previous close"}`
-      : "No public index snapshot has been published yet.";
+      : "No market index snapshot has been published yet.";
     grid.innerHTML = rows.map((row) => {
       const move = Number(row.change_pct);
       return `
@@ -191,7 +191,7 @@ async function loadMarketIndices() {
       `;
     }).join("");
   } catch (error) {
-    meta.textContent = "No public index snapshot has been published yet.";
+    meta.textContent = "No market index snapshot has been published yet.";
     grid.innerHTML = "";
   }
 }
@@ -200,7 +200,7 @@ loadMarketIndices();
 
 function groupReturnSvg(series) {
   const rows = Array.isArray(series) ? series.filter((s) => Array.isArray(s.data) && s.data.length) : [];
-  if (!rows.length) return `<div class="snapshot-empty-chart">No group-return chart yet</div>`;
+  if (!rows.length) return `<div class="snapshot-empty-chart">No group-return time series has been published yet</div>`;
   const widthSvg = 640;
   const heightSvg = 210;
   const pad = { left: 46, right: 18, top: 18, bottom: 34 };
@@ -243,7 +243,7 @@ async function loadSnapshot() {
   try {
     const snapshot = await fetchPublishedJson("data/top3-performance.json");
     const rows = snapshot.top || [];
-    meta.textContent = `Published ${snapshot.published_at || snapshot.collected_at || "recently"} | Latest source date ${rows[0]?.latest_date || "--"} | Manual snapshot`;
+    meta.textContent = `Published ${snapshot.published_at || snapshot.collected_at || "recently"} | Latest source date ${rows[0]?.latest_date || "--"} | Manual factor snapshot`;
     const factorCards = rows.map((row, index) => {
       const m = row.metrics || {};
       const chart = row.chart?.group_return || [];
@@ -263,7 +263,7 @@ async function loadSnapshot() {
     }).join("");
     grid.innerHTML = factorCards;
   } catch (error) {
-    meta.textContent = "No public snapshot has been published yet.";
+    meta.textContent = "No factor snapshot has been published yet.";
     grid.innerHTML = "";
   }
 }
@@ -276,7 +276,7 @@ function renderAshareSignalTracking(payload) {
   if (!meta || !panel) return;
   const tracking = payload?.ashare_maturity_validation || payload?.ashare_signal_tracking || {};
   if (!tracking.ok) {
-    meta.textContent = "No mature A-share validation digest has been published yet.";
+    meta.textContent = "No mature-horizon A-share validation summary has been published yet.";
     panel.innerHTML = "";
     return;
   }
@@ -291,7 +291,7 @@ function renderAshareSignalTracking(payload) {
         <span>${escapeHtml(tracking.market || "A-share")}</span>
         <span>${escapeHtml(tracking.updated_at || "--")}</span>
       </div>
-      <h3>${escapeHtml(tracking.title || "Maturity validation digest")}</h3>
+      <h3>${escapeHtml(tracking.title || "Mature-horizon validation summary")}</h3>
       <div class="signal-tracking-status">
         ${metricValue("Reached horizon", tracking.matured_count ?? "--")}
         ${metricValue("Wins", tracking.win_count ?? "--")}
@@ -340,7 +340,7 @@ function renderAshareSignalTracking(payload) {
         ${notes.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}
       </ul>
       <div class="brief-disclaimer">
-        Public display only. Not investment advice. Model details, raw data, local paths,
+        Research display only. Not investment advice. Model details, raw data, local paths,
         credentials, and private execution rules are intentionally withheld.
       </div>
     </article>
@@ -357,11 +357,11 @@ function briefCard(brief) {
   return `
     <article class="brief-card">
       <div class="brief-topline">
-        <span>${escapeHtml(brief.market || "Agent")}</span>
+        <span>${escapeHtml(brief.market || "Research")}</span>
         <span>${escapeHtml(updated)}</span>
       </div>
-      <h3>${escapeHtml(brief.title || "Sanitized agent brief")}</h3>
-      <p>${escapeHtml(brief.summary || "A public-safe snapshot will appear here after the next refresh.")}</p>
+      <h3>${escapeHtml(brief.title || "Sanitized research brief")}</h3>
+      <p>${escapeHtml(brief.summary || "A public-safe research summary will appear here after the next refresh.")}</p>
       <div class="brief-pill-row">
         ${tags.map((tag) => `<span class="brief-pill">${escapeHtml(tag)}</span>`).join("")}
       </div>
@@ -376,7 +376,7 @@ function briefCard(brief) {
         </div>
       ` : ""}
       ${items.length ? `
-        <div class="brief-section-title">Latest public news digest</div>
+        <div class="brief-section-title">Latest market-intelligence digest</div>
         <div class="brief-item-list">
           ${items.slice(0, 8).map((item) => `
             <div class="brief-item">
@@ -392,7 +392,7 @@ function briefCard(brief) {
         </div>
       ` : ""}
       ${recommendations.length ? `
-        <div class="brief-section-title">Latest public research signals</div>
+        <div class="brief-section-title">Latest research signal summary</div>
         <div class="brief-item-list">
           ${recommendations.slice(0, 5).map((item) => `
             <div class="brief-item recommendation-item">
@@ -419,7 +419,7 @@ function briefCard(brief) {
         ${bullets.slice(0, 5).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
       </ul>
       <div class="brief-disclaimer">
-        Public display only. Not investment advice. Core models, prompts, data sources,
+        Research display only. Not investment advice. Core models, prompts, data sources,
         trading logic, infrastructure details, and execution rules are intentionally withheld.
       </div>
     </article>
@@ -437,11 +437,11 @@ function renderBriefPulse(payload, briefs) {
   const scope = payload.scope || "sanitized_public_showcase";
   pulse.innerHTML = `
     <div class="pulse-item">
-      <span>Surfaces</span>
+      <span>Briefs</span>
       <strong>${surfaces}</strong>
     </div>
     <div class="pulse-item">
-      <span>Privacy Guards</span>
+      <span>Disclosure Filters</span>
       <strong>${guardCount}</strong>
     </div>
     <div class="pulse-item">
@@ -487,17 +487,17 @@ function reportSourceCard(report) {
   return `
     <article class="report-source-card">
       <div class="brief-topline">
-        <span>${escapeHtml(report.source || "agent report")}</span>
+        <span>${escapeHtml(report.source || "research report")}</span>
         <span>${escapeHtml(report.generated_at || report.updated_at || "--")}</span>
       </div>
-      <h3>${escapeHtml(report.title || "Latest report")}</h3>
+      <h3>${escapeHtml(report.title || "Latest research report")}</h3>
       ${highlights.length ? `
         <ul class="report-highlight-list">
           ${highlights.slice(0, 5).map((line) => `<li>${escapeHtml(line)}</li>`).join("")}
         </ul>
-      ` : `<p class="report-empty">No compact highlights were extracted from this report.</p>`}
+      ` : `<p class="report-empty">No decision-relevant highlights were extracted from this report.</p>`}
       ${tables.length ? `
-        <div class="brief-section-title">Compact table excerpts</div>
+        <div class="brief-section-title">Selected table excerpts</div>
         ${tables.slice(0, 2).map(reportTable).join("")}
       ` : ""}
     </article>
@@ -510,18 +510,18 @@ function reportSection(section) {
     <details class="report-panel">
       <summary>
         <span>
-          <strong>${escapeHtml(section.title || "Latest report")}</strong>
+          <strong>${escapeHtml(section.title || "Latest research digest")}</strong>
           <small>${escapeHtml(section.updated_at || "waiting")}</small>
         </span>
-        <em>${reports.length ? `${reports.length} source${reports.length > 1 ? "s" : ""}` : "no report yet"}</em>
+        <em>${reports.length ? `${reports.length} source${reports.length > 1 ? "s" : ""}` : "awaiting data"}</em>
       </summary>
       <div class="report-panel-body">
-        <p>${escapeHtml(section.summary || "Latest web-formatted report digest.")}</p>
+        <p>${escapeHtml(section.summary || "Latest web-formatted research digest.")}</p>
         ${reports.length ? reports.map(reportSourceCard).join("") : `
-          <div class="report-empty">No latest report has been published for this slot yet.</div>
+          <div class="report-empty">No research digest has been published for this section yet.</div>
         `}
         <div class="brief-disclaimer">
-          Compact public digest only. Not financial advice. Raw email text, repeated boilerplate,
+          Compact research digest only. Not financial advice. Raw email text, repeated boilerplate,
           private recipients, secrets, local paths, infrastructure details, source links,
           and implementation internals are not published.
         </div>
@@ -536,8 +536,8 @@ function renderReportSections(payload) {
   if (!grid || !meta) return;
   const sections = Array.isArray(payload.report_sections) ? payload.report_sections : [];
   meta.textContent = sections.length
-    ? `Published ${payload.published_at || "recently"} | ${sections.length} latest report panels`
-    : "No report digests have been published yet.";
+    ? `Published ${payload.published_at || "recently"} | ${sections.length} research digest sections`
+    : "No research digests have been published yet.";
   grid.innerHTML = sections.length ? sections.map(reportSection).join("") : "";
 }
 
@@ -551,7 +551,7 @@ async function loadAgentBriefs() {
     renderAshareSignalTracking(payload);
     renderBriefPulse(payload, briefs);
     renderReportSections(payload);
-    meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized surfaces | Private implementation withheld`;
+    meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized research briefs | Private implementation withheld`;
     grid.innerHTML = briefs.length
       ? briefs.map(briefCard).join("")
       : "";
@@ -559,7 +559,7 @@ async function loadAgentBriefs() {
     renderAshareSignalTracking({});
     renderBriefPulse({ published_at: "waiting", scope: "no_public_snapshot" }, []);
     renderReportSections({ report_sections: [] });
-    meta.textContent = "No public agent brief snapshot has been published yet.";
+    meta.textContent = "No market-intelligence summary has been published yet.";
     grid.innerHTML = "";
   }
 }
