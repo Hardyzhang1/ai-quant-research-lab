@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-07 18:25 local",
+  "published_at": "2026-09-07 21:31 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -741,18 +741,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-04 21:27 local",
+      "updated_at": "2026-09-07 21:26 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-04 21:27 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-04 21:27 local",
+          "generated_at": "2026-09-07 21:26 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-07 21:26 local",
           "highlights": [
-            "宏观 - 美国8月非农就业报告",
-            "宏观 - 债券市场警报",
-            "宏观 - 柴油价格创历史新高"
+            "宏观 - Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+            "宏观 - Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
+            "宏观 - Is the stock market open today for Labor Day? What about bond trading and mail delivery?"
           ],
           "tables": [
             {
@@ -765,38 +765,38 @@
               ],
               "rows": [
                 [
-                  "美国8月非农就业报告",
-                  "2026年9月4日发布",
-                  "新增就业16.2万人，远超预期；失业率4.1%",
-                  "强劲就业数据削弱降息预期，影响美联储政策路径和风险资产估值。",
-                  "high"
-                ],
-                [
-                  "债券市场警报",
-                  "2026年9月4日新闻",
-                  "通胀可能回升，债券市场收益率上升",
-                  "全球债券抛售可能推动收益率走高，压制股市估值，尤其影响科技和成长股。",
-                  "high"
-                ],
-                [
-                  "柴油价格创历史新高",
-                  "2026年9月4日新闻",
-                  "乌克兰和伊朗战争导致炼油厂关停，柴油价格创新高",
-                  "能源成本上升加剧通胀担忧，影响消费者支出和企业盈利，可能利好能源股，但利空交通运输和消费板块。",
+                  "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+                  "past/upcoming 24h",
+                  "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "挪威主权财富基金减持美国国债",
-                  "2026年9月4日新闻",
-                  "世界最大主权财富基金计划削减美国国债持仓",
-                  "大规模减持可能推升美债收益率，影响美元和全球资本流动，对市场有广泛影响。",
+                  "Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "能源通胀与地缘冲突",
-                  "2026年9月4日新闻",
-                  "伊朗局势及欧美制裁持续升级",
-                  "地缘风险影响油价和供应链，可能加剧通胀和市场波动。",
+                  "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
+                  "past/upcoming 24h",
+                  "MarketWatch.com - Top Stories",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Veterinary Diagnostic Markets Report Now Available — See Exactly How IDEXX, Zoetis, Antech, Roche,...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in Septemb...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
               ]
@@ -810,34 +810,34 @@
               ],
               "rows": [
                 [
-                  "Tesla (TSLA) MarketWatch.com - Top Stories · 2026-09-04T13:25:00+00:00 - MarketWatch.com - Top Stor...",
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a stron...",
+                  "AMD",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
+                ],
+                [
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
+                  "INTC",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Tesla Inc.（TSLA） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI, Anthropic IPOs Could Spark a Sel...",
                   "TSLA",
                   "利空",
-                  "Cybercab发布未提供明确的部署时间表和监管路径，引发市场失望情绪，导致股价下跌。 位置：自动驾驶与电动汽车制造商 瓶颈：自动驾驶技术及监管批准 证据：中；研究优先级：高 反方风险：市场期望过高..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
                 ],
                 [
-                  "NVIDIA (NVDA) US Top News and Analysis · 2026-09-04T11:31:30+00:00 - Yahoo Finance - Yahoo Finance...",
-                  "NVDA",
-                  "利好",
-                  "收购Hugging Face增强AI开发者生态系统，可能带来长期战略优势。 位置：AI芯片及平台供应商 瓶颈：AI算力与模型分发平台 证据：强；研究优先级：高 反方风险：反垄断审查或整合风险。"
-                ],
-                [
-                  "Meta Platforms (META) Yahoo Finance · 2026-09-04T12:27:04+00:00 - Yahoo Finance",
-                  "META",
-                  "利好",
-                  "新产品发布刺激股价上涨，反映了市场对AI进展的积极反应。 位置：社交媒体与AI技术公司 瓶颈：AI模型能力 证据：中；研究优先级：中 反方风险：竞争压力可能限制长期影响。"
-                ],
-                [
-                  "Alphabet (GOOGL) Yahoo Finance · 2026-09-04T13:14:00+00:00 - Yahoo Finance - Yahoo Finance",
-                  "GOOGL",
-                  "利好",
-                  "管理层对Waymo前景的乐观表态可能提升市场对自动驾驶业务的估值。 位置：互联网服务与自动驾驶技术 瓶颈：自动驾驶技术商业化的路径 证据：弱；研究优先级：中 反方风险：Waymo商业化可能延迟或亏损。"
-                ],
-                [
-                  "Microsoft (MSFT) US Top News and Analysis · 2026-09-03T19:03:56+00:00 - US Top News and Analysis",
-                  "MSFT",
+                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI,...",
+                  "IBM",
                   "中性",
-                  "措施旨在控制成本，但可能引发用户不满，对整体影响有限。 位置：云服务及游戏业务提供商 瓶颈：云游戏成本结构 证据：中；研究优先级：低 反方风险：用户流失或影响Xbox生态。"
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -846,14 +846,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-09-04 21:25 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-04 21:27 local",
+          "generated_at": "2026-09-07 21:24 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-07 21:26 local",
           "highlights": [
             "市场状态分层：震荡市",
             "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 +0.3%，20日 +0.6%",
+            "SPY 5日 +0.1%，20日 -0.4%",
             "QQQ相对SPY 20日 -0.2%",
-            "VIXY 5日 -2.3%，20日 -13.2%"
+            "VIXY 5日 -3.7%，20日 -13.1%"
           ],
           "tables": [
             {
@@ -866,38 +866,38 @@
               ],
               "rows": [
                 [
-                  "美国8月非农就业报告",
-                  "2026年9月4日发布",
-                  "新增就业16.2万人，远超预期；失业率4.1%",
-                  "强劲就业数据削弱降息预期，影响美联储政策路径和风险资产估值。",
-                  "high"
-                ],
-                [
-                  "债券市场警报",
-                  "2026年9月4日新闻",
-                  "通胀可能回升，债券市场收益率上升",
-                  "全球债券抛售可能推动收益率走高，压制股市估值，尤其影响科技和成长股。",
-                  "high"
-                ],
-                [
-                  "柴油价格创历史新高",
-                  "2026年9月4日新闻",
-                  "乌克兰和伊朗战争导致炼油厂关停，柴油价格创新高",
-                  "能源成本上升加剧通胀担忧，影响消费者支出和企业盈利，可能利好能源股，但利空交通运输和消费板块。",
+                  "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+                  "past/upcoming 24h",
+                  "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "挪威主权财富基金减持美国国债",
-                  "2026年9月4日新闻",
-                  "世界最大主权财富基金计划削减美国国债持仓",
-                  "大规模减持可能推升美债收益率，影响美元和全球资本流动，对市场有广泛影响。",
+                  "Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "能源通胀与地缘冲突",
-                  "2026年9月4日新闻",
-                  "伊朗局势及欧美制裁持续升级",
-                  "地缘风险影响油价和供应链，可能加剧通胀和市场波动。",
+                  "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
+                  "past/upcoming 24h",
+                  "MarketWatch.com - Top Stories",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Veterinary Diagnostic Markets Report Now Available — See Exactly How IDEXX, Zoetis, Antech, Roche,...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in Septemb...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
               ]
@@ -911,34 +911,34 @@
               ],
               "rows": [
                 [
-                  "Tesla (TSLA) MarketWatch.com - Top Stories · 2026-09-04T13:25:00+00:00 - MarketWatch.com - Top Stor...",
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a stron...",
+                  "AMD",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
+                ],
+                [
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
+                  "INTC",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Tesla Inc.（TSLA） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI, Anthropic IPOs Could Spark a Sel...",
                   "TSLA",
                   "利空",
-                  "Cybercab发布未提供明确的部署时间表和监管路径，引发市场失望情绪，导致股价下跌。 位置：自动驾驶与电动汽车制造商 瓶颈：自动驾驶技术及监管批准 证据：中；研究优先级：高 反方风险：市场期望过高..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
                 ],
                 [
-                  "NVIDIA (NVDA) US Top News and Analysis · 2026-09-04T11:31:30+00:00 - Yahoo Finance - Yahoo Finance...",
-                  "NVDA",
-                  "利好",
-                  "收购Hugging Face增强AI开发者生态系统，可能带来长期战略优势。 位置：AI芯片及平台供应商 瓶颈：AI算力与模型分发平台 证据：强；研究优先级：高 反方风险：反垄断审查或整合风险。"
-                ],
-                [
-                  "Meta Platforms (META) Yahoo Finance · 2026-09-04T12:27:04+00:00 - Yahoo Finance",
-                  "META",
-                  "利好",
-                  "新产品发布刺激股价上涨，反映了市场对AI进展的积极反应。 位置：社交媒体与AI技术公司 瓶颈：AI模型能力 证据：中；研究优先级：中 反方风险：竞争压力可能限制长期影响。"
-                ],
-                [
-                  "Alphabet (GOOGL) Yahoo Finance · 2026-09-04T13:14:00+00:00 - Yahoo Finance - Yahoo Finance",
-                  "GOOGL",
-                  "利好",
-                  "管理层对Waymo前景的乐观表态可能提升市场对自动驾驶业务的估值。 位置：互联网服务与自动驾驶技术 瓶颈：自动驾驶技术商业化的路径 证据：弱；研究优先级：中 反方风险：Waymo商业化可能延迟或亏损。"
-                ],
-                [
-                  "Microsoft (MSFT) US Top News and Analysis · 2026-09-03T19:03:56+00:00 - US Top News and Analysis",
-                  "MSFT",
+                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI,...",
+                  "IBM",
                   "中性",
-                  "措施旨在控制成本，但可能引发用户不满，对整体影响有限。 位置：云服务及游戏业务提供商 瓶颈：云游戏成本结构 证据：中；研究优先级：低 反方风险：用户流失或影响Xbox生态。"
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ]
               ]
             }
