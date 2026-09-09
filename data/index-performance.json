@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-09 08:05:28 Asia/Shanghai",
+  "published_at": "2026-09-09 09:15:34 Asia/Shanghai",
   "as_of": "2026-09-09",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,16 +9,16 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3940.55,
-      "change_pct": 0.2,
+      "last": 3940.42,
+      "change_pct": -0.0,
       "status": "Intraday"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 4558.74,
-      "change_pct": -0.36,
+      "last": 4558.59,
+      "change_pct": -0.0,
       "status": "Intraday"
     },
     {
@@ -26,15 +26,15 @@
       "name": "Hang Seng",
       "symbol": "hkHSI",
       "last": 25317.18,
-      "change_pct": -0.38,
+      "change_pct": 0.0,
       "status": "Intraday"
     },
     {
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 65269.33,
-      "change_pct": 0.0,
+      "last": 65637.61,
+      "change_pct": 0.56,
       "status": "Intraday"
     },
     {
@@ -58,7 +58,7 @@
       "name": "CAC 40",
       "symbol": ".FCHI",
       "last": 8317.98,
-      "change_pct": 0.14,
+      "change_pct": 0.0,
       "status": "Latest / overseas"
     },
     {
