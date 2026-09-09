@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-09 18:27 local",
+  "published_at": "2026-09-09 21:31 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -735,18 +735,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-07 21:26 local",
+      "updated_at": "2026-09-09 21:26 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-07 21:26 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-07 21:26 local",
+          "generated_at": "2026-09-09 21:26 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-09 21:26 local",
           "highlights": [
-            "宏观 - Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
-            "宏观 - Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
-            "宏观 - Is the stock market open today for Labor Day? What about bond trading and mail delivery?"
+            "宏观 - Stock Market Today: Dow Falls Amid Rising Oil Prices; Apple Shares Drop Ahead Of iPhone Event (Live Coverage)",
+            "宏观 - Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
+            "宏观 - Bessent bond plan details to be revealed as Treasury secretary warns FX traders he's 'the house now'"
           ],
           "tables": [
             {
@@ -759,35 +759,35 @@
               ],
               "rows": [
                 [
-                  "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+                  "Stock Market Today: Dow Falls Amid Rising Oil Prices; Apple Shares Drop Ahead Of iPhone Event (Live...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Bessent bond plan details to be revealed as Treasury secretary warns FX traders he's 'the house now'",
                   "past/upcoming 24h",
                   "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
+                  "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Abercrombie & Fitch, Affirm Holdings, Ea...",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Veterinary Diagnostic Markets Report Now Available — See Exactly How IDEXX, Zoetis, Antech, Roche,...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in Septemb...",
+                  "Trump oil and gas holdings gained up to $4.4M during Iran war",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
@@ -804,34 +804,22 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
-                  "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a stron...",
-                  "AMD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
-                  "INTC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Tesla Inc.（TSLA） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI, Anthropic IPOs Could Spark a Sel...",
-                  "TSLA",
+                  "苹果 (AAPL) 新品发布前股价承压，市场关注iPhone 17及AI功能 Yahoo Finance · 2026-09-09T12:54:56+00:00 Stock Market Today...",
+                  "AAPL",
                   "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
+                  "发布会前股价下跌反映投资者对预期兑现的担忧，且大盘环境不利。 位置：终端设备制造商 瓶颈：AI功能和应用生态 证据：中；研究优先级：中 反方风险：发布会若超预期可能扭转股价走势。"
                 ],
                 [
-                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI,...",
-                  "IBM",
+                  "Meta (META) 推出付费AI代理Muse，股价大涨6% MarketWatch · 2026-09-09T12:43:00+00:00 Meta Rises 6% as Muse AI Ag...",
+                  "META",
+                  "利好",
+                  "新AI产品提供明确变现路径，提振市场信心。 位置：AI应用层 瓶颈：AI产品变现能力 证据：强；研究优先级：高 反方风险：订阅用户增长不及预期可能导致股价回落。"
+                ],
+                [
+                  "谷歌母公司Alphabet (GOOGL) 计划在芬兰投资150亿美元建设AI基础设施 CNBC · 2026-09-09T09:15:41+00:00 Google to invest recor...",
+                  "GOOGL",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "长期利好但短期财务压力，市场反应需观察。 位置：AI基础设施与云服务提供商 瓶颈：数据中心和算力 证据：强；研究优先级：中 反方风险：投资回报周期长，可能短期拖累盈利。"
                 ]
               ]
             }
@@ -840,14 +828,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-09-07 21:24 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-07 21:26 local",
+          "generated_at": "2026-09-09 21:25 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-09 21:26 local",
           "highlights": [
             "市场状态分层：震荡市",
             "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 +0.1%，20日 -0.4%",
-            "QQQ相对SPY 20日 -0.2%",
-            "VIXY 5日 -3.7%，20日 -13.1%"
+            "SPY 5日 -0.1%，20日 -0.9%",
+            "QQQ相对SPY 20日 +0.6%",
+            "VIXY 5日 +0.1%，20日 -11.5%"
           ],
           "tables": [
             {
@@ -860,35 +848,35 @@
               ],
               "rows": [
                 [
-                  "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+                  "Stock Market Today: Dow Falls Amid Rising Oil Prices; Apple Shares Drop Ahead Of iPhone Event (Live...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Bessent bond plan details to be revealed as Treasury secretary warns FX traders he's 'the house now'",
                   "past/upcoming 24h",
                   "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
+                  "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Abercrombie & Fitch, Affirm Holdings, Ea...",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Veterinary Diagnostic Markets Report Now Available — See Exactly How IDEXX, Zoetis, Antech, Roche,...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in Septemb...",
+                  "Trump oil and gas holdings gained up to $4.4M during Iran war",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
@@ -905,34 +893,22 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
-                  "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a stron...",
-                  "AMD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-07T11:03:00+00:00 Nvidia just sent a strong signal...",
-                  "INTC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Tesla Inc.（TSLA） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI, Anthropic IPOs Could Spark a Sel...",
-                  "TSLA",
+                  "苹果 (AAPL) 新品发布前股价承压，市场关注iPhone 17及AI功能 Yahoo Finance · 2026-09-09T12:54:56+00:00 Stock Market Today...",
+                  "AAPL",
                   "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
+                  "发布会前股价下跌反映投资者对预期兑现的担忧，且大盘环境不利。 位置：终端设备制造商 瓶颈：AI功能和应用生态 证据：中；研究优先级：中 反方风险：发布会若超预期可能扭转股价走势。"
                 ],
                 [
-                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-09-07T12:49:38+00:00 OpenAI,...",
-                  "IBM",
+                  "Meta (META) 推出付费AI代理Muse，股价大涨6% MarketWatch · 2026-09-09T12:43:00+00:00 Meta Rises 6% as Muse AI Ag...",
+                  "META",
+                  "利好",
+                  "新AI产品提供明确变现路径，提振市场信心。 位置：AI应用层 瓶颈：AI产品变现能力 证据：强；研究优先级：高 反方风险：订阅用户增长不及预期可能导致股价回落。"
+                ],
+                [
+                  "谷歌母公司Alphabet (GOOGL) 计划在芬兰投资150亿美元建设AI基础设施 CNBC · 2026-09-09T09:15:41+00:00 Google to invest recor...",
+                  "GOOGL",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "长期利好但短期财务压力，市场反应需观察。 位置：AI基础设施与云服务提供商 瓶颈：数据中心和算力 证据：强；研究优先级：中 反方风险：投资回报周期长，可能短期拖累盈利。"
                 ]
               ]
             }
