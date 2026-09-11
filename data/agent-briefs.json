@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-11 17:20 local",
+  "published_at": "2026-09-11 21:31 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -741,18 +741,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-10 21:27 local",
+      "updated_at": "2026-09-11 21:26 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-10 21:27 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-10 21:27 local",
+          "generated_at": "2026-09-11 21:26 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-11 21:26 local",
           "highlights": [
-            "宏观 - 10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-            "宏观 - U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
-            "宏观 - Bank of America says rising bond yields aren't a threat to AI trade yet"
+            "宏观 - Stock Market Today: Dow Rallies On Surprise Inflation Data; Nvidia Rebounds, Oracle Jumps (Live Coverage)",
+            "宏观 - IEA warns global oil refining system ‘stretched to the limit’ as Iran, Ukraine wars tighten market",
+            "宏观 - Never mind the bond yields, Bank of America shows where the real threat to the economy lies"
           ],
           "tables": [
             {
@@ -765,35 +765,35 @@
               ],
               "rows": [
                 [
-                  "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Bank of America says rising bond yields aren't a threat to AI trade yet",
+                  "Stock Market Today: Dow Rallies On Surprise Inflation Data; Nvidia Rebounds, Oracle Jumps (Live Cov...",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Update: US Equity Futures Lower Pre-Bell Thursday as Traders Assess Inflation Data Amid Higher Oil...",
+                  "IEA warns global oil refining system ‘stretched to the limit’ as Iran, Ukraine wars tighten market",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Stock Market Today: Dow Falls After Surprise Inflation Data; Nvidia Chipmaker Slides On Sales (Live...",
+                  "Never mind the bond yields, Bank of America shows where the real threat to the economy lies",
+                  "past/upcoming 24h",
+                  "MarketWatch.com - Top Stories",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slow...",
+                  "past/upcoming 24h",
+                  "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Hot CPI Inflation Seals Fed Rate Hike, But Stocks Rise (Live Coverage)",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
@@ -810,32 +810,32 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top Wall Str...",
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-11T12:57:02+00:00 TSM’s Record Sales Say AI Chips...",
                   "NVDA",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Meta Platforms Inc. Class A（META） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top...",
-                  "META",
+                  "Taiwan Semiconductor Manufacturing Company（TSM） Yahoo Finance · 2026-09-11T12:57:02+00:00 TSM’s Rec...",
+                  "TSM",
                   "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：AI/半导体/算力基础设施 瓶颈：重点看算力芯片、先进封装、内存带宽、供电散热、云资本开支是否形成真实约束 证据：弱；研究优先级：低 反方风险：如果..."
+                ],
+                [
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-11T12:57:02+00:00 TSM’s Record Sales Say A...",
+                  "AMD",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为..."
+                ],
+                [
+                  "Oracle Corporation（ORCL） Yahoo Finance · 2026-09-11T13:10:19+00:00 Stock Market Today: Dow Rallies...",
+                  "ORCL",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top...",
-                  "AMD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Caterpillar Inc.（CAT） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top Wall Street...",
-                  "CAT",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Amgen Inc.（AMGN） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top Wall Street Anal...",
-                  "AMGN",
+                  "Visa（V） Yahoo Finance · 2026-09-11T13:05:42+00:00 Why Visa’s Agentic Commerce Play Isn’t the Threat...",
+                  "V",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ]
@@ -845,15 +845,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-09-10 21:25 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-10 21:27 local",
+          "title": "美股盘前重要金融新闻",
+          "generated_at": "2026-09-11 21:24 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-11 21:26 local",
           "highlights": [
-            "市场状态分层：震荡市",
-            "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 +0.1%，20日 -1.1%",
-            "QQQ相对SPY 20日 +0.8%",
-            "VIXY 5日 -1.3%，20日 -9.0%"
+            "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
+            "市场状态分层：市场状态未知",
+            "多头权重：1.0，空头权重：1.0",
+            "市场状态识别失败：insufficient market bars",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。"
           ],
           "tables": [
             {
@@ -866,35 +866,35 @@
               ],
               "rows": [
                 [
-                  "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Bank of America says rising bond yields aren't a threat to AI trade yet",
+                  "Stock Market Today: Dow Rallies On Surprise Inflation Data; Nvidia Rebounds, Oracle Jumps (Live Cov...",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Update: US Equity Futures Lower Pre-Bell Thursday as Traders Assess Inflation Data Amid Higher Oil...",
+                  "IEA warns global oil refining system ‘stretched to the limit’ as Iran, Ukraine wars tighten market",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Stock Market Today: Dow Falls After Surprise Inflation Data; Nvidia Chipmaker Slides On Sales (Live...",
+                  "Never mind the bond yields, Bank of America shows where the real threat to the economy lies",
+                  "past/upcoming 24h",
+                  "MarketWatch.com - Top Stories",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slow...",
+                  "past/upcoming 24h",
+                  "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Hot CPI Inflation Seals Fed Rate Hike, But Stocks Rise (Live Coverage)",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
@@ -911,32 +911,32 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top Wall Str...",
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-11T12:57:02+00:00 TSM’s Record Sales Say AI Chips...",
                   "NVDA",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Meta Platforms Inc. Class A（META） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top...",
-                  "META",
+                  "Taiwan Semiconductor Manufacturing Company（TSM） Yahoo Finance · 2026-09-11T12:57:02+00:00 TSM’s Rec...",
+                  "TSM",
                   "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：AI/半导体/算力基础设施 瓶颈：重点看算力芯片、先进封装、内存带宽、供电散热、云资本开支是否形成真实约束 证据：弱；研究优先级：低 反方风险：如果..."
+                ],
+                [
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-11T12:57:02+00:00 TSM’s Record Sales Say A...",
+                  "AMD",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为..."
+                ],
+                [
+                  "Oracle Corporation（ORCL） Yahoo Finance · 2026-09-11T13:10:19+00:00 Stock Market Today: Dow Rallies...",
+                  "ORCL",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top...",
-                  "AMD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Caterpillar Inc.（CAT） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top Wall Street...",
-                  "CAT",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Amgen Inc.（AMGN） Yahoo Finance · 2026-09-10T12:09:59+00:00 Here Are Thursday’s Top Wall Street Anal...",
-                  "AMGN",
+                  "Visa（V） Yahoo Finance · 2026-09-11T13:05:42+00:00 Why Visa’s Agentic Commerce Play Isn’t the Threat...",
+                  "V",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ]
