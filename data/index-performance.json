@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "published_at": "2026-09-10 21:31:57 Asia/Shanghai",
-  "as_of": "2026-09-10",
+  "published_at": "2026-09-11 09:15:07 Asia/Shanghai",
+  "as_of": "2026-09-11",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
   "indices": [
@@ -9,80 +9,80 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3934.4,
-      "change_pct": -0.43,
-      "status": "Latest close"
+      "last": 3934.15,
+      "change_pct": -0.01,
+      "status": "Intraday"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 4548.39,
-      "change_pct": -0.53,
-      "status": "Latest close"
+      "last": 4548.04,
+      "change_pct": -0.01,
+      "status": "Intraday"
     },
     {
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
       "last": 24954.47,
-      "change_pct": -1.27,
-      "status": "Latest close"
+      "change_pct": 0.0,
+      "status": "Intraday"
     },
     {
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 65270.95,
-      "change_pct": 0.2,
-      "status": "Latest close"
+      "last": 63626.77,
+      "change_pct": -2.52,
+      "status": "Intraday"
     },
     {
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10631.16,
-      "change_pct": -0.36,
+      "last": 10608.92,
+      "change_pct": -0.57,
       "status": "Latest / overseas"
     },
     {
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 25429.74,
-      "change_pct": -0.57,
+      "last": 25361.15,
+      "change_pct": -0.84,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8127.11,
-      "change_pct": -0.36,
+      "last": 8116.76,
+      "change_pct": 0.0,
       "status": "Latest / overseas"
     },
     {
       "region": "United States",
       "name": "S&P 500",
       "symbol": "us.INX",
-      "last": 7590.35,
-      "change_pct": -0.6,
+      "last": 7591.7,
+      "change_pct": -0.58,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Nasdaq",
       "symbol": "us.IXIC",
-      "last": 26012.44,
-      "change_pct": -0.92,
+      "last": 26081.72,
+      "change_pct": -0.65,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Dow Jones",
       "symbol": "us.DJI",
-      "last": 52105.18,
-      "change_pct": -0.53,
+      "last": 52064.1,
+      "change_pct": -0.6,
       "status": "Latest / overnight"
     }
   ],

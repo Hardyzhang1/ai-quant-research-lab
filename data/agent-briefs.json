@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-10 21:31 local",
+  "published_at": "2026-09-11 09:15 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -440,7 +440,7 @@
     {
       "id": "a-share-pre-market",
       "title": "A share pre market",
-      "updated_at": "2026-09-10 09:03 local",
+      "updated_at": "2026-09-11 09:05 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
@@ -545,13 +545,13 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "A股开盘信息",
-          "generated_at": "2026-09-10 09:03 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-10 09:03 local",
+          "generated_at": "2026-09-11 09:05 local",
+          "updated_at": "2026-09-11 09:05 local",
           "highlights": [
-            "交易日：2026-09-10；股票池：zz1000；正式机会为空时应空仓/观望。",
-            "2026-09-09",
+            "交易日：2026-09-11；股票池：zz1000；正式机会为空时应空仓/观望。",
+            "2026-09-10",
             "zz1000_long10_bandit_liquid_...",
-            "本报告交易日为 2026-09-10；模型只使用 2026-09-09 及以前的数据，不使用当天盘中或收盘数据。",
+            "本报告交易日为 2026-09-11；模型只使用 2026-09-10 及以前的数据，不使用当天盘中或收盘数据。",
             "本次正式模型未触发可展示机会；按策略应空仓/观望。"
           ],
           "tables": [
@@ -559,7 +559,7 @@
               "headers": [
                 "正式机会 0",
                 "接近阈值 8",
-                "数据截止 2026-09-09",
+                "数据截止 2026-09-10",
                 "策略 zz1000_long10_bandit_liquid_..."
               ],
               "rows": []
