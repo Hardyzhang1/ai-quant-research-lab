@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-14 09:15:16 Asia/Shanghai",
+  "published_at": "2026-09-14 17:20:23 Asia/Shanghai",
   "as_of": "2026-09-14",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,57 +9,25 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3888.09,
-      "change_pct": -0.0,
-      "status": "Intraday"
+      "last": 3885.33,
+      "change_pct": -0.07,
+      "status": "Latest close"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 4510.16,
-      "change_pct": 0.0,
-      "status": "Intraday"
+      "last": 4480.08,
+      "change_pct": -0.67,
+      "status": "Latest close"
     },
     {
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
-      "last": 24805.63,
-      "change_pct": 0.0,
-      "status": "Intraday"
-    },
-    {
-      "region": "Japan",
-      "name": "Nikkei 225",
-      "symbol": ".N225",
-      "last": 62954.3,
-      "change_pct": -1.65,
-      "status": "Intraday"
-    },
-    {
-      "region": "United Kingdom",
-      "name": "FTSE 100",
-      "symbol": ".FTSE",
-      "last": 10650.44,
-      "change_pct": 0.39,
-      "status": "Latest / overseas"
-    },
-    {
-      "region": "Germany",
-      "name": "DAX",
-      "symbol": ".GDAXI",
-      "last": 25568.56,
-      "change_pct": 0.82,
-      "status": "Latest / overseas"
-    },
-    {
-      "region": "France",
-      "name": "CAC 40",
-      "symbol": ".FCHI",
-      "last": 8179.77,
-      "change_pct": 0.0,
-      "status": "Latest / overseas"
+      "last": 24917.6,
+      "change_pct": 0.45,
+      "status": "Latest close"
     },
     {
       "region": "United States",
@@ -86,5 +54,7 @@
       "status": "Latest / overnight"
     }
   ],
-  "errors": []
+  "errors": [
+    "cnbc: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+  ]
 }
