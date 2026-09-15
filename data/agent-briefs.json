@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-15 17:20 local",
+  "published_at": "2026-09-15 21:33 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -741,18 +741,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-14 21:19 local",
+      "updated_at": "2026-09-15 21:28 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-14 21:19 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-14 21:19 local",
+          "generated_at": "2026-09-15 21:28 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-15 21:28 local",
           "highlights": [
-            "宏观 - 10-year Treasury yield nears 5% ahead of Fed rate decision this week",
-            "宏观 - Stock Market Today: Dow Falls On Surging Oil; Nvidia Sells Off On AI Warning (Live Coverage)",
-            "宏观 - Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway."
+            "宏观 - Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets",
+            "宏观 - Stock Market Today: Dow Falls As Yields, Oil Prices Rise Ahead Of Fed Meeting; Nvidia Set To Rebound (Live Coverage)",
+            "宏观 - 10-year Treasury yield rises to highest since 2007 as Fed rate-hike expectations rise"
           ],
           "tables": [
             {
@@ -765,37 +765,37 @@
               ],
               "rows": [
                 [
-                  "10-year Treasury yield nears 5% ahead of Fed rate decision this week",
+                  "Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets",
                   "past/upcoming 24h",
                   "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Stock Market Today: Dow Falls On Surging Oil; Nvidia Sells Off On AI Warning (Live Coverage)",
+                  "Stock Market Today: Dow Falls As Yields, Oil Prices Rise Ahead Of Fed Meeting; Nvidia Set To Reboun...",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Correction: Update: US Equity Futures Lower Pre-Bell as Traders Assess Call for AI Advancement Slow...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Brent crude tops $109 after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
+                  "10-year Treasury yield rises to highest since 2007 as Fed rate-hike expectations rise",
                   "past/upcoming 24h",
                   "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Equity positioning turns more defensive across major markets: Citi",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "BAC Warns of Q3 Capital Markets Weakness: Will Fee Income Take a Hit?",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -810,34 +810,34 @@
               ],
               "rows": [
                 [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-14T10:51:00+00:00 Intel, AMD, Marvell, Ora...",
-                  "AMD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-14T10:51:00+00:00 Intel, AMD, Marvell, Oracle, Crow...",
-                  "INTC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Oracle Corporation（ORCL） Yahoo Finance · 2026-09-14T10:51:00+00:00 Intel, AMD, Marvell, Oracle, Cro...",
-                  "ORCL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Apple Inc.（AAPL） Yahoo Finance · 2026-09-14T13:00:12+00:00 Apple vs. Microsoft: This Is the Magnifi...",
-                  "AAPL",
+                  "ASML Holding N.V. New York Registry Shares（ASML） Yahoo Finance · 2026-09-15T11:00:49+00:00 Lam Rese...",
+                  "ASML",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Microsoft Corporation（MSFT） Yahoo Finance · 2026-09-14T13:00:12+00:00 Apple vs. Microsoft: This Is...",
-                  "MSFT",
-                  "利好",
+                  "Lam Research Corporation（LRCX） Yahoo Finance · 2026-09-15T11:00:49+00:00 Lam Research Vs. Applied M...",
+                  "LRCX",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Applied Materials Inc.（AMAT） Yahoo Finance · 2026-09-15T11:00:49+00:00 Lam Research Vs. Applied Mat...",
+                  "AMAT",
+                  "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-15T13:06:00+00:00 Announcing Koa: Salesforce’s Fir...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Salesforce Inc.（CRM） Yahoo Finance · 2026-09-15T13:06:00+00:00 Announcing Koa: Salesforce’s First C...",
+                  "CRM",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性..."
                 ]
               ]
             }
@@ -846,8 +846,8 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-14 21:18 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-14 21:19 local",
+          "generated_at": "2026-09-15 21:27 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-15 21:28 local",
           "highlights": [
             "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
             "市场状态分层：市场状态未知",
@@ -866,37 +866,37 @@
               ],
               "rows": [
                 [
-                  "10-year Treasury yield nears 5% ahead of Fed rate decision this week",
+                  "Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets",
                   "past/upcoming 24h",
                   "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Stock Market Today: Dow Falls On Surging Oil; Nvidia Sells Off On AI Warning (Live Coverage)",
+                  "Stock Market Today: Dow Falls As Yields, Oil Prices Rise Ahead Of Fed Meeting; Nvidia Set To Reboun...",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Correction: Update: US Equity Futures Lower Pre-Bell as Traders Assess Call for AI Advancement Slow...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Brent crude tops $109 after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
+                  "10-year Treasury yield rises to highest since 2007 as Fed rate-hike expectations rise",
                   "past/upcoming 24h",
                   "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Equity positioning turns more defensive across major markets: Citi",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "BAC Warns of Q3 Capital Markets Weakness: Will Fee Income Take a Hit?",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -911,34 +911,34 @@
               ],
               "rows": [
                 [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-09-14T10:51:00+00:00 Intel, AMD, Marvell, Ora...",
-                  "AMD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-14T10:51:00+00:00 Intel, AMD, Marvell, Oracle, Crow...",
-                  "INTC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Oracle Corporation（ORCL） Yahoo Finance · 2026-09-14T10:51:00+00:00 Intel, AMD, Marvell, Oracle, Cro...",
-                  "ORCL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Apple Inc.（AAPL） Yahoo Finance · 2026-09-14T13:00:12+00:00 Apple vs. Microsoft: This Is the Magnifi...",
-                  "AAPL",
+                  "ASML Holding N.V. New York Registry Shares（ASML） Yahoo Finance · 2026-09-15T11:00:49+00:00 Lam Rese...",
+                  "ASML",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Microsoft Corporation（MSFT） Yahoo Finance · 2026-09-14T13:00:12+00:00 Apple vs. Microsoft: This Is...",
-                  "MSFT",
-                  "利好",
+                  "Lam Research Corporation（LRCX） Yahoo Finance · 2026-09-15T11:00:49+00:00 Lam Research Vs. Applied M...",
+                  "LRCX",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Applied Materials Inc.（AMAT） Yahoo Finance · 2026-09-15T11:00:49+00:00 Lam Research Vs. Applied Mat...",
+                  "AMAT",
+                  "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-15T13:06:00+00:00 Announcing Koa: Salesforce’s Fir...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Salesforce Inc.（CRM） Yahoo Finance · 2026-09-15T13:06:00+00:00 Announcing Koa: Salesforce’s First C...",
+                  "CRM",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性..."
                 ]
               ]
             }
