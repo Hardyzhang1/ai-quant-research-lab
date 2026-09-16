@@ -583,7 +583,8 @@ def latest(paths: list[Path]) -> Path | None:
 def build_section(section_id: str, title: str, candidates: list[Path]) -> dict:
     # Keep only the latest report per agent type inside the section. This avoids dumping old emails.
     chosen: list[Path] = []
-    for label in ("Market News Agent", "Trading Recommendation Agent"):
+    labels = ("Market News Agent",) if section_id == "us-post-market" else ("Market News Agent", "Trading Recommendation Agent")
+    for label in labels:
         path = latest([p for p in candidates if source_label(p) == label])
         if path:
             chosen.append(path)
