@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-17 16:59 local",
+  "published_at": "2026-09-17 21:23 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -741,18 +741,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-16 21:20 local",
+      "updated_at": "2026-09-17 21:19 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-16 21:20 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-16 21:20 local",
+          "generated_at": "2026-09-17 21:19 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-17 21:19 local",
           "highlights": [
-            "宏观 - U.S. Treasury yields surged above 5% amid heightened expectations of Federal Reserve rate hikes, pushing gold below $4,300 as markets await the Fed's interest rate decision. - Moomoo",
-            "宏观 - Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond Voyage?",
-            "宏观 - Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond Voyage? - Investor's Business Daily"
+            "宏观 - US market prediction today: S&P 500, Nasdaq futures jump up to 1% as Treasury yields ease, oil falls - Livemint",
+            "宏观 - Why is US Stock Market Up Today? Dow Jones Falls 200 Points, S&P 500 Gains 0.25%, Nasdaq Rises 0.64% as Oil Surges, Treasury Yields Hit & Fed Rate Hike Bets Rise — Check What Investors Should Know - The Sunday...",
+            "宏观 - US Stock Market Today: Dow Jones Slips 0.17%, S&P 500 Rises 0.20% & Nasdaq Edge Higher as Oil Prices Surges $109, Fed Rate Hike & Treasury Yields Hit Wall Street — Check What Investors Should Know - The Sunday..."
           ],
           "tables": [
             {
@@ -765,37 +765,37 @@
               ],
               "rows": [
                 [
-                  "U.S. Treasury yields surged above 5% amid heightened expectations of Federal Reserve rate hikes, pu...",
+                  "US market prediction today: S&P 500, Nasdaq futures jump up to 1% as Treasury yields ease, oil fall...",
                   "past/upcoming 24h",
-                  "Moomoo",
+                  "Livemint",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond...",
+                  "Why is US Stock Market Up Today? Dow Jones Falls 200 Points, S&P 500 Gains 0.25%, Nasdaq Rises 0.64...",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "The Sunday Guardian",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond...",
+                  "US Stock Market Today: Dow Jones Slips 0.17%, S&P 500 Rises 0.20% & Nasdaq Edge Higher as Oil Price...",
                   "past/upcoming 24h",
-                  "Investor's Business Daily",
+                  "The Sunday Guardian",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Gold rises, Treasury yields pause ahead of the FOMC rate decision - tmgm.com",
+                  "US Retail Sales Surge Recasts Fed Cut Bets, Lifting Treasury Yields and Supporting Dollar Options -...",
                   "past/upcoming 24h",
-                  "tmgm.com",
+                  "VT Markets",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury yields surge as Fed and oil pressure bonds - forex.com",
+                  "U.S. Treasury Yields Fall as Market Regains Trust in Fed’s Inflation Resolve - WSJ",
                   "past/upcoming 24h",
-                  "forex.com",
+                  "WSJ",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -810,33 +810,33 @@
               ],
               "rows": [
                 [
-                  "Amazon.com Inc.（AMZN） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Dow End Lower...",
-                  "AMZN",
+                  "Apple Inc.（AAPL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch Higher...",
+                  "AAPL",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Alphabet Inc. Class A（GOOGL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures...",
+                  "GOOGL",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "SK hynix Inc. American Depositary Shares（SKHY） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, N...",
+                  "SKHY",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
+                ],
+                [
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch...",
+                  "INTC",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Meta Platforms Inc. Class A（META） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Do...",
-                  "META",
+                  "Oracle Corporation（ORCL） foreignpolicyjournal.com · 2026-09-17T01:14:00+00:00 Nasdaq Futures Rise A...",
+                  "ORCL",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Tesla Inc.（TSLA） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Dow End Lower As In...",
-                  "TSLA",
-                  "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Micron Technology Inc.（MU） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Dow End L...",
-                  "MU",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Palantir Technologies Inc. Class A（PLTR） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nas...",
-                  "PLTR",
-                  "利空",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -846,14 +846,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-09-16 21:19 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-16 21:20 local",
+          "generated_at": "2026-09-17 21:18 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-17 21:19 local",
           "highlights": [
             "市场状态分层：震荡市",
             "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 -1.1%，20日 -2.0%",
-            "QQQ相对SPY 20日 -1.5%",
-            "VIXY 5日 +1.3%，20日 -6.9%"
+            "SPY 5日 -1.1%，20日 -1.7%",
+            "QQQ相对SPY 20日 -0.0%",
+            "VIXY 5日 +0.6%，20日 -6.3%"
           ],
           "tables": [
             {
@@ -866,37 +866,37 @@
               ],
               "rows": [
                 [
-                  "U.S. Treasury yields surged above 5% amid heightened expectations of Federal Reserve rate hikes, pu...",
+                  "US market prediction today: S&P 500, Nasdaq futures jump up to 1% as Treasury yields ease, oil fall...",
                   "past/upcoming 24h",
-                  "Moomoo",
+                  "Livemint",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond...",
+                  "Why is US Stock Market Up Today? Dow Jones Falls 200 Points, S&P 500 Gains 0.25%, Nasdaq Rises 0.64...",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "The Sunday Guardian",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond...",
+                  "US Stock Market Today: Dow Jones Slips 0.17%, S&P 500 Rises 0.20% & Nasdaq Edge Higher as Oil Price...",
                   "past/upcoming 24h",
-                  "Investor's Business Daily",
+                  "The Sunday Guardian",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Gold rises, Treasury yields pause ahead of the FOMC rate decision - tmgm.com",
+                  "US Retail Sales Surge Recasts Fed Cut Bets, Lifting Treasury Yields and Supporting Dollar Options -...",
                   "past/upcoming 24h",
-                  "tmgm.com",
+                  "VT Markets",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury yields surge as Fed and oil pressure bonds - forex.com",
+                  "U.S. Treasury Yields Fall as Market Regains Trust in Fed’s Inflation Resolve - WSJ",
                   "past/upcoming 24h",
-                  "forex.com",
+                  "WSJ",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -911,33 +911,33 @@
               ],
               "rows": [
                 [
-                  "Amazon.com Inc.（AMZN） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Dow End Lower...",
-                  "AMZN",
+                  "Apple Inc.（AAPL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch Higher...",
+                  "AAPL",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Alphabet Inc. Class A（GOOGL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures...",
+                  "GOOGL",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "SK hynix Inc. American Depositary Shares（SKHY） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, N...",
+                  "SKHY",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
+                ],
+                [
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch...",
+                  "INTC",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Meta Platforms Inc. Class A（META） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Do...",
-                  "META",
+                  "Oracle Corporation（ORCL） foreignpolicyjournal.com · 2026-09-17T01:14:00+00:00 Nasdaq Futures Rise A...",
+                  "ORCL",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Tesla Inc.（TSLA） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Dow End Lower As In...",
-                  "TSLA",
-                  "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Micron Technology Inc.（MU） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nasdaq, Dow End L...",
-                  "MU",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Palantir Technologies Inc. Class A（PLTR） finance.yahoo.com · 2026-09-15T22:04:55+00:00 S&P 500, Nas...",
-                  "PLTR",
-                  "利空",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
