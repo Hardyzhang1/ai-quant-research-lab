@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-17 09:15:55 Asia/Shanghai",
+  "published_at": "2026-09-17 09:24:42 Asia/Shanghai",
   "as_of": "2026-09-17",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -33,8 +33,8 @@
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 64003.61,
-      "change_pct": 0.13,
+      "last": 64215.67,
+      "change_pct": 0.46,
       "status": "Intraday"
     },
     {
