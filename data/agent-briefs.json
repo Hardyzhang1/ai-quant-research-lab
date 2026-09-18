@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-18 18:25 local",
+  "published_at": "2026-09-18 21:18 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -741,18 +741,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-17 21:19 local",
+      "updated_at": "2026-09-18 21:18 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-17 21:19 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-17 21:19 local",
+          "generated_at": "2026-09-18 21:18 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-18 21:18 local",
           "highlights": [
-            "宏观 - US market prediction today: S&P 500, Nasdaq futures jump up to 1% as Treasury yields ease, oil falls - Livemint",
-            "宏观 - Why is US Stock Market Up Today? Dow Jones Falls 200 Points, S&P 500 Gains 0.25%, Nasdaq Rises 0.64% as Oil Surges, Treasury Yields Hit & Fed Rate Hike Bets Rise — Check What Investors Should Know - The Sunday...",
-            "宏观 - US Stock Market Today: Dow Jones Slips 0.17%, S&P 500 Rises 0.20% & Nasdaq Edge Higher as Oil Prices Surges $109, Fed Rate Hike & Treasury Yields Hit Wall Street — Check What Investors Should Know - The Sunday..."
+            "宏观 - Stock Futures Rise as Oil Extends Losses, Treasury Yields Rise - marketscreener.com",
+            "宏观 - CME : E-mini S&P 500 futures rebound as Treasury yields pull back. - marketscreener.com",
+            "宏观 - US Stock Futures Rise as Oil Prices and Treasury Yields Decline: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance"
           ],
           "tables": [
             {
@@ -765,37 +765,37 @@
               ],
               "rows": [
                 [
-                  "US market prediction today: S&P 500, Nasdaq futures jump up to 1% as Treasury yields ease, oil fall...",
+                  "Stock Futures Rise as Oil Extends Losses, Treasury Yields Rise - marketscreener.com",
                   "past/upcoming 24h",
-                  "Livemint",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Why is US Stock Market Up Today? Dow Jones Falls 200 Points, S&P 500 Gains 0.25%, Nasdaq Rises 0.64...",
+                  "CME : E-mini S&P 500 futures rebound as Treasury yields pull back. - marketscreener.com",
                   "past/upcoming 24h",
-                  "The Sunday Guardian",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Stock Market Today: Dow Jones Slips 0.17%, S&P 500 Rises 0.20% & Nasdaq Edge Higher as Oil Price...",
+                  "US Stock Futures Rise as Oil Prices and Treasury Yields Decline: Dow Jones, S&P, Nasdaq, Wall Stree...",
                   "past/upcoming 24h",
-                  "The Sunday Guardian",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Retail Sales Surge Recasts Fed Cut Bets, Lifting Treasury Yields and Supporting Dollar Options -...",
+                  "Wall St set for tepid open as oil prices fall, Treasury yields rise - marketscreener.com",
                   "past/upcoming 24h",
-                  "VT Markets",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "U.S. Treasury Yields Fall as Market Regains Trust in Fed’s Inflation Resolve - WSJ",
+                  "U.S. Treasury Yields Steady as Bond Markets Stabilize; European Yields Rise - marketscreener.com",
                   "past/upcoming 24h",
-                  "WSJ",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -810,33 +810,33 @@
               ],
               "rows": [
                 [
-                  "Apple Inc.（AAPL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch Higher...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Alphabet Inc. Class A（GOOGL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures...",
-                  "GOOGL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "SK hynix Inc. American Depositary Shares（SKHY） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, N...",
-                  "SKHY",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
-                ],
-                [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch...",
-                  "INTC",
+                  "NVIDIA Corporation（NVDA） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500, Nasdaq End Higher On Suppo...",
+                  "NVDA",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Oracle Corporation（ORCL） foreignpolicyjournal.com · 2026-09-17T01:14:00+00:00 Nasdaq Futures Rise A...",
-                  "ORCL",
+                  "Microsoft Corporation（MSFT） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500, Nasdaq End Higher On Su...",
+                  "MSFT",
                   "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Space Exploration Technologies Corp. Class A（SPCX） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500,...",
+                  "SPCX",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Broadcom Inc.（AVGO） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500, Nasdaq End Higher On Support Fr...",
+                  "AVGO",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Amazon.com Inc.（AMZN） Stocktwits · 2026-09-17T22:27:01+00:00 S&P 500, Nasdaq, Dow Gain As A Drop In...",
+                  "AMZN",
+                  "利空",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -846,14 +846,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-09-17 21:18 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-17 21:19 local",
+          "generated_at": "2026-09-18 21:17 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-18 21:18 local",
           "highlights": [
             "市场状态分层：震荡市",
             "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 -1.1%，20日 -1.7%",
-            "QQQ相对SPY 20日 -0.0%",
-            "VIXY 5日 +0.6%，20日 -6.3%"
+            "SPY 5日 +0.6%，20日 -0.8%",
+            "QQQ相对SPY 20日 +1.0%",
+            "VIXY 5日 -6.5%，20日 -7.3%"
           ],
           "tables": [
             {
@@ -866,37 +866,37 @@
               ],
               "rows": [
                 [
-                  "US market prediction today: S&P 500, Nasdaq futures jump up to 1% as Treasury yields ease, oil fall...",
+                  "Stock Futures Rise as Oil Extends Losses, Treasury Yields Rise - marketscreener.com",
                   "past/upcoming 24h",
-                  "Livemint",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Why is US Stock Market Up Today? Dow Jones Falls 200 Points, S&P 500 Gains 0.25%, Nasdaq Rises 0.64...",
+                  "CME : E-mini S&P 500 futures rebound as Treasury yields pull back. - marketscreener.com",
                   "past/upcoming 24h",
-                  "The Sunday Guardian",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Stock Market Today: Dow Jones Slips 0.17%, S&P 500 Rises 0.20% & Nasdaq Edge Higher as Oil Price...",
+                  "US Stock Futures Rise as Oil Prices and Treasury Yields Decline: Dow Jones, S&P, Nasdaq, Wall Stree...",
                   "past/upcoming 24h",
-                  "The Sunday Guardian",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Retail Sales Surge Recasts Fed Cut Bets, Lifting Treasury Yields and Supporting Dollar Options -...",
+                  "Wall St set for tepid open as oil prices fall, Treasury yields rise - marketscreener.com",
                   "past/upcoming 24h",
-                  "VT Markets",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "U.S. Treasury Yields Fall as Market Regains Trust in Fed’s Inflation Resolve - WSJ",
+                  "U.S. Treasury Yields Steady as Bond Markets Stabilize; European Yields Rise - marketscreener.com",
                   "past/upcoming 24h",
-                  "WSJ",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -911,33 +911,33 @@
               ],
               "rows": [
                 [
-                  "Apple Inc.（AAPL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch Higher...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Alphabet Inc. Class A（GOOGL） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures...",
-                  "GOOGL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "SK hynix Inc. American Depositary Shares（SKHY） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, N...",
-                  "SKHY",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
-                ],
-                [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-09-16T23:29:42+00:00 S&P 500, Nasdaq, Dow Futures Inch...",
-                  "INTC",
+                  "NVIDIA Corporation（NVDA） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500, Nasdaq End Higher On Suppo...",
+                  "NVDA",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Oracle Corporation（ORCL） foreignpolicyjournal.com · 2026-09-17T01:14:00+00:00 Nasdaq Futures Rise A...",
-                  "ORCL",
+                  "Microsoft Corporation（MSFT） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500, Nasdaq End Higher On Su...",
+                  "MSFT",
                   "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Space Exploration Technologies Corp. Class A（SPCX） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500,...",
+                  "SPCX",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Broadcom Inc.（AVGO） Stocktwits · 2026-09-18T01:06:57+00:00 S&P 500, Nasdaq End Higher On Support Fr...",
+                  "AVGO",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Amazon.com Inc.（AMZN） Stocktwits · 2026-09-17T22:27:01+00:00 S&P 500, Nasdaq, Dow Gain As A Drop In...",
+                  "AMZN",
+                  "利空",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
