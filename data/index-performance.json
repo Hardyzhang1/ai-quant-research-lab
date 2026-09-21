@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-21 21:22:32 Asia/Shanghai",
+  "published_at": "2026-09-21 21:26:57 Asia/Shanghai",
   "as_of": "2026-09-21",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -41,7 +41,7 @@
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10769.89,
+      "last": 10770.07,
       "change_pct": 1.04,
       "status": "Latest / overseas"
     },
@@ -49,15 +49,15 @@
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 25607.13,
-      "change_pct": 1.2,
+      "last": 25610.14,
+      "change_pct": 1.21,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8148.78,
+      "last": 8148.94,
       "change_pct": 1.04,
       "status": "Latest / overseas"
     },
@@ -66,7 +66,7 @@
       "name": "S&P 500",
       "symbol": "us.INX",
       "last": 7650.5,
-      "change_pct": 0.17,
+      "change_pct": 0.0,
       "status": "Latest / overnight"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Nasdaq",
       "symbol": "us.IXIC",
       "last": 26522.55,
-      "change_pct": 0.39,
+      "change_pct": 0.0,
       "status": "Latest / overnight"
     },
     {
@@ -82,7 +82,7 @@
       "name": "Dow Jones",
       "symbol": "us.DJI",
       "last": 51682.64,
-      "change_pct": -0.18,
+      "change_pct": 0.0,
       "status": "Latest / overnight"
     }
   ],
