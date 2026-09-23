@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-23 09:15:05 Asia/Shanghai",
+  "published_at": "2026-09-23 16:58:58 Asia/Shanghai",
   "as_of": "2026-09-23",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,25 +9,25 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3951.96,
-      "change_pct": -0.0,
-      "status": "Intraday"
+      "last": 3936.52,
+      "change_pct": -0.39,
+      "status": "Latest close"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 4544.58,
-      "change_pct": -0.0,
-      "status": "Intraday"
+      "last": 4517.28,
+      "change_pct": -0.6,
+      "status": "Latest close"
     },
     {
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
-      "last": 25087.75,
-      "change_pct": 0.0,
-      "status": "Intraday"
+      "last": 24834.12,
+      "change_pct": -1.01,
+      "status": "Latest close"
     },
     {
       "region": "Japan",
@@ -35,30 +35,30 @@
       "symbol": ".N225",
       "last": 65018.95,
       "change_pct": 1.38,
-      "status": "Intraday"
+      "status": "Latest close"
     },
     {
       "region": "United Kingdom",
       "name": "FTSE 100",
       "symbol": ".FTSE",
-      "last": 10708.33,
-      "change_pct": -0.29,
+      "last": 10725.91,
+      "change_pct": 0.16,
       "status": "Latest / overseas"
     },
     {
       "region": "Germany",
       "name": "DAX",
       "symbol": ".GDAXI",
-      "last": 25578.85,
-      "change_pct": 0.02,
+      "last": 25497.68,
+      "change_pct": -0.32,
       "status": "Latest / overseas"
     },
     {
       "region": "France",
       "name": "CAC 40",
       "symbol": ".FCHI",
-      "last": 8154.91,
-      "change_pct": 0.0,
+      "last": 8163.4,
+      "change_pct": 0.1,
       "status": "Latest / overseas"
     },
     {
