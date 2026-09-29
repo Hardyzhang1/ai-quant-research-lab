@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-29 18:26:13 Asia/Shanghai",
+  "published_at": "2026-09-29 21:24:47 Asia/Shanghai",
   "as_of": "2026-09-29",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -30,6 +30,38 @@
       "status": "Latest close"
     },
     {
+      "region": "Japan",
+      "name": "Nikkei 225",
+      "symbol": ".N225",
+      "last": 65481.27,
+      "change_pct": -0.6,
+      "status": "Latest close"
+    },
+    {
+      "region": "United Kingdom",
+      "name": "FTSE 100",
+      "symbol": ".FTSE",
+      "last": 10691.14,
+      "change_pct": 0.06,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "Germany",
+      "name": "DAX",
+      "symbol": ".GDAXI",
+      "last": 25543.93,
+      "change_pct": 0.67,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "France",
+      "name": "CAC 40",
+      "symbol": ".FCHI",
+      "last": 8079.56,
+      "change_pct": 0.01,
+      "status": "Latest / overseas"
+    },
+    {
       "region": "United States",
       "name": "S&P 500",
       "symbol": "us.INX",
@@ -54,7 +86,5 @@
       "status": "Latest / overnight"
     }
   ],
-  "errors": [
-    "cnbc: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
-  ]
+  "errors": []
 }
