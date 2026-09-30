@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-09-30 18:26 local",
+  "published_at": "2026-09-30 21:50 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -715,18 +715,17 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-09-29 21:24 local",
+      "updated_at": "2026-09-30 21:50 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-09-29 21:24 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-09-29 21:24 local",
+          "generated_at": "2026-09-30 21:50 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-09-30 21:50 local",
           "highlights": [
-            "宏观 - Stock Market Today: Dow Rises As Oil Prices, Treasury Yields Fall; Nvidia Stock Hits Buy Point (Live Coverage)",
-            "宏观 - NewsOut Expands Market Coverage to SpaceX (NASDAQ:SPCX), NVIDIA (NASDAQ:NVDA) and CrowdStrike (NASDAQ: CRWD) as Its Combined Distribution With New to The Street Reaches Approximately 6.5 Million YouTube Subscr...",
-            "宏观 - Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs"
+            "宏观 - 过去24小时未抓到明确的宏观数据/Fed日历事件。",
+            "公司/市场 - 过去24小时未发现符合条件的重要新闻。"
           ],
           "tables": [
             {
@@ -739,39 +738,7 @@
               ],
               "rows": [
                 [
-                  "Stock Market Today: Dow Rises As Oil Prices, Treasury Yields Fall; Nvidia Stock Hits Buy Point (Liv...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "NewsOut Expands Market Coverage to SpaceX (NASDAQ:SPCX), NVIDIA (NASDAQ:NVDA) and CrowdStrike (NASD...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Novo Nordisk strikes second licensing deal since frosty capital-markets day",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "过去24小时未抓到明确的宏观数据/Fed日历事件。"
                 ]
               ]
             },
@@ -784,34 +751,7 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-29T12:20:00+00:00 NewsOut Expands Market Coverage...",
-                  "NVDA",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Space Exploration Technologies Corp. Class A（SPCX） Yahoo Finance · 2026-09-29T12:20:00+00:00 NewsOu...",
-                  "SPCX",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "CrowdStrike Holdings Inc. Class A（CRWD） Yahoo Finance · 2026-09-29T12:20:00+00:00 NewsOut Expands M...",
-                  "CRWD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Netflix Inc.（NFLX） Yahoo Finance · 2026-09-29T12:19:12+00:00 Here Are Tuesday’s Top Wall Street Ana...",
-                  "NFLX",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "PepsiCo Inc.（PEP） Yahoo Finance · 2026-09-29T12:19:12+00:00 Here Are Tuesday’s Top Wall Street Anal...",
-                  "PEP",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "过去24小时未发现符合条件的重要新闻。"
                 ]
               ]
             }
@@ -820,8 +760,8 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-09-29 21:23 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-09-29 21:24 local",
+          "generated_at": "2026-09-30 21:47 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-09-30 21:50 local",
           "highlights": [
             "市场状态分层：震荡市",
             "多头权重：0.97，空头权重：0.97",
@@ -840,39 +780,7 @@
               ],
               "rows": [
                 [
-                  "Stock Market Today: Dow Rises As Oil Prices, Treasury Yields Fall; Nvidia Stock Hits Buy Point (Liv...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "NewsOut Expands Market Coverage to SpaceX (NASDAQ:SPCX), NVIDIA (NASDAQ:NVDA) and CrowdStrike (NASD...",
-                  "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Novo Nordisk strikes second licensing deal since frosty capital-markets day",
-                  "past/upcoming 24h",
-                  "MarketWatch.com - Top Stories",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "过去24小时未抓到明确的宏观数据/Fed日历事件。"
                 ]
               ]
             },
@@ -885,34 +793,7 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-09-29T12:20:00+00:00 NewsOut Expands Market Coverage...",
-                  "NVDA",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Space Exploration Technologies Corp. Class A（SPCX） Yahoo Finance · 2026-09-29T12:20:00+00:00 NewsOu...",
-                  "SPCX",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "CrowdStrike Holdings Inc. Class A（CRWD） Yahoo Finance · 2026-09-29T12:20:00+00:00 NewsOut Expands M...",
-                  "CRWD",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Netflix Inc.（NFLX） Yahoo Finance · 2026-09-29T12:19:12+00:00 Here Are Tuesday’s Top Wall Street Ana...",
-                  "NFLX",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "PepsiCo Inc.（PEP） Yahoo Finance · 2026-09-29T12:19:12+00:00 Here Are Tuesday’s Top Wall Street Anal...",
-                  "PEP",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "过去24小时未发现符合条件的重要新闻。"
                 ]
               ]
             }
