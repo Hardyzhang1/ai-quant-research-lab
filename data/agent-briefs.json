@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-06 09:15 local",
+  "published_at": "2026-10-06 22:40 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -739,18 +739,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-05 22:40 local",
+      "updated_at": "2026-10-06 22:38 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-05 22:40 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-10-05 22:40 local",
+          "generated_at": "2026-10-06 22:38 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-10-06 22:38 local",
           "highlights": [
-            "宏观 - Stock Market Today: Dow Dips As Treasury Yields Rise; Software Shines While Chip Stocks Lag (Live Coverage)",
-            "宏观 - Treasury yields rise to start the week; traders look ahead to Fed minutes",
-            "宏观 - Disposable Medical Device Market to Reach USD 144.85 Billion by 2030, Growing at a CAGR of 4.9% – MarketsandMarkets™"
+            "宏观 - Treasury yields are broadly flat as investors anticipate FOMC minutes - CNBC",
+            "宏观 - S&P 500 hits record high as oil prices and yields fall",
+            "宏观 - United States Dollar Index holds above 102, remains supported by firm bond yields - FXStreet"
           ],
           "tables": [
             {
@@ -763,37 +763,37 @@
               ],
               "rows": [
                 [
-                  "Stock Market Today: Dow Dips As Treasury Yields Rise; Software Shines While Chip Stocks Lag (Live C...",
+                  "Treasury yields are broadly flat as investors anticipate FOMC minutes - CNBC",
+                  "past/upcoming 24h",
+                  "CNBC",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "S&P 500 hits record high as oil prices and yields fall",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Treasury yields rise to start the week; traders look ahead to Fed minutes",
+                  "United States Dollar Index holds above 102, remains supported by firm bond yields - FXStreet",
                   "past/upcoming 24h",
-                  "US Top News and Analysis",
+                  "FXStreet",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Disposable Medical Device Market to Reach USD 144.85 Billion by 2030, Growing at a CAGR of 4.9% – M...",
+                  "US stocks open mixed as investors weigh Treasury yields, Fed outlook - IndiaIPO",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "IndiaIPO",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "RBC Capital Markets Recognized for FX Excellence with Three Euromoney Awards",
+                  "Bitcoin surges 43% in Q3 as Treasury yields hit highest levels since 2007 - TradingView",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
+                  "TradingView",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -808,34 +808,34 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-10-05T13:36:00+00:00 Embedded Systems Market 2026: Tr...",
+                  "NVIDIA Corporation（NVDA） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasdaq, S&P 500 Futures Fall As...",
                   "NVDA",
-                  "中性",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-10-05T13:36:00+00:00 Embedded Systems Market 2026: Tre...",
-                  "INTC",
-                  "中性",
+                  "Space Exploration Technologies Corp. Class A（SPCX） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasda...",
+                  "SPCX",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Arm Holdings plc American Depositary Shares（ARM） Yahoo Finance · 2026-10-05T13:36:00+00:00 Embedded...",
-                  "ARM",
+                  "SK hynix Inc. American Depositary Shares（SKHY） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasdaq, S...",
+                  "SKHY",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
                 ],
                 [
-                  "Microsoft Corporation（MSFT） Yahoo Finance · 2026-10-05T13:32:00+00:00 Quantum Technology Market Rep...",
-                  "MSFT",
+                  "Micron Technology Inc.（MU） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasdaq, S&P 500 Futures Fall...",
+                  "MU",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-10-05T13:32:00+00:00 Quantum...",
-                  "IBM",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-10-06T08:39:37+00:00 Why Are Nasdaq, Dow Futu...",
+                  "AMD",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
                 ]
               ]
             }
@@ -844,14 +844,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-10-05 22:37 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-05 22:40 local",
+          "generated_at": "2026-10-06 22:35 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-10-06 22:38 local",
           "highlights": [
             "市场状态分层：震荡市",
             "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 -0.2%，20日 -0.5%",
-            "QQQ相对SPY 20日 +4.9%",
-            "VIXY 5日 +0.7%，20日 -1.4%"
+            "SPY 5日 +1.2%，20日 +0.6%",
+            "QQQ相对SPY 20日 +4.6%",
+            "VIXY 5日 -1.5%，20日 -2.7%"
           ],
           "tables": [
             {
@@ -864,37 +864,37 @@
               ],
               "rows": [
                 [
-                  "Stock Market Today: Dow Dips As Treasury Yields Rise; Software Shines While Chip Stocks Lag (Live C...",
+                  "Treasury yields are broadly flat as investors anticipate FOMC minutes - CNBC",
+                  "past/upcoming 24h",
+                  "CNBC",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "S&P 500 hits record high as oil prices and yields fall",
                   "past/upcoming 24h",
                   "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Treasury yields rise to start the week; traders look ahead to Fed minutes",
+                  "United States Dollar Index holds above 102, remains supported by firm bond yields - FXStreet",
                   "past/upcoming 24h",
-                  "US Top News and Analysis",
+                  "FXStreet",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Disposable Medical Device Market to Reach USD 144.85 Billion by 2030, Growing at a CAGR of 4.9% – M...",
+                  "US stocks open mixed as investors weigh Treasury yields, Fed outlook - IndiaIPO",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "IndiaIPO",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "RBC Capital Markets Recognized for FX Excellence with Three Euromoney Awards",
+                  "Bitcoin surges 43% in Q3 as Treasury yields hit highest levels since 2007 - TradingView",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
+                  "TradingView",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -909,34 +909,34 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-10-05T13:36:00+00:00 Embedded Systems Market 2026: Tr...",
+                  "NVIDIA Corporation（NVDA） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasdaq, S&P 500 Futures Fall As...",
                   "NVDA",
-                  "中性",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-10-05T13:36:00+00:00 Embedded Systems Market 2026: Tre...",
-                  "INTC",
-                  "中性",
+                  "Space Exploration Technologies Corp. Class A（SPCX） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasda...",
+                  "SPCX",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Arm Holdings plc American Depositary Shares（ARM） Yahoo Finance · 2026-10-05T13:36:00+00:00 Embedded...",
-                  "ARM",
+                  "SK hynix Inc. American Depositary Shares（SKHY） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasdaq, S...",
+                  "SKHY",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
                 ],
                 [
-                  "Microsoft Corporation（MSFT） Yahoo Finance · 2026-10-05T13:32:00+00:00 Quantum Technology Market Rep...",
-                  "MSFT",
+                  "Micron Technology Inc.（MU） stocktwits.com · 2026-10-06T07:51:04+00:00 Nasdaq, S&P 500 Futures Fall...",
+                  "MU",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-10-05T13:32:00+00:00 Quantum...",
-                  "IBM",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-10-06T08:39:37+00:00 Why Are Nasdaq, Dow Futu...",
+                  "AMD",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
                 ]
               ]
             }
