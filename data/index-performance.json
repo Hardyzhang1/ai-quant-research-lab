@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-07 08:04:21 Asia/Shanghai",
+  "published_at": "2026-10-07 09:16:01 Asia/Shanghai",
   "as_of": "2026-10-07",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -26,15 +26,15 @@
       "name": "Hang Seng",
       "symbol": "hkHSI",
       "last": 24280.56,
-      "change_pct": 1.0,
+      "change_pct": 0.0,
       "status": "Intraday"
     },
     {
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 70683.98,
-      "change_pct": 0.0,
+      "last": 70456.88,
+      "change_pct": -0.32,
       "status": "Intraday"
     },
     {
@@ -58,7 +58,7 @@
       "name": "CAC 40",
       "symbol": ".FCHI",
       "last": 7865.07,
-      "change_pct": 0.4,
+      "change_pct": 0.0,
       "status": "Latest / overseas"
     },
     {
