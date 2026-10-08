@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-08 17:20 local",
+  "published_at": "2026-10-08 21:26 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -739,18 +739,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-07 22:41 local",
+      "updated_at": "2026-10-08 21:25 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-07 22:41 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-10-07 22:41 local",
+          "generated_at": "2026-10-08 21:25 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-10-08 21:25 local",
           "highlights": [
-            "宏观 - This part of the bond market offers compelling yields with minimal risk",
-            "宏观 - France is caught between angry students and unforgiving bond markets",
-            "宏观 - 10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale"
+            "宏观 - Oil prices climb above $105 as bond yields rise",
+            "宏观 - Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+            "宏观 - Higher yields are taking their toll on all areas of the stock market, except the one that matters"
           ],
           "tables": [
             {
@@ -763,37 +763,37 @@
               ],
               "rows": [
                 [
-                  "This part of the bond market offers compelling yields with minimal risk",
+                  "Oil prices climb above $105 as bond yields rise",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
                   "past/upcoming 24h",
                   "MarketWatch.com - Top Stories",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "France is caught between angry students and unforgiving bond markets",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Should I put my nest egg in a 30-year Treasury bond?",
+                  "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
                   "past/upcoming 24h",
                   "MarketWatch.com - Top Stories",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+                  "past/upcoming 24h",
+                  "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Stock Futures Fall on Higher Oil Prices, AI Pullback",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -808,34 +808,34 @@
               ],
               "rows": [
                 [
-                  "Lam Research Corporation（LRCX） Yahoo Finance · 2026-10-07T14:04:20+00:00 Applied Materials (AMAT) v...",
-                  "LRCX",
+                  "NVIDIA Corporation（NVDA） US Top News and Analysis · 2026-10-08T11:49:39+00:00 Microsoft to sell $2,...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Microsoft Corporation（MSFT） US Top News and Analysis · 2026-10-08T11:49:39+00:00 Microsoft to sell...",
+                  "MSFT",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Applied Materials Inc.（AMAT） Yahoo Finance · 2026-10-07T14:04:20+00:00 Applied Materials (AMAT) vs....",
-                  "AMAT",
+                  "Meta Platforms Inc. Class A（META） US Top News and Analysis · 2026-10-08T13:18:47+00:00 Trump bought...",
+                  "META",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "KLA Corporation（KLAC） Yahoo Finance · 2026-10-07T14:04:20+00:00 Applied Materials (AMAT) vs. LRCX a...",
-                  "KLAC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "PepsiCo Inc.（PEP） US Top News and Analysis · 2026-10-08T13:16:32+00:00 PepsiCo cuts earnings foreca...",
+                  "PEP",
+                  "利空",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Tesla Inc.（TSLA） Yahoo Finance · 2026-10-07T14:30:27+00:00 Tesla Pressured European Regulators to E...",
-                  "TSLA",
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-10-08T13:10:00+00:00 Zeta Live 2026: Zeta Introduces A...",
+                  "INTC",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Costco Wholesale Corporation（COST） Yahoo Finance · 2026-10-07T14:30:27+00:00 Tesla Pressured Europe...",
-                  "COST",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为一次性..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -844,14 +844,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "说明：当前评分已启用学习型校准层：以 LightGBM 真实交易标签概率为主，结合多周期一致性、反向信号惩罚、市场状态与规则结构分生成 0-100 分。评分不是胜率，也不是买卖指令。",
-          "generated_at": "2026-10-07 22:39 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-07 22:41 local",
+          "generated_at": "2026-10-08 21:23 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-10-08 21:25 local",
           "highlights": [
-            "市场状态分层：震荡市",
-            "多头权重：0.97，空头权重：0.97",
-            "SPY 5日 +1.9%，20日 +1.7%",
-            "QQQ相对SPY 20日 +4.0%",
-            "VIXY 5日 -3.5%，20日 -6.9%"
+            "市场状态分层：反弹修复市",
+            "多头权重：1.0，空头权重：0.88",
+            "SPY 5日 +1.9%，20日 +1.9%",
+            "QQQ相对SPY 20日 +3.8%",
+            "VIXY 5日 -4.4%，20日 -7.8%"
           ],
           "tables": [
             {
@@ -864,37 +864,37 @@
               ],
               "rows": [
                 [
-                  "This part of the bond market offers compelling yields with minimal risk",
+                  "Oil prices climb above $105 as bond yields rise",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
                   "past/upcoming 24h",
                   "MarketWatch.com - Top Stories",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "France is caught between angry students and unforgiving bond markets",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
-                  "past/upcoming 24h",
-                  "US Top News and Analysis",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Should I put my nest egg in a 30-year Treasury bond?",
+                  "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
                   "past/upcoming 24h",
                   "MarketWatch.com - Top Stories",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+                  "past/upcoming 24h",
+                  "US Top News and Analysis",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Stock Futures Fall on Higher Oil Prices, AI Pullback",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -909,34 +909,34 @@
               ],
               "rows": [
                 [
-                  "Lam Research Corporation（LRCX） Yahoo Finance · 2026-10-07T14:04:20+00:00 Applied Materials (AMAT) v...",
-                  "LRCX",
+                  "NVIDIA Corporation（NVDA） US Top News and Analysis · 2026-10-08T11:49:39+00:00 Microsoft to sell $2,...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Microsoft Corporation（MSFT） US Top News and Analysis · 2026-10-08T11:49:39+00:00 Microsoft to sell...",
+                  "MSFT",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Applied Materials Inc.（AMAT） Yahoo Finance · 2026-10-07T14:04:20+00:00 Applied Materials (AMAT) vs....",
-                  "AMAT",
+                  "Meta Platforms Inc. Class A（META） US Top News and Analysis · 2026-10-08T13:18:47+00:00 Trump bought...",
+                  "META",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "KLA Corporation（KLAC） Yahoo Finance · 2026-10-07T14:04:20+00:00 Applied Materials (AMAT) vs. LRCX a...",
-                  "KLAC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "PepsiCo Inc.（PEP） US Top News and Analysis · 2026-10-08T13:16:32+00:00 PepsiCo cuts earnings foreca...",
+                  "PEP",
+                  "利空",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Tesla Inc.（TSLA） Yahoo Finance · 2026-10-07T14:30:27+00:00 Tesla Pressured European Regulators to E...",
-                  "TSLA",
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-10-08T13:10:00+00:00 Zeta Live 2026: Zeta Introduces A...",
+                  "INTC",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Costco Wholesale Corporation（COST） Yahoo Finance · 2026-10-07T14:30:27+00:00 Tesla Pressured Europe...",
-                  "COST",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为一次性..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
