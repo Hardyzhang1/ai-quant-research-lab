@@ -7,7 +7,9 @@ $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $RepoRoot
 
-python scripts/refresh_market_indices.py --output $Output
+. "$PSScriptRoot\resolve_python.ps1"
+$Python = Resolve-PublishPython -RepoRoot $RepoRoot
+& $Python scripts/refresh_market_indices.py --output $Output
 if ($LASTEXITCODE -ne 0) {
   throw "refresh_market_indices.py failed with exit code $LASTEXITCODE"
 }

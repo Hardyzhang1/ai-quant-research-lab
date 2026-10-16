@@ -44,7 +44,9 @@ if ($AShareSignalHtml) {
   $ArgsList += @("--ashare-signal-html", $AShareSignalHtml)
 }
 
-python @ArgsList
+. "$PSScriptRoot\resolve_python.ps1"
+$Python = Resolve-PublishPython -RepoRoot $RepoRoot
+& $Python @ArgsList
 if ($LASTEXITCODE -ne 0) {
   throw "publish_agent_briefs.py failed with exit code $LASTEXITCODE"
 }

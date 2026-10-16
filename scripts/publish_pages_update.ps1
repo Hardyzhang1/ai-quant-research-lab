@@ -174,7 +174,7 @@ $IndexPath = Join-Path $RepoRoot "index.html"
 $IndexHtml = Get-Content -LiteralPath $IndexPath -Raw -Encoding UTF8
 $IndexHtml = $IndexHtml -replace 'styles\.css\?v=[0-9A-Za-z_.:-]+', "styles.css?v=$PublishVersion"
 $IndexHtml = $IndexHtml -replace 'app\.js\?v=[0-9A-Za-z_.:-]+', "app.js?v=$PublishVersion"
-Set-Content -LiteralPath $IndexPath -Value $IndexHtml -Encoding UTF8
+Set-Content -LiteralPath $IndexPath -Value ($IndexHtml.TrimEnd([char[]]"`r`n") + "`r`n") -NoNewline -Encoding UTF8
 
 if ($Commit) {
   git add index.html data/agent-briefs.json data/index-performance.json data/site-version.json

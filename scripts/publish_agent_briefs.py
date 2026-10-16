@@ -117,10 +117,13 @@ REDACTIONS: list[tuple[re.Pattern[str], str]] = [
         ),
         "[redacted-secret]",
     ),
-    (re.compile(r"(?i)\b(gpt|lgbm|xgboost|ranker|hsa|baseline|candidate|shadow)[\w\-./:]*"), "[redacted-model]"),
+    (re.compile(r"(?i)\b(gpt|lgbm|lightgbm|xgboost|ranker|hsa|baseline|candidate|shadow)[\w\-./:]*"), "[redacted-model]"),
 ]
 
 NOISE_HINTS = (
+    "当前评分已启用学习型校准层",
+    "多头权重：",
+    "市场状态识别失败：",
     "重要免责声明",
     "本邮件内容仅用于",
     "不构成任何形式",
