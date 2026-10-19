@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-17 08:01 local",
+  "published_at": "2026-10-19 09:15 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -440,7 +440,7 @@
     {
       "id": "a-share-pre-market",
       "title": "A share pre market",
-      "updated_at": "2026-10-16 10:59 local",
+      "updated_at": "2026-10-19 09:03 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
@@ -545,14 +545,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "A股开盘信息",
-          "generated_at": "2026-10-16 10:56 CST；交易日：2026-10-16；数据日期：2026-10-15。",
-          "updated_at": "2026-10-16 10:59 local",
+          "generated_at": "2026-10-19 09:03 CST；交易日：2026-10-19；数据日期：2026-10-16。",
+          "updated_at": "2026-10-19 09:03 local",
           "highlights": [
             "正式机会暂不可用",
             "模型所需的有效历史样本不足，本次无法完成正式机会筛选；这不代表没有机会。新闻仍正常更新。",
-            "截至 2026-10-15，本次行情覆盖 999/1000 只；1 只缺失（300773），已跳过其当日推荐和统计，继续展示可用内容。",
-            "A股盘前重要金融新闻",
-            "央行罕见发声！人民币升值23%，中国：没必要，无意靠贬值抢出口 - 搜狐"
+            "截至 2026-10-16，本次行情覆盖 999/1000 只；1 只缺失（300773），已跳过其当日推荐和统计，继续展示可用内容。",
+            "A股新闻模块超过 180 秒未返回；以下为最近一次成功生成的新闻缓存。",
+            "A股盘前重要金融新闻"
           ],
           "tables": [
             {
