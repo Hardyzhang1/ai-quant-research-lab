@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-26 18:49 local",
+  "published_at": "2026-10-26 21:19 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -827,18 +827,17 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-23 21:17 local",
+      "updated_at": "2026-10-26 21:19 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-23 21:17 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-10-23 21:17 local",
+          "generated_at": "2026-10-26 21:19 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-10-26 21:19 local",
           "highlights": [
-            "宏观 - Rising US Deficits Stoke Inflation Fears, Lifting Treasury Yields and Backing Gold Demand - VT Markets",
-            "宏观 - U.S. Treasury yields edge higher as markets await Fed decision, PMI data - Traders Union",
-            "宏观 - Stocks drop as Meta dampens AI optimism; Treasury yields fall - marketscreener.com"
+            "宏观 - 过去24小时未抓到明确的宏观数据/Fed日历事件。",
+            "公司/市场 - 过去24小时未发现符合条件的重要新闻。"
           ],
           "tables": [
             {
@@ -851,39 +850,7 @@
               ],
               "rows": [
                 [
-                  "Rising US Deficits Stoke Inflation Fears, Lifting Treasury Yields and Backing Gold Demand - VT Mark...",
-                  "past/upcoming 24h",
-                  "VT Markets",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. Treasury yields edge higher as markets await Fed decision, PMI data - Traders Union",
-                  "past/upcoming 24h",
-                  "Traders Union",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Stocks drop as Meta dampens AI optimism; Treasury yields fall - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Stocks drop as Meta dampens AI optimism; Treasury yields fall - Euronext Markets: Real-time Stock M...",
-                  "past/upcoming 24h",
-                  "Euronext Markets: Real-time Stock Market Data | live",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. Treasury Yields Turn Higher With Oil; French Bond Yields Rise on Protests - WSJ",
-                  "past/upcoming 24h",
-                  "WSJ",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "过去24小时未抓到明确的宏观数据/Fed日历事件。"
                 ]
               ]
             },
@@ -896,34 +863,7 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF,MRVL...",
-                  "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Broadcom Inc.（AVGO） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF,MRVL,PANW...",
-                  "AVGO",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Palo Alto Networks Inc.（PANW） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF...",
-                  "PANW",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Marvell Technology Inc.（MRVL） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF...",
-                  "MRVL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Apple Inc.（AAPL） The Motley Fool · 2026-10-22T14:45:00+00:00 Nvidia, Apple, Alphabet, Microsoft, an...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "过去24小时未发现符合条件的重要新闻。"
                 ]
               ]
             }
@@ -931,15 +871,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-10-23 21:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-23 21:17 local",
+          "title": "美股盘前重要金融新闻",
+          "generated_at": "2026-10-26 21:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-10-26 21:19 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=9；geopolitical_risk=4；risk_escalation=2；market_stress=1",
+            "市场状态分层：市场状态未知",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：达到调分门槛；方向证据 3 vs 反向 0；不同标题 4，不同来源 2，一线来源 1；市场代理确认 否",
-            "油价/能源走强：未达到调分门槛；方向证据 1 vs 反向 0；不同标题 1，不同来源 1，一线来源 1；市场代理确认 否",
-            "US Futures Slip as Risk-Off Sentiment Dominates With Oil Rising - Bloomberg.com"
+            "过去24小时未抓到明确的宏观数据/Fed日历事件。",
+            "这里关注 Fed/利率预期、劳工、通胀、PMI/ISM、零售销售、GDP、国债收益率，以及中国央行/LPR/社融/PMI等。具体发布时间请以官方经济日历复核。"
           ],
           "tables": [
             {
@@ -952,39 +892,7 @@
               ],
               "rows": [
                 [
-                  "Rising US Deficits Stoke Inflation Fears, Lifting Treasury Yields and Backing Gold Demand - VT Mark...",
-                  "past/upcoming 24h",
-                  "VT Markets",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. Treasury yields edge higher as markets await Fed decision, PMI data - Traders Union",
-                  "past/upcoming 24h",
-                  "Traders Union",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Stocks drop as Meta dampens AI optimism; Treasury yields fall - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Stocks drop as Meta dampens AI optimism; Treasury yields fall - Euronext Markets: Real-time Stock M...",
-                  "past/upcoming 24h",
-                  "Euronext Markets: Real-time Stock Market Data | live",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. Treasury Yields Turn Higher With Oil; French Bond Yields Rise on Protests - WSJ",
-                  "past/upcoming 24h",
-                  "WSJ",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "过去24小时未抓到明确的宏观数据/Fed日历事件。"
                 ]
               ]
             },
@@ -997,34 +905,7 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF,MRVL...",
-                  "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Broadcom Inc.（AVGO） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF,MRVL,PANW...",
-                  "AVGO",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Palo Alto Networks Inc.（PANW） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF...",
-                  "PANW",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Marvell Technology Inc.（MRVL） Yahoo! Finance Canada · 2026-10-22T21:32:48+00:00 NVDA,AVGO,NIO,BTAFF...",
-                  "MRVL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Apple Inc.（AAPL） The Motley Fool · 2026-10-22T14:45:00+00:00 Nvidia, Apple, Alphabet, Microsoft, an...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
+                  "过去24小时未发现符合条件的重要新闻。"
                 ]
               ]
             }
