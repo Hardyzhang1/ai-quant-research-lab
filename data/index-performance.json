@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "published_at": "2026-10-26 21:19:38 Asia/Shanghai",
-  "as_of": "2026-10-26",
+  "published_at": "2026-10-27 08:02:07 Asia/Shanghai",
+  "as_of": "2026-10-27",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
   "indices": [
@@ -11,7 +11,7 @@
       "symbol": "sh000001",
       "last": 3697.52,
       "change_pct": 0.19,
-      "status": "Latest close"
+      "status": "Intraday"
     },
     {
       "region": "China",
@@ -19,7 +19,7 @@
       "symbol": "sh000300",
       "last": 4103.54,
       "change_pct": -0.04,
-      "status": "Latest close"
+      "status": "Intraday"
     },
     {
       "region": "Hong Kong",
@@ -27,30 +27,30 @@
       "symbol": "hkHSI",
       "last": 23211.81,
       "change_pct": 0.51,
-      "status": "Latest close"
+      "status": "Intraday"
     },
     {
       "region": "United States",
       "name": "S&P 500",
       "symbol": "us.INX",
-      "last": 7623.68,
-      "change_pct": -0.52,
+      "last": 7676.77,
+      "change_pct": 0.7,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Nasdaq",
       "symbol": "us.IXIC",
-      "last": 25955.34,
-      "change_pct": -0.21,
+      "last": 26169.38,
+      "change_pct": 0.82,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Dow Jones",
       "symbol": "us.DJI",
-      "last": 52215.16,
-      "change_pct": -1.23,
+      "last": 52361.58,
+      "change_pct": 0.28,
       "status": "Latest / overnight"
     }
   ],
