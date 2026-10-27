@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-27 19:02 local",
+  "published_at": "2026-10-27 21:19 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -827,14 +827,14 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-26 21:19 local",
+      "updated_at": "2026-10-27 21:19 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-26 21:19 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-10-26 21:19 local",
+          "generated_at": "2026-10-27 21:19 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-10-27 21:19 local",
           "highlights": [
             "宏观 - 过去24小时未抓到明确的宏观数据/Fed日历事件。",
             "公司/市场 - 过去24小时未发现符合条件的重要新闻。"
@@ -872,8 +872,8 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-26 21:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-26 21:19 local",
+          "generated_at": "2026-10-27 21:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-10-27 21:19 local",
           "highlights": [
             "市场状态分层：市场状态未知",
             "宏观事件覆盖层：未识别到明显宏观事件冲击。",
