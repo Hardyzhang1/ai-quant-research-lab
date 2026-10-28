@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-28 08:00:51 Asia/Shanghai",
+  "published_at": "2026-10-28 09:15:57 Asia/Shanghai",
   "as_of": "2026-10-28",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,8 +9,8 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3648.3,
-      "change_pct": -1.33,
+      "last": 3648.2,
+      "change_pct": -0.0,
       "status": "Intraday"
     },
     {
@@ -18,7 +18,7 @@
       "name": "CSI 300",
       "symbol": "sh000300",
       "last": 4049.55,
-      "change_pct": -1.32,
+      "change_pct": 0.0,
       "status": "Intraday"
     },
     {
@@ -26,40 +26,8 @@
       "name": "Hang Seng",
       "symbol": "hkHSI",
       "last": 23041.32,
-      "change_pct": -0.73,
-      "status": "Intraday"
-    },
-    {
-      "region": "Japan",
-      "name": "Nikkei 225",
-      "symbol": ".N225",
-      "last": 63268.37,
       "change_pct": 0.0,
       "status": "Intraday"
-    },
-    {
-      "region": "United Kingdom",
-      "name": "FTSE 100",
-      "symbol": ".FTSE",
-      "last": 10686.54,
-      "change_pct": -0.75,
-      "status": "Latest / overseas"
-    },
-    {
-      "region": "Germany",
-      "name": "DAX",
-      "symbol": ".GDAXI",
-      "last": 25590.77,
-      "change_pct": 0.71,
-      "status": "Latest / overseas"
-    },
-    {
-      "region": "France",
-      "name": "CAC 40",
-      "symbol": ".FCHI",
-      "last": 7887.14,
-      "change_pct": 0.51,
-      "status": "Latest / overseas"
     },
     {
       "region": "United States",
@@ -86,5 +54,7 @@
       "status": "Latest / overnight"
     }
   ],
-  "errors": []
+  "errors": [
+    "cnbc: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  ]
 }
