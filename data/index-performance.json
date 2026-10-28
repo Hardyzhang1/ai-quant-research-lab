@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "published_at": "2026-10-27 21:19:39 Asia/Shanghai",
-  "as_of": "2026-10-27",
+  "published_at": "2026-10-28 08:00:51 Asia/Shanghai",
+  "as_of": "2026-10-28",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
   "indices": [
@@ -11,7 +11,7 @@
       "symbol": "sh000001",
       "last": 3648.3,
       "change_pct": -1.33,
-      "status": "Latest close"
+      "status": "Intraday"
     },
     {
       "region": "China",
@@ -19,7 +19,7 @@
       "symbol": "sh000300",
       "last": 4049.55,
       "change_pct": -1.32,
-      "status": "Latest close"
+      "status": "Intraday"
     },
     {
       "region": "Hong Kong",
@@ -27,34 +27,64 @@
       "symbol": "hkHSI",
       "last": 23041.32,
       "change_pct": -0.73,
-      "status": "Latest close"
+      "status": "Intraday"
+    },
+    {
+      "region": "Japan",
+      "name": "Nikkei 225",
+      "symbol": ".N225",
+      "last": 63268.37,
+      "change_pct": 0.0,
+      "status": "Intraday"
+    },
+    {
+      "region": "United Kingdom",
+      "name": "FTSE 100",
+      "symbol": ".FTSE",
+      "last": 10686.54,
+      "change_pct": -0.75,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "Germany",
+      "name": "DAX",
+      "symbol": ".GDAXI",
+      "last": 25590.77,
+      "change_pct": 0.71,
+      "status": "Latest / overseas"
+    },
+    {
+      "region": "France",
+      "name": "CAC 40",
+      "symbol": ".FCHI",
+      "last": 7887.14,
+      "change_pct": 0.51,
+      "status": "Latest / overseas"
     },
     {
       "region": "United States",
       "name": "S&P 500",
       "symbol": "us.INX",
-      "last": 7676.77,
-      "change_pct": 0.7,
+      "last": 7722.6,
+      "change_pct": 0.6,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Nasdaq",
       "symbol": "us.IXIC",
-      "last": 26169.38,
-      "change_pct": 0.82,
+      "last": 26477.81,
+      "change_pct": 1.18,
       "status": "Latest / overnight"
     },
     {
       "region": "United States",
       "name": "Dow Jones",
       "symbol": "us.DJI",
-      "last": 52361.58,
-      "change_pct": 0.28,
+      "last": 52377.57,
+      "change_pct": 0.03,
       "status": "Latest / overnight"
     }
   ],
-  "errors": [
-    "cnbc: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
-  ]
+  "errors": []
 }
