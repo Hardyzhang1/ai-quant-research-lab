@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-28 18:49 local",
+  "published_at": "2026-10-28 21:18 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -827,17 +827,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-27 21:19 local",
+      "updated_at": "2026-10-28 21:18 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-27 21:19 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-10-27 21:19 local",
+          "generated_at": "2026-10-28 21:18 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-10-28 21:18 local",
           "highlights": [
-            "宏观 - 过去24小时未抓到明确的宏观数据/Fed日历事件。",
-            "公司/市场 - 过去24小时未发现符合条件的重要新闻。"
+            "宏观 - Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against Iran - marketscreener.com",
+            "宏观 - US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh's Press Briefing - marketscreener.com",
+            "宏观 - Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX"
           ],
           "tables": [
             {
@@ -850,7 +851,39 @@
               ],
               "rows": [
                 [
-                  "过去24小时未抓到明确的宏观数据/Fed日历事件。"
+                  "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against I...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX",
+                  "past/upcoming 24h",
+                  "StoneX",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "US Market: Rising Treasury yields put US banks under pressure over bond losses - The Economic Times",
+                  "past/upcoming 24h",
+                  "The Economic Times",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate D...",
+                  "past/upcoming 24h",
+                  "TradingView",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ]
               ]
             },
@@ -863,7 +896,34 @@
               ],
               "rows": [
                 [
-                  "过去24小时未发现符合条件的重要新闻。"
+                  "Alphabet Inc. Class A（GOOGL） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, D...",
+                  "GOOGL",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "SK hynix Inc. American Depositary Shares（SKHY） TradingView · 2026-10-28T09:47:15+00:00 Stock Market...",
+                  "SKHY",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
+                ],
+                [
+                  "Visa（V） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, Dow Jones Futures Trad...",
+                  "V",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Microsoft Corporation（MSFT） Yahoo Finance · 2026-10-28T09:48:36+00:00 S&P 500, Nasdaq Futures Mixed...",
+                  "MSFT",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Intel Corporation（INTC） Bitcoin News · 2026-10-28T00:10:26+00:00 Intel, Oracle, IBM and IonQ Join G...",
+                  "INTC",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -871,15 +931,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-10-27 21:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-27 21:19 local",
+          "title": "市场状态分层：市场状态未知",
+          "generated_at": "2026-10-28 21:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-10-28 21:18 local",
           "highlights": [
-            "市场状态分层：市场状态未知",
-            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+            "宏观事件覆盖层：macro_rates=6；rates_hawkish=2；geopolitical_risk=1；risk_escalation=1",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "过去24小时未抓到明确的宏观数据/Fed日历事件。",
-            "这里关注 Fed/利率预期、劳工、通胀、PMI/ISM、零售销售、GDP、国债收益率，以及中国央行/LPR/社融/PMI等。具体发布时间请以官方经济日历复核。"
+            "避险/波动升温：未达到调分门槛；方向证据 1 vs 反向 0；不同标题 1，不同来源 1，一线来源 0；市场代理确认 否",
+            "Investors brace for a hawkish hold and tech on tap - CNBC",
+            "Treasury yields tick higher ahead of Federal Reserve interest rate decision - CNBC"
           ],
           "tables": [
             {
@@ -892,7 +952,39 @@
               ],
               "rows": [
                 [
-                  "过去24小时未抓到明确的宏观数据/Fed日历事件。"
+                  "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against I...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX",
+                  "past/upcoming 24h",
+                  "StoneX",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "US Market: Rising Treasury yields put US banks under pressure over bond losses - The Economic Times",
+                  "past/upcoming 24h",
+                  "The Economic Times",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate D...",
+                  "past/upcoming 24h",
+                  "TradingView",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ]
               ]
             },
@@ -905,7 +997,34 @@
               ],
               "rows": [
                 [
-                  "过去24小时未发现符合条件的重要新闻。"
+                  "Alphabet Inc. Class A（GOOGL） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, D...",
+                  "GOOGL",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "SK hynix Inc. American Depositary Shares（SKHY） TradingView · 2026-10-28T09:47:15+00:00 Stock Market...",
+                  "SKHY",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
+                ],
+                [
+                  "Visa（V） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, Dow Jones Futures Trad...",
+                  "V",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Microsoft Corporation（MSFT） Yahoo Finance · 2026-10-28T09:48:36+00:00 S&P 500, Nasdaq Futures Mixed...",
+                  "MSFT",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Intel Corporation（INTC） Bitcoin News · 2026-10-28T00:10:26+00:00 Intel, Oracle, IBM and IonQ Join G...",
+                  "INTC",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
