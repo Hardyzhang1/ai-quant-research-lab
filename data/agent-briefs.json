@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-10-29 18:58 local",
+  "published_at": "2026-10-29 21:23 local",
   "scope": "accordion_report_digest_latest_only",
   "ashare_maturity_validation": {
     "ok": true,
@@ -827,7 +827,7 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-28 21:18 local",
+      "updated_at": "2026-10-29 21:23 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
@@ -931,15 +931,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-10-28 21:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-28 21:18 local",
+          "title": "美股盘前重要金融新闻",
+          "generated_at": "2026-10-29 21:20 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-10-29 21:23 local",
           "highlights": [
-            "宏观事件覆盖层：macro_rates=6；rates_hawkish=2；geopolitical_risk=1；risk_escalation=1",
+            "市场状态分层：市场状态未知",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：未达到调分门槛；方向证据 1 vs 反向 0；不同标题 1，不同来源 1，一线来源 0；市场代理确认 否",
-            "Investors brace for a hawkish hold and tech on tap - CNBC",
-            "Treasury yields tick higher ahead of Federal Reserve interest rate decision - CNBC"
+            "News module exceeded 180 seconds; using the latest available preview as fallback.",
+            "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against Iran - marketscreener.com"
           ],
           "tables": [
             {
