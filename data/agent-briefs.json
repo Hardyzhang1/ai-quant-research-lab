@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-10-30 10:23 local",
+  "published_at": "2026-10-30 19:00 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-10-29",
-    "checked_at": "2026-10-29T22:23:28.684748-04:00",
-    "calendar_updated_at": "2026-10-29T22:22:33.611194-04:00",
+    "market_date": "2026-10-30",
+    "checked_at": "2026-10-30T07:00:26.836981-04:00",
+    "calendar_updated_at": "2026-10-30T07:00:21.826540-04:00",
     "status": "empty",
     "stale": false,
     "limit": 10,
@@ -15,11 +15,11 @@
     "ok": true,
     "market": "A-share technical validation",
     "title": "Maturity validation digest",
-    "updated_at": "2026-10-29 18:44 local",
+    "updated_at": "2026-10-30 18:46 local",
     "matured_count": 19,
     "win_count": 13,
     "win_rate": "68.42%",
-    "average_return": "10.76%",
+    "average_return": "10.77%",
     "median_return": "4.24%",
     "tracking_count": 0,
     "stats": [
@@ -29,7 +29,7 @@
       },
       {
         "label": "Average return",
-        "value": "10.76%"
+        "value": "10.77%"
       },
       {
         "label": "Median return",
@@ -225,10 +225,10 @@
         "signal_date": "2026-10-08",
         "stock": "002867.XSHE",
         "entry": "2026-10-09 @ 10.030",
-        "exit": "2026-10-23 @ 10.228",
+        "exit": "2026-10-23 @ 10.230",
         "holding_period": "10 trading days",
-        "final_return": "+1.82%",
-        "return_value": 0.0182,
+        "final_return": "+1.84%",
+        "return_value": 0.0184,
         "result": "Win"
       }
     ],
@@ -242,11 +242,11 @@
     "ok": true,
     "market": "A-share technical validation",
     "title": "Maturity validation digest",
-    "updated_at": "2026-10-29 18:44 local",
+    "updated_at": "2026-10-30 18:46 local",
     "matured_count": 19,
     "win_count": 13,
     "win_rate": "68.42%",
-    "average_return": "10.76%",
+    "average_return": "10.77%",
     "median_return": "4.24%",
     "tracking_count": 0,
     "stats": [
@@ -256,7 +256,7 @@
       },
       {
         "label": "Average return",
-        "value": "10.76%"
+        "value": "10.77%"
       },
       {
         "label": "Median return",
@@ -452,10 +452,10 @@
         "signal_date": "2026-10-08",
         "stock": "002867.XSHE",
         "entry": "2026-10-09 @ 10.030",
-        "exit": "2026-10-23 @ 10.228",
+        "exit": "2026-10-23 @ 10.230",
         "holding_period": "10 trading days",
-        "final_return": "+1.82%",
-        "return_value": 0.0182,
+        "final_return": "+1.84%",
+        "return_value": 0.0184,
         "result": "Win"
       }
     ],
@@ -677,18 +677,18 @@
     {
       "id": "a-share-post-market",
       "title": "A share post market",
-      "updated_at": "2026-10-29 18:44 local",
+      "updated_at": "2026-10-30 18:46 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "A股收盘总结",
-          "generated_at": "2026-10-29 18:44 中国标准时间",
-          "updated_at": "2026-10-29 18:44 local",
+          "generated_at": "2026-10-30 18:46 中国标准时间",
+          "updated_at": "2026-10-30 18:46 local",
           "highlights": [
-            "市场情绪：偏谨慎（-40） - 今日A股明显分化：主要宽基指数收跌，创业板指跌幅居前，成长与算力光模块链条承压，而银行等权重蓝筹逆势走强，贵州茅台、中国移动、招商银行、中国平安等大盘价值股收涨，指数层面呈现权重护盘、成长杀跌的结构性行情。消息面上三季报密集披露构成主要信息源：中国石油、中国石化前三季利润同比增长，银行板块多只龙头创历史新高；光通信板块在天孚通信三季报后大幅下跌并带动中际旭创、新易盛等走弱，尽管多家公司单季利润同比高增，显示业绩兑现与估值/资金面出现分歧。中国太保三季度净利大幅下滑、格力电器单季净利...",
-            "主要驱动 - 三季报密集披露：能源、银行盈利与股价表现相对稳健，光通信、家电、保险等出现业绩与股价背离；银行板块逆势走强，工商银行、建设银行等创历史新高，权重护盘但加剧成长股资金分流；光模块/算力链大幅回调：天孚通信跌停并放量，中际旭创、新易盛业绩高增但股价走弱，资金流出明显",
-            "下一交易日关注 - 关注三季报披露尾声的业绩地雷与超预期个股，尤其是尚未披露的权重股；跟踪光模块与算力链在放量下跌后的资金承接与企稳信号；观察银行等权重蓝筹创新高后的持续性及其对指数的护盘力度"
+            "市场情绪：偏谨慎（-45） - 今日A股出现明显结构性分化：上证指数收跌1.44%，深证成指跌2.73%，创业板指跌4.13%，成长与算力硬件链条承压；与此同时，银行、白酒、部分高股息权重相对抗跌甚至走强，贵州茅台收涨2.81%，招商银行涨1.42%，中国移动涨0.65%。从已确认信息看，拖累主要来自前期拥挤的AI算力/光模块与PCB链条业绩或资金面扰动，而银行、白酒、石油石化等权重形成对冲。日本央行维持利率不变、在岸人民币小幅走强，属于外部流动性背景信息，但不能直接归因为指数下跌原因。",
+            "主要驱动 - AI算力硬件链条业绩分化与资金撤离压力集中释放，CPO、光模块、PCB方向波动放大；银行、白酒等权重逆势走强，工商银行、建设银行、招商银行及贵州茅台对指数形成一定对冲；三季报密集披露期，业绩超预期与不及预期个股分化显著，影响风险偏好",
+            "下一交易日关注 - 关注三季报披露收尾阶段业绩超预期与不及预期个股的分化延续；观察AI算力、光模块、PCB链条在放量调整后能否出现缩量企稳信号；跟踪银行、白酒、石油石化等高股息与权重板块的护盘持续性"
           ],
           "tables": [
             {
@@ -703,36 +703,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3651.43",
-                  "-0.82%",
+                  "3599.02",
+                  "-1.44%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4041.84",
-                  "-1.03%",
+                  "3985.5",
+                  "-1.39%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "22958.65",
-                  "-0.59%",
+                  "23294.42",
+                  "+1.46%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "64659.47",
-                  "+1.10%",
+                  "63290.11",
+                  "-2.12%",
                   "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10726.87",
-                  "+0.30%",
+                  "10745.0",
+                  "+0.21%",
                   "盘中"
                 ]
               ]
@@ -747,12 +747,12 @@
                 [
                   "主要指数贡献",
                   "-60.0",
-                  "加权指数涨跌 -2.04%"
+                  "加权指数涨跌 -2.22%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "+14.9",
-                  "样本平均涨跌 +1.19%"
+                  "+10.0",
+                  "样本平均涨跌 +0.80%"
                 ],
                 [
                   "权重股广度贡献",
@@ -765,21 +765,21 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "覆盖 zz1000 股票池 975 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。",
-          "generated_at": "2026-10-29 18:44 CST；交易日：2026-10-29；数据日期：2026-10-29；股票池：zz1000。",
-          "updated_at": "2026-10-29 18:44 local",
+          "title": "覆盖 zz1000 股票池 974 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。",
+          "generated_at": "2026-10-30 18:46 CST；交易日：2026-10-30；数据日期：2026-10-30；股票池：zz1000。",
+          "updated_at": "2026-10-30 18:46 local",
           "highlights": [
-            "市场情绪：偏谨慎（-40） - 今日A股明显分化：主要宽基指数收跌，创业板指跌幅居前，成长与算力光模块链条承压，而银行等权重蓝筹逆势走强，贵州茅台、中国移动、招商银行、中国平安等大盘价值股收涨，指数层面呈现权重护盘、成长杀跌的结构性行情。消息面上三季报密集披露构成主要信息源：中国石油、中国石化前三季利润同比增长，银行板块多只龙头创历史新高；光通信板块在天孚通信三季报后大幅下跌并带动中际旭创、新易盛等走弱，尽管多家公司单季利润同比高增，显示业绩兑现与估值/资金面出现分歧。中国太保三季度净利大幅下滑、格力电器单季净利...",
-            "主要驱动 - 三季报密集披露：能源、银行盈利与股价表现相对稳健，光通信、家电、保险等出现业绩与股价背离；银行板块逆势走强，工商银行、建设银行等创历史新高，权重护盘但加剧成长股资金分流；光模块/算力链大幅回调：天孚通信跌停并放量，中际旭创、新易盛业绩高增但股价走弱，资金流出明显",
-            "下一交易日关注 - 关注三季报披露尾声的业绩地雷与超预期个股，尤其是尚未披露的权重股；跟踪光模块与算力链在放量下跌后的资金承接与企稳信号；观察银行等权重蓝筹创新高后的持续性及其对指数的护盘力度"
+            "市场情绪：偏谨慎（-45） - 今日A股出现明显结构性分化：上证指数收跌1.44%，深证成指跌2.73%，创业板指跌4.13%，成长与算力硬件链条承压；与此同时，银行、白酒、部分高股息权重相对抗跌甚至走强，贵州茅台收涨2.81%，招商银行涨1.42%，中国移动涨0.65%。从已确认信息看，拖累主要来自前期拥挤的AI算力/光模块与PCB链条业绩或资金面扰动，而银行、白酒、石油石化等权重形成对冲。日本央行维持利率不变、在岸人民币小幅走强，属于外部流动性背景信息，但不能直接归因为指数下跌原因。",
+            "主要驱动 - AI算力硬件链条业绩分化与资金撤离压力集中释放，CPO、光模块、PCB方向波动放大；银行、白酒等权重逆势走强，工商银行、建设银行、招商银行及贵州茅台对指数形成一定对冲；三季报密集披露期，业绩超预期与不及预期个股分化显著，影响风险偏好",
+            "下一交易日关注 - 关注三季报披露收尾阶段业绩超预期与不及预期个股的分化延续；观察AI算力、光模块、PCB链条在放量调整后能否出现缩量企稳信号；跟踪银行、白酒、石油石化等高股息与权重板块的护盘持续性"
           ],
           "tables": [
             {
               "headers": [
                 "市场情绪 偏弱",
-                "上涨/下跌/平盘 208/751/16",
-                "平均开盘-收盘 -1.97%",
-                "中位数 -2.03%"
+                "上涨/下跌/平盘 299/659/16",
+                "平均开盘-收盘 -1.21%",
+                "中位数 -1.29%"
               ],
               "rows": []
             },
@@ -795,36 +795,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3651.43",
-                  "-0.82%",
+                  "3599.02",
+                  "-1.44%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4041.84",
-                  "-1.03%",
+                  "3985.5",
+                  "-1.39%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "22958.65",
-                  "-0.59%",
+                  "23294.42",
+                  "+1.46%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "64659.47",
-                  "+1.10%",
+                  "63290.11",
+                  "-2.12%",
                   "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10726.87",
-                  "+0.30%",
+                  "10745.0",
+                  "+0.21%",
                   "盘中"
                 ]
               ]
@@ -1339,18 +1339,6 @@
       "zh": "A股收盘总结",
       "en": "A-share closing review"
     },
-    "市场情绪：偏谨慎（-40） - 今日A股明显分化：主要宽基指数收跌，创业板指跌幅居前，成长与算力光模块链条承压，而银行等权重蓝筹逆势走强，贵州茅台、中国移动、招商银行、中国平安等大盘价值股收涨，指数层面呈现权重护盘、成长杀跌的结构性行情。消息面上三季报密集披露构成主要信息源：中国石油、中国石化前三季利润同比增长，银行板块多只龙头创历史新高；光通信板块在天孚通信三季报后大幅下跌并带动中际旭创、新易盛等走弱，尽管多家公司单季利润同比高增，显示业绩兑现与估值/资金面出现分歧。中国太保三季度净利大幅下滑、格力电器单季净利...": {
-      "zh": "市场情绪：偏谨慎（-40） - 今日A股明显分化：主要宽基指数收跌，创业板指跌幅居前，成长与算力光模块链条承压，而银行等权重蓝筹逆势走强，贵州茅台、中国移动、招商银行、中国平安等大盘价值股收涨，指数层面呈现权重护盘、成长杀跌的结构性行情。消息面上三季报密集披露构成主要信息源：中国石油、中国石化前三季利润同比增长，银行板块多只龙头创历史新高；光通信板块在天孚通信三季报后大幅下跌并带动中际旭创、新易盛等走弱，尽管多家公司单季利润同比高增，显示业绩兑现与估值/资金面出现分歧。中国太保三季度净利大幅下滑、格力电器单季净利...",
-      "en": "Market sentiment: cautious (-40) - A-shares diverged sharply today: major broad indices closed lower, with ChiNext leading declines. Growth stocks and the computing / optical-module chain were under pressure, while heavyweight banks and blue chips rose. Kweichow Moutai, China Mobile, China Merchants Bank and Ping An gained, leaving heavyweights supporting indices as growth stocks sold off. Third-quarter earnings dominated the news: PetroChina and Sinopec reported higher nine-month profits, and several leading banks hit record highs. Optical communications fell sharply after Tianfu Communication's report, dragging Zhongji Innolight and Eoptolink lower despite strong quarterly profit growth at several companies, suggesting a divergence between earnings delivery, valuations and flows. China Pacific Insurance's third-quarter net profit fell sharply, while Gree's quarterly net profit..."
-    },
-    "主要驱动 - 三季报密集披露：能源、银行盈利与股价表现相对稳健，光通信、家电、保险等出现业绩与股价背离；银行板块逆势走强，工商银行、建设银行等创历史新高，权重护盘但加剧成长股资金分流；光模块/算力链大幅回调：天孚通信跌停并放量，中际旭创、新易盛业绩高增但股价走弱，资金流出明显": {
-      "zh": "主要驱动 - 三季报密集披露：能源、银行盈利与股价表现相对稳健，光通信、家电、保险等出现业绩与股价背离；银行板块逆势走强，工商银行、建设银行等创历史新高，权重护盘但加剧成长股资金分流；光模块/算力链大幅回调：天孚通信跌停并放量，中际旭创、新易盛业绩高增但股价走弱，资金流出明显",
-      "en": "Main drivers - Intensive third-quarter reporting: energy and banks showed relatively resilient earnings and share prices, while optical communications, appliances and insurers saw earnings-price divergences. Banks rose against the market, with ICBC and CCB hitting record highs; heavyweights supported indices while drawing funds from growth stocks. The optical-module / computing chain corrected sharply: Tianfu Communication hit limit down on heavy volume; Zhongji Innolight and Eoptolink weakened despite strong earnings growth, with notable outflows."
-    },
-    "下一交易日关注 - 关注三季报披露尾声的业绩地雷与超预期个股，尤其是尚未披露的权重股；跟踪光模块与算力链在放量下跌后的资金承接与企稳信号；观察银行等权重蓝筹创新高后的持续性及其对指数的护盘力度": {
-      "zh": "下一交易日关注 - 关注三季报披露尾声的业绩地雷与超预期个股，尤其是尚未披露的权重股；跟踪光模块与算力链在放量下跌后的资金承接与企稳信号；观察银行等权重蓝筹创新高后的持续性及其对指数的护盘力度",
-      "en": "Next session - Watch earnings disappointments and positive surprises as reporting season ends, especially among heavyweights yet to report. Track buying support and stabilization in optical modules and computing after heavy-volume declines. Assess whether banks and heavyweight blue chips can sustain record highs and continue supporting indices."
-    },
     "市场": {
       "zh": "市场",
       "en": "Market"
@@ -1431,17 +1419,9 @@
       "zh": "主要指数贡献",
       "en": "Major-index contribution"
     },
-    "加权指数涨跌 -2.04%": {
-      "zh": "加权指数涨跌 -2.04%",
-      "en": "Weighted index change -2.04%"
-    },
     "核心大盘股贡献": {
       "zh": "核心大盘股贡献",
       "en": "Core large-cap contribution"
-    },
-    "样本平均涨跌 +1.19%": {
-      "zh": "样本平均涨跌 +1.19%",
-      "en": "Sample average change +1.19%"
     },
     "权重股广度贡献": {
       "zh": "权重股广度贡献",
@@ -1451,25 +1431,9 @@
       "zh": "样本权重股上涨比例 67%",
       "en": "Share of sampled heavyweights rising: 67%"
     },
-    "覆盖 zz1000 股票池 975 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。": {
-      "zh": "覆盖 zz1000 股票池 975 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。",
-      "en": "Coverage: 975 stocks in the zz1000 universe. Sentiment is coarsely classified by the share of advancing stocks: at least 60% is strong, at most 40% is weak, and the middle range is neutral. All returns in this report are paper open-to-close returns."
-    },
     "市场情绪 偏弱": {
       "zh": "市场情绪 偏弱",
       "en": "Market sentiment: weak"
-    },
-    "上涨/下跌/平盘 208/751/16": {
-      "zh": "上涨/下跌/平盘 208/751/16",
-      "en": "Advancing / declining / unchanged: 208/751/16"
-    },
-    "平均开盘-收盘 -1.97%": {
-      "zh": "平均开盘-收盘 -1.97%",
-      "en": "Average open-to-close return -1.97%"
-    },
-    "中位数 -2.03%": {
-      "zh": "中位数 -2.03%",
-      "en": "Median -2.03%"
     },
     "美股盘前重要金融新闻": {
       "zh": "美股盘前重要金融新闻",
@@ -1603,7 +1567,7 @@
   "translation_status": {
     "mode": "local_only",
     "total": 103,
-    "translated": 103,
-    "complete": true
+    "translated": 94,
+    "complete": false
   }
 }
