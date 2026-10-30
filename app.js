@@ -551,6 +551,8 @@ async function loadAgentBriefs() {
     renderAshareSignalTracking(payload);
     renderBriefPulse(payload, briefs);
     renderReportSections(payload);
+    publishedEarnings = payload.us_upcoming_earnings || {};
+    renderUpcomingEarnings(publishedEarnings);
     meta.textContent = `Published ${payload.published_at || "recently"} | ${briefs.length} sanitized research briefs | Private implementation withheld`;
     grid.innerHTML = briefs.length
       ? briefs.map(briefCard).join("")
@@ -559,9 +561,59 @@ async function loadAgentBriefs() {
     renderAshareSignalTracking({});
     renderBriefPulse({ published_at: "waiting", scope: "no_public_snapshot" }, []);
     renderReportSections({ report_sections: [] });
+    renderUpcomingEarnings({ status: "unavailable" });
     meta.textContent = "No market-intelligence summary has been published yet.";
     grid.innerHTML = "";
   }
 }
 
+let publishedEarnings = {};
+
+function earningsDate(now) {
+  const parts = new Intl.DateTimeFormat("en-US", {timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit"}).formatToParts(now);
+  const value = (type) => parts.find((part) => part.type === type).value;
+  return `${value("year")}-${value("month")}-${value("day")}`;
+}
+
+function earningsTime(value, timeZone) {
+  const stamp = new Date(value);
+  if (!value || !Number.isFinite(stamp.getTime())) return "--";
+  return new Intl.DateTimeFormat("zh-CN", {timeZone, month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23", timeZoneName: "short"}).format(stamp);
+}
+
+function renderUpcomingEarnings(snapshot, now = new Date()) {
+  const panel = document.getElementById("earningsPanel");
+  const meta = document.getElementById("earningsMeta");
+  const link = document.getElementById("earningsCalendarLink");
+  if (!panel || !meta || !link) return;
+  const day = /^\d{4}-\d{2}-\d{2}$/.test(snapshot.market_date || "") ? snapshot.market_date : "";
+  link.href = "https://www.nasdaq.com/market-activity/earnings" + (day ? `?date=${day}` : "");
+  meta.textContent = day
+    ? `美东日期 ${day} · 筛选时间 ${earningsTime(snapshot.checked_at, "Asia/Shanghai")}（北京时间） · 日历更新 ${earningsTime(snapshot.calendar_updated_at, "America/New_York")}${snapshot.stale ? " · 刷新失败，沿用当天两小时内缓存" : ""}`
+    : "财报日历快照暂不可用。";
+  let message = "";
+  if (!day || !["ready", "empty"].includes(snapshot.status)) {
+    message = "暂时无法获取财报日历，请查看 Nasdaq Calendar。";
+  } else if (day !== earningsDate(now)) {
+    message = "该快照已不属于当前美东日期，等待下一次更新；可查看 Nasdaq Calendar 获取最新安排。";
+  }
+  const rows = (Array.isArray(snapshot.companies) ? snapshot.companies : [])
+    .filter((item) => item.symbol && item.name && Number(item.market_cap_usd) > 0 && new Date(item.release_window_start) > now)
+    .sort((a, b) => Number(b.market_cap_usd) - Number(a.market_cap_usd))
+    .slice(0, 10);
+  if (!message && !rows.length) message = "暂无可确认仍待发布且市值可排序的公司，或已进入预计发布时段。";
+  if (message) {
+    panel.innerHTML = `<p class="earnings-empty">${escapeHtml(message)}</p>`;
+    return;
+  }
+  panel.innerHTML = `<div class="earnings-table-wrap" tabindex="0" role="region" aria-label="待发布财报公司，可横向滚动"><table class="earnings-table">
+    <thead><tr><th scope="col">排名</th><th scope="col">公司</th><th scope="col">代码</th><th scope="col">市值（美元）</th><th scope="col">预计发布时段（美东）</th><th scope="col">北京时间</th></tr></thead>
+    <tbody>${rows.map((item, index) => `<tr><td>${index + 1}</td><td>${escapeHtml(item.name)}</td><td class="earnings-symbol">${escapeHtml(item.symbol)}</td><td>$${new Intl.NumberFormat("en-US", {maximumFractionDigits: 0}).format(Number(item.market_cap_usd))}</td><td>${escapeHtml(earningsTime(item.release_window_start, "America/New_York"))} 后（盘后）</td><td>${escapeHtml(earningsTime(item.release_window_start, "Asia/Shanghai"))} 后</td></tr>`).join("")}</tbody>
+  </table></div>`;
+}
+
 loadAgentBriefs();
+setInterval(() => renderUpcomingEarnings(publishedEarnings), 60_000);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) renderUpcomingEarnings(publishedEarnings);
+});

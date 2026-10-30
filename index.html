@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261030091527" data-versioned-asset="styles" />
+  <link rel="stylesheet" href="styles.css?v=20261030095626" data-versioned-asset="styles" />
 </head>
 <body>
   <canvas id="field" aria-hidden="true"></canvas>
@@ -25,6 +25,7 @@
       <a href="#market-indices">Markets</a>
       <a href="#agent-briefs">Market Intelligence</a>
       <a href="#email-mirror">Research Digests</a>
+      <a href="#us-earnings">Earnings</a>
       <a href="#results">Results</a>
       <a href="#quant-agent-snapshot">Factor Signals</a>
       <a href="#ashare-signal-tracking">Signal Validation</a>
@@ -252,6 +253,18 @@ status: private implementation withheld</code></pre>
       <div class="email-grid" id="reportSectionGrid"></div>
     </section>
 
+    <section id="us-earnings" class="section earnings-section" lang="zh-CN">
+      <div class="section-head">
+        <p class="eyebrow">US earnings calendar</p>
+        <h2>待发布财报 · 市值前十</h2>
+        <p>美东当日预计尚未公布的公司，按市值降序展示，最多 10 家。随研究摘要更新；符合条件不足 10 家时不补齐。</p>
+        <a class="button ghost" id="earningsCalendarLink" href="https://www.nasdaq.com/market-activity/earnings" target="_blank" rel="noopener noreferrer">查看 Nasdaq Calendar ↗</a>
+      </div>
+      <div class="earnings-meta" id="earningsMeta">正在读取财报日历快照。</div>
+      <div id="earningsPanel" aria-live="polite"></div>
+      <p class="earnings-note">仅列尚未进入发布时段的公司；盘前、时间未披露及市值缺失者不计入。时间为日历预计时段，并非公司确认的精确时刻，安排可能调整。</p>
+    </section>
+
     <section id="execution-alpha" class="section execution-alpha">
       <div class="section-head">
         <p class="eyebrow">Execution alpha</p>
@@ -435,6 +448,6 @@ status: private implementation withheld</code></pre>
     <span>Private research systems. Public summaries only.</span>
   </footer>
 
-  <script src="app.js?v=20261030091527" data-versioned-asset="app"></script>
+  <script src="app.js?v=20261030095626" data-versioned-asset="app"></script>
 </body>
 </html>

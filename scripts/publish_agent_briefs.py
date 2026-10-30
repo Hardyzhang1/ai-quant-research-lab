@@ -9,6 +9,8 @@ from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 
+from publish_earnings import build_earnings_snapshot
+
 
 class VisibleTextParser(HTMLParser):
     BLOCK_TAGS = {
@@ -663,6 +665,7 @@ def build_payload(args: argparse.Namespace, previous: dict | None = None) -> dic
         "ok": True,
         "published_at": datetime.now().strftime("%Y-%m-%d %H:%M local"),
         "scope": scope,
+        "us_upcoming_earnings": build_earnings_snapshot(),
         "ashare_maturity_validation": ashare_maturity_validation,
         "ashare_signal_tracking": ashare_maturity_validation,
         "report_sections": sections,

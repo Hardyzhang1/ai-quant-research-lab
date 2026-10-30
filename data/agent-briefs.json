@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "published_at": "2026-10-30 09:15 local",
+  "published_at": "2026-10-30 09:56 local",
   "scope": "accordion_report_digest_latest_only",
+  "us_upcoming_earnings": {
+    "market_date": "2026-10-29",
+    "checked_at": "2026-10-29T21:56:26.660552-04:00",
+    "calendar_updated_at": "2026-10-29T21:54:26.106367-04:00",
+    "status": "empty",
+    "stale": false,
+    "limit": 10,
+    "companies": []
+  },
   "ashare_maturity_validation": {
     "ok": true,
     "market": "A-share technical validation",

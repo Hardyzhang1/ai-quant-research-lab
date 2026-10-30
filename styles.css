@@ -11,6 +11,20 @@
   --rose: #ff6b8b;
 }
 
+.earnings-section { scroll-margin-top: 84px; }
+.earnings-meta, .earnings-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.earnings-meta { margin-bottom: 18px; }
+.earnings-note { margin-top: 18px; }
+.earnings-empty { padding: 24px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.earnings-table-wrap { width: 100%; overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel-strong); }
+.earnings-table-wrap:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+.earnings-table { width: 100%; min-width: 900px; border-collapse: collapse; }
+.earnings-table th, .earnings-table td { padding: 14px 16px; text-align: left; font-size: 13px; line-height: 1.5; border-bottom: 1px solid var(--line); }
+.earnings-table th { color: var(--green); white-space: nowrap; }
+.earnings-table td:nth-child(4) { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.earnings-table tr:last-child td { border-bottom: 0; }
+.earnings-symbol { color: var(--cyan); font-weight: 700; }
+
 * {
   box-sizing: border-box;
 }
