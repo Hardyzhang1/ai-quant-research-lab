@@ -1,453 +1,300 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A private quantitative research workbench for factor discovery, market intelligence, execution research, and portfolio-signal validation." />
-  <title>AI Quant Research Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261030095626" data-versioned-asset="styles" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Daily market intelligence and quantitative research, in Chinese and English." name="description"/>
+<title>AI Quant Research Lab</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link data-versioned-asset="styles" href="styles.css?v=20261030102328" rel="stylesheet">
+</link></head>
 <body>
-  <canvas id="field" aria-hidden="true"></canvas>
+<canvas aria-hidden="true" id="field"></canvas>
+<header class="topbar">
+<a class="brand" href="#top"><span aria-hidden="true" class="mark"></span><span data-i18n="AI Quant Research Lab">AI Quant Research Lab</span></a>
+<nav aria-label="Primary navigation" data-i18n-aria-label="Primary navigation">
+<a data-i18n="Markets" href="#market-indices">Markets</a><a data-i18n="Daily briefs" href="#email-mirror">Daily briefs</a><a data-i18n="Earnings" href="#us-earnings">Earnings</a><a data-i18n="Research" href="#ashare-signal-tracking">Research</a><a data-i18n="Systems" href="#systems">Systems</a><a data-i18n="About" href="#boundary">About</a>
+</nav><div aria-label="Language" class="language-switch" data-i18n-aria-label="Language" role="group"><button aria-pressed="false" data-language="zh" lang="zh-CN" type="button">中文</button><button aria-pressed="true" data-language="en" lang="en" type="button">EN</button></div>
+</header>
+<main id="top">
+<section class="hero"><div class="hero-copy"><p class="eyebrow" data-i18n="Markets · Signals · Research">Markets · Signals · Research</p><h1><span data-i18n="A daily view of markets.">A daily view of markets.</span><br/><span data-i18n="Research behind the signals.">Research behind the signals.</span></h1><p class="lede" data-i18n="Market briefs, upcoming earnings and quantitative research in one place. Read the latest updates first, then explore the evidence and the systems behind them.">Market briefs, upcoming earnings and quantitative research in one place. Read the latest updates first, then explore the evidence and the systems behind them.</p><div class="hero-actions"><a class="button primary" data-i18n="Read daily briefs" href="#email-mirror">Read daily briefs</a><a class="button ghost" data-i18n="Explore research" href="#ashare-signal-tracking">Explore research</a></div></div><aside aria-label="Research overview" class="signal-panel" data-i18n-aria-label="Research overview"><p class="eyebrow" data-i18n="At a glance">At a glance</p><div class="signal-row"><span data-i18n="Market coverage">Market coverage</span><strong data-i18n="A-shares &amp; US equities">A-shares &amp; US equities</strong></div><div class="signal-row"><span data-i18n="Daily content">Daily content</span><strong data-i18n="Briefs &amp; earnings">Briefs &amp; earnings</strong></div><div class="signal-row"><span data-i18n="Research">Research</span><strong data-i18n="Factors &amp; execution">Factors &amp; execution</strong></div><p class="hero-note" data-i18n="Each snapshot shows its own date. Research results are historical, not live investment recommendations.">Each snapshot shows its own date. Research results are historical, not live investment recommendations.</p></aside></section>
 
-  <header class="topbar">
-    <a class="brand" href="#top" aria-label="AI Quant Research Lab home">
-      <span class="mark"></span>
-      <span>AI Quant Research Lab</span>
-    </a>
-    <nav aria-label="Primary navigation">
-      <a href="#systems">Systems</a>
-      <a href="#workflow">Workflow</a>
-      <a href="#execution-alpha">Execution</a>
-      <a href="#market-indices">Markets</a>
-      <a href="#agent-briefs">Market Intelligence</a>
-      <a href="#email-mirror">Research Digests</a>
-      <a href="#us-earnings">Earnings</a>
-      <a href="#results">Results</a>
-      <a href="#quant-agent-snapshot">Factor Signals</a>
-      <a href="#ashare-signal-tracking">Signal Validation</a>
-      <a href="#boundary">Disclosure</a>
-    </nav>
-  </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Quant research infrastructure</p>
-        <h1>AI Quant Research Workbench</h1>
-        <p class="lede">
-          Hardy's personal research stack for automated factor exploration, market news intelligence,
-          execution research, remote workstation orchestration, and reproducible performance reporting.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#systems">Explore systems</a>
-          <a class="button ghost" href="#boundary">What is public</a>
-        </div>
-      </div>
-      <aside class="signal-panel" aria-label="Research lab snapshot">
-        <div class="signal-row">
-          <span>Remote research compute</span>
-          <strong>Online</strong>
-        </div>
-        <div class="signal-row">
-          <span>Resource controls</span>
-          <strong>Guarded</strong>
-        </div>
-        <div class="signal-row">
-          <span>Research tracks</span>
-          <strong>4 active tracks</strong>
-        </div>
-        <div class="sparkline" aria-hidden="true">
-          <span style="height: 34%"></span>
-          <span style="height: 58%"></span>
-          <span style="height: 42%"></span>
-          <span style="height: 68%"></span>
-          <span style="height: 51%"></span>
-          <span style="height: 83%"></span>
-          <span style="height: 63%"></span>
-          <span style="height: 91%"></span>
-        </div>
-      </aside>
-    </section>
 
-    <section id="market-indices" class="section market-indices">
-      <div class="section-head">
-        <p class="eyebrow">Market pulse</p>
-        <h2>Major index performance.</h2>
-        <p>
-          The same index snapshot used in the daily research email, refreshed with the
-          published market digest. Values show the latest level and change versus previous close.
-        </p>
-      </div>
-      <div class="index-meta" id="indexMeta">Waiting for the latest market snapshot.</div>
-      <div class="index-grid" id="indexGrid"></div>
-    </section>
 
-    <section id="systems" class="section">
-      <div class="section-head">
-        <p class="eyebrow">Systems</p>
-        <h2>Private research systems, public performance summaries.</h2>
-      </div>
-      <div class="system-grid">
-        <article class="system-card accent-a">
-          <span class="card-kicker">01</span>
-          <h3>Quant Research Agent</h3>
-          <p>
-            A remote factor-research environment that coordinates experiment runs,
-            guarded compute execution, Qlib-based evaluation, and ranked performance summaries.
-          </p>
-          <ul>
-            <li>Remote workstation execution</li>
-            <li>Safe termination and resource limits</li>
-            <li>Group-return visualization</li>
-          </ul>
-        </article>
-        <article class="system-card accent-b">
-          <span class="card-kicker">02</span>
-          <h3>Market Intelligence Agent</h3>
-          <p>
-            A market intelligence assistant that turns macro, market, and company news
-            into daily research briefs for discretionary review.
-          </p>
-          <ul>
-            <li>Pre-market and post-market market briefs</li>
-            <li>Event, sentiment, and catalyst framing</li>
-            <li>Public summaries with private pipelines withheld</li>
-          </ul>
-        </article>
-        <article class="system-card accent-c">
-          <span class="card-kicker">03</span>
-          <h3>Signal Validation Agent</h3>
-          <p>
-            A technical-analysis and model-ranking layer that produces email briefs,
-            then publishes compact validation summaries after delivery.
-          </p>
-          <ul>
-            <li>Daily opportunity screening</li>
-            <li>Market-close validation summary</li>
-            <li>Latest research digests with private internals withheld</li>
-          </ul>
-        </article>
-        <article class="system-card accent-d">
-          <span class="card-kicker">04</span>
-          <h3>Execution Alpha Lab</h3>
-          <p>
-            A market-impact-aware execution research track that studies adaptive
-            participation, VWAP-style scheduling, and AC/IS optimizer variants.
-          </p>
-          <ul>
-            <li>Rolling liquidity and impact signals</li>
-            <li>Constrained AC/IS execution scheduler</li>
-            <li>Walk-forward strategy comparisons</li>
-          </ul>
-        </article>
-      </div>
-    </section>
 
-    <section id="workflow" class="section workflow">
-      <div class="section-head">
-        <p class="eyebrow">Workflow</p>
-        <h2>Designed for research loops, not one-off notebooks.</h2>
-      </div>
-      <div class="flow">
-        <div class="step">
-          <span>Prompt</span>
-          <p>Start from a research direction, task budget, and safety envelope.</p>
-        </div>
-        <div class="step">
-          <span>Run</span>
-          <p>Dispatch experiments to a workstation with timeout, memory, and GPU-temperature guards.</p>
-        </div>
-        <div class="step">
-          <span>Review</span>
-          <p>Review metrics, logs, and group-return time series in a lightweight research dashboard.</p>
-        </div>
-        <div class="step">
-          <span>Learn</span>
-          <p>Carry forward lessons and avoid repeating low-value experimental paths.</p>
-        </div>
-      </div>
-    </section>
 
-    <section id="results" class="section split">
-      <div>
-        <p class="eyebrow">Research outputs</p>
-        <h2>Factor research results, summarized for review.</h2>
-        <p>
-          The public repository presents the research platform and selected, sanitized
-          outputs. Core source code, datasets, model artifacts, credentials, and detailed
-          training logs remain private.
-        </p>
-      </div>
-      <div class="terminal">
-        <div class="terminal-head">
-          <span></span><span></span><span></span>
-        </div>
-        <pre><code>run: quant_research_agent fin_quant
-safe_run: timeout + memory guard + gpu guard
-output: metrics table
-chart: Q1-Q5 group return time series
-status: private implementation withheld</code></pre>
-      </div>
-    </section>
 
-    <section id="quant-agent-snapshot" class="section snapshot-section">
-      <div class="section-head">
-        <p class="eyebrow">Manual factor snapshot</p>
-        <h2>Top-ranked factor research signals.</h2>
-          <p>
-            This section is updated manually from the private local dashboard. It publishes
-            static Top 3 factor summaries and group-return curves from completed private runs;
-            implementation details, datasets, logs, and training traces remain private.
-          </p>
-      </div>
-      <div class="snapshot-meta" id="snapshotMeta">Waiting for a published snapshot.</div>
-      <div class="snapshot-grid" id="snapshotGrid"></div>
-    </section>
 
-    <section id="ashare-signal-tracking" class="section ashare-signal-section">
-      <div class="section-head">
-        <p class="eyebrow">A-share signal validation</p>
-        <h2>Mature-horizon validation summary.</h2>
-        <p>
-          A public digest of the mature-horizon validation section from the daily A-share
-          technical-analysis email. It tracks signals that have reached their recommended
-          holding period and summarizes win rate, average return, median return, and open
-          tracking count.
-        </p>
-      </div>
-      <div class="signal-tracking-meta" id="signalTrackingMeta">Waiting for the latest A-share maturity validation digest.</div>
-      <div class="signal-tracking-panel" id="signalTrackingPanel"></div>
-    </section>
 
-    <section id="agent-briefs" class="section agent-briefs">
-      <div class="section-head">
-        <p class="eyebrow">Daily market intelligence</p>
-        <h2>Post-delivery market and signal summaries.</h2>
-        <p>
-          The market-intelligence and signal-validation systems send private emails first.
-          After delivery, this page receives a compact web version: only the latest report per market/session is shown,
-          with private internals, data-source details, file paths, credentials, private
-          recipients, and infrastructure details withheld.
-        </p>
-      </div>
-      <div class="brief-pulse" id="briefPulse" aria-label="Published research brief status"></div>
-      <div class="brief-meta" id="briefMeta">Waiting for the latest sanitized agent snapshot.</div>
-      <div class="brief-grid" id="briefGrid"></div>
-    </section>
 
-    <section id="email-mirror" class="section email-mirror">
-      <div class="section-head">
-        <p class="eyebrow">Published research digests</p>
-        <h2>Latest market and strategy research digests.</h2>
-        <p>
-          This section presents compact, web-formatted extracts from the latest research emails.
-          It is not a raw archive: repeated boilerplate and full copied tables are compressed into
-          decision-relevant highlights and small excerpts.
-        </p>
-      </div>
-      <div class="email-meta" id="reportSectionMeta">Waiting for the latest research digests.</div>
-      <div class="email-grid" id="reportSectionGrid"></div>
-    </section>
 
-    <section id="us-earnings" class="section earnings-section" lang="zh-CN">
-      <div class="section-head">
-        <p class="eyebrow">US earnings calendar</p>
-        <h2>待发布财报 · 市值前十</h2>
-        <p>美东当日预计尚未公布的公司，按市值降序展示，最多 10 家。随研究摘要更新；符合条件不足 10 家时不补齐。</p>
-        <a class="button ghost" id="earningsCalendarLink" href="https://www.nasdaq.com/market-activity/earnings" target="_blank" rel="noopener noreferrer">查看 Nasdaq Calendar ↗</a>
-      </div>
-      <div class="earnings-meta" id="earningsMeta">正在读取财报日历快照。</div>
-      <div id="earningsPanel" aria-live="polite"></div>
-      <p class="earnings-note">仅列尚未进入发布时段的公司；盘前、时间未披露及市值缺失者不计入。时间为日历预计时段，并非公司确认的精确时刻，安排可能调整。</p>
-    </section>
-
-    <section id="execution-alpha" class="section execution-alpha">
-      <div class="section-head">
-        <p class="eyebrow">Execution alpha</p>
-        <h2>Adaptive participation for VWAP-style execution.</h2>
-        <p>
-          This public research summary describes the execution track at a high level.
-          The model converts rolling trade-profile and liquidity signals into a constrained
-          AC/IS-style schedule, then adjusts minute-level participation around a historical
-          VWAP plan while controlling inventory risk and schedule drift.
-        </p>
-      </div>
-      <div class="execution-layout">
-        <div class="execution-methods">
-          <article class="method-card">
-            <span>Signal layer</span>
-            <h3>Short-horizon market state</h3>
-            <p>
-              Minute-level price and volume-profile features estimate near-term
-              liquidity, impact, and price-pressure conditions without publishing
-              private raw data or training code.
-            </p>
-          </article>
-          <article class="method-card">
-            <span>Optimizer layer</span>
-            <h3>AC/IS participation scheduler</h3>
-            <p>
-              Expected cost, inventory risk, progress pressure, and participation
-              caps are balanced to decide whether the next slice should speed up,
-              slow down, or stay close to the baseline trajectory.
-            </p>
-          </article>
-          <article class="method-card">
-            <span>Risk layer</span>
-            <h3>Walk-forward guardrails</h3>
-            <p>
-              Backtests use rolling training windows, one-minute decisions, and
-              fixed execution constraints so the displayed metrics remain comparable
-              across model variants.
-            </p>
-          </article>
-        </div>
-        <div class="execution-results">
-          <div class="result-meta-grid" aria-label="Execution experiment coverage">
-            <div><span>Universe</span><strong>500 A-share names</strong></div>
-            <div><span>Test window</span><strong>230 trading days</strong></div>
-            <div><span>Tasks</span><strong>113,294</strong></div>
-            <div><span>Decision step</span><strong>1 minute</strong></div>
-          </div>
-          <p class="execution-note compact">
-            Model names below are public display aliases. Internal thresholds, feature recipes,
-            data paths, and training code are intentionally omitted.
-          </p>
-          <div class="execution-table-wrap">
-            <table class="execution-table">
-              <thead>
-                <tr>
-                  <th>Model</th>
-                  <th>Role</th>
-                  <th>Tasks</th>
-                  <th>Mean</th>
-                  <th>Median</th>
-                  <th>Positive</th>
-                  <th>P10</th>
-                  <th>Tail score</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Core Adaptive</td>
-                  <td>Rule-based baseline</td>
-                  <td>110,843</td>
-                  <td class="positive">+6.94 bps</td>
-                  <td class="positive">+0.82 bps</td>
-                  <td>52.7%</td>
-                  <td class="negative">-15.33 bps</td>
-                  <td class="positive">+3.10</td>
-                </tr>
-                <tr>
-                  <td>Tail Guard</td>
-                  <td>Risk-balanced rule set</td>
-                  <td>110,843</td>
-                  <td class="positive">+4.98 bps</td>
-                  <td class="positive">+1.39 bps</td>
-                  <td>56.3%</td>
-                  <td class="negative">-10.79 bps</td>
-                  <td class="positive">+2.28</td>
-                </tr>
-                <tr>
-                  <td>Deep Guard</td>
-                  <td>Tail-defense candidate</td>
-                  <td>110,843</td>
-                  <td class="positive">+3.08 bps</td>
-                  <td class="positive">+1.30 bps</td>
-                  <td>58.4%</td>
-                  <td class="negative">-7.69 bps</td>
-                  <td class="positive">+1.16</td>
-                </tr>
-                <tr>
-                  <td>ML Adaptive</td>
-                  <td>Machine-learning front end</td>
-                  <td>113,294</td>
-                  <td class="positive">+7.16 bps</td>
-                  <td class="positive">+1.18 bps</td>
-                  <td>54.1%</td>
-                  <td class="negative">-15.36 bps</td>
-                  <td class="positive">+3.32</td>
-                </tr>
-                <tr>
-                  <td>ML Stable</td>
-                  <td>ML with steadier execution</td>
-                  <td>113,294</td>
-                  <td class="positive">+6.36 bps</td>
-                  <td class="positive">+1.57 bps</td>
-                  <td>56.3%</td>
-                  <td class="negative">-12.70 bps</td>
-                  <td class="positive">+3.19</td>
-                </tr>
-                <tr>
-                  <td>ML Switch</td>
-                  <td>Dynamic model switching</td>
-                  <td>113,294</td>
-                  <td class="positive">+8.16 bps</td>
-                  <td class="positive">+1.43 bps</td>
-                  <td>54.7%</td>
-                  <td class="negative">-15.71 bps</td>
-                  <td class="positive">+4.24</td>
-                </tr>
-                <tr>
-                  <td>Selective ML Switch</td>
-                  <td>Filtered research upper bound</td>
-                  <td>51,480</td>
-                  <td class="positive">+9.34 bps</td>
-                  <td class="positive">+2.17 bps</td>
-                  <td>56.0%</td>
-                  <td class="negative">-17.14 bps</td>
-                  <td class="positive">+5.06</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <figure class="execution-case">
-            <img src="assets/execution-alpha-case-study.png" alt="Sanitized execution-alpha case study showing price path, baseline schedule, and adaptive execution curve.">
-            <figcaption>
-              Example task replay: minute VWAP price, historical baseline schedule, adaptive execution
-              curve, and minute child orders. The figure is sanitized and contains no raw data export.
-            </figcaption>
-          </figure>
-          <p class="execution-note">
-            Results are simulated improvement versus the execution benchmark. The table is a
-            sanitized public summary only and is not a live trading system or investment advice.
-            Tail score is a compact display metric combining average improvement and left-tail risk.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="boundary" class="section boundary">
-      <div class="section-head">
-        <p class="eyebrow">Disclosure boundary</p>
-        <h2>What this repository intentionally does not include.</h2>
-      </div>
-      <div class="boundary-grid">
-        <div>
-          <h3>Not published</h3>
-          <p>Core trading logic, training code, raw logs, datasets, API keys, infrastructure addresses, and private prompts.</p>
-        </div>
-        <div>
-          <h3>Published</h3>
-          <p>Architecture narrative, project summaries, sanitized screenshots, dashboard concepts, and a maintenance-friendly presentation layer.</p>
-        </div>
-        <div>
-          <h3>Maintained with Codex</h3>
-          <p>The public research page is structured so future project cards, screenshots, and notes can be updated quickly through Codex-assisted edits.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <span>Hao Zhang</span>
-    <span>Private research systems. Public summaries only.</span>
-  </footer>
-
-  <script src="app.js?v=20261030095626" data-versioned-asset="app"></script>
+<section class="section market-indices" id="market-indices">
+<div class="section-head">
+<p class="eyebrow" data-i18n="01 · Market pulse">01 · Market pulse</p>
+<h2 data-i18n="Major market indices">Major market indices</h2>
+<p data-i18n="Latest levels and changes versus the previous close. Trading sessions differ across markets.">Latest levels and changes versus the previous close. Trading sessions differ across markets.</p>
+</div>
+<div class="index-meta" data-i18n="Waiting for the latest market snapshot." id="indexMeta">Waiting for the latest market snapshot.</div>
+<div class="index-grid" id="indexGrid"></div>
+</section><section class="section email-mirror" id="email-mirror"><span class="anchor-target" id="agent-briefs"></span>
+<div class="section-head">
+<p class="eyebrow" data-i18n="02 · Daily intelligence">02 · Daily intelligence</p>
+<h2 data-i18n="Market briefs &amp; signal updates">Market briefs &amp; signal updates</h2>
+<p data-i18n="The latest opening and closing digests for A-shares and US equities. Expand a market to read its news, signal status and selected tables.">The latest opening and closing digests for A-shares and US equities. Expand a market to read its news, signal status and selected tables.</p>
+<p class="translation-status" id="translationStatus"></p></div>
+<div class="email-meta" data-i18n="Waiting for the latest research digests." id="reportSectionMeta">Waiting for the latest research digests.</div>
+<div class="email-grid" id="reportSectionGrid"></div>
+</section><section class="section earnings-section" id="us-earnings">
+<div class="section-head">
+<p class="eyebrow" data-i18n="03 · Earnings ahead">03 · Earnings ahead</p>
+<h2 data-i18n="Upcoming earnings · Top 10 by market cap">Upcoming earnings · Top 10 by market cap</h2>
+<p data-i18n="Companies expected to report later on the current New York date, ranked by market capitalization. Up to ten eligible companies; the list is not padded.">Companies expected to report later on the current New York date, ranked by market capitalization. Up to ten eligible companies; the list is not padded.</p>
+<a class="button ghost" data-i18n="Open Nasdaq Calendar ↗" href="https://www.nasdaq.com/market-activity/earnings" id="earningsCalendarLink" rel="noopener noreferrer" target="_blank">Open Nasdaq Calendar ↗</a>
+</div>
+<div class="earnings-meta" data-i18n="Loading the earnings snapshot." id="earningsMeta">Loading the earnings snapshot.</div>
+<div aria-live="polite" id="earningsPanel"></div>
+<p class="earnings-note" data-i18n="Only companies whose expected release window has not started are included. Pre-market, undisclosed times and missing market caps are excluded. Times are estimated windows, not confirmed release times.">Only companies whose expected release window has not started are included. Pre-market, undisclosed times and missing market caps are excluded. Times are estimated windows, not confirmed release times.</p>
+</section><section class="section ashare-signal-section" id="ashare-signal-tracking">
+<div class="section-head">
+<p class="eyebrow" data-i18n="04 · Signal validation">04 · Signal validation</p>
+<h2 data-i18n="A-share holding-period results">A-share holding-period results</h2>
+<p data-i18n="Signals that have reached their planned holding horizon, with realized tracking returns and open records shown separately.">Signals that have reached their planned holding horizon, with realized tracking returns and open records shown separately.</p>
+</div>
+<div class="signal-tracking-meta" data-i18n="Waiting for the latest A-share maturity validation digest." id="signalTrackingMeta">Waiting for the latest A-share maturity validation digest.</div>
+<div class="signal-tracking-panel" id="signalTrackingPanel"></div>
+</section><section class="section snapshot-section" id="quant-agent-snapshot"><span class="anchor-target" id="results"></span>
+<div class="section-head">
+<p class="eyebrow" data-i18n="05 · Factor research">05 · Factor research</p>
+<h2 data-i18n="Three published factor snapshots">Three published factor snapshots</h2>
+<p data-i18n="Manually published results from completed experiments: annualized metrics and group-return curves. Snapshot dates are shown below; these are historical research results.">Manually published results from completed experiments: annualized metrics and group-return curves. Snapshot dates are shown below; these are historical research results.</p>
+</div>
+<div class="snapshot-meta" data-i18n="Waiting for a published snapshot." id="snapshotMeta">Waiting for a published snapshot.</div>
+<div class="snapshot-grid" id="snapshotGrid"></div>
+</section><section class="section execution-alpha" id="execution-alpha">
+<div class="section-head">
+<p class="eyebrow" data-i18n="06 · Execution research">06 · Execution research</p>
+<h2 data-i18n="Adaptive execution against a VWAP benchmark">Adaptive execution against a VWAP benchmark</h2>
+<p data-i18n="A research comparison of participation schedules under liquidity, market-impact and inventory constraints. All results below are simulated.">A research comparison of participation schedules under liquidity, market-impact and inventory constraints. All results below are simulated.</p>
+</div>
+<div class="execution-layout">
+<div class="execution-methods">
+<article class="method-card">
+<span data-i18n="Signal layer">Signal layer</span>
+<h3 data-i18n="Short-horizon market state">Short-horizon market state</h3>
+<p data-i18n="Minute-level price and volume-profile features estimate near-term liquidity, impact, and price-pressure conditions without publishing private raw data or training code.">Minute-level price and volume-profile features estimate near-term liquidity, impact, and price-pressure conditions without publishing private raw data or training code.</p>
+</article>
+<article class="method-card">
+<span data-i18n="Optimizer layer">Optimizer layer</span>
+<h3 data-i18n="AC/IS participation scheduler">AC/IS participation scheduler</h3>
+<p data-i18n="Expected cost, inventory risk, progress pressure, and participation caps are balanced to decide whether the next slice should speed up, slow down, or stay close to the baseline trajectory.">Expected cost, inventory risk, progress pressure, and participation caps are balanced to decide whether the next slice should speed up, slow down, or stay close to the baseline trajectory.</p>
+</article>
+<article class="method-card">
+<span data-i18n="Risk layer">Risk layer</span>
+<h3 data-i18n="Walk-forward guardrails">Walk-forward guardrails</h3>
+<p data-i18n="Backtests use rolling training windows, one-minute decisions, and fixed execution constraints so the displayed metrics remain comparable across model variants.">Backtests use rolling training windows, one-minute decisions, and fixed execution constraints so the displayed metrics remain comparable across model variants.</p>
+</article>
+</div>
+<div class="execution-results">
+<div aria-label="Execution experiment coverage" class="result-meta-grid" data-i18n-aria-label="Execution experiment coverage">
+<div><span data-i18n="Universe">Universe</span><strong data-i18n="500 A-share names">500 A-share names</strong></div>
+<div><span data-i18n="Test window">Test window</span><strong data-i18n="230 trading days">230 trading days</strong></div>
+<div><span data-i18n="Tasks">Tasks</span><strong>113,294</strong></div>
+<div><span data-i18n="Decision step">Decision step</span><strong data-i18n="1 minute">1 minute</strong></div>
+</div>
+<p class="execution-note compact" data-i18n="Model names below are public display aliases. Internal thresholds, feature recipes, data paths, and training code are intentionally omitted.">Model names below are public display aliases. Internal thresholds, feature recipes, data paths, and training code are intentionally omitted.</p>
+<div class="execution-table-wrap">
+<table class="execution-table">
+<thead>
+<tr>
+<th data-i18n="Model">Model</th>
+<th data-i18n="Role">Role</th>
+<th data-i18n="Tasks">Tasks</th>
+<th data-i18n="Mean">Mean</th>
+<th data-i18n="Median">Median</th>
+<th data-i18n="Positive">Positive</th>
+<th data-i18n="P10">P10</th>
+<th data-i18n="Tail score">Tail score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-i18n="Core Adaptive">Core Adaptive</td>
+<td data-i18n="Rule-based baseline">Rule-based baseline</td>
+<td>110,843</td>
+<td class="positive">+6.94 bps</td>
+<td class="positive">+0.82 bps</td>
+<td>52.7%</td>
+<td class="negative">-15.33 bps</td>
+<td class="positive">+3.10</td>
+</tr>
+<tr>
+<td data-i18n="Tail Guard">Tail Guard</td>
+<td data-i18n="Risk-balanced rule set">Risk-balanced rule set</td>
+<td>110,843</td>
+<td class="positive">+4.98 bps</td>
+<td class="positive">+1.39 bps</td>
+<td>56.3%</td>
+<td class="negative">-10.79 bps</td>
+<td class="positive">+2.28</td>
+</tr>
+<tr>
+<td data-i18n="Deep Guard">Deep Guard</td>
+<td data-i18n="Tail-defense candidate">Tail-defense candidate</td>
+<td>110,843</td>
+<td class="positive">+3.08 bps</td>
+<td class="positive">+1.30 bps</td>
+<td>58.4%</td>
+<td class="negative">-7.69 bps</td>
+<td class="positive">+1.16</td>
+</tr>
+<tr>
+<td data-i18n="ML Adaptive">ML Adaptive</td>
+<td data-i18n="Machine-learning front end">Machine-learning front end</td>
+<td>113,294</td>
+<td class="positive">+7.16 bps</td>
+<td class="positive">+1.18 bps</td>
+<td>54.1%</td>
+<td class="negative">-15.36 bps</td>
+<td class="positive">+3.32</td>
+</tr>
+<tr>
+<td data-i18n="ML Stable">ML Stable</td>
+<td data-i18n="ML with steadier execution">ML with steadier execution</td>
+<td>113,294</td>
+<td class="positive">+6.36 bps</td>
+<td class="positive">+1.57 bps</td>
+<td>56.3%</td>
+<td class="negative">-12.70 bps</td>
+<td class="positive">+3.19</td>
+</tr>
+<tr>
+<td data-i18n="ML Switch">ML Switch</td>
+<td data-i18n="Dynamic model switching">Dynamic model switching</td>
+<td>113,294</td>
+<td class="positive">+8.16 bps</td>
+<td class="positive">+1.43 bps</td>
+<td>54.7%</td>
+<td class="negative">-15.71 bps</td>
+<td class="positive">+4.24</td>
+</tr>
+<tr>
+<td data-i18n="Selective ML Switch">Selective ML Switch</td>
+<td data-i18n="Filtered research upper bound">Filtered research upper bound</td>
+<td>51,480</td>
+<td class="positive">+9.34 bps</td>
+<td class="positive">+2.17 bps</td>
+<td>56.0%</td>
+<td class="negative">-17.14 bps</td>
+<td class="positive">+5.06</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure class="execution-case">
+<img alt="Execution research example: price path and adaptive execution schedule." data-i18n-alt="Execution research example: price path and adaptive execution schedule." src="assets/execution-alpha-case-study.png"/>
+<figcaption data-i18n="Example task replay: minute VWAP price, historical baseline schedule, adaptive execution curve, and minute child orders. The figure is sanitized and contains no raw data export.">Example task replay: minute VWAP price, historical baseline schedule, adaptive execution curve, and minute child orders. The figure is sanitized and contains no raw data export.</figcaption>
+</figure>
+<p class="execution-note" data-i18n="Results are simulated improvement versus the execution benchmark. The table is a sanitized public summary only and is not a live trading system or investment advice. Tail score is a compact display metric combining average improvement and left-tail risk.">Results are simulated improvement versus the execution benchmark. The table is a sanitized public summary only and is not a live trading system or investment advice. Tail score is a compact display metric combining average improvement and left-tail risk.</p>
+</div>
+</div>
+</section><section class="section" id="systems">
+<div class="section-head">
+<p class="eyebrow" data-i18n="07 · The research stack">07 · The research stack</p>
+<h2 data-i18n="Four systems, one research workflow">Four systems, one research workflow</h2>
+</div>
+<div class="system-grid">
+<article class="system-card accent-a">
+<span class="card-kicker">01</span>
+<h3 data-i18n="Quant Research Agent">Quant Research Agent</h3>
+<p data-i18n="A remote factor-research environment that coordinates experiment runs, guarded compute execution, Qlib-based evaluation, and ranked performance summaries.">A remote factor-research environment that coordinates experiment runs, guarded compute execution, Qlib-based evaluation, and ranked performance summaries.</p>
+<ul>
+<li data-i18n="Remote workstation execution">Remote workstation execution</li>
+<li data-i18n="Safe termination and resource limits">Safe termination and resource limits</li>
+<li data-i18n="Group-return visualization">Group-return visualization</li>
+</ul>
+</article>
+<article class="system-card accent-b">
+<span class="card-kicker">02</span>
+<h3 data-i18n="Market Intelligence Agent">Market Intelligence Agent</h3>
+<p data-i18n="A market intelligence assistant that turns macro, market, and company news into daily research briefs for discretionary review.">A market intelligence assistant that turns macro, market, and company news into daily research briefs for discretionary review.</p>
+<ul>
+<li data-i18n="Pre-market and post-market market briefs">Pre-market and post-market market briefs</li>
+<li data-i18n="Event, sentiment, and catalyst framing">Event, sentiment, and catalyst framing</li>
+<li data-i18n="Public summaries with private pipelines withheld">Public summaries with private pipelines withheld</li>
+</ul>
+</article>
+<article class="system-card accent-c">
+<span class="card-kicker">03</span>
+<h3 data-i18n="Signal Validation Agent">Signal Validation Agent</h3>
+<p data-i18n="A technical-analysis and model-ranking layer that produces email briefs, then publishes compact validation summaries after delivery.">A technical-analysis and model-ranking layer that produces email briefs, then publishes compact validation summaries after delivery.</p>
+<ul>
+<li data-i18n="Daily opportunity screening">Daily opportunity screening</li>
+<li data-i18n="Market-close validation summary">Market-close validation summary</li>
+<li data-i18n="Latest research digests with private internals withheld">Latest research digests with private internals withheld</li>
+</ul>
+</article>
+<article class="system-card accent-d">
+<span class="card-kicker">04</span>
+<h3 data-i18n="Execution Alpha Lab">Execution Alpha Lab</h3>
+<p data-i18n="A market-impact-aware execution research track that studies adaptive participation, VWAP-style scheduling, and AC/IS optimizer variants.">A market-impact-aware execution research track that studies adaptive participation, VWAP-style scheduling, and AC/IS optimizer variants.</p>
+<ul>
+<li data-i18n="Rolling liquidity and impact signals">Rolling liquidity and impact signals</li>
+<li data-i18n="Constrained AC/IS execution scheduler">Constrained AC/IS execution scheduler</li>
+<li data-i18n="Walk-forward strategy comparisons">Walk-forward strategy comparisons</li>
+</ul>
+</article>
+</div>
+</section><section class="section workflow" id="workflow">
+<div class="section-head">
+<p class="eyebrow" data-i18n="08 · Workflow">08 · Workflow</p>
+<h2 data-i18n="From a question to a reproducible result">From a question to a reproducible result</h2>
+</div>
+<div class="flow">
+<div class="step">
+<span data-i18n="Prompt">Prompt</span>
+<p data-i18n="Start from a research direction, task budget, and safety envelope.">Start from a research direction, task budget, and safety envelope.</p>
+</div>
+<div class="step">
+<span data-i18n="Run">Run</span>
+<p data-i18n="Dispatch experiments to a workstation with timeout, memory, and GPU-temperature guards.">Dispatch experiments to a workstation with timeout, memory, and GPU-temperature guards.</p>
+</div>
+<div class="step">
+<span data-i18n="Review">Review</span>
+<p data-i18n="Review metrics, logs, and group-return time series in a lightweight research dashboard.">Review metrics, logs, and group-return time series in a lightweight research dashboard.</p>
+</div>
+<div class="step">
+<span data-i18n="Learn">Learn</span>
+<p data-i18n="Carry forward lessons and avoid repeating low-value experimental paths.">Carry forward lessons and avoid repeating low-value experimental paths.</p>
+</div>
+</div>
+</section><section class="section boundary" id="boundary">
+<div class="section-head">
+<p class="eyebrow" data-i18n="09 · About this site">09 · About this site</p>
+<h2 data-i18n="What is published, and what stays private">What is published, and what stays private</h2>
+</div>
+<div class="boundary-grid">
+<div>
+<h3 data-i18n="Not published">Not published</h3>
+<p data-i18n="Core trading logic, training code, raw logs, datasets, API keys, infrastructure addresses, and private prompts.">Core trading logic, training code, raw logs, datasets, API keys, infrastructure addresses, and private prompts.</p>
+</div>
+<div>
+<h3 data-i18n="Published">Published</h3>
+<p data-i18n="Selected market summaries, historical research metrics and charts, and an overview of the research systems.">Selected market summaries, historical research metrics and charts, and an overview of the research systems.</p>
+</div>
+<div>
+<h3 data-i18n="Reading the results">Reading the results</h3>
+<p data-i18n="Check each report date and research window. Historical simulations do not establish future performance; this site is for research review, not investment advice.">Check each report date and research window. Historical simulations do not establish future performance; this site is for research review, not investment advice.</p>
+</div>
+</div>
+</section></main>
+<footer>
+<span>Hao Zhang</span>
+<span data-i18n="Private research systems. Public summaries only.">Private research systems. Public summaries only.</span>
+</footer>
+<script data-versioned-asset="app" src="app.js?v=20261030102328"></script>
 </body>
 </html>

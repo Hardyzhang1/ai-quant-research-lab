@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-10-30 09:56 local",
+  "published_at": "2026-10-30 10:23 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-10-29",
-    "checked_at": "2026-10-29T21:56:26.660552-04:00",
-    "calendar_updated_at": "2026-10-29T21:54:26.106367-04:00",
+    "checked_at": "2026-10-29T22:23:28.684748-04:00",
+    "calendar_updated_at": "2026-10-29T22:22:33.611194-04:00",
     "status": "empty",
     "stale": false,
     "limit": 10,
@@ -1185,5 +1185,425 @@
         "Content is for system-demonstration purposes and is not financial advice."
       ]
     }
-  ]
+  ],
+  "localized_text": {
+    "A股盘前重要金融新闻": {
+      "zh": "A股盘前重要金融新闻",
+      "en": "A-share pre-market financial news"
+    },
+    "宏观 - 新债王：美联储“瞄瞄瞄、就是不开枪”，CPI“重回4字头”，AI信贷危机类似“次贷前夜” - 富途牛牛": {
+      "zh": "宏观 - 新债王：美联储“瞄瞄瞄、就是不开枪”，CPI“重回4字头”，AI信贷危机类似“次贷前夜” - 富途牛牛",
+      "en": "Macro - The new \"bond king\": the Fed keeps aiming but does not fire; CPI returns to the 4% range; AI credit risks resemble the eve of the subprime crisis - Futu Niuniu"
+    },
+    "宏观 - 美国三季度GDP增速超预期 9月通胀提速 - 财新": {
+      "zh": "宏观 - 美国三季度GDP增速超预期 9月通胀提速 - 财新",
+      "en": "Macro - US third-quarter GDP growth beats expectations; inflation accelerates in September - Caixin"
+    },
+    "宏观 - 白宫经济顾问哈塞特表示：10月份CPI和PCE数据应该能明确美联储应采取什么行动 - 东方财富": {
+      "zh": "宏观 - 白宫经济顾问哈塞特表示：10月份CPI和PCE数据应该能明确美联储应采取什么行动 - 东方财富",
+      "en": "Macro - White House economic adviser Hassett says October CPI and PCE should clarify the action the Fed needs to take - Eastmoney"
+    },
+    "事件/数据": {
+      "zh": "事件/数据",
+      "en": "Event / data"
+    },
+    "时间": {
+      "zh": "时间",
+      "en": "Time"
+    },
+    "最新信息": {
+      "zh": "最新信息",
+      "en": "Latest information"
+    },
+    "为什么重要": {
+      "zh": "为什么重要",
+      "en": "Why it matters"
+    },
+    "关注度": {
+      "zh": "关注度",
+      "en": "Attention"
+    },
+    "新债王：美联储“瞄瞄瞄、就是不开枪”，CPI“重回4字头”，AI信贷危机类似“次贷前夜” - 富途牛牛": {
+      "zh": "新债王：美联储“瞄瞄瞄、就是不开枪”，CPI“重回4字头”，AI信贷危机类似“次贷前夜” - 富途牛牛",
+      "en": "The new \"bond king\": the Fed keeps aiming but does not fire; CPI returns to the 4% range; AI credit risks resemble the eve of the subprime crisis - Futu Niuniu"
+    },
+    "past/upcoming 24h": {
+      "zh": "过去 / 未来 24 小时",
+      "en": "past/upcoming 24h"
+    },
+    "富途牛牛": {
+      "zh": "富途牛牛",
+      "en": "Futu Niuniu"
+    },
+    "May affect index risk appetite, rates, FX or sector valuation.": {
+      "zh": "可能影响指数风险偏好、利率、汇率或行业估值。",
+      "en": "May affect index risk appetite, rates, FX or sector valuation."
+    },
+    "medium": {
+      "zh": "中",
+      "en": "medium"
+    },
+    "美国三季度GDP增速超预期 9月通胀提速 - 财新": {
+      "zh": "美国三季度GDP增速超预期 9月通胀提速 - 财新",
+      "en": "US third-quarter GDP growth beats expectations; inflation accelerates in September - Caixin"
+    },
+    "财新": {
+      "zh": "财新",
+      "en": "Caixin"
+    },
+    "白宫经济顾问哈塞特表示：10月份CPI和PCE数据应该能明确美联储应采取什么行动 - 东方财富": {
+      "zh": "白宫经济顾问哈塞特表示：10月份CPI和PCE数据应该能明确美联储应采取什么行动 - 东方财富",
+      "en": "White House economic adviser Hassett says October CPI and PCE should clarify the action the Fed needs to take - Eastmoney"
+    },
+    "东方财富": {
+      "zh": "东方财富",
+      "en": "Eastmoney"
+    },
+    "穆迪：私募信贷对接AI融资，哪些风险点值得关注 - 财新": {
+      "zh": "穆迪：私募信贷对接AI融资，哪些风险点值得关注 - 财新",
+      "en": "Moody's: private credit meets AI financing; which risks warrant attention? - Caixin"
+    },
+    "央行北京分行：前三季度北京社融增量11062.5亿元 - 观点网": {
+      "zh": "央行北京分行：前三季度北京社融增量11062.5亿元 - 观点网",
+      "en": "PBOC Beijing branch: Beijing added 11062.5 hundred million yuan in aggregate financing during the first three quarters - Guandian"
+    },
+    "观点网": {
+      "zh": "观点网",
+      "en": "Guandian"
+    },
+    "新闻": {
+      "zh": "新闻",
+      "en": "News"
+    },
+    "相关股票": {
+      "zh": "相关股票",
+      "en": "Related stocks"
+    },
+    "判断": {
+      "zh": "判断",
+      "en": "Assessment"
+    },
+    "理由": {
+      "zh": "理由",
+      "en": "Rationale"
+    },
+    "工商银行（601398） 证券之星 · 2026-10-29T22:50:39+00:00 10月29日银行ETF易方达基金份额增加1530万份，重仓股招商银行、兴业银行、工商银行_基金提醒_雷达...": {
+      "zh": "工商银行（601398） 证券之星 · 2026-10-29T22:50:39+00:00 10月29日银行ETF易方达基金份额增加1530万份，重仓股招商银行、兴业银行、工商银行_基金提醒_雷达...",
+      "en": "ICBC (601398) Stockstar · 2026-10-29T22:50:39+00:00 On 10/29, E Fund Bank ETF units increased by 1530 ten-thousand units; major holdings include China Merchants Bank, Industrial Bank and ICBC_Fund alert_Radar..."
+    },
+    "中性": {
+      "zh": "中性",
+      "en": "Neutral"
+    },
+    "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...": {
+      "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...",
+      "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: financial credit and capital-market transmission. Bottleneck: net interest margin, credit losses, capital adequacy and financing conditions. Evidence: medium; research priority: medium. Counter-risk: if the source later shows the impact is one-off or already..."
+    },
+    "招商银行（600036） 证券之星 · 2026-10-29T22:50:39+00:00 10月29日银行ETF易方达基金份额增加1530万份，重仓股招商银行、兴业银行、工商银行_基金提醒_雷达...": {
+      "zh": "招商银行（600036） 证券之星 · 2026-10-29T22:50:39+00:00 10月29日银行ETF易方达基金份额增加1530万份，重仓股招商银行、兴业银行、工商银行_基金提醒_雷达...",
+      "en": "China Merchants Bank (600036) Stockstar · 2026-10-29T22:50:39+00:00 On 10/29, E Fund Bank ETF units increased by 1530 ten-thousand units; major holdings include China Merchants Bank, Industrial Bank and ICBC_Fund alert_Radar..."
+    },
+    "兴业银行（601166） 证券之星 · 2026-10-29T22:50:39+00:00 10月29日银行ETF易方达基金份额增加1530万份，重仓股招商银行、兴业银行、工商银行_基金提醒_雷达...": {
+      "zh": "兴业银行（601166） 证券之星 · 2026-10-29T22:50:39+00:00 10月29日银行ETF易方达基金份额增加1530万份，重仓股招商银行、兴业银行、工商银行_基金提醒_雷达...",
+      "en": "Industrial Bank (601166) Stockstar · 2026-10-29T22:50:39+00:00 On 10/29, E Fund Bank ETF units increased by 1530 ten-thousand units; major holdings include China Merchants Bank, Industrial Bank and ICBC_Fund alert_Radar..."
+    },
+    "美的集团（000333） 东方财富 · 2026-10-29T11:32:11+00:00 美的集团、海尔智家第三季收入增长承压 - 东方财富 - 东方财富 【图解财报】美的集团三季报盈利413.9...": {
+      "zh": "美的集团（000333） 东方财富 · 2026-10-29T11:32:11+00:00 美的集团、海尔智家第三季收入增长承压 - 东方财富 - 东方财富 【图解财报】美的集团三季报盈利413.9...",
+      "en": "Midea Group (000333) Eastmoney · 2026-10-29T11:32:11+00:00 Midea and Haier Smart Home face third-quarter revenue growth pressure - Eastmoney - Eastmoney [Earnings graphic] Midea nine-month profit 413.9..."
+    },
+    "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...": {
+      "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...",
+      "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: company operations / industry conditions. Bottleneck: unclear; check whether the news changes revenue, margins, orders or regulatory constraints. Evidence: medium; research priority: medium. Counter-risk: if subsequent source text shows..."
+    },
+    "东方财富（300059） 东方财富 · 2026-10-29T11:32:11+00:00 美的集团、海尔智家第三季收入增长承压 - 东方财富 - 东方财富 【图解财报】比亚迪股份三季报盈利223....": {
+      "zh": "东方财富（300059） 东方财富 · 2026-10-29T11:32:11+00:00 美的集团、海尔智家第三季收入增长承压 - 东方财富 - 东方财富 【图解财报】比亚迪股份三季报盈利223....",
+      "en": "Eastmoney (300059) Eastmoney · 2026-10-29T11:32:11+00:00 Midea and Haier Smart Home face third-quarter revenue growth pressure - Eastmoney - Eastmoney [Earnings graphic] BYD nine-month profit 223...."
+    },
+    "A股开盘信息": {
+      "zh": "A股开盘信息",
+      "en": "A-share opening update"
+    },
+    "正式机会暂不可用": {
+      "zh": "正式机会暂不可用",
+      "en": "Official opportunity screening temporarily unavailable"
+    },
+    "模型所需的有效历史样本不足，本次无法完成正式机会筛选；这不代表没有机会。新闻仍正常更新。": {
+      "zh": "模型所需的有效历史样本不足，本次无法完成正式机会筛选；这不代表没有机会。新闻仍正常更新。",
+      "en": "The model has insufficient valid historical samples to complete official opportunity screening. This does not mean there are no opportunities. News continues to update."
+    },
+    "截至 2026-10-29，本次行情覆盖 976/1000 只；24 只缺失（000030、000885、000913、001382、002101、002287、002827、301177、301268、301602、600167、600621、600639、601326、603013、603014、603194、603219、603299、605099、605116、605...": {
+      "zh": "截至 2026-10-29，本次行情覆盖 976/1000 只；24 只缺失（000030、000885、000913、001382、002101、002287、002827、301177、301268、301602、600167、600621、600639、601326、603013、603014、603194、603219、603299、605099、605116、605...",
+      "en": "As of 2026-10-29; market data covers 976/1000 stocks; 24 missing (000030, 000885, 000913, 001382, 002101, 002287, 002827, 301177, 301268, 301602, 600167, 600621, 600639, 601326, 603013, 603014, 603194, 603219, 603299, 605099, 605116, 605..."
+    },
+    "A股收盘总结": {
+      "zh": "A股收盘总结",
+      "en": "A-share closing review"
+    },
+    "市场情绪：偏谨慎（-40） - 今日A股明显分化：主要宽基指数收跌，创业板指跌幅居前，成长与算力光模块链条承压，而银行等权重蓝筹逆势走强，贵州茅台、中国移动、招商银行、中国平安等大盘价值股收涨，指数层面呈现权重护盘、成长杀跌的结构性行情。消息面上三季报密集披露构成主要信息源：中国石油、中国石化前三季利润同比增长，银行板块多只龙头创历史新高；光通信板块在天孚通信三季报后大幅下跌并带动中际旭创、新易盛等走弱，尽管多家公司单季利润同比高增，显示业绩兑现与估值/资金面出现分歧。中国太保三季度净利大幅下滑、格力电器单季净利...": {
+      "zh": "市场情绪：偏谨慎（-40） - 今日A股明显分化：主要宽基指数收跌，创业板指跌幅居前，成长与算力光模块链条承压，而银行等权重蓝筹逆势走强，贵州茅台、中国移动、招商银行、中国平安等大盘价值股收涨，指数层面呈现权重护盘、成长杀跌的结构性行情。消息面上三季报密集披露构成主要信息源：中国石油、中国石化前三季利润同比增长，银行板块多只龙头创历史新高；光通信板块在天孚通信三季报后大幅下跌并带动中际旭创、新易盛等走弱，尽管多家公司单季利润同比高增，显示业绩兑现与估值/资金面出现分歧。中国太保三季度净利大幅下滑、格力电器单季净利...",
+      "en": "Market sentiment: cautious (-40) - A-shares diverged sharply today: major broad indices closed lower, with ChiNext leading declines. Growth stocks and the computing / optical-module chain were under pressure, while heavyweight banks and blue chips rose. Kweichow Moutai, China Mobile, China Merchants Bank and Ping An gained, leaving heavyweights supporting indices as growth stocks sold off. Third-quarter earnings dominated the news: PetroChina and Sinopec reported higher nine-month profits, and several leading banks hit record highs. Optical communications fell sharply after Tianfu Communication's report, dragging Zhongji Innolight and Eoptolink lower despite strong quarterly profit growth at several companies, suggesting a divergence between earnings delivery, valuations and flows. China Pacific Insurance's third-quarter net profit fell sharply, while Gree's quarterly net profit..."
+    },
+    "主要驱动 - 三季报密集披露：能源、银行盈利与股价表现相对稳健，光通信、家电、保险等出现业绩与股价背离；银行板块逆势走强，工商银行、建设银行等创历史新高，权重护盘但加剧成长股资金分流；光模块/算力链大幅回调：天孚通信跌停并放量，中际旭创、新易盛业绩高增但股价走弱，资金流出明显": {
+      "zh": "主要驱动 - 三季报密集披露：能源、银行盈利与股价表现相对稳健，光通信、家电、保险等出现业绩与股价背离；银行板块逆势走强，工商银行、建设银行等创历史新高，权重护盘但加剧成长股资金分流；光模块/算力链大幅回调：天孚通信跌停并放量，中际旭创、新易盛业绩高增但股价走弱，资金流出明显",
+      "en": "Main drivers - Intensive third-quarter reporting: energy and banks showed relatively resilient earnings and share prices, while optical communications, appliances and insurers saw earnings-price divergences. Banks rose against the market, with ICBC and CCB hitting record highs; heavyweights supported indices while drawing funds from growth stocks. The optical-module / computing chain corrected sharply: Tianfu Communication hit limit down on heavy volume; Zhongji Innolight and Eoptolink weakened despite strong earnings growth, with notable outflows."
+    },
+    "下一交易日关注 - 关注三季报披露尾声的业绩地雷与超预期个股，尤其是尚未披露的权重股；跟踪光模块与算力链在放量下跌后的资金承接与企稳信号；观察银行等权重蓝筹创新高后的持续性及其对指数的护盘力度": {
+      "zh": "下一交易日关注 - 关注三季报披露尾声的业绩地雷与超预期个股，尤其是尚未披露的权重股；跟踪光模块与算力链在放量下跌后的资金承接与企稳信号；观察银行等权重蓝筹创新高后的持续性及其对指数的护盘力度",
+      "en": "Next session - Watch earnings disappointments and positive surprises as reporting season ends, especially among heavyweights yet to report. Track buying support and stabilization in optical modules and computing after heavy-volume declines. Assess whether banks and heavyweight blue chips can sustain record highs and continue supporting indices."
+    },
+    "市场": {
+      "zh": "市场",
+      "en": "Market"
+    },
+    "指数": {
+      "zh": "指数",
+      "en": "Index"
+    },
+    "最新": {
+      "zh": "最新",
+      "en": "Latest"
+    },
+    "较前收盘": {
+      "zh": "较前收盘",
+      "en": "Vs previous close"
+    },
+    "状态": {
+      "zh": "状态",
+      "en": "Status"
+    },
+    "中国": {
+      "zh": "中国",
+      "en": "China"
+    },
+    "上证指数": {
+      "zh": "上证指数",
+      "en": "SSE Composite"
+    },
+    "最近收盘": {
+      "zh": "最近收盘",
+      "en": "Latest close"
+    },
+    "沪深300": {
+      "zh": "沪深300",
+      "en": "CSI 300"
+    },
+    "香港": {
+      "zh": "香港",
+      "en": "Hong Kong"
+    },
+    "恒生指数": {
+      "zh": "恒生指数",
+      "en": "Hang Seng"
+    },
+    "日本": {
+      "zh": "日本",
+      "en": "Japan"
+    },
+    "日经225": {
+      "zh": "日经225",
+      "en": "Nikkei 225"
+    },
+    "英国": {
+      "zh": "英国",
+      "en": "UK"
+    },
+    "富时100": {
+      "zh": "富时100",
+      "en": "FTSE 100"
+    },
+    "盘中": {
+      "zh": "盘中",
+      "en": "Intraday"
+    },
+    "组成": {
+      "zh": "组成",
+      "en": "Component"
+    },
+    "分值贡献": {
+      "zh": "分值贡献",
+      "en": "Score contribution"
+    },
+    "依据": {
+      "zh": "依据",
+      "en": "Basis"
+    },
+    "主要指数贡献": {
+      "zh": "主要指数贡献",
+      "en": "Major-index contribution"
+    },
+    "加权指数涨跌 -2.04%": {
+      "zh": "加权指数涨跌 -2.04%",
+      "en": "Weighted index change -2.04%"
+    },
+    "核心大盘股贡献": {
+      "zh": "核心大盘股贡献",
+      "en": "Core large-cap contribution"
+    },
+    "样本平均涨跌 +1.19%": {
+      "zh": "样本平均涨跌 +1.19%",
+      "en": "Sample average change +1.19%"
+    },
+    "权重股广度贡献": {
+      "zh": "权重股广度贡献",
+      "en": "Heavyweight breadth contribution"
+    },
+    "样本权重股上涨比例 67%": {
+      "zh": "样本权重股上涨比例 67%",
+      "en": "Share of sampled heavyweights rising: 67%"
+    },
+    "覆盖 zz1000 股票池 975 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。": {
+      "zh": "覆盖 zz1000 股票池 975 只；市场情绪根据上涨占比粗略分层：上涨占比 ≥60% 为偏强，≤40% 为偏弱，中间为中性。本报告收益均为开盘到收盘的纸面表现。",
+      "en": "Coverage: 975 stocks in the zz1000 universe. Sentiment is coarsely classified by the share of advancing stocks: at least 60% is strong, at most 40% is weak, and the middle range is neutral. All returns in this report are paper open-to-close returns."
+    },
+    "市场情绪 偏弱": {
+      "zh": "市场情绪 偏弱",
+      "en": "Market sentiment: weak"
+    },
+    "上涨/下跌/平盘 208/751/16": {
+      "zh": "上涨/下跌/平盘 208/751/16",
+      "en": "Advancing / declining / unchanged: 208/751/16"
+    },
+    "平均开盘-收盘 -1.97%": {
+      "zh": "平均开盘-收盘 -1.97%",
+      "en": "Average open-to-close return -1.97%"
+    },
+    "中位数 -2.03%": {
+      "zh": "中位数 -2.03%",
+      "en": "Median -2.03%"
+    },
+    "美股盘前重要金融新闻": {
+      "zh": "美股盘前重要金融新闻",
+      "en": "US pre-market financial news"
+    },
+    "宏观 - Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against Iran - marketscreener.com": {
+      "zh": "宏观 - 德国商业银行：有关美国可能打击伊朗的报道推动油价上涨，美债收益率随之走高 - marketscreener.com",
+      "en": "Macro - Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against Iran - marketscreener.com"
+    },
+    "宏观 - US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh's Press Briefing - marketscreener.com": {
+      "zh": "宏观 - 美联储货币政策公告与主席 Kevin Warsh 新闻发布会前，美债收益率走高 - marketscreener.com",
+      "en": "Macro - US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh's Press Briefing - marketscreener.com"
+    },
+    "宏观 - Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX": {
+      "zh": "宏观 - 纳斯达克、美债收益率与美元面临 AI 情绪的重要考验 - StoneX",
+      "en": "Macro - Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX"
+    },
+    "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against I...": {
+      "zh": "德国商业银行称，美债收益率随油价走高，背景是美国可能打击 I... 的报道",
+      "en": "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against I..."
+    },
+    "marketscreener.com": {
+      "en": "marketscreener.com",
+      "zh": "marketscreener.com"
+    },
+    "US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh...": {
+      "zh": "美联储货币政策公告与主席 Kevin Warsh... 前，美债收益率走高",
+      "en": "US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh..."
+    },
+    "Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX": {
+      "zh": "纳斯达克、美债收益率与美元面临 AI 情绪的重要考验 - StoneX",
+      "en": "Nasdaq, Treasury yields and dollar face a major AI sentiment test - StoneX"
+    },
+    "StoneX": {
+      "en": "StoneX",
+      "zh": "StoneX"
+    },
+    "US Market: Rising Treasury yields put US banks under pressure over bond losses - The Economic Times": {
+      "zh": "美国市场：美债收益率上升，债券损失令美国银行业承压 - The Economic Times",
+      "en": "US Market: Rising Treasury yields put US banks under pressure over bond losses - The Economic Times"
+    },
+    "The Economic Times": {
+      "en": "The Economic Times",
+      "zh": "The Economic Times"
+    },
+    "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate D...": {
+      "zh": "今日股市：美联储利率决... 前，标普 500 与道指期货涨跌不一",
+      "en": "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate D..."
+    },
+    "TradingView": {
+      "en": "TradingView",
+      "zh": "TradingView"
+    },
+    "Alphabet Inc. Class A（GOOGL） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, D...": {
+      "zh": "Alphabet A 类股（GOOGL） TradingView · 2026-10-28T09:47:15+00:00 今日股市：标普 500、D...",
+      "en": "Alphabet Inc. Class A（GOOGL） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, D..."
+    },
+    "SK hynix Inc. American Depositary Shares（SKHY） TradingView · 2026-10-28T09:47:15+00:00 Stock Market...": {
+      "zh": "SK 海力士美国存托股份（SKHY） TradingView · 2026-10-28T09:47:15+00:00 今日股市...",
+      "en": "SK hynix Inc. American Depositary Shares（SKHY） TradingView · 2026-10-28T09:47:15+00:00 Stock Market..."
+    },
+    "Visa（V） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, Dow Jones Futures Trad...": {
+      "zh": "Visa（V） TradingView · 2026-10-28T09:47:15+00:00 今日股市：标普 500、道指期货交易...",
+      "en": "Visa（V） TradingView · 2026-10-28T09:47:15+00:00 Stock Market Today: S&P 500, Dow Jones Futures Trad..."
+    },
+    "利好": {
+      "zh": "利好",
+      "en": "Positive"
+    },
+    "Microsoft Corporation（MSFT） Yahoo Finance · 2026-10-28T09:48:36+00:00 S&P 500, Nasdaq Futures Mixed...": {
+      "zh": "微软（MSFT） Yahoo Finance · 2026-10-28T09:48:36+00:00 标普 500、纳斯达克期货涨跌不一...",
+      "en": "Microsoft Corporation（MSFT） Yahoo Finance · 2026-10-28T09:48:36+00:00 S&P 500, Nasdaq Futures Mixed..."
+    },
+    "Intel Corporation（INTC） Bitcoin News · 2026-10-28T00:10:26+00:00 Intel, Oracle, IBM and IonQ Join G...": {
+      "zh": "英特尔（INTC） Bitcoin News · 2026-10-28T00:10:26+00:00 英特尔、甲骨文、IBM 与 IonQ 加入 G...",
+      "en": "Intel Corporation（INTC） Bitcoin News · 2026-10-28T00:10:26+00:00 Intel, Oracle, IBM and IonQ Join G..."
+    },
+    "市场状态分层：市场状态未知": {
+      "zh": "市场状态分层：市场状态未知",
+      "en": "Market regime: unknown"
+    },
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
+    },
+    "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
+      "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
+      "en": "Used for small weighting adjustments across energy / defense, high-beta technology, financials, consumer cyclicals and semiconductors. Historical policy score adjustments require headline / source diversity. Does not invoke [redacted-model] and is not a conclusion about news facts."
+    },
+    "News module exceeded 180 seconds; using the latest available preview as fallback.": {
+      "zh": "新闻模块超过 180 秒，使用最近可用的预览作为回退。",
+      "en": "News module exceeded 180 seconds; using the latest available preview as fallback."
+    },
+    "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against Iran - marketscreener.com": {
+      "zh": "德国商业银行称，有关美国可能打击伊朗的报道推动油价上涨，美债收益率随之走高 - marketscreener.com",
+      "en": "Commerzbank Says Treasury Yields Rise as Oil Prices Gain on Report of Possible US Strikes Against Iran - marketscreener.com"
+    },
+    "美股收盘总结": {
+      "zh": "美股收盘总结",
+      "en": "US closing review"
+    },
+    "市场情绪：偏谨慎（-39） - 美股当日呈现明显的结构性分化：纳斯达克跌幅显著大于道指与标普500，核心拖累来自Alphabet财报后大跌12.64%，引发市场对超大规模云厂商AI资本开支回报与自由现金流转负的担忧；亚马逊下跌4.25%，同样受资本开支与营收指引压制。英伟达、博通、美光、AMD等AI芯片链承压，三星电子利润不及预期及微软、Alphabet资本开支放缓的解读进一步压制半导体情绪。与之相对，苹果上涨1.48%、Meta上涨1.96%、摩根大通上涨1.26%，显示资金在科技内部由AI重资本开支方向向现金...": {
+      "zh": "市场情绪：偏谨慎（-39） - 美股当日呈现明显的结构性分化：纳斯达克跌幅显著大于道指与标普500，核心拖累来自Alphabet财报后大跌12.64%，引发市场对超大规模云厂商AI资本开支回报与自由现金流转负的担忧；亚马逊下跌4.25%，同样受资本开支与营收指引压制。英伟达、博通、美光、AMD等AI芯片链承压，三星电子利润不及预期及微软、Alphabet资本开支放缓的解读进一步压制半导体情绪。与之相对，苹果上涨1.48%、Meta上涨1.96%、摩根大通上涨1.26%，显示资金在科技内部由AI重资本开支方向向现金...",
+      "en": "Market sentiment: cautious (-39) - US equities diverged sharply: the Nasdaq fell much more than the Dow and S&P 500. Alphabet's 12.64% post-earnings drop was the main drag, raising concerns over returns on hyperscalers' AI capital spending and negative free cash flow. Amazon fell 4.25%, also pressured by capital spending and revenue guidance. Nvidia, Broadcom, Micron and AMD weakened; Samsung's earnings miss and interpretations of slower Microsoft and Alphabet capital spending further weighed on semiconductor sentiment. In contrast, Apple gained 1.48%, Meta 1.96% and JPMorgan 1.26%, suggesting a rotation within technology from capital-intensive AI toward cash..."
+    },
+    "主要驱动 - Alphabet财报后重挫12.64%，AI资本开支上升导致自由现金流转负，引发对超大市值科技公司AI投入回报的重新定价；亚马逊下跌4.25%，营收指引与资本开支压力盖过AWS增长，强化“AI烧钱”叙事；AI芯片链集体走弱：三星电子利润不及预期、微软与Alphabet资本开支放缓的解读压制英伟达、博通、美光、AMD、英特尔": {
+      "zh": "主要驱动 - Alphabet财报后重挫12.64%，AI资本开支上升导致自由现金流转负，引发对超大市值科技公司AI投入回报的重新定价；亚马逊下跌4.25%，营收指引与资本开支压力盖过AWS增长，强化“AI烧钱”叙事；AI芯片链集体走弱：三星电子利润不及预期、微软与Alphabet资本开支放缓的解读压制英伟达、博通、美光、AMD、英特尔",
+      "en": "Main drivers - Alphabet dropped 12.64% after earnings as rising AI capital spending turned free cash flow negative, prompting a reassessment of AI returns at megacap technology firms. Amazon fell 4.25% as revenue guidance and capital-spending pressure outweighed AWS growth, reinforcing the \"AI cash burn\" narrative. AI chips weakened broadly: Samsung's earnings miss and interpretations of slower Microsoft and Alphabet capital spending weighed on Nvidia, Broadcom, Micron, AMD and Intel."
+    },
+    "下一交易日关注 - 关注亚马逊、Alphabet财报后分析师评级与目标价调整，是否出现进一步下修；跟踪英伟达及AI芯片链对超大规模云厂商资本开支指引的二次反应，尤其是博通、美光、AMD；关注英特尔财报后大跌的后续解读及其对半导体板块情绪的溢出效应": {
+      "zh": "下一交易日关注 - 关注亚马逊、Alphabet财报后分析师评级与目标价调整，是否出现进一步下修；跟踪英伟达及AI芯片链对超大规模云厂商资本开支指引的二次反应，尤其是博通、美光、AMD；关注英特尔财报后大跌的后续解读及其对半导体板块情绪的溢出效应",
+      "en": "Next session - Watch analyst rating and price-target changes after Amazon and Alphabet earnings for further cuts. Track secondary reactions in Nvidia and the AI chip chain to hyperscaler capital-spending guidance, especially Broadcom, Micron and AMD. Follow interpretations of Intel's post-earnings drop and potential spillover into semiconductor sentiment."
+    },
+    "加权指数涨跌 -0.61%": {
+      "zh": "加权指数涨跌 -0.61%",
+      "en": "Weighted index change -0.61%"
+    },
+    "样本平均涨跌 -1.67%": {
+      "zh": "样本平均涨跌 -1.67%",
+      "en": "Sample average change -1.67%"
+    },
+    "VIX贡献": {
+      "zh": "VIX贡献",
+      "en": "VIX contribution"
+    },
+    "VIX涨跌 +0.00%（VIX上涨通常压低情绪分）": {
+      "zh": "VIX涨跌 +0.00%（VIX上涨通常压低情绪分）",
+      "en": "VIX change +0.00% (a rising VIX normally lowers the sentiment score)"
+    }
+  },
+  "translation_status": {
+    "mode": "local_only",
+    "total": 103,
+    "translated": 103,
+    "complete": true
+  }
 }

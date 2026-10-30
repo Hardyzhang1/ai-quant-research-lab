@@ -10,6 +10,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 from publish_earnings import build_earnings_snapshot
+from publish_translations import add_local_translations
 
 
 class VisibleTextParser(HTMLParser):
@@ -734,6 +735,7 @@ def main() -> None:
         except json.JSONDecodeError:
             previous = None
     payload = build_payload(args, previous)
+    add_local_translations(payload)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote public report digest data to {output}")
 
