@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-10-30 21:16 local",
+  "published_at": "2026-10-31 08:00 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-10-30",
-    "checked_at": "2026-10-30T09:16:54.507427-04:00",
-    "calendar_updated_at": "2026-10-30T09:16:45.379857-04:00",
+    "checked_at": "2026-10-30T20:00:49.098292-04:00",
+    "calendar_updated_at": "2026-10-30T20:00:48.977056-04:00",
     "status": "empty",
     "stale": false,
     "limit": 10,
@@ -1044,18 +1044,18 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-10-30 08:01 local",
+      "updated_at": "2026-10-31 08:00 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-10-30 08:01 中国标准时间",
-          "updated_at": "2026-10-30 08:01 local",
+          "generated_at": "2026-10-31 08:00 中国标准时间",
+          "updated_at": "2026-10-31 08:00 local",
           "highlights": [
-            "市场情绪：偏谨慎（-39） - 美股当日呈现明显的结构性分化：纳斯达克跌幅显著大于道指与标普500，核心拖累来自Alphabet财报后大跌12.64%，引发市场对超大规模云厂商AI资本开支回报与自由现金流转负的担忧；亚马逊下跌4.25%，同样受资本开支与营收指引压制。英伟达、博通、美光、AMD等AI芯片链承压，三星电子利润不及预期及微软、Alphabet资本开支放缓的解读进一步压制半导体情绪。与之相对，苹果上涨1.48%、Meta上涨1.96%、摩根大通上涨1.26%，显示资金在科技内部由AI重资本开支方向向现金...",
-            "主要驱动 - Alphabet财报后重挫12.64%，AI资本开支上升导致自由现金流转负，引发对超大市值科技公司AI投入回报的重新定价；亚马逊下跌4.25%，营收指引与资本开支压力盖过AWS增长，强化“AI烧钱”叙事；AI芯片链集体走弱：三星电子利润不及预期、微软与Alphabet资本开支放缓的解读压制英伟达、博通、美光、AMD、英特尔",
-            "下一交易日关注 - 关注亚马逊、Alphabet财报后分析师评级与目标价调整，是否出现进一步下修；跟踪英伟达及AI芯片链对超大规模云厂商资本开支指引的二次反应，尤其是博通、美光、AMD；关注英特尔财报后大跌的后续解读及其对半导体板块情绪的溢出效应"
+            "市场情绪：谨慎（-81） - 10月30日美股科技板块明显承压，标普500跌1.82%、纳指跌2.86%，半导体与硬件链是主要拖累。英特尔第三财季虽超预期，但对PC需求疲软与供应限制的指引引发芯片股连锁抛售，费城半导体相关个股普跌，英伟达跌4.22%、AMD与Arm、Marvell、高通等跌幅更大，戴尔、惠普等硬件股重挫。亚马逊因资本开支与AI投入导致自由现金流为负而下跌，奈飞指引不佳拖累流媒体情绪。避险与轮动迹象并存：苹果市值反超英伟达，礼来、艾伯维创历史新高，沃尔玛逆势上涨。VIX持平于21.67，波动率未进...",
+            "主要驱动 - 英特尔疲弱的PC需求与供应限制指引引发半导体及硬件链连锁抛售；亚马逊AI资本开支令自由现金流转负，叠加奈飞指引不及预期压制大型科技股；存储与半导体板块前期涨幅过大后出现集中获利了结，戴尔、惠普及存储股领跌",
+            "下一交易日关注 - 关注苹果、超微电脑、AMD、Palantir等财报对科技情绪的二次定价；观察英伟达能否守住200美元附近关键心理关口及半导体板块是否止跌；留意英特尔指引对PC链（戴尔、惠普、存储）的持续传导"
           ],
           "tables": [
             {
@@ -1070,36 +1070,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3651.43",
-                  "-0.82%",
+                  "3599.02",
+                  "-1.44%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4041.84",
-                  "-1.03%",
+                  "3985.5",
+                  "-1.39%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "22958.65",
-                  "-0.59%",
+                  "23294.42",
+                  "+1.46%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "64659.47",
-                  "+0.00%",
-                  "盘中"
+                  "63290.11",
+                  "-2.12%",
+                  "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10722.07",
-                  "+0.26%",
+                  "10729.78",
+                  "+0.07%",
                   "最近收盘"
                 ]
               ]
@@ -1113,13 +1113,13 @@
               "rows": [
                 [
                   "主要指数贡献",
-                  "-18.2",
-                  "加权指数涨跌 -0.61%"
+                  "-58.6",
+                  "加权指数涨跌 -1.95%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "-20.9",
-                  "样本平均涨跌 -1.67%"
+                  "-22.0",
+                  "样本平均涨跌 -1.76%"
                 ],
                 [
                   "VIX贡献",
@@ -1459,26 +1459,6 @@
       "zh": "美股收盘总结",
       "en": "US closing review"
     },
-    "市场情绪：偏谨慎（-39） - 美股当日呈现明显的结构性分化：纳斯达克跌幅显著大于道指与标普500，核心拖累来自Alphabet财报后大跌12.64%，引发市场对超大规模云厂商AI资本开支回报与自由现金流转负的担忧；亚马逊下跌4.25%，同样受资本开支与营收指引压制。英伟达、博通、美光、AMD等AI芯片链承压，三星电子利润不及预期及微软、Alphabet资本开支放缓的解读进一步压制半导体情绪。与之相对，苹果上涨1.48%、Meta上涨1.96%、摩根大通上涨1.26%，显示资金在科技内部由AI重资本开支方向向现金...": {
-      "zh": "市场情绪：偏谨慎（-39） - 美股当日呈现明显的结构性分化：纳斯达克跌幅显著大于道指与标普500，核心拖累来自Alphabet财报后大跌12.64%，引发市场对超大规模云厂商AI资本开支回报与自由现金流转负的担忧；亚马逊下跌4.25%，同样受资本开支与营收指引压制。英伟达、博通、美光、AMD等AI芯片链承压，三星电子利润不及预期及微软、Alphabet资本开支放缓的解读进一步压制半导体情绪。与之相对，苹果上涨1.48%、Meta上涨1.96%、摩根大通上涨1.26%，显示资金在科技内部由AI重资本开支方向向现金...",
-      "en": "Market sentiment: cautious (-39) - US equities diverged sharply: the Nasdaq fell much more than the Dow and S&P 500. Alphabet's 12.64% post-earnings drop was the main drag, raising concerns over returns on hyperscalers' AI capital spending and negative free cash flow. Amazon fell 4.25%, also pressured by capital spending and revenue guidance. Nvidia, Broadcom, Micron and AMD weakened; Samsung's earnings miss and interpretations of slower Microsoft and Alphabet capital spending further weighed on semiconductor sentiment. In contrast, Apple gained 1.48%, Meta 1.96% and JPMorgan 1.26%, suggesting a rotation within technology from capital-intensive AI toward cash..."
-    },
-    "主要驱动 - Alphabet财报后重挫12.64%，AI资本开支上升导致自由现金流转负，引发对超大市值科技公司AI投入回报的重新定价；亚马逊下跌4.25%，营收指引与资本开支压力盖过AWS增长，强化“AI烧钱”叙事；AI芯片链集体走弱：三星电子利润不及预期、微软与Alphabet资本开支放缓的解读压制英伟达、博通、美光、AMD、英特尔": {
-      "zh": "主要驱动 - Alphabet财报后重挫12.64%，AI资本开支上升导致自由现金流转负，引发对超大市值科技公司AI投入回报的重新定价；亚马逊下跌4.25%，营收指引与资本开支压力盖过AWS增长，强化“AI烧钱”叙事；AI芯片链集体走弱：三星电子利润不及预期、微软与Alphabet资本开支放缓的解读压制英伟达、博通、美光、AMD、英特尔",
-      "en": "Main drivers - Alphabet dropped 12.64% after earnings as rising AI capital spending turned free cash flow negative, prompting a reassessment of AI returns at megacap technology firms. Amazon fell 4.25% as revenue guidance and capital-spending pressure outweighed AWS growth, reinforcing the \"AI cash burn\" narrative. AI chips weakened broadly: Samsung's earnings miss and interpretations of slower Microsoft and Alphabet capital spending weighed on Nvidia, Broadcom, Micron, AMD and Intel."
-    },
-    "下一交易日关注 - 关注亚马逊、Alphabet财报后分析师评级与目标价调整，是否出现进一步下修；跟踪英伟达及AI芯片链对超大规模云厂商资本开支指引的二次反应，尤其是博通、美光、AMD；关注英特尔财报后大跌的后续解读及其对半导体板块情绪的溢出效应": {
-      "zh": "下一交易日关注 - 关注亚马逊、Alphabet财报后分析师评级与目标价调整，是否出现进一步下修；跟踪英伟达及AI芯片链对超大规模云厂商资本开支指引的二次反应，尤其是博通、美光、AMD；关注英特尔财报后大跌的后续解读及其对半导体板块情绪的溢出效应",
-      "en": "Next session - Watch analyst rating and price-target changes after Amazon and Alphabet earnings for further cuts. Track secondary reactions in Nvidia and the AI chip chain to hyperscaler capital-spending guidance, especially Broadcom, Micron and AMD. Follow interpretations of Intel's post-earnings drop and potential spillover into semiconductor sentiment."
-    },
-    "加权指数涨跌 -0.61%": {
-      "zh": "加权指数涨跌 -0.61%",
-      "en": "Weighted index change -0.61%"
-    },
-    "样本平均涨跌 -1.67%": {
-      "zh": "样本平均涨跌 -1.67%",
-      "en": "Sample average change -1.67%"
-    },
     "VIX贡献": {
       "zh": "VIX贡献",
       "en": "VIX contribution"
@@ -1491,7 +1471,7 @@
   "translation_status": {
     "mode": "local_only",
     "total": 104,
-    "translated": 75,
+    "translated": 70,
     "complete": false
   }
 }
