@@ -1,15 +1,76 @@
 {
   "ok": true,
-  "published_at": "2026-11-02 09:16 local",
+  "published_at": "2026-11-02 22:23 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-01",
-    "checked_at": "2026-11-01T20:16:03.148471-05:00",
-    "calendar_updated_at": "2026-11-01T20:16:01.632335-05:00",
-    "status": "empty",
+    "market_date": "2026-11-02",
+    "checked_at": "2026-11-02T09:23:27.107148-05:00",
+    "calendar_updated_at": "2026-11-02T09:23:14.082299-05:00",
+    "status": "ready",
     "stale": false,
     "limit": 10,
-    "companies": []
+    "companies": [
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "market_cap_usd": "5092055400000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies Inc.",
+        "market_cap_usd": "471811359000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "market_cap_usd": "136868897000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "WMB",
+        "name": "Williams Companies, Inc. (The)",
+        "market_cap_usd": "91590779000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "FANG",
+        "name": "Diamondback Energy, Inc.",
+        "market_cap_usd": "57805427000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "O",
+        "name": "Realty Income Corporation",
+        "market_cap_usd": "54123672000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "ON",
+        "name": "ON Semiconductor Corporation",
+        "market_cap_usd": "29292333100",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "ROKU",
+        "name": "Roku, Inc.",
+        "market_cap_usd": "23202336800",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "PS",
+        "name": "Pershing Square Inc.",
+        "market_cap_usd": "19659999200",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      },
+      {
+        "symbol": "SBAC",
+        "name": "SBA Communications Corporation",
+        "market_cap_usd": "19613569000",
+        "release_window_start": "2026-11-02T16:00:00-05:00"
+      }
+    ]
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -836,7 +897,7 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-10-30 21:16 local",
+      "updated_at": "2026-11-02 22:23 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
@@ -941,16 +1002,62 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-10-30 21:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-10-30 21:16 local",
+          "generated_at": "2026-11-02 22:20 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-02 22:23 local",
           "highlights": [
-            "宏观事件覆盖层：macro_rates=10；geopolitical_risk=1；oil_shock=1；risk_deescalation=1",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "风险缓和/修复：未达到调分门槛；方向证据 1 vs 反向 0；不同标题 1，不同来源 1，一线来源 0；市场代理确认 否",
-            "Oil flows are up as Iran war turmoil eases. Why do prices keep rising? - Al Jazeera",
-            "Did the Fed just make a huge mistake? - CNN"
+            "今日待发布财报 · 市值前五",
+            "美东日期：2026-11-02；按市值降序，最多五家公司。",
+            "预计发布时段（美东）"
           ],
           "tables": [
+            {
+              "headers": [
+                "序号",
+                "公司",
+                "代码",
+                "市值（美元）",
+                "预计发布时段（美东）"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Apple Inc.",
+                  "AAPL",
+                  "$5,092,055,400,000",
+                  "11-02 16:00 EST 后（盘后）"
+                ],
+                [
+                  "2",
+                  "Palantir Technologies Inc.",
+                  "PLTR",
+                  "$471,811,359,000",
+                  "11-02 16:00 EST 后（盘后）"
+                ],
+                [
+                  "3",
+                  "Vertex Pharmaceuticals Incorporated",
+                  "VRTX",
+                  "$136,868,897,000",
+                  "11-02 16:00 EST 后（盘后）"
+                ],
+                [
+                  "4",
+                  "Williams Companies, Inc. (The)",
+                  "WMB",
+                  "$91,590,779,000",
+                  "11-02 16:00 EST 后（盘后）"
+                ],
+                [
+                  "5",
+                  "Diamondback Energy, Inc.",
+                  "FANG",
+                  "$57,805,427,000",
+                  "11-02 16:00 EST 后（盘后）"
+                ]
+              ]
+            },
             {
               "headers": [
                 "事件/数据",
@@ -994,46 +1101,6 @@
                   "BusinessLine",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
-                ]
-              ]
-            },
-            {
-              "headers": [
-                "新闻",
-                "相关股票",
-                "判断",
-                "理由"
-              ],
-              "rows": [
-                [
-                  "NVIDIA Corporation（NVDA） 24/7 Wall St. · 2026-10-30T13:13:26+00:00 Intel Plunges 25% as Weak Outloo...",
-                  "NVDA",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Advanced Micro Devices Inc.（AMD） 24/7 Wall St. · 2026-10-30T13:13:26+00:00 Intel Plunges 25% as Wea...",
-                  "AMD",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
-                ],
-                [
-                  "Intel Corporation（INTC） 24/7 Wall St. · 2026-10-30T13:13:26+00:00 Intel Plunges 25% as Weak Outlook...",
-                  "INTC",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Dell Technologies Inc. Class C（DELL） 24/7 Wall St. · 2026-10-30T13:13:26+00:00 Intel Plunges 25% as...",
-                  "DELL",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Amazon.com Inc.（AMZN） Seeking Alpha · 2026-10-30T13:01:42+00:00 4 stocks to watch on Friday: AMZN,...",
-                  "AMZN",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -1447,6 +1514,10 @@
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
     },
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
+    },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
       "en": "Used for small weighting adjustments across energy / defense, high-beta technology, financials, consumer cyclicals and semiconductors. Historical policy score adjustments require headline / source diversity. Does not invoke [redacted-model] and is not a conclusion about news facts."
@@ -1466,8 +1537,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 105,
-    "translated": 69,
+    "total": 115,
+    "translated": 70,
     "complete": false
   }
 }
