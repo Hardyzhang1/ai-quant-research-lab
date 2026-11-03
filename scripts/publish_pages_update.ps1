@@ -6,6 +6,7 @@ param(
   [string]$AShareTradingHtml = $env:ASHARE_TRADING_AGENT_PUBLIC_SOURCE,
   [string]$AShareTradingCloseHtml = $env:ASHARE_TRADING_AGENT_CLOSE_SOURCE,
   [string]$AShareSignalHtml = $env:ASHARE_SIGNAL_PUBLIC_SOURCE,
+  [switch]$EarningsOnly,
   [switch]$Commit,
   [switch]$Push
 )
@@ -14,9 +15,6 @@ $ErrorActionPreference = "Stop"
 
 $RepoRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $RepoRoot
-
-$PublishVersion = Get-Date -Format "yyyyMMddHHmmss"
-$PublishedAt = Get-Date -Format "yyyy-MM-ddTHH:mm:ssK"
 
 function Latest-File {
   param(
@@ -77,6 +75,7 @@ function First-ExistingDir {
   return $Dirs[0]
 }
 
+function Update-AllPublicData {
 $PrivatePreviewDir = Join-Path $RepoRoot "tmp\private-previews"
 New-Item -ItemType Directory -Force -Path $PrivatePreviewDir | Out-Null
 
@@ -163,6 +162,37 @@ if (-not $AShareSignalHtml) {
   -AShareSignalHtml $AShareSignalHtml
 
 & "$PSScriptRoot\refresh_market_indices.ps1"
+}
+
+# Serialize the close refresh with email-triggered publications across processes.
+$LockDir = Join-Path $RepoRoot "tmp"
+New-Item -ItemType Directory -Force -Path $LockDir | Out-Null
+$LockPath = Join-Path $LockDir "pages-publish.lock"
+$deadline = (Get-Date).AddMinutes(4)
+while ($true) {
+  try {
+    $publishLock = [IO.File]::Open($LockPath, 'OpenOrCreate', 'ReadWrite', 'None')
+    break
+  } catch [IO.IOException] {
+    if ((Get-Date) -ge $deadline) { throw }
+    Start-Sleep -Seconds 2
+  }
+}
+
+try {
+$PublishVersion = Get-Date -Format "yyyyMMddHHmmss"
+$PublishedAt = Get-Date -Format "yyyy-MM-ddTHH:mm:ssK"
+if ($EarningsOnly) {
+  $earningsFiles = @('data/agent-briefs.json', 'data/site-version.json')
+  git diff --quiet HEAD -- @earningsFiles
+  if ($LASTEXITCODE -ne 0) { throw "Pending public data changes. Retry after the publisher finishes." }
+  . "$PSScriptRoot\resolve_python.ps1"
+  $Python = Resolve-PublishPython -RepoRoot $RepoRoot
+  & $Python "$PSScriptRoot\publish_earnings.py"
+  if ($LASTEXITCODE -ne 0) { throw "Calendar refresh failed" }
+} else {
+  Update-AllPublicData
+}
 
 $SiteVersionPath = Join-Path $RepoRoot "data\site-version.json"
 [ordered]@{
@@ -170,13 +200,21 @@ $SiteVersionPath = Join-Path $RepoRoot "data\site-version.json"
   published_at = $PublishedAt
 } | ConvertTo-Json | Set-Content -LiteralPath $SiteVersionPath -Encoding UTF8
 
+if (-not $EarningsOnly) {
 $IndexPath = Join-Path $RepoRoot "index.html"
 $IndexHtml = Get-Content -LiteralPath $IndexPath -Raw -Encoding UTF8
 $IndexHtml = $IndexHtml -replace 'styles\.css\?v=[0-9A-Za-z_.:-]+', "styles.css?v=$PublishVersion"
 $IndexHtml = $IndexHtml -replace 'app\.js\?v=[0-9A-Za-z_.:-]+', "app.js?v=$PublishVersion"
 Set-Content -LiteralPath $IndexPath -Value ($IndexHtml.TrimEnd([char[]]"`r`n") + "`r`n") -NoNewline -Encoding UTF8
+}
 
-if ($Commit) {
+if ($Commit -and $EarningsOnly) {
+  git diff --quiet HEAD -- @earningsFiles
+  if ($LASTEXITCODE -eq 1) {
+    git commit --only -m "Refresh earnings calendar after A-share close ($PublishedAt)" -- @earningsFiles
+    if ($LASTEXITCODE -ne 0) { throw "Earnings commit failed" }
+  } elseif ($LASTEXITCODE -ne 0) { throw "Unable to inspect earnings changes" }
+} elseif ($Commit) {
   git add index.html data/agent-briefs.json data/index-performance.json data/site-version.json
 
   $hasStagedChanges = git diff --cached --quiet
@@ -204,4 +242,7 @@ if ($Push) {
   if ($pushExit -ne 0) {
     throw "git push failed with exit code $pushExit after retries"
   }
+}
+} finally {
+  $publishLock.Dispose()
 }
