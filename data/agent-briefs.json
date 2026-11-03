@@ -1,76 +1,15 @@
 {
   "ok": true,
-  "published_at": "2026-11-02 22:23 local",
+  "published_at": "2026-11-03 09:01 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-02",
-    "checked_at": "2026-11-02T09:23:27.107148-05:00",
-    "calendar_updated_at": "2026-11-02T09:23:14.082299-05:00",
-    "status": "ready",
+    "checked_at": "2026-11-02T20:01:25.487633-05:00",
+    "calendar_updated_at": "2026-11-02T20:01:25.136404-05:00",
+    "status": "empty",
     "stale": false,
     "limit": 10,
-    "companies": [
-      {
-        "symbol": "AAPL",
-        "name": "Apple Inc.",
-        "market_cap_usd": "5092055400000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "PLTR",
-        "name": "Palantir Technologies Inc.",
-        "market_cap_usd": "471811359000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "VRTX",
-        "name": "Vertex Pharmaceuticals Incorporated",
-        "market_cap_usd": "136868897000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "WMB",
-        "name": "Williams Companies, Inc. (The)",
-        "market_cap_usd": "91590779000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "FANG",
-        "name": "Diamondback Energy, Inc.",
-        "market_cap_usd": "57805427000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "O",
-        "name": "Realty Income Corporation",
-        "market_cap_usd": "54123672000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "ON",
-        "name": "ON Semiconductor Corporation",
-        "market_cap_usd": "29292333100",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "ROKU",
-        "name": "Roku, Inc.",
-        "market_cap_usd": "23202336800",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "PS",
-        "name": "Pershing Square Inc.",
-        "market_cap_usd": "19659999200",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      },
-      {
-        "symbol": "SBAC",
-        "name": "SBA Communications Corporation",
-        "market_cap_usd": "19613569000",
-        "release_window_start": "2026-11-02T16:00:00-05:00"
-      }
-    ]
+    "companies": []
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1111,18 +1050,18 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-10-31 08:00 local",
+      "updated_at": "2026-11-03 09:01 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-10-31 08:00 中国标准时间",
-          "updated_at": "2026-10-31 08:00 local",
+          "generated_at": "2026-11-03 09:01 中国标准时间",
+          "updated_at": "2026-11-03 09:01 local",
           "highlights": [
-            "市场情绪：谨慎（-81） - 10月30日美股科技板块明显承压，标普500跌1.82%、纳指跌2.86%，半导体与硬件链是主要拖累。英特尔第三财季虽超预期，但对PC需求疲软与供应限制的指引引发芯片股连锁抛售，费城半导体相关个股普跌，英伟达跌4.22%、AMD与Arm、Marvell、高通等跌幅更大，戴尔、惠普等硬件股重挫。亚马逊因资本开支与AI投入导致自由现金流为负而下跌，奈飞指引不佳拖累流媒体情绪。避险与轮动迹象并存：苹果市值反超英伟达，礼来、艾伯维创历史新高，沃尔玛逆势上涨。VIX持平于21.67，波动率未进...",
-            "主要驱动 - 英特尔疲弱的PC需求与供应限制指引引发半导体及硬件链连锁抛售；亚马逊AI资本开支令自由现金流转负，叠加奈飞指引不及预期压制大型科技股；存储与半导体板块前期涨幅过大后出现集中获利了结，戴尔、惠普及存储股领跌",
-            "下一交易日关注 - 关注苹果、超微电脑、AMD、Palantir等财报对科技情绪的二次定价；观察英伟达能否守住200美元附近关键心理关口及半导体板块是否止跌；留意英特尔指引对PC链（戴尔、惠普、存储）的持续传导"
+            "市场情绪：中性（-19） - 美股周一收盘呈现明显分化：道指小幅上涨0.41%，而纳指下跌1.07%、标普500下跌0.51%，AI与半导体板块承压是主要拖累。盘面核心事件包括英特尔财报后指引令人失望引发芯片股连锁下跌、Marvell宣布以约1150亿美元全股票收购Lumentum引发估值担忧、苹果在财报前下跌并盘后公布业绩。消费与金融部分个股走强，亚马逊上涨2.2%、特斯拉涨1.0%、摩根大通涨超1%，显示资金在科技股内部及防御性板块间轮动。VIX持平于21.67，波动率未明显放大。",
+            "主要驱动 - 英特尔财报后指引不及预期，拖累半导体与PC产业链情绪，戴尔、ASML等受连带影响；Marvell宣布约1150亿美元全股票收购Lumentum，AI光通信交易引发估值与摊薄担忧，相关AI交易走弱；苹果财报前下跌1.83%，盘后公布季度营收超预期但股价承压，高估值成为焦点",
+            "下一交易日关注 - 关注AMD财报，市场焦点在于其数据中心GPU进展与对英伟达的追赶节奏；苹果财报后首个交易日的股价反应，以及市场对高估值与iPhone销售势头的再定价；英特尔指引冲击是否继续向PC产业链（戴尔、内存相关）扩散"
           ],
           "tables": [
             {
@@ -1137,36 +1076,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3599.02",
-                  "-1.44%",
+                  "3638.03",
+                  "+1.08%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "3985.5",
-                  "-1.39%",
+                  "4016.92",
+                  "+0.79%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "23294.42",
-                  "+1.46%",
+                  "23393.32",
+                  "+0.42%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "63290.11",
-                  "-2.12%",
-                  "最近收盘"
+                  "63081.86",
+                  "-0.33%",
+                  "盘中"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10729.78",
-                  "+0.07%",
+                  "10761.33",
+                  "+0.29%",
                   "最近收盘"
                 ]
               ]
@@ -1180,13 +1119,13 @@
               "rows": [
                 [
                   "主要指数贡献",
-                  "-58.6",
-                  "加权指数涨跌 -1.95%"
+                  "-13.7",
+                  "加权指数涨跌 -0.46%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "-22.0",
-                  "样本平均涨跌 -1.76%"
+                  "-5.2",
+                  "样本平均涨跌 -0.41%"
                 ],
                 [
                   "VIX贡献",
