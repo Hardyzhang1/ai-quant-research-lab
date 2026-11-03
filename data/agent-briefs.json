@@ -3,13 +3,74 @@
   "published_at": "2026-11-03 09:01 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-02",
-    "checked_at": "2026-11-02T20:01:25.487633-05:00",
-    "calendar_updated_at": "2026-11-02T20:01:25.136404-05:00",
-    "status": "empty",
+    "market_date": "2026-11-03",
+    "checked_at": "2026-11-03T05:00:38.564787-05:00",
+    "calendar_updated_at": "2026-11-03T05:00:11.079738-05:00",
+    "status": "ready",
     "stale": false,
     "limit": 10,
-    "companies": []
+    "companies": [
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "market_cap_usd": "824073390000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "AMGN",
+        "name": "Amgen Inc.",
+        "market_cap_usd": "251939914000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "ANET",
+        "name": "Arista Networks, Inc.",
+        "market_cap_usd": "212970390000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings Inc.",
+        "market_cap_usd": "111301992000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "SU",
+        "name": "Suncor Energy  Inc.",
+        "market_cap_usd": "92986221000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "ITUB",
+        "name": "Itau Unibanco Banco Holding SA",
+        "market_cap_usd": "78621581000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "XYZ",
+        "name": "Block, Inc.",
+        "market_cap_usd": "45792596000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "market_cap_usd": "44880597000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "AIG",
+        "name": "American International Group, Inc.",
+        "market_cap_usd": "42824950000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      },
+      {
+        "symbol": "PRU",
+        "name": "Prudential Financial, Inc.",
+        "market_cap_usd": "40175251000",
+        "release_window_start": "2026-11-03T16:00:00-05:00"
+      }
+    ]
   },
   "ashare_maturity_validation": {
     "ok": true,
