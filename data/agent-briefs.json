@@ -1,76 +1,15 @@
 {
   "ok": true,
-  "published_at": "2026-11-03 22:16 local",
+  "published_at": "2026-11-04 09:11 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-03",
-    "checked_at": "2026-11-03T09:16:54.418755-05:00",
-    "calendar_updated_at": "2026-11-03T09:16:44.861398-05:00",
-    "status": "ready",
+    "checked_at": "2026-11-03T20:11:02.322139-05:00",
+    "calendar_updated_at": "2026-11-03T20:11:02.102146-05:00",
+    "status": "empty",
     "stale": false,
     "limit": 10,
-    "companies": [
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "market_cap_usd": "824073390000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "AMGN",
-        "name": "Amgen Inc.",
-        "market_cap_usd": "251939914000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "ANET",
-        "name": "Arista Networks, Inc.",
-        "market_cap_usd": "212970390000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "BKNG",
-        "name": "Booking Holdings Inc.",
-        "market_cap_usd": "111301992000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "SU",
-        "name": "Suncor Energy  Inc.",
-        "market_cap_usd": "92986221000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "ITUB",
-        "name": "Itau Unibanco Banco Holding SA",
-        "market_cap_usd": "78621581000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "XYZ",
-        "name": "Block, Inc.",
-        "market_cap_usd": "45792596000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "market_cap_usd": "44880597000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "AIG",
-        "name": "American International Group, Inc.",
-        "market_cap_usd": "42824950000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      },
-      {
-        "symbol": "PRU",
-        "name": "Prudential Financial, Inc.",
-        "market_cap_usd": "40175251000",
-        "release_window_start": "2026-11-03T16:00:00-05:00"
-      }
-    ]
+    "companies": []
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1111,18 +1050,18 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-11-03 09:01 local",
+      "updated_at": "2026-11-04 09:10 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-11-03 09:01 中国标准时间",
-          "updated_at": "2026-11-03 09:01 local",
+          "generated_at": "2026-11-04 09:10 中国标准时间",
+          "updated_at": "2026-11-04 09:10 local",
           "highlights": [
-            "市场情绪：中性（-19） - 美股周一收盘呈现明显分化：道指小幅上涨0.41%，而纳指下跌1.07%、标普500下跌0.51%，AI与半导体板块承压是主要拖累。盘面核心事件包括英特尔财报后指引令人失望引发芯片股连锁下跌、Marvell宣布以约1150亿美元全股票收购Lumentum引发估值担忧、苹果在财报前下跌并盘后公布业绩。消费与金融部分个股走强，亚马逊上涨2.2%、特斯拉涨1.0%、摩根大通涨超1%，显示资金在科技股内部及防御性板块间轮动。VIX持平于21.67，波动率未明显放大。",
-            "主要驱动 - 英特尔财报后指引不及预期，拖累半导体与PC产业链情绪，戴尔、ASML等受连带影响；Marvell宣布约1150亿美元全股票收购Lumentum，AI光通信交易引发估值与摊薄担忧，相关AI交易走弱；苹果财报前下跌1.83%，盘后公布季度营收超预期但股价承压，高估值成为焦点",
-            "下一交易日关注 - 关注AMD财报，市场焦点在于其数据中心GPU进展与对英伟达的追赶节奏；苹果财报后首个交易日的股价反应，以及市场对高估值与iPhone销售势头的再定价；英特尔指引冲击是否继续向PC产业链（戴尔、内存相关）扩散"
+            "市场情绪：中性（+19） - 美股在期中选举日出现结构性分化反弹：纳斯达克与标普500结束此前弱势，超大市值科技与半导体链条领涨，而道指受部分传统权重拖累小幅收低。最强的新增信息来自AMD三季度业绩：营收超预期、同比增约45%、数据中心收入接近翻倍，且四季度指引指向加速增长，带动半导体板块情绪修复，NVDA、META、MSFT、AMZN均录得较明显涨幅。另一方面，AAPL虽财报超预期却下跌约1.9%，新闻将其归因于存储涨价对利润率的挤压担忧，构成当日最大单只大市值拖累之一。VIX持平于21.67，显示指数反弹但波...",
+            "主要驱动 - AMD三季度业绩与四季度指引超预期，数据中心收入接近翻倍，带动半导体与AI算力链情绪修复；存储价格上涨对苹果利润率前景的担忧发酵，AAPL逆势下跌约1.9%；美国期中选举日风险偏好阶段性回稳，纳指与标普结束此前连跌，但VIX持平显示对冲需求未退",
+            "下一交易日关注 - 关注AMD财报后盘后与次日延续性，以及数据中心指引对NVDA、AVGO、MU、SKHY等链条的传导；关注苹果存储成本与利润率叙事是否继续压制AAPL及消费电子供应链；关注期中选举结果与政策预期变化对利率、监管敏感板块的影响"
           ],
           "tables": [
             {
@@ -1137,36 +1076,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3638.03",
-                  "+1.08%",
+                  "3608.1",
+                  "+0.00%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4016.92",
-                  "+0.79%",
+                  "4008.81",
+                  "-0.00%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "23393.32",
-                  "+0.42%",
+                  "23525.97",
+                  "+0.57%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "63081.86",
-                  "-0.33%",
+                  "62305.65",
+                  "-1.23%",
                   "盘中"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10761.33",
-                  "+0.29%",
+                  "10638.43",
+                  "-1.14%",
                   "最近收盘"
                 ]
               ]
@@ -1180,13 +1119,13 @@
               "rows": [
                 [
                   "主要指数贡献",
-                  "-13.7",
-                  "加权指数涨跌 -0.46%"
+                  "+9.7",
+                  "加权指数涨跌 +0.32%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "-5.2",
-                  "样本平均涨跌 -0.41%"
+                  "+9.1",
+                  "样本平均涨跌 +0.73%"
                 ],
                 [
                   "VIX贡献",
