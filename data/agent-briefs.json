@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-04 16:48 local",
+  "published_at": "2026-11-04 22:16 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-04",
-    "checked_at": "2026-11-04T03:48:57.205770-05:00",
-    "calendar_updated_at": "2026-11-04T03:48:56.694943-05:00",
+    "checked_at": "2026-11-04T09:16:30.805813-05:00",
+    "calendar_updated_at": "2026-11-04T09:16:20.657373-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -897,18 +897,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-03 22:16 local",
+      "updated_at": "2026-11-04 22:16 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-03 22:16 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-03 22:16 local",
+          "generated_at": "2026-11-04 22:16 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-04 22:16 local",
           "highlights": [
-            "宏观 - US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields - marketscreener.com",
-            "宏观 - U.S. Treasury yields edge higher as midterm vote, jobs data and oil gains sharpen market focus - Traders Union",
-            "宏观 - Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results - WSJ"
+            "宏观 - US Equity Index Futures Jump While Dollar Weakens, Treasury Yields Slide After Democrats Take Congress in Midterm Elections - www.marketscreener.com",
+            "宏观 - Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - marketscreener.com",
+            "宏观 - Treasury Yields Decline as Democratic Sweep Triggers Flight to Bonds - marketscreener.com"
           ],
           "tables": [
             {
@@ -921,37 +921,37 @@
               ],
               "rows": [
                 [
-                  "US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields - marketscreener.com",
+                  "US Equity Index Futures Jump While Dollar Weakens, Treasury Yields Slide After Democrats Take Congr...",
+                  "past/upcoming 24h",
+                  "www.marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "U.S. Treasury yields edge higher as midterm vote, jobs data and oil gains sharpen market focus - Tr...",
-                  "past/upcoming 24h",
-                  "Traders Union",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results - WSJ",
-                  "past/upcoming 24h",
-                  "WSJ",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. Treasury Yields Rise as Markets Await Midterm Election Results - marketscreener.com",
+                  "Treasury Yields Decline as Democratic Sweep Triggers Flight to Bonds - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Indian bond rally seen extending on weaker oil, Treasury yields - BusinessLine",
+                  "US Treasury Yields Rise as Markets Reprice Inflation and Fed Policy - kalkine.ca",
                   "past/upcoming 24h",
-                  "BusinessLine",
+                  "kalkine.ca",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "How global markets reacted to Democrats’ midterm sweep: Stocks rebound, Treasury yields fall - Mone...",
+                  "past/upcoming 24h",
+                  "Moneycontrol.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -966,34 +966,34 @@
               ],
               "rows": [
                 [
-                  "Space Exploration Technologies Corp. Class A（SPCX） Stocktwits · 2026-11-02T23:52:50+00:00 S&P500, N...",
-                  "SPCX",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Tesla Inc.（TSLA） Stocktwits · 2026-11-02T23:52:50+00:00 S&P500, Nasdaq, Dow Futures Unchanged After...",
-                  "TSLA",
+                  "Apple Inc.（AAPL） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Drop As Capex Concerns Grip...",
+                  "AAPL",
                   "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Palantir Technologies Inc. Class A（PLTR） Stocktwits · 2026-11-02T23:52:50+00:00 S&P500, Nasdaq, Dow...",
+                  "Meta Platforms Inc. Class A（META） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Drop As Ca...",
+                  "META",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Palantir Technologies Inc. Class A（PLTR） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Dro...",
                   "PLTR",
-                  "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Intel Corporation（INTC） Stocktwits · 2026-11-02T23:52:50+00:00 S&P500, Nasdaq, Dow Futures Unchange...",
-                  "INTC",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Netflix Inc.（NFLX） Stocktwits · 2026-11-02T23:52:50+00:00 S&P500, Nasdaq, Dow Futures Unchanged Aft...",
-                  "NFLX",
+                  "Oracle Corporation（ORCL） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Drop As Capex Conce...",
+                  "ORCL",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "SK hynix Inc. American Depositary Shares（SKHY） Yahoo Finance · 2026-11-03T23:29:55+00:00 S&P 500, N...",
+                  "SKHY",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为一次性、已被..."
                 ]
               ]
             }
@@ -1002,14 +1002,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-03 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-03 22:16 local",
+          "generated_at": "2026-11-04 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-04 22:16 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=17；geopolitical_risk=12；risk_escalation=5；oil_down=3",
+            "宏观事件覆盖层：oil_shock=4；oil_down=2；macro_rates=1；rates_hawkish=1",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：达到调分门槛；方向证据 7 vs 反向 4；不同标题 4，不同来源 4，一线来源 2；市场代理确认 否",
-            "油价/能源走弱：达到调分门槛；方向证据 3 vs 反向 2；不同标题 3，不同来源 3，一线来源 3；市场代理确认 否",
-            "Oil rises as Iran says war deal remains distant, US strikes Qeshm - Reuters"
+            "风险缓和/修复：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
+            "油价/能源走弱：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
+            "Treasuries Fall Amid Oil Price Swings, Strong Job Openings Data - Bloomberg.com"
           ],
           "tables": [
             {
@@ -1023,38 +1023,38 @@
               "rows": [
                 [
                   "1",
-                  "Advanced Micro Devices, Inc.",
-                  "AMD",
-                  "$824,073,390,000",
-                  "11-03 16:00 EST 后（盘后）"
+                  "Arm Holdings plc",
+                  "ARM",
+                  "$209,395,433,000",
+                  "11-04 16:00 EST 后（盘后）"
                 ],
                 [
                   "2",
-                  "Amgen Inc.",
-                  "AMGN",
-                  "$251,939,914,000",
-                  "11-03 16:00 EST 后（盘后）"
+                  "QUALCOMM Incorporated",
+                  "QCOM",
+                  "$170,221,912,000",
+                  "11-04 16:00 EST 后（盘后）"
                 ],
                 [
                   "3",
-                  "Arista Networks, Inc.",
-                  "ANET",
-                  "$212,970,390,000",
-                  "11-03 16:00 EST 后（盘后）"
+                  "McKesson Corporation",
+                  "MCK",
+                  "$116,401,488,000",
+                  "11-04 16:00 EST 后（盘后）"
                 ],
                 [
                   "4",
-                  "Booking Holdings Inc.",
-                  "BKNG",
-                  "$111,301,992,000",
-                  "11-03 16:00 EST 后（盘后）"
+                  "MercadoLibre, Inc.",
+                  "MELI",
+                  "$85,007,892,000",
+                  "11-04 16:00 EST 后（盘后）"
                 ],
                 [
                   "5",
-                  "Suncor Energy Inc.",
-                  "SU",
-                  "$92,986,221,000",
-                  "11-03 16:00 EST 后（盘后）"
+                  "Motorola Solutions, Inc.",
+                  "MSI",
+                  "$80,646,775,000",
+                  "11-04 16:00 EST 后（盘后）"
                 ]
               ]
             },
@@ -1068,37 +1068,37 @@
               ],
               "rows": [
                 [
-                  "US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields - marketscreener.com",
+                  "US Equity Index Futures Jump While Dollar Weakens, Treasury Yields Slide After Democrats Take Congr...",
+                  "past/upcoming 24h",
+                  "www.marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "U.S. Treasury yields edge higher as midterm vote, jobs data and oil gains sharpen market focus - Tr...",
-                  "past/upcoming 24h",
-                  "Traders Union",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results - WSJ",
-                  "past/upcoming 24h",
-                  "WSJ",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "U.S. Treasury Yields Rise as Markets Await Midterm Election Results - marketscreener.com",
+                  "Treasury Yields Decline as Democratic Sweep Triggers Flight to Bonds - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Indian bond rally seen extending on weaker oil, Treasury yields - BusinessLine",
+                  "US Treasury Yields Rise as Markets Reprice Inflation and Fed Policy - kalkine.ca",
                   "past/upcoming 24h",
-                  "BusinessLine",
+                  "kalkine.ca",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "How global markets reacted to Democrats’ midterm sweep: Stocks rebound, Treasury yields fall - Mone...",
+                  "past/upcoming 24h",
+                  "Moneycontrol.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
