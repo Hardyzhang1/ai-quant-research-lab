@@ -3,13 +3,74 @@
   "published_at": "2026-11-04 09:11 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-03",
-    "checked_at": "2026-11-03T20:11:02.322139-05:00",
-    "calendar_updated_at": "2026-11-03T20:11:02.102146-05:00",
-    "status": "empty",
+    "market_date": "2026-11-04",
+    "checked_at": "2026-11-04T02:00:03.165701-05:00",
+    "calendar_updated_at": "2026-11-04T02:00:02.686468-05:00",
+    "status": "ready",
     "stale": false,
     "limit": 10,
-    "companies": []
+    "companies": [
+      {
+        "symbol": "ARM",
+        "name": "Arm Holdings plc",
+        "market_cap_usd": "209395433000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QUALCOMM Incorporated",
+        "market_cap_usd": "170221912000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "MCK",
+        "name": "McKesson Corporation",
+        "market_cap_usd": "116401488000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "MELI",
+        "name": "MercadoLibre, Inc.",
+        "market_cap_usd": "85007892000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "MSI",
+        "name": "Motorola Solutions, Inc.",
+        "market_cap_usd": "80646775000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "APP",
+        "name": "Applovin Corporation",
+        "market_cap_usd": "76584878000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "MFC",
+        "name": "Manulife Financial Corp",
+        "market_cap_usd": "74805977000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "ALL",
+        "name": "Allstate Corporation (The)",
+        "market_cap_usd": "66751971000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "MET",
+        "name": "MetLife, Inc.",
+        "market_cap_usd": "64145039000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      },
+      {
+        "symbol": "AFL",
+        "name": "Aflac Incorporated",
+        "market_cap_usd": "62462362000",
+        "release_window_start": "2026-11-04T16:00:00-05:00"
+      }
+    ]
   },
   "ashare_maturity_validation": {
     "ok": true,
