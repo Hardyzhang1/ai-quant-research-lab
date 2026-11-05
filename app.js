@@ -35,9 +35,9 @@ const UI_TEXT = {
     "en": "Upcoming earnings · Top 10 by market cap",
     "zh": "待发布财报 · 市值前十"
   },
-  "Companies expected to report later on the current New York date, ranked by market capitalization. Up to ten eligible companies; the list is not padded.": {
-    "en": "Companies expected to report later on the current New York date, ranked by market capitalization. Up to ten eligible companies; the list is not padded.",
-    "zh": "按市值排列美东当日预计尚未公布财报的公司，最多十家；符合条件不足十家时不补齐。"
+  "After the US close, the next update covers the next US trading day. Up to ten companies are listed by market cap.": {
+    "en": "After the US close, the next update covers the next US trading day. Up to ten companies are listed by market cap.",
+    "zh": "美股收盘后的更新展示下一个美股交易日的财报，按市值列出最多十家公司。"
   },
   "04 · Signal validation": {
     "en": "04 · Signal validation",
@@ -814,10 +814,16 @@ function applyLanguage(next, persist = true) {
 }
 document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => applyLanguage(button.dataset.language)));
 
-const siteVersionPromise = fetch(`data/site-version.json?t=${Date.now()}`, {cache:'no-store'})
-  .then(response => response.ok ? response.json() : {}).then(data => data.version || Date.now()).catch(() => Date.now());
-async function fetchPublishedJson(path) {
-  const version = await siteVersionPromise;
+async function readSiteVersion() {
+  const response = await fetch(`data/site-version.json?t=${Date.now()}`, {cache:'no-store'});
+  if (!response.ok) throw new Error('Version unavailable');
+  const data = await response.json();
+  if (!data.version) throw new Error('Empty site version');
+  return data.version;
+}
+const siteVersionPromise = readSiteVersion().catch(() => Date.now());
+async function fetchPublishedJson(path, version) {
+  version ??= await siteVersionPromise;
   const response = await fetch(`${path}?v=${encodeURIComponent(version)}`, {cache:'no-store'});
   if (!response.ok) throw new Error('Snapshot unavailable');
   return response.json();
@@ -907,11 +913,11 @@ function renderUpcomingEarnings(snapshot=store.briefs?.us_upcoming_earnings || {
   const day=/^\d{4}-\d{2}-\d{2}$/.test(snapshot.market_date || '') ? snapshot.market_date : '';
   document.getElementById('earningsCalendarLink').href='https://www.nasdaq.com/market-activity/earnings'+(day?`?date=${day}`:'');
   const checked=earningsTime(snapshot.checked_at,'Asia/Shanghai'), updated=earningsTime(snapshot.calendar_updated_at,'America/New_York');
-  meta.textContent=day ? L(`New York date ${day} · Checked ${checked} (Beijing) · Calendar updated ${updated}`, `美东日期 ${day} · 筛选时间 ${checked}（北京时间） · 日历更新 ${updated}`) : L('Calendar snapshot unavailable.','财报日历快照暂不可用。');
-  if(snapshot.stale) meta.textContent+=L(' · Refresh failed; using a same-day cache less than two hours old.',' · 刷新失败，沿用当天两小时内缓存。');
+  meta.textContent=day ? L(`Earnings date ${day} (ET) · Checked ${checked} (Beijing) · Calendar updated ${updated}`, `预计财报日期 ${day}（美东） · 筛选时间 ${checked}（北京时间） · 日历更新 ${updated}`) : L('Calendar snapshot unavailable.','财报日历快照暂不可用。');
+  if(snapshot.stale) meta.textContent+=L(' · Using this session’s calendar fetched in the past two hours.',' · 使用最近两小时内抓取的该交易日日历。');
   let message='';
   if(!day || !['ready','empty'].includes(snapshot.status)) message=L('The earnings calendar is temporarily unavailable. Please check Nasdaq Calendar.','暂时无法获取财报日历，请查看 Nasdaq Calendar。');
-  else if(day!==nyDate(now)) message=L('This snapshot is from a previous New York date. Awaiting the next update; check Nasdaq Calendar for the latest schedule.','该快照已不属于当前美东日期，等待下一次更新；可查看 Nasdaq Calendar 获取最新安排。');
+  else if(day<nyDate(now)) message=L('This snapshot is from a previous New York date. Awaiting the next update; check Nasdaq Calendar for the latest schedule.','该快照已不属于当前美东日期，等待下一次更新；可查看 Nasdaq Calendar 获取最新安排。');
   const rows=(snapshot.companies || []).filter(item=>item.name && item.symbol && Number(item.market_cap_usd)>0 && new Date(item.release_window_start)>now).sort((a,b)=>Number(b.market_cap_usd)-Number(a.market_cap_usd)).slice(0,10);
   if(!message && !rows.length) message=L('No eligible companies can be confirmed as still awaiting release, or their expected release window has already started.','暂无可确认仍待发布且市值可排序的公司，或已进入预计发布时段。');
   if(message) { panel.innerHTML=`<p class="earnings-empty">${escapeHtml(message)}</p>`;return; }
@@ -919,11 +925,36 @@ function renderUpcomingEarnings(snapshot=store.briefs?.us_upcoming_earnings || {
   panel.innerHTML=`<div class="earnings-table-wrap" tabindex="0" role="region" aria-label="${L('Upcoming earnings table; scroll horizontally','待发布财报公司，可横向滚动')}"><table class="earnings-table"><thead><tr>${headers.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map((item,i)=>`<tr><td>${i+1}</td><td>${escapeHtml(item.name)}</td><td class="earnings-symbol">${escapeHtml(item.symbol)}</td><td>$${new Intl.NumberFormat('en-US',{maximumFractionDigits:0}).format(Number(item.market_cap_usd))}</td><td>${escapeHtml(earningsTime(item.release_window_start,'America/New_York'))}${L(' or later (after hours)',' 后（盘后）')}</td><td>${escapeHtml(earningsTime(item.release_window_start,'Asia/Shanghai'))}${L(' or later',' 后')}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
+let briefsVersion;
+let loadingBriefs = false;
+async function refreshPublishedEarnings(initial = false) {
+  if (loadingBriefs || (!initial && document.hidden)) return;
+  loadingBriefs = true;
+  try {
+    const version = await (initial ? siteVersionPromise : readSiteVersion());
+    if (version === briefsVersion) return;
+    const data = await fetchPublishedJson('data/agent-briefs.json', version);
+    if (!store.briefs) {
+      store.briefs = data;
+      renderDigests();
+      renderValidation();
+    } else {
+      store.briefs.us_upcoming_earnings = data.us_upcoming_earnings;
+    }
+    renderUpcomingEarnings();
+    briefsVersion = version;
+  } catch {
+    // Keep the displayed snapshot and retry on the next poll.
+  } finally {
+    loadingBriefs = false;
+  }
+}
+
 applyLanguage(language,false);
 Promise.allSettled([
   fetchPublishedJson('data/index-performance.json').then(data=>{store.indices=data;renderIndices();}),
   fetchPublishedJson('data/top3-performance.json').then(data=>{store.research=data;renderResearch();}),
-  fetchPublishedJson('data/agent-briefs.json').then(data=>{store.briefs=data;renderDigests();renderValidation();renderUpcomingEarnings();})
+  refreshPublishedEarnings(true)
 ]);
-setInterval(()=>renderUpcomingEarnings(),60000);
-document.addEventListener('visibilitychange',()=>{if(!document.hidden)renderUpcomingEarnings();});
+setInterval(()=>{renderUpcomingEarnings();refreshPublishedEarnings();},60000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden){renderUpcomingEarnings();refreshPublishedEarnings();}});
