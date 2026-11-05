@@ -3,13 +3,74 @@
   "published_at": "2026-11-05 09:10 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-04",
-    "checked_at": "2026-11-04T20:10:38.778976-05:00",
-    "calendar_updated_at": "2026-11-04T20:10:38.498042-05:00",
-    "status": "empty",
+    "market_date": "2026-11-05",
+    "checked_at": "2026-11-04T20:32:22.470948-05:00",
+    "calendar_updated_at": "2026-11-04T20:31:01.349958-05:00",
+    "status": "ready",
     "stale": false,
     "limit": 10,
-    "companies": []
+    "companies": [
+      {
+        "symbol": "MNST",
+        "name": "Monster Beverage Corporation",
+        "market_cap_usd": "138642227000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "ABNB",
+        "name": "Airbnb, Inc.",
+        "market_cap_usd": "99973259000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "NET",
+        "name": "Cloudflare, Inc.",
+        "market_cap_usd": "97430528000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "EOG",
+        "name": "EOG Resources, Inc.",
+        "market_cap_usd": "81391190000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "SPG",
+        "name": "Simon Property Group, Inc.",
+        "market_cap_usd": "71854318000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "NTRA",
+        "name": "Natera, Inc.",
+        "market_cap_usd": "56018747000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "WPM",
+        "name": "Wheaton Precious Metals Corp.",
+        "market_cap_usd": "53354668000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "DVN",
+        "name": "Devon Energy Corporation",
+        "market_cap_usd": "52381999000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "TEAM",
+        "name": "Atlassian Corporation",
+        "market_cap_usd": "48174514000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "symbol": "ED",
+        "name": "Consolidated Edison Inc",
+        "market_cap_usd": "43199685000",
+        "release_window_start": "2026-11-05T16:00:00-05:00"
+      }
+    ]
   },
   "ashare_maturity_validation": {
     "ok": true,
