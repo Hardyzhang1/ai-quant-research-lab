@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-05 16:36 local",
+  "published_at": "2026-11-05 22:18 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-05",
-    "checked_at": "2026-11-05T03:36:58.374811-05:00",
-    "calendar_updated_at": "2026-11-05T03:36:57.848387-05:00",
+    "checked_at": "2026-11-05T09:18:31.824414-05:00",
+    "calendar_updated_at": "2026-11-05T09:18:16.227910-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -897,18 +897,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-04 22:16 local",
+      "updated_at": "2026-11-05 22:18 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-04 22:16 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-04 22:16 local",
+          "generated_at": "2026-11-05 22:18 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-05 22:18 local",
           "highlights": [
-            "宏观 - US Equity Index Futures Jump While Dollar Weakens, Treasury Yields Slide After Democrats Take Congress in Midterm Elections - www.marketscreener.com",
-            "宏观 - Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - marketscreener.com",
-            "宏观 - Treasury Yields Decline as Democratic Sweep Triggers Flight to Bonds - marketscreener.com"
+            "宏观 - Treasury Yields Are Falling. These 3 Dividend Stocks Could Be Big Winners",
+            "宏观 - Stock Market Today: Futures Mixed After Yesterday’s Massive Post-Election Gains; Dow Poised to Extend Rally",
+            "宏观 - Dow Jones Futures Rise As Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals"
           ],
           "tables": [
             {
@@ -921,37 +921,37 @@
               ],
               "rows": [
                 [
-                  "US Equity Index Futures Jump While Dollar Weakens, Treasury Yields Slide After Democrats Take Congr...",
+                  "Treasury Yields Are Falling. These 3 Dividend Stocks Could Be Big Winners",
                   "past/upcoming 24h",
-                  "www.marketscreener.com",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - marketscreener.com",
+                  "Stock Market Today: Futures Mixed After Yesterday’s Massive Post-Election Gains; Dow Poised to Exte...",
                   "past/upcoming 24h",
-                  "marketscreener.com",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Treasury Yields Decline as Democratic Sweep Triggers Flight to Bonds - marketscreener.com",
+                  "Dow Jones Futures Rise As Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals",
                   "past/upcoming 24h",
-                  "marketscreener.com",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury Yields Rise as Markets Reprice Inflation and Fed Policy - kalkine.ca",
+                  "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
                   "past/upcoming 24h",
-                  "kalkine.ca",
+                  "MarketWatch.com - Top Stories",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "How global markets reacted to Democrats’ midterm sweep: Stocks rebound, Treasury yields fall - Mone...",
+                  "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
                   "past/upcoming 24h",
-                  "Moneycontrol.com",
+                  "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -966,34 +966,34 @@
               ],
               "rows": [
                 [
-                  "Apple Inc.（AAPL） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Drop As Capex Concerns Grip...",
-                  "AAPL",
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-11-05T14:05:00+00:00 Supermicro Launches KV Cache Sol...",
+                  "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "International Business Machines Corporation（IBM） Yahoo Finance · 2026-11-05T14:05:00+00:00 Supermic...",
+                  "IBM",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Arm Holdings plc American Depositary Shares（ARM） Yahoo Finance · 2026-11-05T13:31:00+00:00 Qualcomm...",
+                  "ARM",
                   "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
                 ],
                 [
-                  "Meta Platforms Inc. Class A（META） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Drop As Ca...",
-                  "META",
+                  "Sandisk Corporation（SNDK） Yahoo Finance · 2026-11-05T13:31:00+00:00 Qualcomm, Micron, Sandisk and A...",
+                  "SNDK",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Palantir Technologies Inc. Class A（PLTR） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Dro...",
-                  "PLTR",
+                  "Apple Inc.（AAPL） Yahoo Finance · 2026-11-05T13:13:38+00:00 Dow Jones Futures Rise As Techs Fall; Ap...",
+                  "AAPL",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Oracle Corporation（ORCL） Stocktwits · 2026-11-04T08:25:02+00:00 S&P 500, Nasdaq Drop As Capex Conce...",
-                  "ORCL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "SK hynix Inc. American Depositary Shares（SKHY） Yahoo Finance · 2026-11-03T23:29:55+00:00 S&P 500, N...",
-                  "SKHY",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：弱；研究优先级：低 反方风险：如果后续原文显示影响仅为一次性、已被..."
                 ]
               ]
             }
@@ -1002,14 +1002,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-04 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-04 22:16 local",
+          "generated_at": "2026-11-05 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-05 22:18 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=4；oil_down=2；macro_rates=1；rates_hawkish=1",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "风险缓和/修复：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
-            "油价/能源走弱：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
-            "Treasuries Fall Amid Oil Price Swings, Strong Job Openings Data - Bloomberg.com"
+            "今日待发布财报 · 市值前五",
+            "美东日期：2026-11-05；按市值降序，最多五家公司。",
+            "预计发布时段（美东）"
           ],
           "tables": [
             {
@@ -1023,38 +1023,38 @@
               "rows": [
                 [
                   "1",
-                  "Arm Holdings plc",
-                  "ARM",
-                  "$209,395,433,000",
-                  "11-04 16:00 EST 后（盘后）"
+                  "Monster Beverage Corporation",
+                  "MNST",
+                  "$138,642,227,000",
+                  "11-05 16:00 EST 后（盘后）"
                 ],
                 [
                   "2",
-                  "QUALCOMM Incorporated",
-                  "QCOM",
-                  "$170,221,912,000",
-                  "11-04 16:00 EST 后（盘后）"
+                  "Airbnb, Inc.",
+                  "ABNB",
+                  "$99,973,259,000",
+                  "11-05 16:00 EST 后（盘后）"
                 ],
                 [
                   "3",
-                  "McKesson Corporation",
-                  "MCK",
-                  "$116,401,488,000",
-                  "11-04 16:00 EST 后（盘后）"
+                  "Cloudflare, Inc.",
+                  "NET",
+                  "$97,430,528,000",
+                  "11-05 16:00 EST 后（盘后）"
                 ],
                 [
                   "4",
-                  "MercadoLibre, Inc.",
-                  "MELI",
-                  "$85,007,892,000",
-                  "11-04 16:00 EST 后（盘后）"
+                  "EOG Resources, Inc.",
+                  "EOG",
+                  "$81,391,190,000",
+                  "11-05 16:00 EST 后（盘后）"
                 ],
                 [
                   "5",
-                  "Motorola Solutions, Inc.",
-                  "MSI",
-                  "$80,646,775,000",
-                  "11-04 16:00 EST 后（盘后）"
+                  "Simon Property Group, Inc.",
+                  "SPG",
+                  "$71,854,318,000",
+                  "11-05 16:00 EST 后（盘后）"
                 ]
               ]
             },
@@ -1068,37 +1068,37 @@
               ],
               "rows": [
                 [
-                  "US Equity Index Futures Jump While Dollar Weakens, Treasury Yields Slide After Democrats Take Congr...",
+                  "Treasury Yields Are Falling. These 3 Dividend Stocks Could Be Big Winners",
                   "past/upcoming 24h",
-                  "www.marketscreener.com",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - marketscreener.com",
+                  "Stock Market Today: Futures Mixed After Yesterday’s Massive Post-Election Gains; Dow Poised to Exte...",
                   "past/upcoming 24h",
-                  "marketscreener.com",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Treasury Yields Decline as Democratic Sweep Triggers Flight to Bonds - marketscreener.com",
+                  "Dow Jones Futures Rise As Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals",
                   "past/upcoming 24h",
-                  "marketscreener.com",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury Yields Rise as Markets Reprice Inflation and Fed Policy - kalkine.ca",
+                  "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
                   "past/upcoming 24h",
-                  "kalkine.ca",
+                  "MarketWatch.com - Top Stories",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "How global markets reacted to Democrats’ midterm sweep: Stocks rebound, Treasury yields fall - Mone...",
+                  "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
                   "past/upcoming 24h",
-                  "Moneycontrol.com",
+                  "US Top News and Analysis",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1498,10 +1498,6 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "marketscreener.com": {
-      "en": "marketscreener.com",
-      "zh": "marketscreener.com"
-    },
     "利好": {
       "zh": "利好",
       "en": "Positive"
@@ -1509,6 +1505,10 @@
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
+    },
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
     },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
@@ -1529,7 +1529,7 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 117,
+    "total": 114,
     "translated": 68,
     "complete": false
   }
