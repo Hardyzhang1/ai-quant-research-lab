@@ -1,76 +1,15 @@
 {
   "ok": true,
-  "published_at": "2026-11-04 22:16 local",
+  "published_at": "2026-11-05 09:10 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-04",
-    "checked_at": "2026-11-04T09:16:30.805813-05:00",
-    "calendar_updated_at": "2026-11-04T09:16:20.657373-05:00",
-    "status": "ready",
+    "checked_at": "2026-11-04T20:10:38.778976-05:00",
+    "calendar_updated_at": "2026-11-04T20:10:38.498042-05:00",
+    "status": "empty",
     "stale": false,
     "limit": 10,
-    "companies": [
-      {
-        "symbol": "ARM",
-        "name": "Arm Holdings plc",
-        "market_cap_usd": "209395433000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "QCOM",
-        "name": "QUALCOMM Incorporated",
-        "market_cap_usd": "170221912000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "MCK",
-        "name": "McKesson Corporation",
-        "market_cap_usd": "116401488000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "MELI",
-        "name": "MercadoLibre, Inc.",
-        "market_cap_usd": "85007892000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "MSI",
-        "name": "Motorola Solutions, Inc.",
-        "market_cap_usd": "80646775000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "APP",
-        "name": "Applovin Corporation",
-        "market_cap_usd": "76584878000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "MFC",
-        "name": "Manulife Financial Corp",
-        "market_cap_usd": "74805977000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "ALL",
-        "name": "Allstate Corporation (The)",
-        "market_cap_usd": "66751971000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "MET",
-        "name": "MetLife, Inc.",
-        "market_cap_usd": "64145039000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      },
-      {
-        "symbol": "AFL",
-        "name": "Aflac Incorporated",
-        "market_cap_usd": "62462362000",
-        "release_window_start": "2026-11-04T16:00:00-05:00"
-      }
-    ]
+    "companies": []
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1111,18 +1050,18 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-11-04 09:10 local",
+      "updated_at": "2026-11-05 09:10 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-11-04 09:10 中国标准时间",
-          "updated_at": "2026-11-04 09:10 local",
+          "generated_at": "2026-11-05 09:10 中国标准时间",
+          "updated_at": "2026-11-05 09:10 local",
           "highlights": [
-            "市场情绪：中性（+19） - 美股在期中选举日出现结构性分化反弹：纳斯达克与标普500结束此前弱势，超大市值科技与半导体链条领涨，而道指受部分传统权重拖累小幅收低。最强的新增信息来自AMD三季度业绩：营收超预期、同比增约45%、数据中心收入接近翻倍，且四季度指引指向加速增长，带动半导体板块情绪修复，NVDA、META、MSFT、AMZN均录得较明显涨幅。另一方面，AAPL虽财报超预期却下跌约1.9%，新闻将其归因于存储涨价对利润率的挤压担忧，构成当日最大单只大市值拖累之一。VIX持平于21.67，显示指数反弹但波...",
-            "主要驱动 - AMD三季度业绩与四季度指引超预期，数据中心收入接近翻倍，带动半导体与AI算力链情绪修复；存储价格上涨对苹果利润率前景的担忧发酵，AAPL逆势下跌约1.9%；美国期中选举日风险偏好阶段性回稳，纳指与标普结束此前连跌，但VIX持平显示对冲需求未退",
-            "下一交易日关注 - 关注AMD财报后盘后与次日延续性，以及数据中心指引对NVDA、AVGO、MU、SKHY等链条的传导；关注苹果存储成本与利润率叙事是否继续压制AAPL及消费电子供应链；关注期中选举结果与政策预期变化对利率、监管敏感板块的影响"
+            "市场情绪：乐观（+81） - 美股当日呈现明显的风格分化：道指大涨3.03%，标普500涨1.58%，纳指涨1.44%，但同时VIX持平于21.67，说明波动率未随指数上行而回落。大盘权重股中，MSFT涨6.68%、AMZN涨6.12%、AAPL涨5.31%、JPM涨4.18%领涨，而NVDA跌3.17%、TSLA跌3.34%，AI芯片与电动车承压。新闻层面，市场将上涨主要归因于中期选举民主党占优带来的政策预期（多家媒体提及），而非单一经济数据；同时AMD披露因向OpenAI、Meta发行认股权证而产生约10亿至...",
+            "主要驱动 - 中期选举结果驱动的政策预期升温，道指与金融股（JPM+4.18%）领涨，但VIX持平显示对冲需求未消退；大型科技股内部分化：MSFT/AMZN/AAPL大涨，而NVDA/TSLA下跌，AI交易并非全面普涨；AMD因OpenAI与Meta认股权证确认约10-11亿美元季度费用，AI芯片合作的对价成本显性化",
+            "下一交易日关注 - 关注中期选举后政策预期能否延续，以及金融与工业板块的持续性；跟踪AMD费用确认后市场对AI芯片合作会计处理与利润率的再定价；留意NVDA走弱是否扩散至其他AI算力标的，以及Oracle、Dell等供应链个股的后续反应"
           ],
           "tables": [
             {
@@ -1137,36 +1076,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3608.1",
-                  "+0.00%",
+                  "3686.17",
+                  "+2.16%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4008.81",
-                  "-0.00%",
+                  "4101.34",
+                  "+2.31%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "23525.97",
-                  "+0.57%",
+                  "23919.5",
+                  "+1.67%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "62305.65",
-                  "-1.23%",
+                  "62345.33",
+                  "+0.25%",
                   "盘中"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10638.43",
-                  "-1.14%",
+                  "10829.21",
+                  "+1.79%",
                   "最近收盘"
                 ]
               ]
@@ -1180,13 +1119,13 @@
               "rows": [
                 [
                   "主要指数贡献",
-                  "+9.7",
-                  "加权指数涨跌 +0.32%"
+                  "+56.4",
+                  "加权指数涨跌 +1.88%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "+9.1",
-                  "样本平均涨跌 +0.73%"
+                  "+25.0",
+                  "样本平均涨跌 +2.55%"
                 ],
                 [
                   "VIX贡献",
