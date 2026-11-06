@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-06 09:10:15 Asia/Shanghai",
+  "published_at": "2026-11-06 09:15:21 Asia/Shanghai",
   "as_of": "2026-11-06",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -26,15 +26,15 @@
       "name": "Hang Seng",
       "symbol": "hkHSI",
       "last": 24796.98,
-      "change_pct": 3.67,
+      "change_pct": 0.0,
       "status": "Intraday"
     },
     {
       "region": "Japan",
       "name": "Nikkei 225",
       "symbol": ".N225",
-      "last": 57218.78,
-      "change_pct": -6.32,
+      "last": 57161.44,
+      "change_pct": -6.41,
       "status": "Intraday"
     },
     {

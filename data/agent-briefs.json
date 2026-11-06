@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "published_at": "2026-11-06 09:10 local",
+  "published_at": "2026-11-06 09:15 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-06",
-    "checked_at": "2026-11-05T20:10:15.769279-05:00",
+    "checked_at": "2026-11-05T20:15:21.043366-05:00",
     "calendar_updated_at": "2026-11-05T20:10:15.320989-05:00",
     "status": "ready",
     "stale": false,
