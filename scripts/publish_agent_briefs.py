@@ -357,7 +357,50 @@ def parse_ashare_maturity_validation(source: str | None, previous: dict | None =
             return preserved
         return {"ok": False}
 
+    if path.suffix.lower() == ".json":
+        try:
+            snapshot = json.loads(path.read_text(encoding="utf-8-sig"))
+            if snapshot.get("schema_version") != 1:
+                raise ValueError("Unsupported validation snapshot")
+            rows = []
+            for item in snapshot["rows"]:
+                stock = str(item["stock"])
+                if not re.fullmatch(r"\d{6}\.(?:XSHG|XSHE|BJ|XBEI)", stock):
+                    continue
+                value = float(item["net_return"])
+                rows.append({
+                    "signal_date": str(item["signal_date"]),
+                    "stock": stock,
+                    "entry": f'{item["entry_date"]} @ {float(item["entry_price"]):.3f}',
+                    "exit": f'{item["mark_date"]} @ {float(item["mark_price"]):.3f}',
+                    "holding_period": f'{int(item["holding_days"])} trading days',
+                    "final_return": f"{value * 100:+.2f}%",
+                    "return_value": value,
+                    "result": "Win" if value > 0 else "Loss",
+                })
+            values = [pct(snapshot[key]) if snapshot[key] is not None else "--"
+                      for key in ("win_rate", "average_return", "median_return")]
+            pending = int(snapshot["pending_count"])
+            return {
+                "ok": True, "market": "A-share technical validation",
+                "title": "Maturity validation digest",
+                "updated_at": str(snapshot["as_of"]) + " close",
+                "as_of": str(snapshot["as_of"]),
+                "matured_count": int(snapshot["matured_count"]), "win_count": int(snapshot["win_count"]),
+                "win_rate": values[0], "average_return": values[1], "median_return": values[2],
+                "tracking_count": pending, "unpriced_matured_count": int(snapshot["unpriced_matured_count"]),
+                "stats": [{"label": label, "value": value} for label, value in
+                          zip(("Win rate", "Average return", "Median return", "Still tracking"), (*values, str(pending)))],
+                "rows": rows,
+                "public_notes": ["Generated from the shared A-share maturity validation snapshot.",
+                                 "Records are shown after they reach the recommended holding horizon."],
+            }
+        except (OSError, ValueError, TypeError, KeyError):
+            return (previous or {}).get("ashare_maturity_validation") or {"ok": False}
+
     text = visible_text(path)
+    if "成熟期验证" not in text:
+        return (previous or {}).get("ashare_maturity_validation") or {"ok": False}
     rows: list[dict] = []
     returns: list[float] = []
 

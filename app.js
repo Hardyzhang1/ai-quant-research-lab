@@ -659,6 +659,10 @@ const UI_TEXT = {
     "en": "Maturity validation digest",
     "zh": "持有期验证摘要"
   },
+  "Generated from the shared A-share maturity validation snapshot.": {
+    "en": "Generated from the shared A-share maturity validation snapshot.",
+    "zh": "来自 A 股信号成熟期验证的独立记录。"
+  },
   "Generated from the maturity-validation section of the daily A-share technical-analysis email.": {
     "en": "Generated from the maturity-validation section of the daily A-share technical-analysis email.",
     "zh": "来源于每日 A 股技术分析邮件的持有期验证。"

@@ -146,10 +146,15 @@ if (-not $AShareTradingCloseHtml) {
 }
 
 if (-not $AShareSignalHtml) {
-  $AShareSignalHtml = Newest-Existing @(
+  $validationSnapshot = Join-Path $AShareTradingAgentOutput "reports\ashare_maturity_latest.json"
+  if (Test-Path -LiteralPath $validationSnapshot) {
+    $AShareSignalHtml = $validationSnapshot
+  } else {
+    $AShareSignalHtml = Newest-Existing @(
     (Join-Path $AShareTradingAgentOutput "preview_ashare_close.html"),
     (Join-Path $PrivatePreviewDir "preview_ashare_close_latest.html")
-  )
+    )
+  }
 }
 
 & "$PSScriptRoot\refresh_agent_briefs.ps1" `
