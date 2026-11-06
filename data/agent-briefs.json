@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-06 09:15 local",
+  "published_at": "2026-11-06 10:53 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-06",
-    "checked_at": "2026-11-05T20:15:21.043366-05:00",
-    "calendar_updated_at": "2026-11-05T20:10:15.320989-05:00",
+    "checked_at": "2026-11-05T21:53:55.227303-05:00",
+    "calendar_updated_at": "2026-11-05T21:53:54.294252-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -13,13 +13,13 @@
       {
         "symbol": "HE",
         "name": "Hawaiian Electric Industries, Inc.",
-        "market_cap_usd": "1468188030",
+        "market_cap_usd": "1449187970",
         "release_window_start": "2026-11-06T16:00:00-05:00"
       },
       {
         "symbol": "TOMZ",
         "name": "TOMI Environmental Solutions, Inc.",
-        "market_cap_usd": "21837422",
+        "market_cap_usd": "21935348",
         "release_window_start": "2026-11-06T16:00:00-05:00"
       }
     ]
@@ -28,13 +28,15 @@
     "ok": true,
     "market": "A-share technical validation",
     "title": "Maturity validation digest",
-    "updated_at": "2026-11-05 16:34 local",
+    "updated_at": "2026-11-05 close",
+    "as_of": "2026-11-05",
     "matured_count": 19,
     "win_count": 13,
     "win_rate": "68.42%",
     "average_return": "10.77%",
     "median_return": "4.24%",
     "tracking_count": 0,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
@@ -61,7 +63,7 @@
         "exit": "2026-07-28 @ 3.550",
         "holding_period": "10 trading days",
         "final_return": "+4.24%",
-        "return_value": 0.0424,
+        "return_value": 0.042373596083160436,
         "result": "Win"
       },
       {
@@ -71,7 +73,7 @@
         "exit": "2026-08-03 @ 14.300",
         "holding_period": "10 trading days",
         "final_return": "-14.26%",
-        "return_value": -0.1426,
+        "return_value": -0.14264114114114107,
         "result": "Loss"
       },
       {
@@ -81,7 +83,7 @@
         "exit": "2026-08-04 @ 30.460",
         "holding_period": "10 trading days",
         "final_return": "+5.98%",
-        "return_value": 0.059800000000000006,
+        "return_value": 0.059824041811846806,
         "result": "Win"
       },
       {
@@ -91,7 +93,7 @@
         "exit": "2026-08-05 @ 56.180",
         "holding_period": "10 trading days",
         "final_return": "-20.77%",
-        "return_value": -0.2077,
+        "return_value": -0.20766080259997172,
         "result": "Loss"
       },
       {
@@ -101,7 +103,7 @@
         "exit": "2026-08-06 @ 35.590",
         "holding_period": "10 trading days",
         "final_return": "+4.65%",
-        "return_value": 0.04650000000000001,
+        "return_value": 0.046497644287397055,
         "result": "Win"
       },
       {
@@ -111,7 +113,7 @@
         "exit": "2026-08-07 @ 36.810",
         "holding_period": "10 trading days",
         "final_return": "+10.52%",
-        "return_value": 0.1052,
+        "return_value": 0.10523481659651251,
         "result": "Win"
       },
       {
@@ -121,7 +123,7 @@
         "exit": "2026-08-10 @ 287.000",
         "holding_period": "10 trading days",
         "final_return": "+21.13%",
-        "return_value": 0.2113,
+        "return_value": 0.2113127112914131,
         "result": "Win"
       },
       {
@@ -141,7 +143,7 @@
         "exit": "2026-08-12 @ 75.350",
         "holding_period": "10 trading days",
         "final_return": "+52.23%",
-        "return_value": 0.5223,
+        "return_value": 0.5222613751263901,
         "result": "Win"
       },
       {
@@ -151,7 +153,7 @@
         "exit": "2026-08-13 @ 419.000",
         "holding_period": "10 trading days",
         "final_return": "+20.17%",
-        "return_value": 0.20170000000000002,
+        "return_value": 0.20172775177325325,
         "result": "Win"
       },
       {
@@ -161,7 +163,7 @@
         "exit": "2026-08-14 @ 309.000",
         "holding_period": "10 trading days",
         "final_return": "+34.85%",
-        "return_value": 0.34850000000000003,
+        "return_value": 0.3484934466337542,
         "result": "Win"
       },
       {
@@ -171,7 +173,7 @@
         "exit": "2026-08-17 @ 46.110",
         "holding_period": "10 trading days",
         "final_return": "+37.04%",
-        "return_value": 0.3704,
+        "return_value": 0.37041312109491226,
         "result": "Win"
       },
       {
@@ -181,7 +183,7 @@
         "exit": "2026-08-18 @ 129.660",
         "holding_period": "10 trading days",
         "final_return": "+63.98%",
-        "return_value": 0.6397999999999999,
+        "return_value": 0.6397658227848101,
         "result": "Win"
       },
       {
@@ -191,7 +193,7 @@
         "exit": "2026-08-19 @ 13.537",
         "holding_period": "10 trading days",
         "final_return": "+2.40%",
-        "return_value": 0.024,
+        "return_value": 0.023987256371814036,
         "result": "Win"
       },
       {
@@ -201,7 +203,7 @@
         "exit": "2026-08-20 @ 13.547",
         "holding_period": "10 trading days",
         "final_return": "-0.30%",
-        "return_value": -0.003,
+        "return_value": -0.0029587892049598983,
         "result": "Loss"
       },
       {
@@ -211,7 +213,7 @@
         "exit": "2026-08-21 @ 45.420",
         "holding_period": "10 trading days",
         "final_return": "+0.31%",
-        "return_value": 0.0031,
+        "return_value": 0.003144990046450026,
         "result": "Win"
       },
       {
@@ -221,7 +223,7 @@
         "exit": "2026-08-24 @ 17.150",
         "holding_period": "10 trading days",
         "final_return": "-13.05%",
-        "return_value": -0.1305,
+        "return_value": -0.1304994921279839,
         "result": "Loss"
       },
       {
@@ -231,7 +233,7 @@
         "exit": "2026-09-03 @ 7.200",
         "holding_period": "10 trading days",
         "final_return": "-6.28%",
-        "return_value": -0.06280000000000001,
+        "return_value": -0.06277770534550192,
         "result": "Loss"
       },
       {
@@ -241,27 +243,28 @@
         "exit": "2026-10-23 @ 10.230",
         "holding_period": "10 trading days",
         "final_return": "+1.84%",
-        "return_value": 0.0184,
+        "return_value": 0.01844016212677274,
         "result": "Win"
       }
     ],
     "public_notes": [
-      "Generated from the maturity-validation section of the daily A-share technical-analysis email.",
-      "Records are shown after they reach the recommended holding horizon.",
-      "Model internals, raw data, local paths, credentials, and private execution rules are withheld."
+      "Generated from the shared A-share maturity validation snapshot.",
+      "Records are shown after they reach the recommended holding horizon."
     ]
   },
   "ashare_signal_tracking": {
     "ok": true,
     "market": "A-share technical validation",
     "title": "Maturity validation digest",
-    "updated_at": "2026-11-05 16:34 local",
+    "updated_at": "2026-11-05 close",
+    "as_of": "2026-11-05",
     "matured_count": 19,
     "win_count": 13,
     "win_rate": "68.42%",
     "average_return": "10.77%",
     "median_return": "4.24%",
     "tracking_count": 0,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
@@ -288,7 +291,7 @@
         "exit": "2026-07-28 @ 3.550",
         "holding_period": "10 trading days",
         "final_return": "+4.24%",
-        "return_value": 0.0424,
+        "return_value": 0.042373596083160436,
         "result": "Win"
       },
       {
@@ -298,7 +301,7 @@
         "exit": "2026-08-03 @ 14.300",
         "holding_period": "10 trading days",
         "final_return": "-14.26%",
-        "return_value": -0.1426,
+        "return_value": -0.14264114114114107,
         "result": "Loss"
       },
       {
@@ -308,7 +311,7 @@
         "exit": "2026-08-04 @ 30.460",
         "holding_period": "10 trading days",
         "final_return": "+5.98%",
-        "return_value": 0.059800000000000006,
+        "return_value": 0.059824041811846806,
         "result": "Win"
       },
       {
@@ -318,7 +321,7 @@
         "exit": "2026-08-05 @ 56.180",
         "holding_period": "10 trading days",
         "final_return": "-20.77%",
-        "return_value": -0.2077,
+        "return_value": -0.20766080259997172,
         "result": "Loss"
       },
       {
@@ -328,7 +331,7 @@
         "exit": "2026-08-06 @ 35.590",
         "holding_period": "10 trading days",
         "final_return": "+4.65%",
-        "return_value": 0.04650000000000001,
+        "return_value": 0.046497644287397055,
         "result": "Win"
       },
       {
@@ -338,7 +341,7 @@
         "exit": "2026-08-07 @ 36.810",
         "holding_period": "10 trading days",
         "final_return": "+10.52%",
-        "return_value": 0.1052,
+        "return_value": 0.10523481659651251,
         "result": "Win"
       },
       {
@@ -348,7 +351,7 @@
         "exit": "2026-08-10 @ 287.000",
         "holding_period": "10 trading days",
         "final_return": "+21.13%",
-        "return_value": 0.2113,
+        "return_value": 0.2113127112914131,
         "result": "Win"
       },
       {
@@ -368,7 +371,7 @@
         "exit": "2026-08-12 @ 75.350",
         "holding_period": "10 trading days",
         "final_return": "+52.23%",
-        "return_value": 0.5223,
+        "return_value": 0.5222613751263901,
         "result": "Win"
       },
       {
@@ -378,7 +381,7 @@
         "exit": "2026-08-13 @ 419.000",
         "holding_period": "10 trading days",
         "final_return": "+20.17%",
-        "return_value": 0.20170000000000002,
+        "return_value": 0.20172775177325325,
         "result": "Win"
       },
       {
@@ -388,7 +391,7 @@
         "exit": "2026-08-14 @ 309.000",
         "holding_period": "10 trading days",
         "final_return": "+34.85%",
-        "return_value": 0.34850000000000003,
+        "return_value": 0.3484934466337542,
         "result": "Win"
       },
       {
@@ -398,7 +401,7 @@
         "exit": "2026-08-17 @ 46.110",
         "holding_period": "10 trading days",
         "final_return": "+37.04%",
-        "return_value": 0.3704,
+        "return_value": 0.37041312109491226,
         "result": "Win"
       },
       {
@@ -408,7 +411,7 @@
         "exit": "2026-08-18 @ 129.660",
         "holding_period": "10 trading days",
         "final_return": "+63.98%",
-        "return_value": 0.6397999999999999,
+        "return_value": 0.6397658227848101,
         "result": "Win"
       },
       {
@@ -418,7 +421,7 @@
         "exit": "2026-08-19 @ 13.537",
         "holding_period": "10 trading days",
         "final_return": "+2.40%",
-        "return_value": 0.024,
+        "return_value": 0.023987256371814036,
         "result": "Win"
       },
       {
@@ -428,7 +431,7 @@
         "exit": "2026-08-20 @ 13.547",
         "holding_period": "10 trading days",
         "final_return": "-0.30%",
-        "return_value": -0.003,
+        "return_value": -0.0029587892049598983,
         "result": "Loss"
       },
       {
@@ -438,7 +441,7 @@
         "exit": "2026-08-21 @ 45.420",
         "holding_period": "10 trading days",
         "final_return": "+0.31%",
-        "return_value": 0.0031,
+        "return_value": 0.003144990046450026,
         "result": "Win"
       },
       {
@@ -448,7 +451,7 @@
         "exit": "2026-08-24 @ 17.150",
         "holding_period": "10 trading days",
         "final_return": "-13.05%",
-        "return_value": -0.1305,
+        "return_value": -0.1304994921279839,
         "result": "Loss"
       },
       {
@@ -458,7 +461,7 @@
         "exit": "2026-09-03 @ 7.200",
         "holding_period": "10 trading days",
         "final_return": "-6.28%",
-        "return_value": -0.06280000000000001,
+        "return_value": -0.06277770534550192,
         "result": "Loss"
       },
       {
@@ -468,14 +471,13 @@
         "exit": "2026-10-23 @ 10.230",
         "holding_period": "10 trading days",
         "final_return": "+1.84%",
-        "return_value": 0.0184,
+        "return_value": 0.01844016212677274,
         "result": "Win"
       }
     ],
     "public_notes": [
-      "Generated from the maturity-validation section of the daily A-share technical-analysis email.",
-      "Records are shown after they reach the recommended holding horizon.",
-      "Model internals, raw data, local paths, credentials, and private execution rules are withheld."
+      "Generated from the shared A-share maturity validation snapshot.",
+      "Records are shown after they reach the recommended holding horizon."
     ]
   },
   "report_sections": [
