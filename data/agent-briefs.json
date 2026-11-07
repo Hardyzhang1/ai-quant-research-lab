@@ -1,26 +1,74 @@
 {
   "ok": true,
-  "published_at": "2026-11-06 22:17 local",
+  "published_at": "2026-11-07 09:11 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-06",
-    "checked_at": "2026-11-06T09:17:31.924914-05:00",
-    "calendar_updated_at": "2026-11-06T09:17:21.748262-05:00",
+    "market_date": "2026-11-09",
+    "checked_at": "2026-11-06T20:11:42.229577-05:00",
+    "calendar_updated_at": "2026-11-06T20:11:40.858621-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
     "companies": [
       {
-        "symbol": "HE",
-        "name": "Hawaiian Electric Industries, Inc.",
-        "market_cap_usd": "1468188030",
-        "release_window_start": "2026-11-06T16:00:00-05:00"
+        "symbol": "OXY",
+        "name": "Occidental Petroleum Corporation",
+        "market_cap_usd": "56339562000",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
       },
       {
-        "symbol": "TOMZ",
-        "name": "TOMI Environmental Solutions, Inc.",
-        "market_cap_usd": "21837422",
-        "release_window_start": "2026-11-06T16:00:00-05:00"
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "market_cap_usd": "41093751000",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "market_cap_usd": "39894147000",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "RKLB",
+        "name": "Rocket Lab Corporation",
+        "market_cap_usd": "28870670300",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "BAP",
+        "name": "Credicorp Ltd.",
+        "market_cap_usd": "27637127200",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "CIB",
+        "name": "Grupo Cibest S.A.",
+        "market_cap_usd": "21976365100",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "JBS",
+        "name": "JBS N.V.",
+        "market_cap_usd": "13707893800",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "EQX",
+        "name": "Equinox Gold Corp.",
+        "market_cap_usd": "13167075300",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "market_cap_usd": "11752858600",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "symbol": "LINE",
+        "name": "Lineage, Inc.",
+        "market_cap_usd": "9001376800",
+        "release_window_start": "2026-11-09T16:00:00-05:00"
       }
     ]
   },
@@ -996,18 +1044,18 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-11-06 09:10 local",
+      "updated_at": "2026-11-07 09:10 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-11-06 09:10 中国标准时间",
-          "updated_at": "2026-11-06 09:10 local",
+          "generated_at": "2026-11-07 09:10 中国标准时间",
+          "updated_at": "2026-11-07 09:10 local",
           "highlights": [
-            "市场情绪：谨慎（-85） - 美国股市出现剧烈且高度集中的科技/AI板块抛售：标普500指数下跌4.36%，纳斯达克指数下跌5.52%，道琼斯指数下跌3.44%。所提供快照中跌幅最大的个股是特斯拉（-10.77%）、英伟达（-9.26%）、摩根大通（-4.19%）、Meta（-3.96%）以及微软（-3.58%），而苹果（-1.53%）和亚马逊（-2.19%）跌幅较小。报道驱动因素指向AI/芯片股全面下跌，并伴随对AI监管的担忧；多篇报道称AMD、Arm、英特尔、美光、SanDisk和高通大幅下跌，英伟达失守关键...",
-            "主要驱动 - AI/半导体板块全面抛售，英伟达下跌9.26%，AMD等芯片股据报道下跌13%至17%左右；这是观察到的主要压力点。；根据Yahoo Finance/24-7 Wall St报道，AI监管担忧被视为驱动因素；目前尚无法从所提供的文本中独立验证其政策细节。；AI数据中心扩张面临政治/监管摩擦的新闻（Meta高管称选举结果增加障碍；GE Vernova指出数据中心许可暂停带来的风险）。",
-            "下一交易日关注 - 关注芯片板块（NVDA/AMD/MU/ARM/INTC/QCOM）是否在放量下跌后企稳，还是出现后续抛售；这很可能决定纳指的短期方向。；关注监管/政策方面关于AI芯片出口或数据中心许可的任何官方更新，因为新闻叙事依赖监管担忧，而非已确认的规则。；在新的宏观数据或美联储沟通发布前，关注VIX的表现；该快照显示VIX持平，这与指数大幅下跌明显背离，值得重新审视。"
+            "市场情绪：偏乐观（+20） - 11月6日美股呈现明显分化：纳斯达克在芯片与成长股反弹带动下上涨1.09%，英伟达涨2.78%、特斯拉涨4.23%，标普500小涨0.31%；但道指下跌0.46%，苹果、微软、亚马逊、摩根大通走弱，VIX持平于21.67，显示风险偏好回升但未全面扩散。前一交易日AI与芯片板块曾大幅回撤，当日属修复性反弹，而非趋势确认。值得警惕的是，与AI数据中心扩张相关的信用端压力同步升温：CoreWeave债券收益率突破16%、ING寻求出售5亿美元数据中心贷款、微软计划减少对neocloud依...",
+            "主要驱动 - 芯片与半导体股在前一日'剧烈'抛售后反弹，英伟达、AMD、美光领涨，带动纳指修复；特斯拉涨4.23%，成为大型成长股中弹性最强品种，但对指数贡献集中于纳指；AI数据中心资本开支预期获高盛上调（2030年全球容量273GW），支撑算力产业链长期叙事",
+            "下一交易日关注 - 关注芯片股反弹能否延续，还是如市场人士所称'剧烈抛售后仅是暂时喘息'；跟踪AI数据中心融资成本与信用利差变化，CoreWeave债券收益率与ING贷款出售进展是关键观察点；留意微软、甲骨文等超大规模厂商对neocloud依赖调整的后续表态及资本开支指引"
           ],
           "tables": [
             {
@@ -1022,36 +1070,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3689.91",
-                  "+0.10%",
+                  "3649.18",
+                  "-1.10%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "4113.41",
-                  "+0.29%",
+                  "4054.28",
+                  "-1.44%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "24796.98",
-                  "+3.67%",
+                  "24481.86",
+                  "-1.27%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "57318.42",
-                  "-6.16%",
-                  "盘中"
+                  "57434.77",
+                  "-5.96%",
+                  "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10782.66",
-                  "-0.43%",
+                  "10673.94",
+                  "-1.01%",
                   "最近收盘"
                 ]
               ]
@@ -1065,13 +1113,13 @@
               "rows": [
                 [
                   "主要指数贡献",
-                  "-60.0",
-                  "加权指数涨跌 -4.48%"
+                  "+10.7",
+                  "加权指数涨跌 +0.36%"
                 ],
                 [
                   "核心大盘股贡献",
-                  "-25.0",
-                  "样本平均涨跌 -4.71%"
+                  "+9.3",
+                  "样本平均涨跌 +0.74%"
                 ],
                 [
                   "VIX贡献",
