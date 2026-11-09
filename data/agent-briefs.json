@@ -4,8 +4,8 @@
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-09",
-    "checked_at": "2026-11-08T20:16:03.616663-05:00",
-    "calendar_updated_at": "2026-11-08T20:15:58.985012-05:00",
+    "checked_at": "2026-11-09T02:00:03.393473-05:00",
+    "calendar_updated_at": "2026-11-09T02:00:02.778936-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
