@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-09 16:36 local",
+  "published_at": "2026-11-09 22:17 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-09",
-    "checked_at": "2026-11-09T03:36:12.898236-05:00",
-    "calendar_updated_at": "2026-11-09T03:36:12.265095-05:00",
+    "checked_at": "2026-11-09T09:17:20.550050-05:00",
+    "calendar_updated_at": "2026-11-09T09:17:09.789111-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -871,18 +871,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-06 22:17 local",
+      "updated_at": "2026-11-09 22:17 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-06 22:17 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-06 22:17 local",
+          "generated_at": "2026-11-09 22:17 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-09 22:17 local",
           "highlights": [
-            "宏观 - US Treasury Yields Mostly Higher Early Friday Ahead of Nonfarm Payrolls, Michigan Consumer Sentiment Data - marketscreener.com",
-            "宏观 - India bonds emerge as top Asian performers as oil, Treasury yields decline - The Economic Times",
-            "宏观 - Govt bonds emerge as top Asian performers as oil, Treasury yields decline - BusinessLine"
+            "宏观 - U.S. Treasury Yields Edge Lower as Oil Prices Decline - marketscreener.com",
+            "宏观 - US Treasury yields today: 10-year, 30-year bond yields hold steady as investors await US inflation data | Hindustan Times - Hindustan Times",
+            "宏观 - Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed - Investor's Business Daily"
           ],
           "tables": [
             {
@@ -895,37 +895,37 @@
               ],
               "rows": [
                 [
-                  "US Treasury Yields Mostly Higher Early Friday Ahead of Nonfarm Payrolls, Michigan Consumer Sentimen...",
+                  "U.S. Treasury Yields Edge Lower as Oil Prices Decline - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "India bonds emerge as top Asian performers as oil, Treasury yields decline - The Economic Times",
+                  "US Treasury yields today: 10-year, 30-year bond yields hold steady as investors await US inflation...",
+                  "past/upcoming 24h",
+                  "Hindustan Times",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed - Investor'...",
+                  "past/upcoming 24h",
+                  "Investor's Business Daily",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Eurozone bond yields edge lower as oil prices ease, investors await US inflation data - The Economi...",
                   "past/upcoming 24h",
                   "The Economic Times",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Govt bonds emerge as top Asian performers as oil, Treasury yields decline - BusinessLine",
+                  "3 Stocks for Higher Treasury Yields and Money Market Fund Demand - Simply Wall St",
                   "past/upcoming 24h",
-                  "BusinessLine",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "India bonds emerge as top Asian performers as oil, Treasury yields decline - TradingView",
-                  "past/upcoming 24h",
-                  "TradingView",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "US Treasury yields, dollar strength and foreign investor flows: What could trigger the next market...",
-                  "past/upcoming 24h",
-                  "Moneycontrol.com",
+                  "Simply Wall St",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -940,33 +940,33 @@
               ],
               "rows": [
                 [
-                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-11-06T14:05:02+00:00 AMD Jumps 8%, Intel and NVIDIA C...",
+                  "NVIDIA Corporation（NVDA） Yahoo Finance · 2026-11-09T03:34:00+00:00 AMD, AVGO, INTC, MU: Chip Stocks...",
                   "NVDA",
-                  "利好",
+                  "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-11-06T14:05:02+00:00 AMD Jumps 8%, Intel and...",
+                  "Broadcom Inc.（AVGO） Yahoo Finance · 2026-11-09T03:34:00+00:00 AMD, AVGO, INTC, MU: Chip Stocks Inch...",
+                  "AVGO",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Micron Technology Inc.（MU） Yahoo Finance · 2026-11-09T03:34:00+00:00 AMD, AVGO, INTC, MU: Chip Stoc...",
+                  "MU",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Advanced Micro Devices Inc.（AMD） Yahoo Finance · 2026-11-09T03:34:00+00:00 AMD, AVGO, INTC, MU: Chi...",
                   "AMD",
-                  "利好",
+                  "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：汽车、电池和智能制造链条 瓶颈：重点看订单、价格竞争、电池材料、产能利用率和供应链认证 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为..."
                 ],
                 [
-                  "Intel Corporation（INTC） Yahoo Finance · 2026-11-06T14:05:02+00:00 AMD Jumps 8%, Intel and NVIDIA Cl...",
+                  "Intel Corporation（INTC） Yahoo Finance · 2026-11-09T03:34:00+00:00 AMD, AVGO, INTC, MU: Chip Stocks...",
                   "INTC",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Apple Inc.（AAPL） Stocktwits · 2026-11-06T01:00:00+00:00 S&P 500, Nasdaq, Dow Futures Dip As Investo...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "QUALCOMM Incorporated（QCOM） The Economic Times · 2026-11-05T17:50:08+00:00 QQQ stock today falls ov...",
-                  "QCOM",
-                  "利好",
+                  "利空",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -976,14 +976,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-06 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-06 22:17 local",
+          "generated_at": "2026-11-09 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-09 22:17 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=8；geopolitical_risk=8；risk_escalation=5；macro_rates=4",
+            "宏观事件覆盖层：oil_shock=10；geopolitical_risk=9；oil_down=6；macro_rates=4",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：达到调分门槛；方向证据 6 vs 反向 0；不同标题 5，不同来源 5，一线来源 1；市场代理确认 否",
-            "油价/能源走强：未达到调分门槛；方向证据 1 vs 反向 0；不同标题 1，不同来源 1，一线来源 1；市场代理确认 否",
-            "Brent oil price benchmark set for biggest weekly drop since 2020 - Reuters"
+            "风险缓和/修复：达到调分门槛；方向证据 6 vs 反向 2；不同标题 3，不同来源 4，一线来源 2；市场代理确认 否",
+            "油价/能源走弱：达到调分门槛；方向证据 6 vs 反向 0；不同标题 3，不同来源 4，一线来源 2；市场代理确认 否",
+            "Oil Slides More Than 3% as Trump Downplays Prospect of New Iran Strikes - WSJ"
           ],
           "tables": [
             {
@@ -997,17 +997,38 @@
               "rows": [
                 [
                   "1",
-                  "Hawaiian Electric Industries, Inc.",
-                  "HE",
-                  "$1,468,188,030",
-                  "11-06 16:00 EST 后（盘后）"
+                  "Occidental Petroleum Corporation",
+                  "OXY",
+                  "$56,339,562,000",
+                  "11-09 16:00 EST 后（盘后）"
                 ],
                 [
                   "2",
-                  "TOMI Environmental Solutions, Inc.",
-                  "TOMZ",
-                  "$21,837,422",
-                  "11-06 16:00 EST 后（盘后）"
+                  "Skydance Corporation",
+                  "SKYD",
+                  "$41,093,751,000",
+                  "11-09 16:00 EST 后（盘后）"
+                ],
+                [
+                  "3",
+                  "Take-Two Interactive Software, Inc.",
+                  "TTWO",
+                  "$39,894,147,000",
+                  "11-09 16:00 EST 后（盘后）"
+                ],
+                [
+                  "4",
+                  "Rocket Lab Corporation",
+                  "RKLB",
+                  "$28,870,670,300",
+                  "11-09 16:00 EST 后（盘后）"
+                ],
+                [
+                  "5",
+                  "Credicorp Ltd.",
+                  "BAP",
+                  "$27,637,127,200",
+                  "11-09 16:00 EST 后（盘后）"
                 ]
               ]
             },
@@ -1021,37 +1042,37 @@
               ],
               "rows": [
                 [
-                  "US Treasury Yields Mostly Higher Early Friday Ahead of Nonfarm Payrolls, Michigan Consumer Sentimen...",
+                  "U.S. Treasury Yields Edge Lower as Oil Prices Decline - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "India bonds emerge as top Asian performers as oil, Treasury yields decline - The Economic Times",
+                  "US Treasury yields today: 10-year, 30-year bond yields hold steady as investors await US inflation...",
+                  "past/upcoming 24h",
+                  "Hindustan Times",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed - Investor'...",
+                  "past/upcoming 24h",
+                  "Investor's Business Daily",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Eurozone bond yields edge lower as oil prices ease, investors await US inflation data - The Economi...",
                   "past/upcoming 24h",
                   "The Economic Times",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Govt bonds emerge as top Asian performers as oil, Treasury yields decline - BusinessLine",
+                  "3 Stocks for Higher Treasury Yields and Money Market Fund Demand - Simply Wall St",
                   "past/upcoming 24h",
-                  "BusinessLine",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "India bonds emerge as top Asian performers as oil, Treasury yields decline - TradingView",
-                  "past/upcoming 24h",
-                  "TradingView",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "US Treasury yields, dollar strength and foreign investor flows: What could trigger the next market...",
-                  "past/upcoming 24h",
-                  "Moneycontrol.com",
+                  "Simply Wall St",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1387,10 +1408,6 @@
       "en": "The Economic Times",
       "zh": "The Economic Times"
     },
-    "TradingView": {
-      "en": "TradingView",
-      "zh": "TradingView"
-    },
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
@@ -1414,8 +1431,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 119,
-    "translated": 51,
+    "total": 123,
+    "translated": 50,
     "complete": false
   }
 }
