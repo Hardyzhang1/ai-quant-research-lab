@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-11 16:37 local",
+  "published_at": "2026-11-11 22:20 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -853,18 +853,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-10 22:17 local",
+      "updated_at": "2026-11-11 22:19 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-10 22:17 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-10 22:17 local",
+          "generated_at": "2026-11-11 22:19 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-11 22:19 local",
           "highlights": [
-            "宏观 - Treasury Yields Edge Up Ahead of U.S. Inflation Data - marketscreener.com",
-            "宏观 - Treasury Yields Wobbled As Markets Waited On CPI - Finimize",
-            "宏观 - Goldman Sachs Sees U.S. Treasury Yields Settling Into 4.75%-5% Range as Global Bond Markets Stabilize - BigGo Finance"
+            "宏观 - 美国10月CPI通胀数据及分项解读",
+            "宏观 - 美联储官员Goolsbee讲话：称通胀报告'近乎令人不安'",
+            "宏观 - 美银：10月CPI为12月加息50个基点打开大门"
           ],
           "tables": [
             {
@@ -877,38 +877,38 @@
               ],
               "rows": [
                 [
-                  "Treasury Yields Edge Up Ahead of U.S. Inflation Data - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美国10月CPI通胀数据及分项解读",
+                  "数据已于11月10日发布，见新闻发布时间；下一次CPI以官方经济日历为准",
+                  "10月CPI分项显示通胀压力仍存，市场对通胀黏性担忧升温",
+                  "通胀路径直接影响12月FOMC加息/降息定价，进而影响美债收益率与成长股估值",
+                  "high"
                 ],
                 [
-                  "Treasury Yields Wobbled As Markets Waited On CPI - Finimize",
-                  "past/upcoming 24h",
-                  "Finimize",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美联储官员Goolsbee讲话：称通胀报告'近乎令人不安'",
+                  "讲话已发生，见新闻发布时间",
+                  "Goolsbee表示通胀报告'borderline disturbing'，央行仍在权衡进一步加息",
+                  "鹰派表态可能抬升短端利率与加息预期，压制风险资产估值",
+                  "high"
                 ],
                 [
-                  "Goldman Sachs Sees U.S. Treasury Yields Settling Into 4.75%-5% Range as Global Bond Markets Stabili...",
-                  "past/upcoming 24h",
-                  "BigGo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美银：10月CPI为12月加息50个基点打开大门",
+                  "研报已发布，见新闻发布时间；12月FOMC会议为关键验证窗口",
+                  "BofA预计12月存在50bp加息可能性",
+                  "若市场对加息幅度重新定价，将影响全期限美债收益率与股指期货",
+                  "high"
                 ],
                 [
-                  "Goldman Sachs: Global bond markets are poised to stabilize, with U.S. Treasury yields potentially e...",
-                  "past/upcoming 24h",
-                  "富途牛牛",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美股盘前：CoreWeave财报后AI交易回暖，纳指期货跳涨",
+                  "盘前交易时段，见新闻发布时间",
+                  "CoreWeave超预期并上调指引，Nvidia、AMD、Broadcom、Micron等芯片股盘前走强",
+                  "AI资本开支叙事修复对纳指与半导体板块影响显著，可能带动指数高开",
+                  "high"
                 ],
                 [
-                  "Treasury yields edge higher as traders await CPI inflation data - Rich Picks Daily",
-                  "past/upcoming 24h",
-                  "Rich Picks Daily",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "资金转向防御性股票，市场进入'警戒状态'",
+                  "报道发布于盘前，见新闻发布时间",
+                  "投资者增配防御板块以应对科技股波动与政策不确定性",
+                  "板块轮动信号，可能影响成长与价值风格相对表现",
                   "medium"
                 ]
               ]
@@ -922,34 +922,34 @@
               ],
               "rows": [
                 [
-                  "Microsoft Corporation（MSFT） Seeking Alpha · 2026-11-09T16:30:00+00:00 Microsoft, Oracle, SAP consid...",
-                  "MSFT",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "NVIDIA (NVDA) CNBC · 2026-11-11T13:45:17+00:00 Nvidia shares rebound 4% as Huang faces scrutiny ahe...",
+                  "NVDA",
+                  "分化",
+                  "利好来自AI资本开支情绪修复与估值回落，利空来自治理/合规调查与中国出口审查不确定性，方向未定。 位置：AI加速计算GPU与整机系统核心供应商 瓶颈：高端AI GPU与CUDA生态 证据：中；研究优..."
                 ],
                 [
-                  "Oracle Corporation（ORCL） Seeking Alpha · 2026-11-09T16:30:00+00:00 Microsoft, Oracle, SAP considere...",
+                  "AMD (AMD) Yahoo Finance · 2026-11-11T13:22:22+00:00 Server CPU strength persists as AMD and Arm gai...",
+                  "AMD",
+                  "利好",
+                  "AI资本开支情绪回暖叠加服务器CPU份额提升的第三方证据，构成基本面正向催化。 位置：数据中心CPU/GPU设计商 瓶颈：先进制程服务器CPU与AI加速器 证据：中；研究优先级：中 反方风险：份额数..."
+                ],
+                [
+                  "Broadcom (AVGO) Yahoo Finance · 2026-11-11T13:41:12+00:00 Goldman Sees Anthropic Revenue at $685B b...",
+                  "AVGO",
+                  "利好",
+                  "AI定制芯片需求预期与指数/ETF资金流入构成正向催化，但Anthropic收入预测属长期假设。 位置：定制ASIC与网络芯片供应商 瓶颈：超大规模客户定制AI芯片与交换芯片 证据：中；研究优先级：..."
+                ],
+                [
+                  "Oracle (ORCL) Yahoo Finance · 2026-11-11T14:03:35+00:00 CoreWeave Surges 16% as Beat-and-Raise Quar...",
                   "ORCL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "SAP SE ADS（SAP） Seeking Alpha · 2026-11-09T16:30:00+00:00 Microsoft, Oracle, SAP considered 'AI win...",
-                  "SAP",
                   "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "主要驱动为板块情绪联动而非公司特定公告，故置信度适中。 位置：云基础设施与数据库软件供应商 瓶颈：AI云算力容量 证据：弱；研究优先级：低 反方风险：若AI资本开支担忧反复，情绪驱动的涨幅易回吐。"
                 ],
                 [
-                  "Intel Corporation（INTC） The Motley Fool · 2026-11-10T03:25:00+00:00 Applied Materials vs. Dell Tech...",
-                  "INTC",
+                  "Walmart (WMT) Yahoo Finance · 2026-11-11T13:22:37+00:00 WMT Stock Gets A Price Target Boost From Bo...",
+                  "WMT",
                   "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Applied Materials Inc.（AMAT） The Motley Fool · 2026-11-10T03:25:00+00:00 Applied Materials vs. Dell...",
-                  "AMAT",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "目标价上调属常规分析师动作，但叠加财报前预期与防御性资金轮动，具一定催化性。 位置：大型零售渠道与消费分发终端 瓶颈：规模采购与供应链成本优势 证据：弱；研究优先级：低 反方风险：财报若显示消费降级..."
                 ]
               ]
             }
@@ -957,15 +957,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-10 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-10 22:17 local",
+          "title": "美股盘前重要金融新闻",
+          "generated_at": "2026-11-11 22:18 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-11 22:19 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=10；geopolitical_risk=9；oil_down=4；risk_escalation=3",
+            "市场状态分层：市场状态未知",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "风险缓和/修复：达到调分门槛；方向证据 5 vs 反向 3；不同标题 3，不同来源 3，一线来源 1；市场代理确认 否",
-            "油价/能源走弱：达到调分门槛；方向证据 4 vs 反向 0；不同标题 3，不同来源 3，一线来源 1；市场代理确认 否",
-            "Brent crude falls below $90 for first time since August on Iran war de-escalation hopes - CNBC"
+            "今日待发布财报 · 市值前五",
+            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
           ],
           "tables": [
             {
@@ -978,38 +978,38 @@
               ],
               "rows": [
                 [
-                  "Treasury Yields Edge Up Ahead of U.S. Inflation Data - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美国10月CPI通胀数据及分项解读",
+                  "数据已于11月10日发布，见新闻发布时间；下一次CPI以官方经济日历为准",
+                  "10月CPI分项显示通胀压力仍存，市场对通胀黏性担忧升温",
+                  "通胀路径直接影响12月FOMC加息/降息定价，进而影响美债收益率与成长股估值",
+                  "high"
                 ],
                 [
-                  "Treasury Yields Wobbled As Markets Waited On CPI - Finimize",
-                  "past/upcoming 24h",
-                  "Finimize",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美联储官员Goolsbee讲话：称通胀报告'近乎令人不安'",
+                  "讲话已发生，见新闻发布时间",
+                  "Goolsbee表示通胀报告'borderline disturbing'，央行仍在权衡进一步加息",
+                  "鹰派表态可能抬升短端利率与加息预期，压制风险资产估值",
+                  "high"
                 ],
                 [
-                  "Goldman Sachs Sees U.S. Treasury Yields Settling Into 4.75%-5% Range as Global Bond Markets Stabili...",
-                  "past/upcoming 24h",
-                  "BigGo Finance",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美银：10月CPI为12月加息50个基点打开大门",
+                  "研报已发布，见新闻发布时间；12月FOMC会议为关键验证窗口",
+                  "BofA预计12月存在50bp加息可能性",
+                  "若市场对加息幅度重新定价，将影响全期限美债收益率与股指期货",
+                  "high"
                 ],
                 [
-                  "Goldman Sachs: Global bond markets are poised to stabilize, with U.S. Treasury yields potentially e...",
-                  "past/upcoming 24h",
-                  "富途牛牛",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "美股盘前：CoreWeave财报后AI交易回暖，纳指期货跳涨",
+                  "盘前交易时段，见新闻发布时间",
+                  "CoreWeave超预期并上调指引，Nvidia、AMD、Broadcom、Micron等芯片股盘前走强",
+                  "AI资本开支叙事修复对纳指与半导体板块影响显著，可能带动指数高开",
+                  "high"
                 ],
                 [
-                  "Treasury yields edge higher as traders await CPI inflation data - Rich Picks Daily",
-                  "past/upcoming 24h",
-                  "Rich Picks Daily",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "资金转向防御性股票，市场进入'警戒状态'",
+                  "报道发布于盘前，见新闻发布时间",
+                  "投资者增配防御板块以应对科技股波动与政策不确定性",
+                  "板块轮动信号，可能影响成长与价值风格相对表现",
                   "medium"
                 ]
               ]
@@ -1023,34 +1023,34 @@
               ],
               "rows": [
                 [
-                  "Microsoft Corporation（MSFT） Seeking Alpha · 2026-11-09T16:30:00+00:00 Microsoft, Oracle, SAP consid...",
-                  "MSFT",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "NVIDIA (NVDA) CNBC · 2026-11-11T13:45:17+00:00 Nvidia shares rebound 4% as Huang faces scrutiny ahe...",
+                  "NVDA",
+                  "分化",
+                  "利好来自AI资本开支情绪修复与估值回落，利空来自治理/合规调查与中国出口审查不确定性，方向未定。 位置：AI加速计算GPU与整机系统核心供应商 瓶颈：高端AI GPU与CUDA生态 证据：中；研究优..."
                 ],
                 [
-                  "Oracle Corporation（ORCL） Seeking Alpha · 2026-11-09T16:30:00+00:00 Microsoft, Oracle, SAP considere...",
+                  "AMD (AMD) Yahoo Finance · 2026-11-11T13:22:22+00:00 Server CPU strength persists as AMD and Arm gai...",
+                  "AMD",
+                  "利好",
+                  "AI资本开支情绪回暖叠加服务器CPU份额提升的第三方证据，构成基本面正向催化。 位置：数据中心CPU/GPU设计商 瓶颈：先进制程服务器CPU与AI加速器 证据：中；研究优先级：中 反方风险：份额数..."
+                ],
+                [
+                  "Broadcom (AVGO) Yahoo Finance · 2026-11-11T13:41:12+00:00 Goldman Sees Anthropic Revenue at $685B b...",
+                  "AVGO",
+                  "利好",
+                  "AI定制芯片需求预期与指数/ETF资金流入构成正向催化，但Anthropic收入预测属长期假设。 位置：定制ASIC与网络芯片供应商 瓶颈：超大规模客户定制AI芯片与交换芯片 证据：中；研究优先级：..."
+                ],
+                [
+                  "Oracle (ORCL) Yahoo Finance · 2026-11-11T14:03:35+00:00 CoreWeave Surges 16% as Beat-and-Raise Quar...",
                   "ORCL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "SAP SE ADS（SAP） Seeking Alpha · 2026-11-09T16:30:00+00:00 Microsoft, Oracle, SAP considered 'AI win...",
-                  "SAP",
                   "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "主要驱动为板块情绪联动而非公司特定公告，故置信度适中。 位置：云基础设施与数据库软件供应商 瓶颈：AI云算力容量 证据：弱；研究优先级：低 反方风险：若AI资本开支担忧反复，情绪驱动的涨幅易回吐。"
                 ],
                 [
-                  "Intel Corporation（INTC） The Motley Fool · 2026-11-10T03:25:00+00:00 Applied Materials vs. Dell Tech...",
-                  "INTC",
+                  "Walmart (WMT) Yahoo Finance · 2026-11-11T13:22:37+00:00 WMT Stock Gets A Price Target Boost From Bo...",
+                  "WMT",
                   "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Applied Materials Inc.（AMAT） The Motley Fool · 2026-11-10T03:25:00+00:00 Applied Materials vs. Dell...",
-                  "AMAT",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "目标价上调属常规分析师动作，但叠加财报前预期与防御性资金轮动，具一定催化性。 位置：大型零售渠道与消费分发终端 瓶颈：规模采购与供应链成本优势 证据：弱；研究优先级：低 反方风险：财报若显示消费降级..."
                 ]
               ]
             }
@@ -1359,14 +1359,6 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "marketscreener.com": {
-      "en": "marketscreener.com",
-      "zh": "marketscreener.com"
-    },
-    "富途牛牛": {
-      "zh": "富途牛牛",
-      "en": "Futu Niuniu"
-    },
     "利好": {
       "zh": "利好",
       "en": "Positive"
@@ -1374,6 +1366,10 @@
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
+    },
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
     },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
@@ -1386,8 +1382,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 116,
-    "translated": 41,
+    "total": 132,
+    "translated": 40,
     "complete": false
   }
 }
