@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-11 22:20 local",
+  "published_at": "2026-11-12 09:15 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -17,25 +17,25 @@
     "title": "Maturity validation digest",
     "updated_at": "2026-11-11 close",
     "as_of": "2026-11-11",
-    "matured_count": 22,
+    "matured_count": 23,
     "win_count": 13,
-    "win_rate": "59.09%",
-    "average_return": "7.22%",
-    "median_return": "2.12%",
+    "win_rate": "56.52%",
+    "average_return": "6.77%",
+    "median_return": "1.84%",
     "tracking_count": 5,
-    "unpriced_matured_count": 1,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
-        "value": "59.09%"
+        "value": "56.52%"
       },
       {
         "label": "Average return",
-        "value": "7.22%"
+        "value": "6.77%"
       },
       {
         "label": "Median return",
-        "value": "2.12%"
+        "value": "1.84%"
       },
       {
         "label": "Still tracking",
@@ -261,6 +261,16 @@
         "holding_period": "10 trading days",
         "final_return": "-9.43%",
         "return_value": -0.0943155976079299,
+        "result": "Loss"
+      },
+      {
+        "signal_date": "2026-10-27",
+        "stock": "603773.XSHG",
+        "entry": "2026-10-28 @ 62.950",
+        "exit": "2026-11-11 @ 61.040",
+        "holding_period": "10 trading days",
+        "final_return": "-3.18%",
+        "return_value": -0.03184154090548058,
         "result": "Loss"
       }
     ],
@@ -275,25 +285,25 @@
     "title": "Maturity validation digest",
     "updated_at": "2026-11-11 close",
     "as_of": "2026-11-11",
-    "matured_count": 22,
+    "matured_count": 23,
     "win_count": 13,
-    "win_rate": "59.09%",
-    "average_return": "7.22%",
-    "median_return": "2.12%",
+    "win_rate": "56.52%",
+    "average_return": "6.77%",
+    "median_return": "1.84%",
     "tracking_count": 5,
-    "unpriced_matured_count": 1,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
-        "value": "59.09%"
+        "value": "56.52%"
       },
       {
         "label": "Average return",
-        "value": "7.22%"
+        "value": "6.77%"
       },
       {
         "label": "Median return",
-        "value": "2.12%"
+        "value": "1.84%"
       },
       {
         "label": "Still tracking",
@@ -520,6 +530,16 @@
         "final_return": "-9.43%",
         "return_value": -0.0943155976079299,
         "result": "Loss"
+      },
+      {
+        "signal_date": "2026-10-27",
+        "stock": "603773.XSHG",
+        "entry": "2026-10-28 @ 62.950",
+        "exit": "2026-11-11 @ 61.040",
+        "holding_period": "10 trading days",
+        "final_return": "-3.18%",
+        "return_value": -0.03184154090548058,
+        "result": "Loss"
       }
     ],
     "public_notes": [
@@ -531,18 +551,18 @@
     {
       "id": "a-share-pre-market",
       "title": "A share pre market",
-      "updated_at": "2026-11-11 09:05 local",
+      "updated_at": "2026-11-12 09:05 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "A股盘前重要金融新闻",
-          "generated_at": "2026-11-11 09:05 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-11 09:05 local",
+          "generated_at": "2026-11-12 09:05 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-12 09:05 local",
           "highlights": [
-            "宏观 - 10月出口延续高增：AI拉动近四成增长，明年芯片涨价效应或减弱 - 财新",
-            "宏观 - 韩国11月1-10日出口同比增长111.9%，进口增长45.0%",
-            "宏观 - 出口“新变化” - 财新"
+            "宏观 - 墨西哥央行释放延长暂停降息信号，墨西哥比索无惧美联储加息预期走强 - www.tmgm.com",
+            "宏观 - 央行详解债市非银互换便利：救市场不救机构，产品不刚兑 - 财新",
+            "宏观 - 央行：从比较单一地参考LPR定价向更多元定价基准转型_财经报道_财经 - 证券之星"
           ],
           "tables": [
             {
@@ -555,37 +575,37 @@
               ],
               "rows": [
                 [
-                  "10月出口延续高增：AI拉动近四成增长，明年芯片涨价效应或减弱 - 财新",
+                  "墨西哥央行释放延长暂停降息信号，墨西哥比索无惧美联储加息预期走强 - www.tmgm.com",
+                  "past/upcoming 24h",
+                  "www.tmgm.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "央行详解债市非银互换便利：救市场不救机构，产品不刚兑 - 财新",
                   "past/upcoming 24h",
                   "财新",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "韩国11月1-10日出口同比增长111.9%，进口增长45.0%",
+                  "央行：从比较单一地参考LPR定价向更多元定价基准转型_财经报道_财经 - 证券之星",
                   "past/upcoming 24h",
-                  "每日经济新闻",
+                  "证券之星",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "出口“新变化” - 财新",
+                  "央行发布三季度货币政策报告 前三季度GDP同比增长4.6% - 观点网",
                   "past/upcoming 24h",
-                  "财新",
+                  "观点网",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "通胀扩散！美国10月CPI超预期，美联储理事喊出50个基点加息",
+                  "美联储降息 黄金会涨吗？ - 同花顺财经",
                   "past/upcoming 24h",
-                  "第一财经",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "财经早知道｜美国10月CPI超预期 12月加息基本锁定 - 财新",
-                  "past/upcoming 24h",
-                  "财新",
+                  "同花顺财经",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -600,34 +620,34 @@
               ],
               "rows": [
                 [
-                  "贵州茅台（600519） 证券之星 · 2026-11-10T22:46:30+00:00 11月10日沪深300成长ETF银华基金份额增加200万份，重仓股中际旭创、贵州茅台、宁德时代 - 证券之...",
-                  "600519",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "宁德时代（300750） 证券之星 · 2026-11-10T22:46:30+00:00 11月10日沪深300成长ETF银华基金份额增加200万份，重仓股中际旭创、贵州茅台、宁德时代 - 证券之...",
-                  "300750",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "中际旭创（300308） 证券之星 · 2026-11-10T22:46:30+00:00 11月10日沪深300成长ETF银华基金份额增加200万份，重仓股中际旭创、贵州茅台、宁德时代 - 证券之...",
+                  "中际旭创（300308） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
                   "300308",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "药明康德（603259） 证券之星 · 2026-11-10T22:34:19+00:00 11月10日沪深300增强ETF景顺基金份额增加100万份，重仓股中际旭创、宁德时代、药明康德 - 证券之...",
-                  "603259",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：医药研发、审批和商业化链条 瓶颈：重点看临床数据质量、监管审批、产能放量、医保/支付方接受度 证据：弱；研究优先级：低 反方风险：如果后续原文显示影..."
-                ],
-                [
-                  "寒武纪（688256） 证券之星 · 2026-11-10T22:48:18+00:00 11月10日科创50ETF景顺基金份额减少300万份，重仓股寒武纪、中微公司、澜起科技_基金提醒_雷达 -...",
-                  "688256",
+                  "新易盛（300502） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
+                  "300502",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "兆易创新（603986） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
+                  "603986",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "东山精密（002384） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
+                  "002384",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "工商银行（601398） 东方财富 · 2026-11-11T06:58:15+00:00 工商银行、农业银行、中国人保，同日公告 - 东方财富 - 东方财富 工商银行、农业银行、中国人保，同日公告...",
+                  "601398",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
                 ]
               ]
             }
@@ -636,20 +656,20 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "A股开盘信息",
-          "generated_at": "2026-11-11 09:05 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-11 09:05 local",
+          "generated_at": "2026-11-12 09:05 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-12 09:05 local",
           "highlights": [
-            "交易日：2026-11-11；股票池：cn4000；正式机会为空时应空仓/观望。",
-            "2026-11-10",
-            "截至 2026-11-10，本次行情覆盖 3994/4000 只；6 只缺失，已跳过其当日推荐和统计，继续展示可用内容。",
+            "交易日：2026-11-12；股票池：cn4000；正式机会为空时应空仓/观望。",
+            "2026-11-11",
+            "截至 2026-11-11，本次行情覆盖 3852/4000 只；148 只缺失，已跳过其当日推荐和统计，继续展示可用内容。",
             "本次正式模型未触发可展示机会；按策略应空仓/观望。",
-            "截至 2026-11-10 收盘，从入场开盘价计算累计收益，扣除 15 个基点费用。"
+            "截至 2026-11-11 收盘，从入场开盘价计算累计收益，扣除 15 个基点费用。"
           ],
           "tables": [
             {
               "headers": [
                 "正式机会 0",
-                "数据截止 2026-11-10"
+                "数据截止 2026-11-11"
               ],
               "rows": []
             },
@@ -1247,10 +1267,6 @@
       "zh": "过去 / 未来 24 小时",
       "en": "past/upcoming 24h"
     },
-    "财新": {
-      "zh": "财新",
-      "en": "Caixin"
-    },
     "May affect index risk appetite, rates, FX or sector valuation.": {
       "zh": "可能影响指数风险偏好、利率、汇率或行业估值。",
       "en": "May affect index risk appetite, rates, FX or sector valuation."
@@ -1258,6 +1274,14 @@
     "medium": {
       "zh": "中",
       "en": "medium"
+    },
+    "财新": {
+      "zh": "财新",
+      "en": "Caixin"
+    },
+    "观点网": {
+      "zh": "观点网",
+      "en": "Guandian"
     },
     "新闻": {
       "zh": "新闻",
@@ -1282,6 +1306,14 @@
     "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...": {
       "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...",
       "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: company operations / industry conditions. Bottleneck: unclear; check whether the news changes revenue, margins, orders or regulatory constraints. Evidence: medium; research priority: medium. Counter-risk: if subsequent source text shows..."
+    },
+    "利好": {
+      "zh": "利好",
+      "en": "Positive"
+    },
+    "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...": {
+      "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...",
+      "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: financial credit and capital-market transmission. Bottleneck: net interest margin, credit losses, capital adequacy and financing conditions. Evidence: medium; research priority: medium. Counter-risk: if the source later shows the impact is one-off or already..."
     },
     "A股开盘信息": {
       "zh": "A股开盘信息",
@@ -1359,10 +1391,6 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "利好": {
-      "zh": "利好",
-      "en": "Positive"
-    },
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
@@ -1382,8 +1410,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 132,
-    "translated": 40,
+    "total": 134,
+    "translated": 42,
     "complete": false
   }
 }
