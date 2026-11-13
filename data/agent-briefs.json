@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-13 16:38 local",
+  "published_at": "2026-11-13 22:16 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -893,18 +893,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-12 22:18 local",
+      "updated_at": "2026-11-13 22:16 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-12 22:18 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-12 22:18 local",
+          "generated_at": "2026-11-13 22:16 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-13 22:16 local",
           "highlights": [
-            "宏观 - 美国10年期国债收益率重回5%上方",
-            "宏观 - 油价跳涨：特朗普称无需与伊朗达成协议",
-            "宏观 - 美股股指期货盘前走低，科技股领跌"
+            "宏观 - US Equity Indexes Fall, Nvidia Turmoil in Danger of Spreading While Surging Crude Oil Lifts Treasury Yields - marketscreener.com",
+            "宏观 - US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com",
+            "宏观 - US Treasury Yields Mixed Early Friday Ahead of October's Producer Price Inflation Data, Fed Speeches - marketscreener.com"
           ],
           "tables": [
             {
@@ -917,38 +917,38 @@
               ],
               "rows": [
                 [
-                  "美国10年期国债收益率重回5%上方",
-                  "新闻发布于美东2026-11-12 09:08，盘前已发生；收益率盘中变动以官方与经纪商报价为准",
-                  "10年期收益率升破5%，受油价上涨与市场预期更多美联储加息推动",
-                  "长端利率上行直接压制高估值成长股估值，并抬升全市场贴现率，是盘前科技股承压的核心宏观变量",
-                  "high"
+                  "US Equity Indexes Fall, Nvidia Turmoil in Danger of Spreading While Surging Crude Oil Lifts Treasur...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "油价跳涨：特朗普称无需与伊朗达成协议",
-                  "新闻发布于美东2026-11-12 09:49，盘前已发生",
-                  "特朗普表示“我们掌握着他们的海峡”，无需与伊朗达成协议，油价应声跳涨",
-                  "能源价格上行推升通胀预期与利率，利好能源股、利空航空与消费；同时与Bernstein基于伊朗缓和的降级逻辑形成冲突",
-                  "high"
+                  "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - ma...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "美股股指期货盘前走低，科技股领跌",
-                  "新闻发布于美东2026-11-12 09:19，盘前交易时段",
-                  "道指期货下跌，科技股大跌，NVIDIA董事会考虑罢免CEO黄仁勋；Nebius业绩拖累同类AI概念",
-                  "指数层面的风险偏好信号，AI权重股波动可能放大纳指与标普500开盘波动",
-                  "high"
+                  "US Treasury Yields Mixed Early Friday Ahead of October's Producer Price Inflation Data, Fed Speeche...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "美联储加息预期升温",
-                  "随10年期收益率与油价新闻同步发酵，美东2026-11-12盘前；后续以FOMC会议与官员讲话为准",
-                  "市场对更多美联储加息的预期上升，与油价上行共同推高收益率",
-                  "加息预期是跨资产定价的核心，影响美元、成长股估值与利率敏感板块",
-                  "high"
+                  "As The Stock Market Churns, Treasury Yields And The Dollar Break Out - TalkMarkets - Howl.Link",
+                  "past/upcoming 24h",
+                  "Howl.Link",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "美加贸易摩擦：加拿大驻美大使警告特朗普关税推高成本",
-                  "新闻发布于美东2026-11-12 09:59，盘前已发生",
-                  "加拿大驻美大使称关税推高成本并威胁美国投资",
-                  "关税不确定性影响跨国企业成本、供应链与资本开支，对工业与消费龙头构成中期风险",
+                  "Treasury Yields and US Dollar Break Out as the Stock Market Churns - Investing.com",
+                  "past/upcoming 24h",
+                  "Investing.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
               ]
@@ -962,34 +962,34 @@
               ],
               "rows": [
                 [
-                  "NVIDIA (NVDA) MarketWatch/Yahoo Finance/CNBC · 2026-11-12T10:07:00+00:00 NVIDIA Sinks 9% on Reports...",
+                  "Nvidia（NVDA） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive op...",
                   "NVDA",
-                  "利空",
-                  "CEO在治理争议中突然离任、公司无正式接任者，直接削弱战略连续性并触发评级下调和AI板块风险偏好收缩。 位置：AI加速器与数据中心算力核心供应商 瓶颈：高端GPU供给与CUDA生态，以及管理层战略连..."
-                ],
-                [
-                  "AMD (AMD) Yahoo Finance · 2026-11-12T14:04:14+00:00 AMD Shares Jump on Stunning Upgrade Amid Nvidia...",
-                  "AMD",
                   "利好",
-                  "评级上调与相对强势显示资金在AI芯片板块内部再平衡，但CEO候选传闻属未证实变量。 位置：AI加速器与CPU设计商，NVIDIA的直接竞争者 瓶颈：先进制程产能与软件生态成熟度 证据：中；研究优先级..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Broadcom (AVGO) Yahoo Finance · 2026-11-12T13:50:37+00:00 Broadcom and Qualcomm Each Lost at Least...",
+                  "Cisco（CSCO） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive ope...",
+                  "CSCO",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "UPS（UPS） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive open o...",
+                  "UPS",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Microsoft（MSFT） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Sto...",
+                  "MSFT",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Broadcom（AVGO） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Stoc...",
                   "AVGO",
-                  "分化",
-                  "跌幅由板块情绪与AI交易再定价驱动，而非公司公告；指引差异构成中期分化依据。 位置：定制ASIC与数据中心网络芯片供应商 瓶颈：高端定制芯片设计能力与网络互联带宽 证据：中；研究优先级：中 反方风险..."
-                ],
-                [
-                  "Qualcomm (QCOM) Yahoo Finance · 2026-11-12T13:42:57+00:00 Qualcomm CEO on $15B data-center goal: 'W...",
-                  "QCOM",
-                  "分化",
-                  "管理层给出明确的数据中心营收目标与外部合作叙事构成中期增量，但当日股价受板块拖累。 位置：移动SoC与边缘/AI芯片设计商，向数据中心 diversification 瓶颈：基带专利组合与低功耗算力..."
-                ],
-                [
-                  "Intel (INTC) Yahoo Finance · 2026-11-12T13:31:00+00:00 Why Intel and Marvell Stocks Are Caught in N...",
-                  "INTC",
-                  "利空",
-                  "跌幅源于AI板块风险偏好收缩的联动，而非公司自身公告。 位置：CPU与晶圆代工参与者 瓶颈：先进制程良率与代工客户信任 证据：弱；研究优先级：低 反方风险：若代工客户或产品路线出现独立利好，板块联动..."
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -997,15 +997,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-12 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-12 22:18 local",
+          "title": "市场状态分层：市场状态未知",
+          "generated_at": "2026-11-13 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-13 22:16 local",
           "highlights": [
-            "市场状态分层：市场状态未知",
-            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+            "宏观事件覆盖层：oil_shock=17；geopolitical_risk=16；macro_rates=11；semis_event=4",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "今日待发布财报 · 市值前五",
-            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
+            "避险/波动升温：达到调分门槛；方向证据 5 vs 反向 1；不同标题 4，不同来源 4，一线来源 1；市场代理确认 否",
+            "油价/能源走强：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
+            "Global oil supply returns to surplus for first time since start of Iran war, says IEA - The Guardian"
           ],
           "tables": [
             {
@@ -1018,38 +1018,38 @@
               ],
               "rows": [
                 [
-                  "美国10年期国债收益率重回5%上方",
-                  "新闻发布于美东2026-11-12 09:08，盘前已发生；收益率盘中变动以官方与经纪商报价为准",
-                  "10年期收益率升破5%，受油价上涨与市场预期更多美联储加息推动",
-                  "长端利率上行直接压制高估值成长股估值，并抬升全市场贴现率，是盘前科技股承压的核心宏观变量",
-                  "high"
+                  "US Equity Indexes Fall, Nvidia Turmoil in Danger of Spreading While Surging Crude Oil Lifts Treasur...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "油价跳涨：特朗普称无需与伊朗达成协议",
-                  "新闻发布于美东2026-11-12 09:49，盘前已发生",
-                  "特朗普表示“我们掌握着他们的海峡”，无需与伊朗达成协议，油价应声跳涨",
-                  "能源价格上行推升通胀预期与利率，利好能源股、利空航空与消费；同时与Bernstein基于伊朗缓和的降级逻辑形成冲突",
-                  "high"
+                  "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - ma...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "美股股指期货盘前走低，科技股领跌",
-                  "新闻发布于美东2026-11-12 09:19，盘前交易时段",
-                  "道指期货下跌，科技股大跌，NVIDIA董事会考虑罢免CEO黄仁勋；Nebius业绩拖累同类AI概念",
-                  "指数层面的风险偏好信号，AI权重股波动可能放大纳指与标普500开盘波动",
-                  "high"
+                  "US Treasury Yields Mixed Early Friday Ahead of October's Producer Price Inflation Data, Fed Speeche...",
+                  "past/upcoming 24h",
+                  "marketscreener.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "美联储加息预期升温",
-                  "随10年期收益率与油价新闻同步发酵，美东2026-11-12盘前；后续以FOMC会议与官员讲话为准",
-                  "市场对更多美联储加息的预期上升，与油价上行共同推高收益率",
-                  "加息预期是跨资产定价的核心，影响美元、成长股估值与利率敏感板块",
-                  "high"
+                  "As The Stock Market Churns, Treasury Yields And The Dollar Break Out - TalkMarkets - Howl.Link",
+                  "past/upcoming 24h",
+                  "Howl.Link",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ],
                 [
-                  "美加贸易摩擦：加拿大驻美大使警告特朗普关税推高成本",
-                  "新闻发布于美东2026-11-12 09:59，盘前已发生",
-                  "加拿大驻美大使称关税推高成本并威胁美国投资",
-                  "关税不确定性影响跨国企业成本、供应链与资本开支，对工业与消费龙头构成中期风险",
+                  "Treasury Yields and US Dollar Break Out as the Stock Market Churns - Investing.com",
+                  "past/upcoming 24h",
+                  "Investing.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
               ]
@@ -1063,34 +1063,34 @@
               ],
               "rows": [
                 [
-                  "NVIDIA (NVDA) MarketWatch/Yahoo Finance/CNBC · 2026-11-12T10:07:00+00:00 NVIDIA Sinks 9% on Reports...",
+                  "Nvidia（NVDA） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive op...",
                   "NVDA",
-                  "利空",
-                  "CEO在治理争议中突然离任、公司无正式接任者，直接削弱战略连续性并触发评级下调和AI板块风险偏好收缩。 位置：AI加速器与数据中心算力核心供应商 瓶颈：高端GPU供给与CUDA生态，以及管理层战略连..."
-                ],
-                [
-                  "AMD (AMD) Yahoo Finance · 2026-11-12T14:04:14+00:00 AMD Shares Jump on Stunning Upgrade Amid Nvidia...",
-                  "AMD",
                   "利好",
-                  "评级上调与相对强势显示资金在AI芯片板块内部再平衡，但CEO候选传闻属未证实变量。 位置：AI加速器与CPU设计商，NVIDIA的直接竞争者 瓶颈：先进制程产能与软件生态成熟度 证据：中；研究优先级..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Broadcom (AVGO) Yahoo Finance · 2026-11-12T13:50:37+00:00 Broadcom and Qualcomm Each Lost at Least...",
+                  "Cisco（CSCO） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive ope...",
+                  "CSCO",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "UPS（UPS） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive open o...",
+                  "UPS",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Microsoft（MSFT） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Sto...",
+                  "MSFT",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Broadcom（AVGO） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Stoc...",
                   "AVGO",
-                  "分化",
-                  "跌幅由板块情绪与AI交易再定价驱动，而非公司公告；指引差异构成中期分化依据。 位置：定制ASIC与数据中心网络芯片供应商 瓶颈：高端定制芯片设计能力与网络互联带宽 证据：中；研究优先级：中 反方风险..."
-                ],
-                [
-                  "Qualcomm (QCOM) Yahoo Finance · 2026-11-12T13:42:57+00:00 Qualcomm CEO on $15B data-center goal: 'W...",
-                  "QCOM",
-                  "分化",
-                  "管理层给出明确的数据中心营收目标与外部合作叙事构成中期增量，但当日股价受板块拖累。 位置：移动SoC与边缘/AI芯片设计商，向数据中心 diversification 瓶颈：基带专利组合与低功耗算力..."
-                ],
-                [
-                  "Intel (INTC) Yahoo Finance · 2026-11-12T13:31:00+00:00 Why Intel and Marvell Stocks Are Caught in N...",
-                  "INTC",
-                  "利空",
-                  "跌幅源于AI板块风险偏好收缩的联动，而非公司自身公告。 位置：CPU与晶圆代工参与者 瓶颈：先进制程良率与代工客户信任 证据：弱；研究优先级：低 反方风险：若代工客户或产品路线出现独立利好，板块联动..."
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -1399,13 +1399,13 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
+    "marketscreener.com": {
+      "en": "marketscreener.com",
+      "zh": "marketscreener.com"
+    },
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
-    },
-    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
-      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
-      "en": "Macro-event overlay: no clear macro-event shock detected."
     },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
@@ -1418,7 +1418,7 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 134,
+    "total": 115,
     "translated": 39,
     "complete": false
   }
