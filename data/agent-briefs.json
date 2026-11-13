@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-12 22:18 local",
+  "published_at": "2026-11-13 09:19 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -17,25 +17,25 @@
     "title": "Maturity validation digest",
     "updated_at": "2026-11-12 close",
     "as_of": "2026-11-12",
-    "matured_count": 23,
-    "win_count": 13,
-    "win_rate": "56.52%",
-    "average_return": "6.77%",
-    "median_return": "1.84%",
+    "matured_count": 24,
+    "win_count": 14,
+    "win_rate": "58.33%",
+    "average_return": "6.51%",
+    "median_return": "1.27%",
     "tracking_count": 4,
-    "unpriced_matured_count": 1,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
-        "value": "56.52%"
+        "value": "58.33%"
       },
       {
         "label": "Average return",
-        "value": "6.77%"
+        "value": "6.51%"
       },
       {
         "label": "Median return",
-        "value": "1.84%"
+        "value": "1.27%"
       },
       {
         "label": "Still tracking",
@@ -272,6 +272,16 @@
         "final_return": "-3.18%",
         "return_value": -0.03184154090548058,
         "result": "Loss"
+      },
+      {
+        "signal_date": "2026-10-28",
+        "stock": "688521.XSHG",
+        "entry": "2026-10-29 @ 115.450",
+        "exit": "2026-11-12 @ 116.430",
+        "holding_period": "10 trading days",
+        "final_return": "+0.70%",
+        "return_value": 0.006988523170203655,
+        "result": "Win"
       }
     ],
     "public_notes": [
@@ -285,25 +295,25 @@
     "title": "Maturity validation digest",
     "updated_at": "2026-11-12 close",
     "as_of": "2026-11-12",
-    "matured_count": 23,
-    "win_count": 13,
-    "win_rate": "56.52%",
-    "average_return": "6.77%",
-    "median_return": "1.84%",
+    "matured_count": 24,
+    "win_count": 14,
+    "win_rate": "58.33%",
+    "average_return": "6.51%",
+    "median_return": "1.27%",
     "tracking_count": 4,
-    "unpriced_matured_count": 1,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
-        "value": "56.52%"
+        "value": "58.33%"
       },
       {
         "label": "Average return",
-        "value": "6.77%"
+        "value": "6.51%"
       },
       {
         "label": "Median return",
-        "value": "1.84%"
+        "value": "1.27%"
       },
       {
         "label": "Still tracking",
@@ -540,6 +550,16 @@
         "final_return": "-3.18%",
         "return_value": -0.03184154090548058,
         "result": "Loss"
+      },
+      {
+        "signal_date": "2026-10-28",
+        "stock": "688521.XSHG",
+        "entry": "2026-10-29 @ 115.450",
+        "exit": "2026-11-12 @ 116.430",
+        "holding_period": "10 trading days",
+        "final_return": "+0.70%",
+        "return_value": 0.006988523170203655,
+        "result": "Win"
       }
     ],
     "public_notes": [
@@ -551,18 +571,18 @@
     {
       "id": "a-share-pre-market",
       "title": "A share pre market",
-      "updated_at": "2026-11-12 09:05 local",
+      "updated_at": "2026-11-13 09:05 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "A股盘前重要金融新闻",
-          "generated_at": "2026-11-12 09:05 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-12 09:05 local",
+          "generated_at": "2026-11-13 09:05 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-13 09:05 local",
           "highlights": [
-            "宏观 - 墨西哥央行释放延长暂停降息信号，墨西哥比索无惧美联储加息预期走强 - www.tmgm.com",
-            "宏观 - 央行详解债市非银互换便利：救市场不救机构，产品不刚兑 - 财新",
-            "宏观 - 央行：从比较单一地参考LPR定价向更多元定价基准转型_财经报道_财经 - 证券之星"
+            "宏观 - 墨西哥央行官员希思警告：降息将就通胀问题释放错误信号 - www.tmgm.com",
+            "宏观 - 墨西哥央行降息释放错误信号，副行长希思发出警告- 新闻和统计 - IndexBox",
+            "宏观 - CPI砸崩美债！华尔街将美联储“暴力加息”纳入定价 - 财联社"
           ],
           "tables": [
             {
@@ -575,37 +595,37 @@
               ],
               "rows": [
                 [
-                  "墨西哥央行释放延长暂停降息信号，墨西哥比索无惧美联储加息预期走强 - www.tmgm.com",
+                  "墨西哥央行官员希思警告：降息将就通胀问题释放错误信号 - www.tmgm.com",
                   "past/upcoming 24h",
                   "www.tmgm.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "央行详解债市非银互换便利：救市场不救机构，产品不刚兑 - 财新",
+                  "墨西哥央行降息释放错误信号，副行长希思发出警告- 新闻和统计 - IndexBox",
                   "past/upcoming 24h",
-                  "财新",
+                  "IndexBox",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "央行：从比较单一地参考LPR定价向更多元定价基准转型_财经报道_财经 - 证券之星",
+                  "CPI砸崩美债！华尔街将美联储“暴力加息”纳入定价 - 财联社",
                   "past/upcoming 24h",
-                  "证券之星",
+                  "财联社",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "央行发布三季度货币政策报告 前三季度GDP同比增长4.6% - 观点网",
+                  "英镑获GDP数据支撑 英国央行加息预期升温 - 中国金融信息网",
                   "past/upcoming 24h",
-                  "观点网",
+                  "中国金融信息网",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "美联储降息 黄金会涨吗？ - 同花顺财经",
+                  "财联社C50风向指数调查：8月新增信贷、社融或同比少增，M2增速持续回落 - 财联社",
                   "past/upcoming 24h",
-                  "同花顺财经",
+                  "财联社",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -620,34 +640,34 @@
               ],
               "rows": [
                 [
-                  "中际旭创（300308） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
+                  "中际旭创（300308） 同花顺 · 2026-11-12T15:07:24+00:00 中际旭创、天孚通信、新易盛，晚间齐发公告 - 同花顺 - 同花顺 11月12日8股成交额超过百亿，包括中际旭...",
                   "300308",
-                  "中性",
+                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "新易盛（300502） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
+                  "新易盛（300502） 同花顺 · 2026-11-12T15:07:24+00:00 中际旭创、天孚通信、新易盛，晚间齐发公告 - 同花顺 - 同花顺 11月12日8股成交额超过百亿，包括中际旭创...",
                   "300502",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "兆易创新（603986） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
-                  "603986",
+                  "天孚通信（300394） 同花顺 · 2026-11-12T15:07:24+00:00 中际旭创、天孚通信、新易盛，晚间齐发公告 - 同花顺 - 同花顺 天孚通信、生益科技、京东方A、华虹宏力等，...",
+                  "300394",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "东山精密（002384） 金融界 · 2026-11-11T07:42:20+00:00 11月11日8股成交额超过百亿，包括中际旭创、新易盛、长鑫科技、东山精密、兆易创新等 - 金融界 - 金融界...",
-                  "002384",
+                  "同花顺（300033） 同花顺 · 2026-11-12T15:07:24+00:00 中际旭创、天孚通信、新易盛，晚间齐发公告 - 同花顺 - 同花顺 光模块龙头5000万投基金，中际旭创的外延布...",
+                  "300033",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "工商银行（601398） 东方财富 · 2026-11-11T06:58:15+00:00 工商银行、农业银行、中国人保，同日公告 - 东方财富 - 东方财富 工商银行、农业银行、中国人保，同日公告...",
-                  "601398",
+                  "中国人寿（601628） 新浪财经 · 2026-11-12T09:49:10+00:00 中国人寿、中国人保、中国太保、中国平安上榜！中国最佳品牌排行榜发布… - 新浪财经 - 新浪财经",
+                  "601628",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：弱；研究优先级：低 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -656,20 +676,20 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "A股开盘信息",
-          "generated_at": "2026-11-12 09:05 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-12 09:05 local",
+          "generated_at": "2026-11-13 09:05 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-13 09:05 local",
           "highlights": [
-            "交易日：2026-11-12；股票池：cn4000；正式机会为空时应空仓/观望。",
-            "2026-11-11",
-            "截至 2026-11-11，本次行情覆盖 3852/4000 只；148 只缺失，已跳过其当日推荐和统计，继续展示可用内容。",
+            "交易日：2026-11-13；股票池：cn4000；正式机会为空时应空仓/观望。",
+            "2026-11-12",
+            "截至 2026-11-12，本次行情覆盖 3807/4000 只；193 只缺失，已跳过其当日推荐和统计，继续展示可用内容。",
             "本次正式模型未触发可展示机会；按策略应空仓/观望。",
-            "截至 2026-11-11 收盘，从入场开盘价计算累计收益，扣除 15 个基点费用。"
+            "截至 2026-11-12 收盘，从入场开盘价计算累计收益，扣除 15 个基点费用。"
           ],
           "tables": [
             {
               "headers": [
                 "正式机会 0",
-                "数据截止 2026-11-11"
+                "数据截止 2026-11-12"
               ],
               "rows": []
             },
@@ -1275,14 +1295,6 @@
       "zh": "中",
       "en": "medium"
     },
-    "财新": {
-      "zh": "财新",
-      "en": "Caixin"
-    },
-    "观点网": {
-      "zh": "观点网",
-      "en": "Guandian"
-    },
     "新闻": {
       "zh": "新闻",
       "en": "News"
@@ -1299,21 +1311,17 @@
       "zh": "理由",
       "en": "Rationale"
     },
-    "中性": {
-      "zh": "中性",
-      "en": "Neutral"
+    "利好": {
+      "zh": "利好",
+      "en": "Positive"
     },
     "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...": {
       "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...",
       "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: company operations / industry conditions. Bottleneck: unclear; check whether the news changes revenue, margins, orders or regulatory constraints. Evidence: medium; research priority: medium. Counter-risk: if subsequent source text shows..."
     },
-    "利好": {
-      "zh": "利好",
-      "en": "Positive"
-    },
-    "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...": {
-      "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...",
-      "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: financial credit and capital-market transmission. Bottleneck: net interest margin, credit losses, capital adequacy and financing conditions. Evidence: medium; research priority: medium. Counter-risk: if the source later shows the impact is one-off or already..."
+    "中性": {
+      "zh": "中性",
+      "en": "Neutral"
     },
     "A股开盘信息": {
       "zh": "A股开盘信息",
@@ -1410,8 +1418,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 135,
-    "translated": 42,
+    "total": 134,
+    "translated": 39,
     "complete": false
   }
 }
