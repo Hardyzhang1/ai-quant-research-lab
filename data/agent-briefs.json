@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-16 16:36 local",
+  "published_at": "2026-11-16 22:16 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -933,18 +933,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-13 22:16 local",
+      "updated_at": "2026-11-16 22:16 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-13 22:16 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-13 22:16 local",
+          "generated_at": "2026-11-16 22:16 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-16 22:16 local",
           "highlights": [
-            "宏观 - US Equity Indexes Fall, Nvidia Turmoil in Danger of Spreading While Surging Crude Oil Lifts Treasury Yields - marketscreener.com",
-            "宏观 - US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com",
-            "宏观 - US Treasury Yields Mixed Early Friday Ahead of October's Producer Price Inflation Data, Fed Speeches - marketscreener.com"
+            "宏观 - U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union",
+            "宏观 - EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets",
+            "宏观 - U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - marketscreener.com"
           ],
           "tables": [
             {
@@ -957,37 +957,37 @@
               ],
               "rows": [
                 [
-                  "US Equity Indexes Fall, Nvidia Turmoil in Danger of Spreading While Surging Crude Oil Lifts Treasur...",
+                  "U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union",
+                  "past/upcoming 24h",
+                  "Traders Union",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets",
+                  "past/upcoming 24h",
+                  "VT Markets",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - ma...",
+                  "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Mi...",
                   "past/upcoming 24h",
-                  "marketscreener.com",
+                  "TradingView",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury Yields Mixed Early Friday Ahead of October's Producer Price Inflation Data, Fed Speeche...",
+                  "US Treasury yields fall as investors await Kevin Warsh's comments, US retail sales data and Fed min...",
                   "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "As The Stock Market Churns, Treasury Yields And The Dollar Break Out - TalkMarkets - Howl.Link",
-                  "past/upcoming 24h",
-                  "Howl.Link",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Treasury Yields and US Dollar Break Out as the Stock Market Churns - Investing.com",
-                  "past/upcoming 24h",
-                  "Investing.com",
+                  "Hindustan Times",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1002,33 +1002,33 @@
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive op...",
+                  "Oracle（ORCL） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Stock...",
+                  "ORCL",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Salesforce（CRM） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
+                  "CRM",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性..."
+                ],
+                [
+                  "ServiceNow（NOW） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
+                  "NOW",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Nvidia（NVDA） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in...",
                   "NVDA",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Cisco（CSCO） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive ope...",
-                  "CSCO",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "UPS（UPS） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive open o...",
-                  "UPS",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Microsoft（MSFT） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Sto...",
-                  "MSFT",
+                  "AMD（AMD） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in Prem...",
+                  "AMD",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Broadcom（AVGO） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Stoc...",
-                  "AVGO",
-                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -1038,14 +1038,14 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-13 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-13 22:16 local",
+          "generated_at": "2026-11-16 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-16 22:16 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=17；geopolitical_risk=16；macro_rates=11；semis_event=4",
+            "宏观事件覆盖层：macro_rates=11；geopolitical_risk=4；risk_escalation=3；oil_shock=2",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：达到调分门槛；方向证据 5 vs 反向 1；不同标题 4，不同来源 4，一线来源 1；市场代理确认 否",
-            "油价/能源走强：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
-            "Global oil supply returns to surplus for first time since start of Iran war, says IEA - The Guardian"
+            "避险/波动升温：达到调分门槛；方向证据 3 vs 反向 0；不同标题 3，不同来源 3，一线来源 1；市场代理确认 否",
+            "Treasury yields fall as investors await comments from Fed Chairman Warsh - CNBC",
+            "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - WSJ"
           ],
           "tables": [
             {
@@ -1058,37 +1058,37 @@
               ],
               "rows": [
                 [
-                  "US Equity Indexes Fall, Nvidia Turmoil in Danger of Spreading While Surging Crude Oil Lifts Treasur...",
+                  "U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union",
+                  "past/upcoming 24h",
+                  "Traders Union",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets",
+                  "past/upcoming 24h",
+                  "VT Markets",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - marketscreener.com",
                   "past/upcoming 24h",
                   "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - ma...",
+                  "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Mi...",
                   "past/upcoming 24h",
-                  "marketscreener.com",
+                  "TradingView",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury Yields Mixed Early Friday Ahead of October's Producer Price Inflation Data, Fed Speeche...",
+                  "US Treasury yields fall as investors await Kevin Warsh's comments, US retail sales data and Fed min...",
                   "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "As The Stock Market Churns, Treasury Yields And The Dollar Break Out - TalkMarkets - Howl.Link",
-                  "past/upcoming 24h",
-                  "Howl.Link",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Treasury Yields and US Dollar Break Out as the Stock Market Churns - Investing.com",
-                  "past/upcoming 24h",
-                  "Investing.com",
+                  "Hindustan Times",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1103,33 +1103,33 @@
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive op...",
+                  "Oracle（ORCL） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Stock...",
+                  "ORCL",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Salesforce（CRM） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
+                  "CRM",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性..."
+                ],
+                [
+                  "ServiceNow（NOW） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
+                  "NOW",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Nvidia（NVDA） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in...",
                   "NVDA",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Cisco（CSCO） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive ope...",
-                  "CSCO",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "UPS（UPS） Upstox · 2026-11-13T13:35:05+00:00 Dow Jones, S&P 500, Nasdaq futures hint positive open o...",
-                  "UPS",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Microsoft（MSFT） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Sto...",
-                  "MSFT",
+                  "AMD（AMD） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in Prem...",
+                  "AMD",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Broadcom（AVGO） Barron's · 2026-11-13T11:31:00+00:00 Nvidia, AMD, Microsoft, Broadcom, and More Stoc...",
-                  "AVGO",
-                  "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -1439,6 +1439,10 @@
       "en": "marketscreener.com",
       "zh": "marketscreener.com"
     },
+    "TradingView": {
+      "en": "TradingView",
+      "zh": "TradingView"
+    },
     "利好": {
       "zh": "利好",
       "en": "Positive"
@@ -1458,8 +1462,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 115,
-    "translated": 39,
+    "total": 118,
+    "translated": 40,
     "complete": false
   }
 }
