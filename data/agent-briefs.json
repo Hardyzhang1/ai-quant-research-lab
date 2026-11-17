@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-17 16:35 local",
+  "published_at": "2026-11-17 22:22 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -933,18 +933,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-16 22:16 local",
+      "updated_at": "2026-11-17 22:22 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-16 22:16 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-16 22:16 local",
+          "generated_at": "2026-11-17 22:22 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-17 22:22 local",
           "highlights": [
-            "宏观 - U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union",
-            "宏观 - EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets",
-            "宏观 - U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - marketscreener.com"
+            "宏观 - 美国零售销售数据",
+            "宏观 - 美联储官员Musalem讲话（利率路径）",
+            "宏观 - 美联储理事Cook与国会委员会听证会"
           ],
           "tables": [
             {
@@ -957,38 +957,38 @@
               ],
               "rows": [
                 [
-                  "U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union",
-                  "past/upcoming 24h",
-                  "Traders Union",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "美国零售销售数据",
+                  "新闻已在盘前发布，见新闻发布时间；常规发布窗口为美东时间上午8:30",
+                  "零售销售放缓，恰逢假日购物季前，市场担忧消费动能。",
+                  "消费动能放缓可能影响零售与消费类大市值股，并强化降息预期，扰动指数。",
+                  "high"
+                ],
+                [
+                  "美联储官员Musalem讲话（利率路径）",
+                  "讲话已发生，见新闻发布时间",
+                  "圣路易斯联储Musalem称未来数月可能还需四次加息。",
+                  "鹰派表态可能推升短端收益率并压制成长股估值，引发指数波动。",
+                  "high"
+                ],
+                [
+                  "美联储理事Cook与国会委员会听证会",
+                  "新闻未列明具体时点；以官方听证日程为准",
+                  "Cook律师暗示其不会出席特朗普相关委员会听证会，Fed独立性议题升温。",
+                  "美联储治理与独立性争议可能影响政策可信度与利率预期。",
                   "medium"
                 ],
                 [
-                  "EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets",
-                  "past/upcoming 24h",
-                  "VT Markets",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "英伟达财报（科技股风险事件）",
+                  "盘后发布，见新闻发布时间；以公司公告为准",
+                  "期权市场预期大幅波动，投资者等待指引以判断AI交易走向。",
+                  "作为权重股，英伟达财报结果可能决定AI板块与纳指方向，波及多个大市值科技股。",
+                  "high"
                 ],
                 [
-                  "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Mi...",
-                  "past/upcoming 24h",
-                  "TradingView",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "US Treasury yields fall as investors await Kevin Warsh's comments, US retail sales data and Fed min...",
-                  "past/upcoming 24h",
-                  "Hindustan Times",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "美联储主席与AI生产力议题",
+                  "分析文章已发布，见新闻发布时间",
+                  "美联储主席认为AI革命正在到来，需评估其对就业、生产力与利率的含义。",
+                  "若AI被视为提升生产力，或影响中性利率与长期政策路径预期。",
                   "medium"
                 ]
               ]
@@ -1002,34 +1002,34 @@
               ],
               "rows": [
                 [
-                  "Oracle（ORCL） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Stock...",
-                  "ORCL",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Disney（DIS） US Top News and Analysis · 2026-11-17T14:15:14+00:00 Disney beats fourth-quarter estima...",
+                  "DIS",
+                  "分化",
+                  "财报超预期且流媒体增长强劲属实质利好，但盘前下跌反映市场对成本削减可持续性与传统业务拖累的疑虑，方向不明。 位置：内容制作与流媒体分发 瓶颈：优质内容IP与流媒体订阅规模 证据：强；研究优先级：高..."
                 ],
                 [
-                  "Salesforce（CRM） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
-                  "CRM",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性..."
-                ],
-                [
-                  "ServiceNow（NOW） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
-                  "NOW",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Nvidia（NVDA） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in...",
+                  "Nvidia（NVDA） US Top News and Analysis · 2026-11-17T07:07:35+00:00 Nvidia board forms new export con...",
                   "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "分化",
+                  "财报临近放大波动，出口管制委员会与合规警告属结构性风险，但AI需求仍是核心支撑，方向取决于财报与指引。 位置：AI加速芯片设计（数据中心算力上游） 瓶颈：高端GPU供给与CUDA软件生态 证据：中；..."
                 ],
                 [
-                  "AMD（AMD） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in Prem...",
+                  "Advanced Micro Devices（AMD） Yahoo Finance · 2026-11-17T13:47:33+00:00 AMD Could Be Closing the Gap...",
                   "AMD",
+                  "分化",
+                  "竞争格局改善属结构性正面，但板块资金流出与情绪疲弱构成压制，方向取决于AI订单落地。 位置：AI加速芯片设计（英伟达的竞争替代） 瓶颈：先进制程产能与AI软件栈 证据：弱；研究优先级：中 反方风险：..."
+                ],
+                [
+                  "Apple（AAPL）等美国科技公司中国业务 US Top News and Analysis · 2026-11-17T08:52:45+00:00 U.S. companies from Nvi...",
+                  "AAPL, NVDA, MSFT, GOOGL, META, AMZN",
+                  "利空",
+                  "中美政治压力上升属实质性政策风险，但尚无具体措施落地，影响程度待观察。 位置：全球科技硬件与平台（中国收入敞口） 瓶颈：中国市场份额与供应链通道 证据：中；研究优先级：高 反方风险：若无具体监管行动..."
+                ],
+                [
+                  "Microsoft（MSFT）与JPMorgan等服务中断 Yahoo Finance · 2026-11-17T14:07:32+00:00 JPMorgan, Microsoft, United...",
+                  "MSFT, JPM",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "服务中断事件影响偏运营层面，尚无证据显示重大财务损失。 位置：云基础设施与企业IT服务 瓶颈：云服务连续性 证据：弱；研究优先级：低 反方风险：若中断规模扩大，可能引发客户信任与监管关注。"
                 ]
               ]
             }
@@ -1037,15 +1037,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-16 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-16 22:16 local",
+          "title": "美股盘前重要金融新闻",
+          "generated_at": "2026-11-17 22:20 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-17 22:22 local",
           "highlights": [
-            "宏观事件覆盖层：macro_rates=11；geopolitical_risk=4；risk_escalation=3；oil_shock=2",
+            "市场状态分层：市场状态未知",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：达到调分门槛；方向证据 3 vs 反向 0；不同标题 3，不同来源 3，一线来源 1；市场代理确认 否",
-            "Treasury yields fall as investors await comments from Fed Chairman Warsh - CNBC",
-            "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - WSJ"
+            "今日待发布财报 · 市值前五",
+            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
           ],
           "tables": [
             {
@@ -1058,38 +1058,38 @@
               ],
               "rows": [
                 [
-                  "U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union",
-                  "past/upcoming 24h",
-                  "Traders Union",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "美国零售销售数据",
+                  "新闻已在盘前发布，见新闻发布时间；常规发布窗口为美东时间上午8:30",
+                  "零售销售放缓，恰逢假日购物季前，市场担忧消费动能。",
+                  "消费动能放缓可能影响零售与消费类大市值股，并强化降息预期，扰动指数。",
+                  "high"
+                ],
+                [
+                  "美联储官员Musalem讲话（利率路径）",
+                  "讲话已发生，见新闻发布时间",
+                  "圣路易斯联储Musalem称未来数月可能还需四次加息。",
+                  "鹰派表态可能推升短端收益率并压制成长股估值，引发指数波动。",
+                  "high"
+                ],
+                [
+                  "美联储理事Cook与国会委员会听证会",
+                  "新闻未列明具体时点；以官方听证日程为准",
+                  "Cook律师暗示其不会出席特朗普相关委员会听证会，Fed独立性议题升温。",
+                  "美联储治理与独立性争议可能影响政策可信度与利率预期。",
                   "medium"
                 ],
                 [
-                  "EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets",
-                  "past/upcoming 24h",
-                  "VT Markets",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
+                  "英伟达财报（科技股风险事件）",
+                  "盘后发布，见新闻发布时间；以公司公告为准",
+                  "期权市场预期大幅波动，投资者等待指引以判断AI交易走向。",
+                  "作为权重股，英伟达财报结果可能决定AI板块与纳指方向，波及多个大市值科技股。",
+                  "high"
                 ],
                 [
-                  "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Mi...",
-                  "past/upcoming 24h",
-                  "TradingView",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "US Treasury yields fall as investors await Kevin Warsh's comments, US retail sales data and Fed min...",
-                  "past/upcoming 24h",
-                  "Hindustan Times",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "美联储主席与AI生产力议题",
+                  "分析文章已发布，见新闻发布时间",
+                  "美联储主席认为AI革命正在到来，需评估其对就业、生产力与利率的含义。",
+                  "若AI被视为提升生产力，或影响中性利率与长期政策路径预期。",
                   "medium"
                 ]
               ]
@@ -1103,34 +1103,34 @@
               ],
               "rows": [
                 [
-                  "Oracle（ORCL） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Stock...",
-                  "ORCL",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Disney（DIS） US Top News and Analysis · 2026-11-17T14:15:14+00:00 Disney beats fourth-quarter estima...",
+                  "DIS",
+                  "分化",
+                  "财报超预期且流媒体增长强劲属实质利好，但盘前下跌反映市场对成本削减可持续性与传统业务拖累的疑虑，方向不明。 位置：内容制作与流媒体分发 瓶颈：优质内容IP与流媒体订阅规模 证据：强；研究优先级：高..."
                 ],
                 [
-                  "Salesforce（CRM） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
-                  "CRM",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：消费需求和渠道库存链条 瓶颈：重点看客流、价格弹性、库存、毛利率和消费者收入预期 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性..."
-                ],
-                [
-                  "ServiceNow（NOW） Yahoo Finance · 2026-11-16T12:53:00+00:00 Salesforce vs. Oracle: Which AI Cloud Sto...",
-                  "NOW",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Nvidia（NVDA） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in...",
+                  "Nvidia（NVDA） US Top News and Analysis · 2026-11-17T07:07:35+00:00 Nvidia board forms new export con...",
                   "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "分化",
+                  "财报临近放大波动，出口管制委员会与合规警告属结构性风险，但AI需求仍是核心支撑，方向取决于财报与指引。 位置：AI加速芯片设计（数据中心算力上游） 瓶颈：高端GPU供给与CUDA软件生态 证据：中；..."
                 ],
                 [
-                  "AMD（AMD） TipRanks · 2026-11-16T12:45:11+00:00 Why Nvidia, AMD and Intel Stocks Are Tumbling in Prem...",
+                  "Advanced Micro Devices（AMD） Yahoo Finance · 2026-11-17T13:47:33+00:00 AMD Could Be Closing the Gap...",
                   "AMD",
+                  "分化",
+                  "竞争格局改善属结构性正面，但板块资金流出与情绪疲弱构成压制，方向取决于AI订单落地。 位置：AI加速芯片设计（英伟达的竞争替代） 瓶颈：先进制程产能与AI软件栈 证据：弱；研究优先级：中 反方风险：..."
+                ],
+                [
+                  "Apple（AAPL）等美国科技公司中国业务 US Top News and Analysis · 2026-11-17T08:52:45+00:00 U.S. companies from Nvi...",
+                  "AAPL, NVDA, MSFT, GOOGL, META, AMZN",
+                  "利空",
+                  "中美政治压力上升属实质性政策风险，但尚无具体措施落地，影响程度待观察。 位置：全球科技硬件与平台（中国收入敞口） 瓶颈：中国市场份额与供应链通道 证据：中；研究优先级：高 反方风险：若无具体监管行动..."
+                ],
+                [
+                  "Microsoft（MSFT）与JPMorgan等服务中断 Yahoo Finance · 2026-11-17T14:07:32+00:00 JPMorgan, Microsoft, United...",
+                  "MSFT, JPM",
                   "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "服务中断事件影响偏运营层面，尚无证据显示重大财务损失。 位置：云基础设施与企业IT服务 瓶颈：云服务连续性 证据：弱；研究优先级：低 反方风险：若中断规模扩大，可能引发客户信任与监管关注。"
                 ]
               ]
             }
@@ -1439,25 +1439,13 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "marketscreener.com": {
-      "en": "marketscreener.com",
-      "zh": "marketscreener.com"
-    },
-    "TradingView": {
-      "en": "TradingView",
-      "zh": "TradingView"
-    },
-    "利好": {
-      "zh": "利好",
-      "en": "Positive"
-    },
-    "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...": {
-      "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...",
-      "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: company operations / industry conditions. Bottleneck: unclear; check whether the news changes revenue, margins, orders or regulatory constraints. Evidence: medium; research priority: medium. Counter-risk: if subsequent source text shows..."
-    },
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
+    },
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
     },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
@@ -1470,8 +1458,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 119,
-    "translated": 42,
+    "total": 135,
+    "translated": 39,
     "complete": false
   }
 }
