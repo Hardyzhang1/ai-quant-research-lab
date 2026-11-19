@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-19 16:38 local",
+  "published_at": "2026-11-19 22:16 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -953,18 +953,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-18 22:18 local",
+      "updated_at": "2026-11-19 22:16 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-18 22:18 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-18 22:18 local",
+          "generated_at": "2026-11-19 22:16 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-19 22:16 local",
           "highlights": [
-            "宏观 - 美联储官员Waller称可能需要以半百分点加息“震撼市场”",
-            "宏观 - 美联储会议纪要公布在即",
-            "宏观 - 美股股指期货分化，Nvidia财报后科技股走高"
+            "宏观 - US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate hike | Hindustan Times - Hindustan Times",
+            "宏观 - The US dollar moves higher as Treasury yields extend their gains - investingLive",
+            "宏观 - S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn - FOREX.com"
           ],
           "tables": [
             {
@@ -977,39 +977,39 @@
               ],
               "rows": [
                 [
-                  "美联储官员Waller称可能需要以半百分点加息“震撼市场”",
-                  "官员讲话已发生，见新闻发布时间（2026-11-18 13:32 UTC）",
-                  "Waller提出加息50个基点的可能性，措辞偏鹰",
-                  "显著抬升利率路径不确定性，压制高估值成长股并对银行、地产与债券敏感板块形成分化影响",
-                  "high"
-                ],
-                [
-                  "美联储会议纪要公布在即",
-                  "新闻提示为盘前关注事项，通常在美东时间14:00公布；以官方经济日历为准",
-                  "市场等待纪要确认官员对加息幅度与通胀路径的分歧",
-                  "纪要措辞将直接影响利率预期与股指期货方向",
-                  "high"
-                ],
-                [
-                  "美股股指期货分化，Nvidia财报后科技股走高",
-                  "盘前交易时段，2026-11-18",
-                  "道指期货下跌、科技股上涨，Nvidia财报与Waller警告并存",
-                  "指数内部结构分化，AI权重股支撑纳指而利率敏感板块承压",
-                  "high"
-                ],
-                [
-                  "华尔街恐慌指数再度飙升，且不仅源于AI担忧",
-                  "报道已发布，2026-11-17 20:28 UTC",
-                  "VIX上行反映利率与地缘风险叠加",
-                  "波动率抬升通常压制风险资产估值并放大盘前波动",
+                  "US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate h...",
+                  "past/upcoming 24h",
+                  "Hindustan Times",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "霍尔木兹海峡与海湾局势升级，IEA称无回归战前常态的可信路径",
-                  "报道已发布，2026-11-18",
-                  "伊朗称打击科威特境内美军无人机与导弹基地，海湾袭击增加",
-                  "原油供给风险溢价上升，利好能源股、利空航空与运输成本敏感板块",
-                  "high"
+                  "The US dollar moves higher as Treasury yields extend their gains - investingLive",
+                  "past/upcoming 24h",
+                  "investingLive",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn - FOREX.com",
+                  "past/upcoming 24h",
+                  "FOREX.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Treasury Yields Mixed Amid Hawkish Fedspeak -- Market Talk - Moomoo",
+                  "past/upcoming 24h",
+                  "Moomoo",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "US Treasury yields top 5% as inflation surprises higher - NewsBytes",
+                  "past/upcoming 24h",
+                  "NewsBytes",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ]
               ]
             },
@@ -1022,34 +1022,34 @@
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） CNBC / Yahoo Finance · 2026-11-18T06:21:45+00:00 NVIDIA Rises 3% After Record Quarter...",
-                  "NVDA, INTC, AVGO",
+                  "Nvidia（NVDA） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
+                  "NVDA",
                   "利好",
-                  "创纪录业绩与上调指引直接改善盈利预期，多家大行上调目标价；但中国军方采购传闻与国会调查构成监管尾部风险，故未给更高置信度。 位置：AI加速计算上游GPU与网络平台供应商 瓶颈：先进制程与CoWoS先..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Disney（DIS） CNBC · 2026-11-17T16:40:25+00:00 Disney beats fourth-quarter estimates, targets $3 bill...",
+                  "Amazon（AMZN） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
+                  "AMZN",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Meta（META） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham s...",
+                  "META",
+                  "利空",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "ServiceNow（NOW） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia...",
+                  "NOW",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Disney（DIS） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia Sto...",
                   "DIS",
                   "利好",
-                  "盈利超预期叠加明确成本节省目标，改善自由现金流预期；但缺乏分部细节，节流执行力仍需观察。 位置：内容IP与流媒体分发、主题公园运营 瓶颈：头部IP与流媒体规模效应 证据：强；研究优先级：中 反方风险..."
-                ],
-                [
-                  "Apple（AAPL） CNBC · 2026-11-17T22:03:57+00:00 Widespread outages hit banks, air travel, the NSA and...",
-                  "AAPL, MSFT, JPM",
-                  "利空",
-                  "广域宕机对服务生态声誉有负面影响，但目前缺乏故障根因与财务影响的量化证据。 位置：消费硬件与软件服务生态平台 瓶颈：高端终端与iOS服务生态 证据：中；研究优先级：中 反方风险：若宕机为第三方网络或..."
-                ],
-                [
-                  "JPMorgan（JPM） CNBC · 2026-11-18T06:18:11+00:00 JPMorgan is working on AI agent transactions that do...",
-                  "JPM",
-                  "分化",
-                  "AI代理支付打开新业务空间，但短期系统稳定性事件与合规不确定性构成对冲。 位置：全球大型银行与支付清算网络 瓶颈：支付清算网络与合规基础设施 证据：中；研究优先级：中 反方风险：AI代理交易的监管与..."
-                ],
-                [
-                  "Broadcom（AVGO） Yahoo Finance · 2026-11-18T14:06:50+00:00 NVIDIA Rises 3% After Record Quarter as We...",
-                  "AVGO, NVDA",
-                  "利好",
-                  "AI需求外溢带动同业上涨属情绪与基本面共振，但缺乏博通自身新增订单数据。 位置：AI网络芯片与定制ASIC设计 瓶颈：高速网络交换与定制加速芯片设计能力 证据：弱；研究优先级：中 反方风险：若AI资..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -1057,15 +1057,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-18 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-18 22:18 local",
+          "title": "市场状态分层：市场状态未知",
+          "generated_at": "2026-11-19 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-19 22:16 local",
           "highlights": [
-            "市场状态分层：市场状态未知",
-            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+            "宏观事件覆盖层：oil_shock=14；geopolitical_risk=9；macro_rates=7；risk_escalation=5",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "今日待发布财报 · 市值前五",
-            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
+            "油价/能源走弱：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
+            "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
+            "Oil prices settle lower as traders weigh surplus supply outlook - Reuters"
           ],
           "tables": [
             {
@@ -1078,39 +1078,39 @@
               ],
               "rows": [
                 [
-                  "美联储官员Waller称可能需要以半百分点加息“震撼市场”",
-                  "官员讲话已发生，见新闻发布时间（2026-11-18 13:32 UTC）",
-                  "Waller提出加息50个基点的可能性，措辞偏鹰",
-                  "显著抬升利率路径不确定性，压制高估值成长股并对银行、地产与债券敏感板块形成分化影响",
-                  "high"
-                ],
-                [
-                  "美联储会议纪要公布在即",
-                  "新闻提示为盘前关注事项，通常在美东时间14:00公布；以官方经济日历为准",
-                  "市场等待纪要确认官员对加息幅度与通胀路径的分歧",
-                  "纪要措辞将直接影响利率预期与股指期货方向",
-                  "high"
-                ],
-                [
-                  "美股股指期货分化，Nvidia财报后科技股走高",
-                  "盘前交易时段，2026-11-18",
-                  "道指期货下跌、科技股上涨，Nvidia财报与Waller警告并存",
-                  "指数内部结构分化，AI权重股支撑纳指而利率敏感板块承压",
-                  "high"
-                ],
-                [
-                  "华尔街恐慌指数再度飙升，且不仅源于AI担忧",
-                  "报道已发布，2026-11-17 20:28 UTC",
-                  "VIX上行反映利率与地缘风险叠加",
-                  "波动率抬升通常压制风险资产估值并放大盘前波动",
+                  "US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate h...",
+                  "past/upcoming 24h",
+                  "Hindustan Times",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "霍尔木兹海峡与海湾局势升级，IEA称无回归战前常态的可信路径",
-                  "报道已发布，2026-11-18",
-                  "伊朗称打击科威特境内美军无人机与导弹基地，海湾袭击增加",
-                  "原油供给风险溢价上升，利好能源股、利空航空与运输成本敏感板块",
-                  "high"
+                  "The US dollar moves higher as Treasury yields extend their gains - investingLive",
+                  "past/upcoming 24h",
+                  "investingLive",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn - FOREX.com",
+                  "past/upcoming 24h",
+                  "FOREX.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Treasury Yields Mixed Amid Hawkish Fedspeak -- Market Talk - Moomoo",
+                  "past/upcoming 24h",
+                  "Moomoo",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "US Treasury yields top 5% as inflation surprises higher - NewsBytes",
+                  "past/upcoming 24h",
+                  "NewsBytes",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
                 ]
               ]
             },
@@ -1123,34 +1123,34 @@
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） CNBC / Yahoo Finance · 2026-11-18T06:21:45+00:00 NVIDIA Rises 3% After Record Quarter...",
-                  "NVDA, INTC, AVGO",
+                  "Nvidia（NVDA） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
+                  "NVDA",
                   "利好",
-                  "创纪录业绩与上调指引直接改善盈利预期，多家大行上调目标价；但中国军方采购传闻与国会调查构成监管尾部风险，故未给更高置信度。 位置：AI加速计算上游GPU与网络平台供应商 瓶颈：先进制程与CoWoS先..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Disney（DIS） CNBC · 2026-11-17T16:40:25+00:00 Disney beats fourth-quarter estimates, targets $3 bill...",
+                  "Amazon（AMZN） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
+                  "AMZN",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Meta（META） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham s...",
+                  "META",
+                  "利空",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "ServiceNow（NOW） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia...",
+                  "NOW",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Disney（DIS） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia Sto...",
                   "DIS",
                   "利好",
-                  "盈利超预期叠加明确成本节省目标，改善自由现金流预期；但缺乏分部细节，节流执行力仍需观察。 位置：内容IP与流媒体分发、主题公园运营 瓶颈：头部IP与流媒体规模效应 证据：强；研究优先级：中 反方风险..."
-                ],
-                [
-                  "Apple（AAPL） CNBC · 2026-11-17T22:03:57+00:00 Widespread outages hit banks, air travel, the NSA and...",
-                  "AAPL, MSFT, JPM",
-                  "利空",
-                  "广域宕机对服务生态声誉有负面影响，但目前缺乏故障根因与财务影响的量化证据。 位置：消费硬件与软件服务生态平台 瓶颈：高端终端与iOS服务生态 证据：中；研究优先级：中 反方风险：若宕机为第三方网络或..."
-                ],
-                [
-                  "JPMorgan（JPM） CNBC · 2026-11-18T06:18:11+00:00 JPMorgan is working on AI agent transactions that do...",
-                  "JPM",
-                  "分化",
-                  "AI代理支付打开新业务空间，但短期系统稳定性事件与合规不确定性构成对冲。 位置：全球大型银行与支付清算网络 瓶颈：支付清算网络与合规基础设施 证据：中；研究优先级：中 反方风险：AI代理交易的监管与..."
-                ],
-                [
-                  "Broadcom（AVGO） Yahoo Finance · 2026-11-18T14:06:50+00:00 NVIDIA Rises 3% After Record Quarter as We...",
-                  "AVGO, NVDA",
-                  "利好",
-                  "AI需求外溢带动同业上涨属情绪与基本面共振，但缺乏博通自身新增订单数据。 位置：AI网络芯片与定制ASIC设计 瓶颈：高速网络交换与定制加速芯片设计能力 证据：弱；研究优先级：中 反方风险：若AI资..."
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
             }
@@ -1471,10 +1471,6 @@
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
     },
-    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
-      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
-      "en": "Macro-event overlay: no clear macro-event shock detected."
-    },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
       "en": "Used for small weighting adjustments across energy / defense, high-beta technology, financials, consumer cyclicals and semiconductors. Historical policy score adjustments require headline / source diversity. Does not invoke [redacted-model] and is not a conclusion about news facts."
@@ -1486,8 +1482,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 137,
-    "translated": 41,
+    "total": 118,
+    "translated": 40,
     "complete": false
   }
 }
