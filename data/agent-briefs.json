@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-20 16:36 local",
+  "published_at": "2026-11-20 22:17 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -973,18 +973,18 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-19 22:16 local",
+      "updated_at": "2026-11-20 22:17 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-19 22:16 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-19 22:16 local",
+          "generated_at": "2026-11-20 22:17 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-20 22:17 local",
           "highlights": [
-            "宏观 - US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate hike | Hindustan Times - Hindustan Times",
-            "宏观 - The US dollar moves higher as Treasury yields extend their gains - investingLive",
-            "宏观 - S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn - FOREX.com"
+            "宏观 - U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
+            "宏观 - Correction to Treasury Yields Fall Headline - marketscreener.com",
+            "宏观 - US Treasury Yields Stay Elevated as Markets Reprice the Rate Path - kalkine.ca"
           ],
           "tables": [
             {
@@ -997,37 +997,37 @@
               ],
               "rows": [
                 [
-                  "US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate h...",
+                  "U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
                   "past/upcoming 24h",
-                  "Hindustan Times",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "The US dollar moves higher as Treasury yields extend their gains - investingLive",
+                  "Correction to Treasury Yields Fall Headline - marketscreener.com",
                   "past/upcoming 24h",
-                  "investingLive",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn - FOREX.com",
+                  "US Treasury Yields Stay Elevated as Markets Reprice the Rate Path - kalkine.ca",
                   "past/upcoming 24h",
-                  "FOREX.com",
+                  "kalkine.ca",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Treasury Yields Mixed Amid Hawkish Fedspeak -- Market Talk - Moomoo",
+                  "Dollar Rally Stalls as Treasury Yields Slide, Yen Leads Safe-Haven Demand - Action Forex",
                   "past/upcoming 24h",
-                  "Moomoo",
+                  "Action Forex",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury yields top 5% as inflation surprises higher - NewsBytes",
+                  "The Week Ahead (23 – 27 Nov): Sell-off!, PMIs, US Core PCE & GDP, BoE Financial Stability, US AI Ha...",
                   "past/upcoming 24h",
-                  "NewsBytes",
+                  "Stockopedia",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1042,33 +1042,33 @@
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
+                  "Nvidia（NVDA） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as...",
                   "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Broadcom（AVGO） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak,...",
+                  "AVGO",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "AMD（AMD） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as AMD...",
+                  "AMD",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Amazon（AMZN） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
-                  "AMZN",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Meta（META） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham s...",
-                  "META",
-                  "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "ServiceNow（NOW） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia...",
+                  "ServiceNow（NOW） Moneycontrol.com · 2026-11-20T08:29:50+00:00 After Nvidia, AMD now alleged to have...",
                   "NOW",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Disney（DIS） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia Sto...",
-                  "DIS",
-                  "利好",
+                  "Apple（AAPL） TradingView · 2026-11-19T23:01:05+00:00 S&P 500, Nasdaq, Dow End Lower As Anthropic Tra...",
+                  "AAPL",
+                  "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -1078,13 +1078,13 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-19 22:15 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-19 22:16 local",
+          "generated_at": "2026-11-20 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-20 22:17 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=14；geopolitical_risk=9；macro_rates=7；risk_escalation=5",
+            "宏观事件覆盖层：oil_shock=15；geopolitical_risk=12；risk_escalation=9；macro_rates=5",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "油价/能源走弱：达到调分门槛；方向证据 2 vs 反向 0；不同标题 2，不同来源 2，一线来源 1；市场代理确认 否",
-            "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
+            "避险/波动升温：达到调分门槛；方向证据 9 vs 反向 0；不同标题 7，不同来源 7，一线来源 1；市场代理确认 否",
+            "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant - Al Jazeera",
             "Oil prices settle lower as traders weigh surplus supply outlook - Reuters"
           ],
           "tables": [
@@ -1098,37 +1098,37 @@
               ],
               "rows": [
                 [
-                  "US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate h...",
+                  "U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
                   "past/upcoming 24h",
-                  "Hindustan Times",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "The US dollar moves higher as Treasury yields extend their gains - investingLive",
+                  "Correction to Treasury Yields Fall Headline - marketscreener.com",
                   "past/upcoming 24h",
-                  "investingLive",
+                  "marketscreener.com",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn - FOREX.com",
+                  "US Treasury Yields Stay Elevated as Markets Reprice the Rate Path - kalkine.ca",
                   "past/upcoming 24h",
-                  "FOREX.com",
+                  "kalkine.ca",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Treasury Yields Mixed Amid Hawkish Fedspeak -- Market Talk - Moomoo",
+                  "Dollar Rally Stalls as Treasury Yields Slide, Yen Leads Safe-Haven Demand - Action Forex",
                   "past/upcoming 24h",
-                  "Moomoo",
+                  "Action Forex",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "US Treasury yields top 5% as inflation surprises higher - NewsBytes",
+                  "The Week Ahead (23 – 27 Nov): Sell-off!, PMIs, US Core PCE & GDP, BoE Financial Stability, US AI Ha...",
                   "past/upcoming 24h",
-                  "NewsBytes",
+                  "Stockopedia",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1143,33 +1143,33 @@
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
+                  "Nvidia（NVDA） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as...",
                   "NVDA",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "Broadcom（AVGO） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak,...",
+                  "AVGO",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "AMD（AMD） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as AMD...",
+                  "AMD",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Amazon（AMZN） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham...",
-                  "AMZN",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "Meta（META） Seeking Alpha · 2026-11-18T18:25:21+00:00 Amazon, Google, Meta in spotlight as Needham s...",
-                  "META",
-                  "利空",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "ServiceNow（NOW） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia...",
+                  "ServiceNow（NOW） Moneycontrol.com · 2026-11-20T08:29:50+00:00 After Nvidia, AMD now alleged to have...",
                   "NOW",
                   "利好",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ],
                 [
-                  "Disney（DIS） The Motley Fool · 2026-11-19T13:47:02+00:00 3 Reasons I Own More Disney Than Nvidia Sto...",
-                  "DIS",
-                  "利好",
+                  "Apple（AAPL） TradingView · 2026-11-19T23:01:05+00:00 S&P 500, Nasdaq, Dow End Lower As Anthropic Tra...",
+                  "AAPL",
+                  "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
               ]
@@ -1487,6 +1487,10 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
+    "marketscreener.com": {
+      "en": "marketscreener.com",
+      "zh": "marketscreener.com"
+    },
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
@@ -1502,8 +1506,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 119,
-    "translated": 40,
+    "total": 117,
+    "translated": 41,
     "complete": false
   }
 }
