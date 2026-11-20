@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-19 22:16 local",
+  "published_at": "2026-11-20 09:15 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -17,25 +17,25 @@
     "title": "Maturity validation digest",
     "updated_at": "2026-11-19 close",
     "as_of": "2026-11-19",
-    "matured_count": 27,
-    "win_count": 16,
-    "win_rate": "59.26%",
-    "average_return": "6.09%",
-    "median_return": "1.84%",
+    "matured_count": 28,
+    "win_count": 17,
+    "win_rate": "60.71%",
+    "average_return": "8.68%",
+    "median_return": "2.12%",
     "tracking_count": 0,
-    "unpriced_matured_count": 1,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
-        "value": "59.26%"
+        "value": "60.71%"
       },
       {
         "label": "Average return",
-        "value": "6.09%"
+        "value": "8.68%"
       },
       {
         "label": "Median return",
-        "value": "1.84%"
+        "value": "2.12%"
       },
       {
         "label": "Still tracking",
@@ -311,6 +311,16 @@
         "holding_period": "10 trading days",
         "final_return": "+3.69%",
         "return_value": 0.03687398373983736,
+        "result": "Win"
+      },
+      {
+        "signal_date": "2026-11-04",
+        "stock": "301209.XSHE",
+        "entry": "2026-11-05 @ 32.320",
+        "exit": "2026-11-19 @ 57.820",
+        "holding_period": "10 trading days",
+        "final_return": "+78.75%",
+        "return_value": 0.7874851485148516,
         "result": "Win"
       }
     ],
@@ -325,25 +335,25 @@
     "title": "Maturity validation digest",
     "updated_at": "2026-11-19 close",
     "as_of": "2026-11-19",
-    "matured_count": 27,
-    "win_count": 16,
-    "win_rate": "59.26%",
-    "average_return": "6.09%",
-    "median_return": "1.84%",
+    "matured_count": 28,
+    "win_count": 17,
+    "win_rate": "60.71%",
+    "average_return": "8.68%",
+    "median_return": "2.12%",
     "tracking_count": 0,
-    "unpriced_matured_count": 1,
+    "unpriced_matured_count": 0,
     "stats": [
       {
         "label": "Win rate",
-        "value": "59.26%"
+        "value": "60.71%"
       },
       {
         "label": "Average return",
-        "value": "6.09%"
+        "value": "8.68%"
       },
       {
         "label": "Median return",
-        "value": "1.84%"
+        "value": "2.12%"
       },
       {
         "label": "Still tracking",
@@ -620,6 +630,16 @@
         "final_return": "+3.69%",
         "return_value": 0.03687398373983736,
         "result": "Win"
+      },
+      {
+        "signal_date": "2026-11-04",
+        "stock": "301209.XSHE",
+        "entry": "2026-11-05 @ 32.320",
+        "exit": "2026-11-19 @ 57.820",
+        "holding_period": "10 trading days",
+        "final_return": "+78.75%",
+        "return_value": 0.7874851485148516,
+        "result": "Win"
       }
     ],
     "public_notes": [
@@ -631,18 +651,18 @@
     {
       "id": "a-share-pre-market",
       "title": "A share pre market",
-      "updated_at": "2026-11-19 09:05 local",
+      "updated_at": "2026-11-20 09:05 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "A股盘前重要金融新闻",
-          "generated_at": "2026-11-19 09:05 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-19 09:05 local",
+          "generated_at": "2026-11-20 09:05 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-20 09:05 local",
           "highlights": [
-            "宏观 - CPI 与 PPI 双高，市场押注美联储12 月加息几无疑虑|美联储|芝商所|刘忆如|加息|CPI|美元_新浪新闻 - 手机新浪网",
-            "宏观 - 财联社C50风向指数调查：8月新增信贷、社融或同比少增，M2增速持续回落 - 财联社",
-            "宏观 - 央行开展7140亿元隔夜逆回购操作 - 东方财富"
+            "宏观 - 日本CPI涨幅创年内最快，支持日本央行加息预期 - Sohu",
+            "宏观 - 美国10月CPI正释放三大警讯，美联储加息压力再度升温-市场参考 - 金十数据",
+            "宏观 - 英国10月CPI符合预期，英央行反而“不敢动”了？ - 新浪财经_金融信息服务商"
           ],
           "tables": [
             {
@@ -655,9 +675,23 @@
               ],
               "rows": [
                 [
-                  "CPI 与 PPI 双高，市场押注美联储12 月加息几无疑虑|美联储|芝商所|刘忆如|加息|CPI|美元_新浪新闻 - 手机新浪网",
+                  "日本CPI涨幅创年内最快，支持日本央行加息预期 - Sohu",
                   "past/upcoming 24h",
-                  "手机新浪网",
+                  "Sohu",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "美国10月CPI正释放三大警讯，美联储加息压力再度升温-市场参考 - 金十数据",
+                  "past/upcoming 24h",
+                  "金十数据",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "英国10月CPI符合预期，英央行反而“不敢动”了？ - 新浪财经_金融信息服务商",
+                  "past/upcoming 24h",
+                  "新浪财经_金融信息服务商",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
@@ -669,23 +703,9 @@
                   "medium"
                 ],
                 [
-                  "央行开展7140亿元隔夜逆回购操作 - 东方财富",
-                  "past/upcoming 24h",
-                  "东方财富",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "瑞银宋宇预计2027年中国GDP增4.6%左右 结构上存在此消彼长的跷跷板 - 财新",
+                  "迪拜商会：中国成为迪拜汽车进口第一大来源地(含视频) - 财新",
                   "past/upcoming 24h",
                   "财新",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "印尼央行：2026年10月银行信贷增长13.21% - Shangbao Indonesia",
-                  "past/upcoming 24h",
-                  "Shangbao Indonesia",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -700,32 +720,32 @@
               ],
               "rows": [
                 [
-                  "寒武纪（688256） 证券之星 · 2026-11-18T22:49:12+00:00 11月18日科创综指ETF易方达基金份额增加400万份，重仓股寒武纪、海光信息、中微公司_基金提醒_雷达 -...",
-                  "688256",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "海光信息（688041） 证券之星 · 2026-11-18T22:49:12+00:00 11月18日科创综指ETF易方达基金份额增加400万份，重仓股寒武纪、海光信息、中微公司_基金提醒_雷达...",
-                  "688041",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "中微公司（688012） 证券之星 · 2026-11-18T22:49:12+00:00 11月18日科创综指ETF易方达基金份额增加400万份，重仓股寒武纪、海光信息、中微公司_基金提醒_雷达...",
-                  "688012",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "澜起科技（688008） 证券之星 · 2026-11-18T22:49:12+00:00 11月18日科创50ETF东财基金份额减少1800万份，重仓股寒武纪、中微公司、澜起科技_基金提醒_雷达...",
-                  "688008",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
-                ],
-                [
-                  "贵州茅台（600519） 证券之星 · 2026-11-18T22:47:37+00:00 11月18日800现金流ETF富国基金份额减少100万份，重仓股中国海油、中国电信、贵州茅台_基金提醒_雷...",
+                  "贵州茅台（600519） 证券之星 · 2026-11-19T22:47:36+00:00 11月19日300质量ETF兴全基金份额减少150万份，重仓股贵州茅台、招商银行、宁德时代_基金提醒_雷达...",
                   "600519",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "宁德时代（300750） 证券之星 · 2026-11-19T22:47:36+00:00 11月19日300质量ETF兴全基金份额减少150万份，重仓股贵州茅台、招商银行、宁德时代_基金提醒_雷达...",
+                  "300750",
+                  "利好",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "招商银行（600036） 证券之星 · 2026-11-19T22:47:36+00:00 11月19日300质量ETF兴全基金份额减少150万份，重仓股贵州茅台、招商银行、宁德时代_基金提醒_雷达...",
+                  "600036",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被..."
+                ],
+                [
+                  "中国石油（601857） 证券之星 · 2026-11-19T22:47:35+00:00 11月19日300自由现金流ETF摩根基金份额减少400万份，重仓股中国石油、中国海油、中国移动 - 证券...",
+                  "601857",
+                  "中性",
+                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                ],
+                [
+                  "中国移动（600941） 证券之星 · 2026-11-19T22:47:35+00:00 11月19日300自由现金流ETF摩根基金份额减少400万份，重仓股中国石油、中国海油、中国移动 - 证券...",
+                  "600941",
                   "中性",
                   "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
                 ]
@@ -736,20 +756,20 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "A股开盘信息",
-          "generated_at": "2026-11-19 09:05 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-19 09:05 local",
+          "generated_at": "2026-11-20 09:05 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-20 09:05 local",
           "highlights": [
-            "交易日：2026-11-19；股票池：cn4000；正式机会为空时应空仓/观望。",
-            "2026-11-18",
-            "截至 2026-11-18，本次行情覆盖 3804/4000 只；196 只缺失，已跳过其当日推荐和统计，继续展示可用内容。",
+            "交易日：2026-11-20；股票池：cn4000；正式机会为空时应空仓/观望。",
+            "2026-11-19",
+            "截至 2026-11-19，本次行情覆盖 3750/4000 只；250 只缺失，已跳过其当日推荐和统计，继续展示可用内容。",
             "本次正式模型未触发可展示机会；按策略应空仓/观望。",
-            "截至 2026-11-18 收盘，从入场开盘价计算累计收益，扣除 15 个基点费用。"
+            "截至 2026-11-19 收盘，从入场开盘价计算累计收益，扣除 15 个基点费用。"
           ],
           "tables": [
             {
               "headers": [
                 "正式机会 0",
-                "数据截止 2026-11-18"
+                "数据截止 2026-11-19"
               ],
               "rows": []
             },
@@ -1355,10 +1375,6 @@
       "zh": "中",
       "en": "medium"
     },
-    "东方财富": {
-      "zh": "东方财富",
-      "en": "Eastmoney"
-    },
     "财新": {
       "zh": "财新",
       "en": "Caixin"
@@ -1386,6 +1402,14 @@
     "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...": {
       "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示...",
       "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: company operations / industry conditions. Bottleneck: unclear; check whether the news changes revenue, margins, orders or regulatory constraints. Evidence: medium; research priority: medium. Counter-risk: if subsequent source text shows..."
+    },
+    "利好": {
+      "zh": "利好",
+      "en": "Positive"
+    },
+    "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...": {
+      "zh": "未配置模型密钥，当前为低置信度关键词判断。 位置：金融信用和资本市场传导 瓶颈：重点看净息差、信用损失、资本充足率、融资环境 证据：中；研究优先级：中 反方风险：如果后续原文显示影响仅为一次性、已被...",
+      "en": "No model key was configured; this is a low-confidence keyword assessment. Channel: financial credit and capital-market transmission. Bottleneck: net interest margin, credit losses, capital adequacy and financing conditions. Evidence: medium; research priority: medium. Counter-risk: if the source later shows the impact is one-off or already..."
     },
     "A股开盘信息": {
       "zh": "A股开盘信息",
@@ -1463,10 +1487,6 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "利好": {
-      "zh": "利好",
-      "en": "Positive"
-    },
     "市场状态分层：市场状态未知": {
       "zh": "市场状态分层：市场状态未知",
       "en": "Market regime: unknown"
@@ -1482,7 +1502,7 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 118,
+    "total": 119,
     "translated": 40,
     "complete": false
   }
