@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-23 09:15:06 Asia/Shanghai",
+  "published_at": "2026-11-23 16:40:11 Asia/Shanghai",
   "as_of": "2026-11-23",
   "scope": "major_global_indices_latest_vs_previous_close",
   "note": "Latest level and change versus previous close. Session timing differs by market.",
@@ -9,57 +9,25 @@
       "region": "China",
       "name": "SSE Composite",
       "symbol": "sh000001",
-      "last": 3533.79,
-      "change_pct": 0.0,
-      "status": "Intraday"
+      "last": 3538.95,
+      "change_pct": 0.15,
+      "status": "Latest close"
     },
     {
       "region": "China",
       "name": "CSI 300",
       "symbol": "sh000300",
-      "last": 3954.47,
-      "change_pct": -0.0,
-      "status": "Intraday"
+      "last": 3958.29,
+      "change_pct": 0.09,
+      "status": "Latest close"
     },
     {
       "region": "Hong Kong",
       "name": "Hang Seng",
       "symbol": "hkHSI",
-      "last": 22410.8,
-      "change_pct": 0.0,
-      "status": "Intraday"
-    },
-    {
-      "region": "Japan",
-      "name": "Nikkei 225",
-      "symbol": ".N225",
-      "last": 56436.65,
-      "change_pct": -5.06,
-      "status": "Intraday"
-    },
-    {
-      "region": "United Kingdom",
-      "name": "FTSE 100",
-      "symbol": ".FTSE",
-      "last": 10346.34,
-      "change_pct": -1.02,
-      "status": "Latest / overseas"
-    },
-    {
-      "region": "Germany",
-      "name": "DAX",
-      "symbol": ".GDAXI",
-      "last": 24802.78,
-      "change_pct": -2.6,
-      "status": "Latest / overseas"
-    },
-    {
-      "region": "France",
-      "name": "CAC 40",
-      "symbol": ".FCHI",
-      "last": 7927.75,
-      "change_pct": -1.89,
-      "status": "Latest / overseas"
+      "last": 22383.74,
+      "change_pct": -0.12,
+      "status": "Latest close"
     },
     {
       "region": "United States",
@@ -86,5 +54,7 @@
       "status": "Latest / overnight"
     }
   ],
-  "errors": []
+  "errors": [
+    "cnbc: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  ]
 }
