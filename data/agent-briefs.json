@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "published_at": "2026-11-23 16:40 local",
+  "published_at": "2026-11-23 22:17 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-11",
@@ -995,18 +995,16 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-20 22:17 local",
+      "updated_at": "2026-11-23 22:17 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-20 22:17 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-20 22:17 local",
+          "generated_at": "2026-11-23 22:17 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-23 22:17 local",
           "highlights": [
-            "宏观 - U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
-            "宏观 - Correction to Treasury Yields Fall Headline - marketscreener.com",
-            "宏观 - US Treasury Yields Stay Elevated as Markets Reprice the Rate Path - kalkine.ca"
+            "宏观 - Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year"
           ],
           "tables": [
             {
@@ -1019,37 +1017,9 @@
               ],
               "rows": [
                 [
-                  "U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
+                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
                   "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Correction to Treasury Yields Fall Headline - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "US Treasury Yields Stay Elevated as Markets Reprice the Rate Path - kalkine.ca",
-                  "past/upcoming 24h",
-                  "kalkine.ca",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Dollar Rally Stalls as Treasury Yields Slide, Yen Leads Safe-Haven Demand - Action Forex",
-                  "past/upcoming 24h",
-                  "Action Forex",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "The Week Ahead (23 – 27 Nov): Sell-off!, PMIs, US Core PCE & GDP, BoE Financial Stability, US AI Ha...",
-                  "past/upcoming 24h",
-                  "Stockopedia",
+                  "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1057,41 +1027,41 @@
             },
             {
               "headers": [
-                "新闻",
-                "相关股票",
+                "重要事件",
+                "相关股票（如有）",
                 "判断",
-                "理由"
+                "影响与依据"
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as...",
+                  "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case CNBC · 2026-11-23T05:0...",
                   "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：公司重大进展 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "Broadcom（AVGO） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak,...",
-                  "AVGO",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year CNBC ·...",
+                  "-",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：宏观与政策 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "AMD（AMD） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as AMD...",
-                  "AMD",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler MarketWatch · 202...",
+                  "-",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：公司重大进展 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "ServiceNow（NOW） Moneycontrol.com · 2026-11-20T08:29:50+00:00 After Nvidia, AMD now alleged to have...",
-                  "NOW",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels CNBC · 2026...",
+                  "COP",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：公司重大进展 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "Apple（AAPL） TradingView · 2026-11-19T23:01:05+00:00 S&P 500, Nasdaq, Dow End Lower As Anthropic Tra...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "More Americans pay this Obama-era investment tax every year — how to avoid it CNBC · 2026-11-23T13:...",
+                  "-",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：产业与科技 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ]
               ]
             }
@@ -1099,15 +1069,15 @@
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "市场状态分层：市场状态未知",
-          "generated_at": "2026-11-20 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-20 22:17 local",
+          "title": "美股盘前重要金融新闻",
+          "generated_at": "2026-11-23 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-23 22:17 local",
           "highlights": [
-            "宏观事件覆盖层：oil_shock=15；geopolitical_risk=12；risk_escalation=9；macro_rates=5",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "避险/波动升温：达到调分门槛；方向证据 9 vs 反向 0；不同标题 7，不同来源 7，一线来源 1；市场代理确认 否",
-            "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant - Al Jazeera",
-            "Oil prices settle lower as traders weigh surplus supply outlook - Reuters"
+            "今日待发布财报 · 市值前五",
+            "财报日历暂不可用，未列出公司；不影响邮件其余内容。",
+            "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year"
           ],
           "tables": [
             {
@@ -1120,37 +1090,9 @@
               ],
               "rows": [
                 [
-                  "U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
+                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
                   "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Correction to Treasury Yields Fall Headline - marketscreener.com",
-                  "past/upcoming 24h",
-                  "marketscreener.com",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "US Treasury Yields Stay Elevated as Markets Reprice the Rate Path - kalkine.ca",
-                  "past/upcoming 24h",
-                  "kalkine.ca",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "Dollar Rally Stalls as Treasury Yields Slide, Yen Leads Safe-Haven Demand - Action Forex",
-                  "past/upcoming 24h",
-                  "Action Forex",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ],
-                [
-                  "The Week Ahead (23 – 27 Nov): Sell-off!, PMIs, US Core PCE & GDP, BoE Financial Stability, US AI Ha...",
-                  "past/upcoming 24h",
-                  "Stockopedia",
+                  "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
@@ -1158,41 +1100,41 @@
             },
             {
               "headers": [
-                "新闻",
-                "相关股票",
+                "重要事件",
+                "相关股票（如有）",
                 "判断",
-                "理由"
+                "影响与依据"
               ],
               "rows": [
                 [
-                  "Nvidia（NVDA） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as...",
+                  "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case CNBC · 2026-11-23T05:0...",
                   "NVDA",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：公司重大进展 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "Broadcom（AVGO） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak,...",
-                  "AVGO",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year CNBC ·...",
+                  "-",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：宏观与政策 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "AMD（AMD） Yahoo Finance · 2026-11-20T13:36:58+00:00 Nvidia stock extends 6-day losing streak, as AMD...",
-                  "AMD",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler MarketWatch · 202...",
+                  "-",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：公司重大进展 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "ServiceNow（NOW） Moneycontrol.com · 2026-11-20T08:29:50+00:00 After Nvidia, AMD now alleged to have...",
-                  "NOW",
-                  "利好",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels CNBC · 2026...",
+                  "COP",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：公司重大进展 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ],
                 [
-                  "Apple（AAPL） TradingView · 2026-11-19T23:01:05+00:00 S&P 500, Nasdaq, Dow End Lower As Anthropic Tra...",
-                  "AAPL",
-                  "中性",
-                  "未配置模型密钥，当前为低置信度关键词判断。 位置：公司经营/行业景气链条 瓶颈：瓶颈暂不清晰；需继续确认新闻是否改变收入、利润率、订单或监管约束 证据：中；研究优先级：中 反方风险：如果后续原文显示..."
+                  "More Americans pay this Obama-era investment tax every year — how to avoid it CNBC · 2026-11-23T13:...",
+                  "-",
+                  "待判断",
+                  "保留事件和原始来源；未完成模型解读，不根据标题猜测涨跌。 位置：产业与科技 瓶颈：待核实 证据：未验证；研究优先级：中 反方风险：报道可能包含预期或传闻，请查看原始来源。"
                 ]
               ]
             }
@@ -1505,13 +1447,9 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "marketscreener.com": {
-      "en": "marketscreener.com",
-      "zh": "marketscreener.com"
-    },
-    "市场状态分层：市场状态未知": {
-      "zh": "市场状态分层：市场状态未知",
-      "en": "Market regime: unknown"
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
     },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
@@ -1524,8 +1462,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 110,
-    "translated": 40,
+    "total": 105,
+    "translated": 39,
     "complete": false
   }
 }
