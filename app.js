@@ -921,7 +921,7 @@ function renderUpcomingEarnings(snapshot=store.briefs?.us_upcoming_earnings || {
   meta.textContent+=snapshot.source_name==='Yahoo Finance' ? L(' · Source: Yahoo Finance (fallback)',' · 来源：Yahoo Finance（备用）') : L(' · Source: Nasdaq',' · 来源：Nasdaq');
   if(snapshot.partial) meta.textContent+=L(' · Partial fallback coverage; showing only available entries with market-cap data.',' · 备用源覆盖有限，仅展示已获取且可排序的记录。');
   if(snapshot.stale) meta.textContent+=L(' · Using this session’s calendar fetched in the past two hours.',' · 使用最近两小时内抓取的该交易日日历。');
-  const sourceLink=day && snapshot.source_name==='Yahoo Finance' ? `<p><a href="https://finance.yahoo.com/calendar/earnings?day=${day}" target="_blank" rel="noopener noreferrer">${L('View Yahoo Finance calendar (current source)','查看 Yahoo Finance 日历（当前来源）')}</a></p>` : '';
+  const sourceLink=day && snapshot.source_name==='Yahoo Finance' ? `<p><a class="button ghost" href="https://finance.yahoo.com/calendar/earnings?day=${day}" target="_blank" rel="noopener noreferrer">${L('View Yahoo Finance calendar (current source)','查看 Yahoo Finance 日历（当前来源）')}</a></p>` : '';
   let message='';
   if(!day || !['ready','empty'].includes(snapshot.status)) message=L('The earnings calendar is temporarily unavailable. Please check Nasdaq Calendar.','暂时无法获取财报日历，请查看 Nasdaq Calendar。');
   else if(day<nyDate(now)) message=L('This snapshot is from a previous New York date. Awaiting the next update; check Nasdaq Calendar for the latest schedule.','该快照已不属于当前美东日期，等待下一次更新；可查看 Nasdaq Calendar 获取最新安排。');
