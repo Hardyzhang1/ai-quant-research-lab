@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "published_at": "2026-11-24 10:07 local",
+  "published_at": "2026-11-24 10:13 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-24",
-    "checked_at": "2026-11-23T21:07:42.293494-05:00",
+    "checked_at": "2026-11-23T21:13:18.506533-05:00",
     "calendar_updated_at": "2026-11-23T21:07:39.792987-05:00",
     "status": "ready",
     "stale": false,
@@ -712,11 +712,7 @@
           "title": "A股盘前重要金融新闻",
           "generated_at": "2026-11-24 09:04 中国标准时间；覆盖窗口：过去24小时",
           "updated_at": "2026-11-24 09:04 local",
-          "highlights": [
-            "宏观 - 新加坡将2026年GDP增长预期上调至“约6%”",
-            "宏观 - 新加坡第三季度GDP同比增长6.1% 预估5.6%",
-            "宏观 - 管涛：日本央行买卖ETF对股市影响不宜高估 - 东方财富网"
-          ],
+          "highlights": [],
           "tables": [
             {
               "headers": [
@@ -762,6 +758,13 @@
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
+              ],
+              "row_titles": [
+                "新加坡将2026年GDP增长预期上调至“约6%”",
+                "新加坡第三季度GDP同比增长6.1% 预估5.6%",
+                "管涛：日本央行买卖ETF对股市影响不宜高估 - 东方财富网",
+                "美国半导体出口管制一团糟…\"腾讯等'支援中军企业'获批87万块\" - 朝鮮日報中文版",
+                "新能源关税消费税全免！突尼斯做汽车出口太香了！ - 汽车之家"
               ]
             },
             {
@@ -802,9 +805,17 @@
                   "待判断",
                   "—"
                 ]
+              ],
+              "row_titles": [
+                "AI安全需求爆发！网安最大并购之一落地 多股明年业绩改善(名单)",
+                "【环球财经】欧委会第22轮对俄制裁 扩大金融能源体育领域限制",
+                "Tims天好中国发布Q3业绩：核心指标改善，系统销售额环比增长6.3%",
+                "A股回购潮来了，逾30家公司集体发布回购公告，摩尔线程拟最高10亿元回购",
+                "受益三星、SK海力士扩产 韩国多家半导体设备商积压订单翻番"
               ]
             }
-          ]
+          ],
+          "news_analysis_mode": "headlines"
         },
         {
           "source": "Trading Recommendation Agent",
@@ -821,13 +832,6 @@
           "tables": [
             {
               "headers": [
-                "正式机会 0",
-                "数据截止 2026-11-23"
-              ],
-              "rows": []
-            },
-            {
-              "headers": [
                 "股票代码",
                 "推荐持有期"
               ],
@@ -837,7 +841,8 @@
                 ]
               ]
             }
-          ]
+          ],
+          "news_analysis_mode": ""
         }
       ]
     },
@@ -943,17 +948,15 @@
                 ]
               ]
             }
-          ]
+          ],
+          "news_analysis_mode": ""
         },
         {
           "source": "Trading Recommendation Agent",
           "title": "2026-11-23 已确认 1,062 只股票有当日有效收盘行情（市场更新池 4,000 只，发信门槛 1,000 只）。",
           "generated_at": "2026-11-23 16:37 CST；交易日：2026-11-23；数据日期：2026-11-23。",
           "updated_at": "2026-11-23 16:37 local",
-          "highlights": [
-            "主要驱动 - 未配置模型分析，暂不自动推断市场驱动。",
-            "下一交易日关注 - 关注宏观数据、政策消息及核心权重股公告。"
-          ],
+          "highlights": [],
           "tables": [
             {
               "headers": [
@@ -1041,7 +1044,8 @@
                 ]
               ]
             }
-          ]
+          ],
+          "news_analysis_mode": ""
         }
       ]
     },
@@ -1056,9 +1060,7 @@
           "title": "美股盘前重要金融新闻",
           "generated_at": "2026-11-23 22:17 中国标准时间；覆盖窗口：过去24小时",
           "updated_at": "2026-11-23 22:17 local",
-          "highlights": [
-            "宏观 - Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year"
-          ],
+          "highlights": [],
           "tables": [
             {
               "headers": [
@@ -1076,6 +1078,9 @@
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
+              ],
+              "row_titles": [
+                "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year"
               ]
             },
             {
@@ -1089,12 +1094,6 @@
                 [
                   "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case CNBC · 2026-11-23T05:0...",
                   "NVDA",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year CNBC ·...",
-                  "-",
                   "待判断",
                   "—"
                 ],
@@ -1116,13 +1115,20 @@
                   "待判断",
                   "—"
                 ]
+              ],
+              "row_titles": [
+                "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+                "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+                "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
+                "More Americans pay this Obama-era investment tax every year — how to avoid it"
               ]
             }
-          ]
+          ],
+          "news_analysis_mode": "headlines"
         },
         {
           "source": "Trading Recommendation Agent",
-          "title": "美股盘前重要金融新闻",
+          "title": "美股开盘信息",
           "generated_at": "2026-11-23 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
           "updated_at": "2026-11-23 22:17 local",
           "highlights": [
@@ -1130,68 +1136,10 @@
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
             "今日待发布财报 · 市值前五",
             "财报日历暂不可用，未列出公司；不影响邮件其余内容。",
-            "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year"
+            "美股盘前重要金融新闻"
           ],
-          "tables": [
-            {
-              "headers": [
-                "事件/数据",
-                "时间",
-                "最新信息",
-                "为什么重要",
-                "关注度"
-              ],
-              "rows": [
-                [
-                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
-                  "past/upcoming 24h",
-                  "CNBC",
-                  "May affect index risk appetite, rates, FX or sector valuation.",
-                  "medium"
-                ]
-              ]
-            },
-            {
-              "headers": [
-                "重要事件",
-                "相关股票（如有）",
-                "判断",
-                "影响与依据"
-              ],
-              "rows": [
-                [
-                  "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case CNBC · 2026-11-23T05:0...",
-                  "NVDA",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year CNBC ·...",
-                  "-",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler MarketWatch · 202...",
-                  "-",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels CNBC · 2026...",
-                  "COP",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "More Americans pay this Obama-era investment tax every year — how to avoid it CNBC · 2026-11-23T13:...",
-                  "-",
-                  "待判断",
-                  "—"
-                ]
-              ]
-            }
-          ]
+          "tables": [],
+          "news_analysis_mode": ""
         }
       ]
     },
@@ -1296,7 +1244,8 @@
                 ]
               ]
             }
-          ]
+          ],
+          "news_analysis_mode": "headlines"
         }
       ]
     }
@@ -1486,7 +1435,7 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 94,
+    "total": 88,
     "translated": 32,
     "complete": false
   }
