@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-24 10:16 local",
+  "published_at": "2026-11-24 17:35 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-24",
-    "checked_at": "2026-11-23T21:16:10.561667-05:00",
-    "calendar_updated_at": "2026-11-23T21:07:39.792987-05:00",
+    "checked_at": "2026-11-24T04:35:25.268672-05:00",
+    "calendar_updated_at": "2026-11-24T04:35:23.168797-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -814,8 +814,7 @@
                 "受益三星、SK海力士扩产 韩国多家半导体设备商积压订单翻番"
               ]
             }
-          ],
-          "news_analysis_mode": "headlines"
+          ]
         },
         {
           "source": "Trading Recommendation Agent",
@@ -841,8 +840,7 @@
                 ]
               ]
             }
-          ],
-          "news_analysis_mode": ""
+          ]
         }
       ]
     },
@@ -948,8 +946,7 @@
                 ]
               ]
             }
-          ],
-          "news_analysis_mode": ""
+          ]
         },
         {
           "source": "Trading Recommendation Agent",
@@ -1044,8 +1041,7 @@
                 ]
               ]
             }
-          ],
-          "news_analysis_mode": ""
+          ]
         }
       ]
     },
@@ -1123,8 +1119,7 @@
                 "More Americans pay this Obama-era investment tax every year — how to avoid it"
               ]
             }
-          ],
-          "news_analysis_mode": "headlines"
+          ]
         },
         {
           "source": "Trading Recommendation Agent",
@@ -1137,8 +1132,7 @@
             "今日待发布财报 · 市值前五",
             "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
           ],
-          "tables": [],
-          "news_analysis_mode": ""
+          "tables": []
         }
       ]
     },
@@ -1243,8 +1237,7 @@
                 ]
               ]
             }
-          ],
-          "news_analysis_mode": "headlines"
+          ]
         }
       ]
     }
