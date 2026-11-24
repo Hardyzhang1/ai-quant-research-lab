@@ -306,8 +306,30 @@ def generated_at(path: Path) -> str | None:
     return None
 
 
+def public_news_row_titles(path: Path) -> dict[str, list[list[str]]]:
+    """Keep full headlines for exact deduplication before display cells are shortened."""
+    titles: dict[str, list[list[str]]] = {}
+    for table in re.findall(r"(?is)<table\b[^>]*>.*?</table>", read_text(path)):
+        headers = re.findall(r"(?is)<th\b[^>]*>(.*?)</th>", table)
+        key = fragment_text(headers[0]) if headers else ""
+        if key not in {"重要事件", "新闻", "事件/数据", "Event/Data", "News"}:
+            continue
+        rows = []
+        for row in re.findall(r"(?is)<tr\b[^>]*>(.*?)</tr>", table):
+            cell = re.search(r"(?is)<td\b[^>]*>(.*?)</td>", row)
+            if cell:
+                title = cell.group(1)
+                if key not in {"事件/数据", "Event/Data"}:
+                    anchor = re.search(r"(?is)<a\b[^>]*>(.*?)</a>", title)
+                    title = anchor.group(1) if anchor else title
+                rows.append(redact(fragment_text(title), 400))
+        titles.setdefault(key, []).append(rows)
+    return titles
+
+
 def compact_tables(path: Path, max_tables: int = 2, max_rows: int = 5, max_cols: int = 5) -> list[dict]:
     out: list[dict] = []
+    news_titles = public_news_row_titles(path)
     for table in parse_tables(path):
         if not table:
             continue
@@ -318,7 +340,13 @@ def compact_tables(path: Path, max_tables: int = 2, max_rows: int = 5, max_cols:
             if any(cleaned):
                 rows.append(cleaned)
         if header or rows:
-            out.append({"headers": header, "rows": rows})
+            output = {"headers": header, "rows": rows}
+            matching = news_titles.get(header[0] if header else "")
+            if matching:
+                row_titles = matching.pop(0)[:max_rows]
+                if len(row_titles) == len(rows):
+                    output["row_titles"] = row_titles
+            out.append(output)
         if len(out) >= max_tables:
             break
     return out
@@ -593,8 +621,8 @@ def report_from_path(path: Path) -> dict:
         title = "A股收盘总结" if is_ashare(path) else "美股收盘总结"
     elif source_label(path) == "Market News Agent" and not is_post(path):
         title = "A股盘前重要金融新闻" if is_ashare(path) else "美股盘前重要金融新闻"
-    elif source_label(path) == "Trading Recommendation Agent" and is_ashare(path) and not is_post(path):
-        title = "A股开盘信息"
+    elif source_label(path) == "Trading Recommendation Agent" and not is_post(path):
+        title = "A股开盘信息" if is_ashare(path) else "美股开盘信息"
     else:
         title = pick_report_title(lines, path.stem.replace("_", " "))
     section_highlights = pre_market_news_highlights(path) or post_market_section_highlights(path)
@@ -608,18 +636,50 @@ def report_from_path(path: Path) -> dict:
         "updated_at": stamp,
         "highlights": highlights,
         "tables": compact_tables(path),
+        "news_analysis_mode": ("headlines" if source_label(path) == "Market News Agent"
+                               and 'data-news-analysis-status="headlines"' in read_text(path) else ""),
     }
 
 
+def public_news_key(value: str) -> str:
+    value = re.sub(r"^(?:宏观|公司/市场|市场事件)\s*[-—:]\s*", "", normalize(value))
+    return re.sub(r"\W+", "", value).casefold()
+
+
 def clean_report_sections(sections: list[dict]) -> list[dict]:
-    """Apply the public highlight filters even when preserving previous JSON."""
+    """Display each exact news headline once per market/session, preserving distinct events."""
     for section in sections:
-        for report in section.get("reports", []):
-            report["highlights"] = [
-                line
-                for line in report.get("highlights", [])
-                if not is_global_index_heading(line) and not is_standalone_market_number(line)
-            ]
+        reports = section.get("reports", [])
+        table_titles = set()
+        for report in reports:
+            kept_tables = []
+            for table in report.get("tables", []):
+                titles = table.get("row_titles")
+                rows = table.get("rows", [])
+                if titles is not None and len(titles) == len(rows):
+                    kept_rows, kept_titles = [], []
+                    for row, title in zip(rows, titles):
+                        key = public_news_key(title)
+                        if key and key in table_titles:
+                            continue
+                        kept_rows.append(row)
+                        kept_titles.append(title)
+                        if key:
+                            table_titles.add(key)
+                    table = {**table, "rows": kept_rows, "row_titles": kept_titles}
+                if table.get("rows"):
+                    kept_tables.append(table)
+            report["tables"] = kept_tables
+        seen = set(table_titles)
+        for report in reports:
+            kept = []
+            for line in report.get("highlights", []):
+                key = public_news_key(line)
+                if is_global_index_heading(line) or is_standalone_market_number(line) or key in seen:
+                    continue
+                kept.append(line)
+                seen.add(key)
+            report["highlights"] = kept
     return sections
 
 

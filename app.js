@@ -1,4 +1,5 @@
 const UI_TEXT = {
+  "美股开盘信息": {"en":"US pre-market information","zh":"美股开盘信息"},
   "AI Quant Research Lab": {
     "en": "AI Quant Research Lab",
     "zh": "AI 量化研究实验室"
@@ -881,7 +882,8 @@ function reportTable(table) {
 }
 function reportCard(report) {
   const longTitle=translated(report.title).length>120 || String(report.title || '').length>80;
-  return `<article class="report-source-card"><div class="brief-topline"><span>${T(report.source)}</span><span>${T(report.generated_at || report.updated_at || '--')}</span></div><h3>${longTitle ? L('Report overview','报告概览') : T(report.title)}</h3>${longTitle?`<p>${T(report.title)}</p>`:''}<ul class="report-highlight-list">${(report.highlights || []).slice(0,5).map(line=>`<li>${T(line)}</li>`).join('')}</ul>${(report.tables || []).slice(0,2).map(reportTable).join('')}</article>`;
+  const newsStatus=report.news_analysis_mode==='headlines' ? `<p class="report-analysis-status">${L('Some or all news entries show source headlines only; automated summaries have not been generated.','部分或全部新闻仅展示原始标题与来源，自动摘要暂未生成。')}</p>` : '';
+  return `<article class="report-source-card"><div class="brief-topline"><span>${T(report.source)}</span><span>${T(report.generated_at || report.updated_at || '--')}</span></div><h3>${longTitle ? L('Report overview','报告概览') : T(report.title)}</h3>${longTitle?`<p>${T(report.title)}</p>`:''}${newsStatus}<ul class="report-highlight-list">${(report.highlights || []).slice(0,5).map(line=>`<li>${T(line)}</li>`).join('')}</ul>${(report.tables || []).slice(0,2).map(reportTable).join('')}</article>`;
 }
 function renderDigests() {
   const grid=document.getElementById('reportSectionGrid'), payload=store.briefs;
