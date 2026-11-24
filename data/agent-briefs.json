@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-24 17:43 local",
+  "published_at": "2026-11-24 22:01 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-24",
-    "checked_at": "2026-11-24T04:43:40.667834-05:00",
-    "calendar_updated_at": "2026-11-24T04:35:23.168797-05:00",
+    "checked_at": "2026-11-24T09:01:07.163366-05:00",
+    "calendar_updated_at": "2026-11-24T09:00:56.713723-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -57,12 +57,24 @@
         "name": "Banco BBVA Argentina S.A.",
         "market_cap_usd": "1878977536.6449423",
         "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "DRVN",
+        "name": "Driven Brands Holdings Inc.",
+        "market_cap_usd": "1773533022.0",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "market_cap_usd": "1420198467.5723662",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
       }
     ],
     "source_name": "Yahoo Finance",
     "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-11-24",
     "fallback": true,
-    "partial": true
+    "partial": false
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1047,14 +1059,14 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-23 22:17 local",
+      "updated_at": "2026-11-24 22:00 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-23 22:17 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-23 22:17 local",
+          "generated_at": "2026-11-24 22:00 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-24 22:00 local",
           "highlights": [],
           "tables": [
             {
@@ -1067,15 +1079,47 @@
               ],
               "rows": [
                 [
-                  "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+                  "Dollar climbs as renewed AI euphoria fuels Fed hike bets - CNBC",
                   "past/upcoming 24h",
                   "CNBC",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+                  "past/upcoming 24h",
+                  "CNBC",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Exclusive | U.S. Prepares to Raise Tariffs on China and Other Countries - WSJ",
+                  "past/upcoming 24h",
+                  "WSJ",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Next Batch of Trump Tariffs Are Coming Soon as G-20 Looms - Bloomberg.com",
+                  "past/upcoming 24h",
+                  "Bloomberg.com",
+                  "May affect index risk appetite, rates, FX or sector valuation.",
+                  "medium"
+                ],
+                [
+                  "Gold Prices Edge Lower Following Sharp Recovery as Federal Reserve Rate Expectations Weigh on Deman...",
+                  "past/upcoming 24h",
+                  "Yahoo Finance",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
               ],
               "row_titles": [
-                "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year"
+                "Dollar climbs as renewed AI euphoria fuels Fed hike bets - CNBC",
+                "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+                "Exclusive | U.S. Prepares to Raise Tariffs on China and Other Countries - WSJ",
+                "Next Batch of Trump Tariffs Are Coming Soon as G-20 Looms - Bloomberg.com",
+                "Gold Prices Edge Lower Following Sharp Recovery as Federal Reserve Rate Expectations Weigh on Demand - Yahoo Finance"
               ]
             },
             {
@@ -1087,35 +1131,42 @@
               ],
               "rows": [
                 [
-                  "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case CNBC · 2026-11-23T05:0...",
-                  "NVDA",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler MarketWatch · 202...",
+                  "Liang Wenfeng’s wealth rises to US$55 billion after new funding round 联合早报 · 2026-11-24T01:01:30+00...",
                   "-",
                   "待判断",
                   "—"
                 ],
                 [
-                  "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels CNBC · 2026...",
-                  "COP",
+                  "LibertyStream Announces Public Filing of Registration Statement on Form S-1 for Proposed U.S. Initi...",
+                  "-",
                   "待判断",
                   "—"
                 ],
                 [
-                  "More Americans pay this Obama-era investment tax every year — how to avoid it CNBC · 2026-11-23T13:...",
+                  "How Iceland's Blue Lagoon is faring after its long-awaited stock market debut Yahoo Finance Austral...",
+                  "-",
+                  "待判断",
+                  "—"
+                ],
+                [
+                  "What Dycom Earnings Tell Us About AI Growth Barron's · 2026-11-24T12:34:00+00:00",
+                  "-",
+                  "待判断",
+                  "—"
+                ],
+                [
+                  "Anwar: US chip export controls will not hinder Malaysia’s cooperation with China 联合早报 · 2026-11-24T...",
                   "-",
                   "待判断",
                   "—"
                 ]
               ],
               "row_titles": [
-                "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
-                "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
-                "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
-                "More Americans pay this Obama-era investment tax every year — how to avoid it"
+                "Liang Wenfeng’s wealth rises to US$55 billion after new funding round",
+                "LibertyStream Announces Public Filing of Registration Statement on Form S-1 for Proposed U.S. Initial Public Offering",
+                "How Iceland's Blue Lagoon is faring after its long-awaited stock market debut",
+                "What Dycom Earnings Tell Us About AI Growth",
+                "Anwar: US chip export controls will not hinder Malaysia’s cooperation with China"
               ]
             }
           ]
@@ -1123,15 +1174,63 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "美股开盘信息",
-          "generated_at": "2026-11-23 22:16 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-23 22:17 local",
+          "generated_at": "2026-11-24 22:00 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-24 22:00 local",
           "highlights": [
-            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+            "宏观事件覆盖层：macro_rates=10；oil_shock=7；geopolitical_risk=4；market_stress=4",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "今日待发布财报 · 市值前五",
-            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
+            "风险缓和/修复：未达到调分门槛；方向证据 4 vs 反向 3；不同标题 1，不同来源 1，一线来源 0；市场代理确认 否",
+            "油价/能源走弱：未达到调分门槛；方向证据 3 vs 反向 0；不同标题 0，不同来源 0，一线来源 0；市场代理确认 否",
+            "Treasury yields steady after inflation warning from New York Fed's Williams, investors await 5-year auction - CNBC"
           ],
-          "tables": []
+          "tables": [
+            {
+              "headers": [
+                "序号",
+                "公司",
+                "代码",
+                "市值（美元）",
+                "预计发布时段（美东）"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Dell Technologies Inc.",
+                  "DELL",
+                  "212,940,050,431",
+                  "11-24 16:00 EST 后（盘后）"
+                ],
+                [
+                  "2",
+                  "Autodesk, Inc.",
+                  "ADSK",
+                  "53,363,970,383",
+                  "11-24 16:00 EST 后（盘后）"
+                ],
+                [
+                  "3",
+                  "Workday, Inc.",
+                  "WDAY",
+                  "42,435,280,441",
+                  "11-24 16:00 EST 后（盘后）"
+                ],
+                [
+                  "4",
+                  "HP Inc.",
+                  "HPQ",
+                  "26,061,758,660",
+                  "11-24 16:00 EST 后（盘后）"
+                ],
+                [
+                  "5",
+                  "Nutanix, Inc.",
+                  "NTNX",
+                  "15,698,470,584",
+                  "11-24 16:00 EST 后（盘后）"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1411,10 +1510,6 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
-      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
-      "en": "Macro-event overlay: no clear macro-event shock detected."
-    },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
       "en": "Used for small weighting adjustments across energy / defense, high-beta technology, financials, consumer cyclicals and semiconductors. Historical policy score adjustments require headline / source diversity. Does not invoke [redacted-model] and is not a conclusion about news facts."
@@ -1426,8 +1521,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 86,
-    "translated": 32,
+    "total": 104,
+    "translated": 31,
     "complete": false
   }
 }
