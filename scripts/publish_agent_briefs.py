@@ -636,8 +636,6 @@ def report_from_path(path: Path) -> dict:
         "updated_at": stamp,
         "highlights": highlights,
         "tables": compact_tables(path),
-        "news_analysis_mode": ("headlines" if source_label(path) == "Market News Agent"
-                               and 'data-news-analysis-status="headlines"' in read_text(path) else ""),
     }
 
 
@@ -652,6 +650,7 @@ def clean_report_sections(sections: list[dict]) -> list[dict]:
         reports = section.get("reports", [])
         table_titles = set()
         for report in reports:
+            report.pop("news_analysis_mode", None)
             kept_tables = []
             for table in report.get("tables", []):
                 titles = table.get("row_titles")
