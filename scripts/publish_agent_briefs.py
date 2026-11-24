@@ -670,7 +670,7 @@ def clean_report_sections(sections: list[dict]) -> list[dict]:
                 if table.get("rows"):
                     kept_tables.append(table)
             report["tables"] = kept_tables
-        seen = set(table_titles)
+        seen = set(table_titles) | {public_news_key(report.get("title", "")) for report in reports}
         for report in reports:
             kept = []
             for line in report.get("highlights", []):
