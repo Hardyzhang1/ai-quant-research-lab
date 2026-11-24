@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "published_at": "2026-11-24 10:13 local",
+  "published_at": "2026-11-24 10:16 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-24",
-    "checked_at": "2026-11-23T21:13:18.506533-05:00",
+    "checked_at": "2026-11-23T21:16:10.561667-05:00",
     "calendar_updated_at": "2026-11-23T21:07:39.792987-05:00",
     "status": "ready",
     "stale": false,
@@ -1135,8 +1135,7 @@
             "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
             "今日待发布财报 · 市值前五",
-            "财报日历暂不可用，未列出公司；不影响邮件其余内容。",
-            "美股盘前重要金融新闻"
+            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
           ],
           "tables": [],
           "news_analysis_mode": ""
