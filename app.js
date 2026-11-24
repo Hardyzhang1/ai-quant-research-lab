@@ -918,15 +918,18 @@ function renderUpcomingEarnings(snapshot=store.briefs?.us_upcoming_earnings || {
   document.getElementById('earningsCalendarLink').href='https://www.nasdaq.com/market-activity/earnings'+(day?`?date=${day}`:'');
   const checked=earningsTime(snapshot.checked_at,'Asia/Shanghai'), updated=earningsTime(snapshot.calendar_updated_at,'America/New_York');
   meta.textContent=day ? L(`Earnings date ${day} (ET) · Checked ${checked} (Beijing) · Calendar updated ${updated}`, `预计财报日期 ${day}（美东） · 筛选时间 ${checked}（北京时间） · 日历更新 ${updated}`) : L('Calendar snapshot unavailable.','财报日历快照暂不可用。');
+  meta.textContent+=snapshot.source_name==='Yahoo Finance' ? L(' · Source: Yahoo Finance (fallback)',' · 来源：Yahoo Finance（备用）') : L(' · Source: Nasdaq',' · 来源：Nasdaq');
+  if(snapshot.partial) meta.textContent+=L(' · Partial fallback coverage; showing only available entries with market-cap data.',' · 备用源覆盖有限，仅展示已获取且可排序的记录。');
   if(snapshot.stale) meta.textContent+=L(' · Using this session’s calendar fetched in the past two hours.',' · 使用最近两小时内抓取的该交易日日历。');
+  const sourceLink=day && snapshot.source_name==='Yahoo Finance' ? `<p><a href="https://finance.yahoo.com/calendar/earnings?day=${day}" target="_blank" rel="noopener noreferrer">${L('View Yahoo Finance calendar (current source)','查看 Yahoo Finance 日历（当前来源）')}</a></p>` : '';
   let message='';
   if(!day || !['ready','empty'].includes(snapshot.status)) message=L('The earnings calendar is temporarily unavailable. Please check Nasdaq Calendar.','暂时无法获取财报日历，请查看 Nasdaq Calendar。');
   else if(day<nyDate(now)) message=L('This snapshot is from a previous New York date. Awaiting the next update; check Nasdaq Calendar for the latest schedule.','该快照已不属于当前美东日期，等待下一次更新；可查看 Nasdaq Calendar 获取最新安排。');
   const rows=(snapshot.companies || []).filter(item=>item.name && item.symbol && Number(item.market_cap_usd)>0 && new Date(item.release_window_start)>now).sort((a,b)=>Number(b.market_cap_usd)-Number(a.market_cap_usd)).slice(0,10);
   if(!message && !rows.length) message=L('No eligible companies can be confirmed as still awaiting release, or their expected release window has already started.','暂无可确认仍待发布且市值可排序的公司，或已进入预计发布时段。');
-  if(message) { panel.innerHTML=`<p class="earnings-empty">${escapeHtml(message)}</p>`;return; }
+  if(message) { panel.innerHTML=`<p class="earnings-empty">${escapeHtml(message)}</p>${sourceLink}`;return; }
   const headers=[L('Rank','排名'),L('Company','公司'),L('Ticker','代码'),L('Market cap (USD)','市值（美元）'),L('Expected window (ET)','预计发布时段（美东）'),L('Beijing time','北京时间')];
-  panel.innerHTML=`<div class="earnings-table-wrap" tabindex="0" role="region" aria-label="${L('Upcoming earnings table; scroll horizontally','待发布财报公司，可横向滚动')}"><table class="earnings-table"><thead><tr>${headers.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map((item,i)=>`<tr><td>${i+1}</td><td>${escapeHtml(item.name)}</td><td class="earnings-symbol">${escapeHtml(item.symbol)}</td><td>$${new Intl.NumberFormat('en-US',{maximumFractionDigits:0}).format(Number(item.market_cap_usd))}</td><td>${escapeHtml(earningsTime(item.release_window_start,'America/New_York'))}${L(' or later (after hours)',' 后（盘后）')}</td><td>${escapeHtml(earningsTime(item.release_window_start,'Asia/Shanghai'))}${L(' or later',' 后')}</td></tr>`).join('')}</tbody></table></div>`;
+  panel.innerHTML=`<div class="earnings-table-wrap" tabindex="0" role="region" aria-label="${L('Upcoming earnings table; scroll horizontally','待发布财报公司，可横向滚动')}"><table class="earnings-table"><thead><tr>${headers.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map((item,i)=>`<tr><td>${i+1}</td><td>${escapeHtml(item.name)}</td><td class="earnings-symbol">${escapeHtml(item.symbol)}</td><td>$${new Intl.NumberFormat('en-US',{maximumFractionDigits:0}).format(Number(item.market_cap_usd))}</td><td>${escapeHtml(earningsTime(item.release_window_start,'America/New_York'))}${L(' or later (after hours)',' 后（盘后）')}</td><td>${escapeHtml(earningsTime(item.release_window_start,'Asia/Shanghai'))}${L(' or later',' 后')}</td></tr>`).join('')}</tbody></table></div>${sourceLink}`;
 }
 
 let briefsVersion;
