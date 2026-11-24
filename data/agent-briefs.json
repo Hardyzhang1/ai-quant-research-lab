@@ -1,15 +1,68 @@
 {
   "ok": true,
-  "published_at": "2026-11-24 09:15 local",
+  "published_at": "2026-11-24 09:19 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-11",
-    "checked_at": "2026-11-10T20:15:26.634084-05:00",
-    "calendar_updated_at": null,
-    "status": "unavailable",
+    "market_date": "2026-11-24",
+    "checked_at": "2026-11-23T20:19:50.837817-05:00",
+    "calendar_updated_at": "2026-11-24T00:57:19.557066+00:00",
+    "status": "ready",
     "stale": false,
     "limit": 10,
-    "companies": []
+    "companies": [
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "market_cap_usd": "212940050430.91583",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "ADSK",
+        "name": "Autodesk, Inc.",
+        "market_cap_usd": "53363970382.69043",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "market_cap_usd": "42435280441.28418",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "market_cap_usd": "26061758660.094048",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "NTNX",
+        "name": "Nutanix, Inc.",
+        "market_cap_usd": "15698470584.020794",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "market_cap_usd": "7305956915.914238",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "AMBA",
+        "name": "Ambarella, Inc.",
+        "market_cap_usd": "2452472409.378399",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      },
+      {
+        "symbol": "BBAR",
+        "name": "Banco BBVA Argentina S.A.",
+        "market_cap_usd": "1878977536.6449423",
+        "release_window_start": "2026-11-24T16:00:00-05:00"
+      }
+    ],
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-11-24",
+    "fallback": true,
+    "partial": true
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1145,17 +1198,17 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-11-21 09:19 local",
+      "updated_at": "2026-11-24 09:18 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-11-21 09:19 中国标准时间",
-          "updated_at": "2026-11-21 09:19 local",
+          "generated_at": "2026-11-24 09:18 中国标准时间",
+          "updated_at": "2026-11-24 09:18 local",
           "highlights": [
-            "主要驱动 - AI/半导体交易大幅去杠杆：英伟达收跌14%，为2018年以来最长周线连跌；费城半导体指数盘中跌两位数，AMD、博通、美光同步重挫。；美联储会议纪要巩固12月加息预期，纳指跌5.28%、标普500跌3.7%并进入技术性回调，风险偏好全面收缩。；英伟达被报道遭SEC调查会计操作，叠加AMD被指涉中国供货关联的做空报告，AI芯片板块信任溢价受损。",
-            "下一交易日关注 - 关注英伟达SEC调查报道是否被公司或监管方正式确认，及其对AI芯片板块估值锚的进一步冲击。；观察美联储官员对12月加息路径的表态与后续通胀/就业数据，利率预期是反弹能否展开的关键。；跟踪AMD中国供货关联指控的后续（做空报告、国会文件、公司回应），半导体板块波动或延续。"
+            "主要驱动 - 自动摘要暂不可用，暂不推断市场驱动；下方保留公开事件标题与来源。",
+            "下一交易日关注 - 关注宏观政策、上市融资、公司重大进展与产业事件的后续公告。"
           ],
           "tables": [
             {
@@ -1170,36 +1223,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3533.79",
-                  "-1.23%",
+                  "3538.93",
+                  "-0.00%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "3954.57",
-                  "-0.76%",
+                  "3958.29",
+                  "+0.00%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "22410.8",
-                  "-1.89%",
+                  "22383.74",
+                  "+0.00%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "56436.65",
-                  "-5.06%",
-                  "最近收盘"
+                  "59062.44",
+                  "+4.65%",
+                  "盘中"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10346.34",
-                  "-1.02%",
+                  "10492.74",
+                  "+1.40%",
                   "最近收盘"
                 ]
               ]
@@ -1215,20 +1268,20 @@
                 [
                   "标普500",
                   "^GSPC",
-                  "6910.39",
-                  "-3.70%"
+                  "7237.17",
+                  "+4.73%"
                 ],
                 [
                   "纳斯达克",
                   "^IXIC",
-                  "22617.73",
-                  "-5.28%"
+                  "24089.56",
+                  "+6.51%"
                 ],
                 [
                   "道琼斯",
                   "^DJI",
-                  "48147.33",
-                  "-1.93%"
+                  "49595.31",
+                  "+3.01%"
                 ],
                 [
                   "VIX",
@@ -1239,8 +1292,8 @@
                 [
                   "Apple",
                   "AAPL",
-                  "342.56",
-                  "-1.90%"
+                  "349.08",
+                  "+1.90%"
                 ]
               ]
             }
