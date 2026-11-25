@@ -1,68 +1,15 @@
 {
   "ok": true,
-  "published_at": "2026-11-25 18:21 local",
+  "published_at": "2026-11-25 22:01 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-25",
-    "checked_at": "2026-11-25T05:21:35.185589-05:00",
-    "calendar_updated_at": "2026-11-25T05:21:33.397768-05:00",
-    "status": "ready",
+    "checked_at": "2026-11-25T09:01:48.935486-05:00",
+    "calendar_updated_at": null,
+    "status": "unavailable",
     "stale": false,
     "limit": 10,
-    "companies": [
-      {
-        "symbol": "BMA",
-        "name": "Banco Macro S.A.",
-        "market_cap_usd": "3202706022.4563217",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "FINV",
-        "name": "FinVolution Group",
-        "market_cap_usd": "585513129.4631357",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "RGCO",
-        "name": "RGC Resources, Inc.",
-        "market_cap_usd": "232147714.83454132",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "MENS",
-        "name": "Jyong Biotech Ltd.",
-        "market_cap_usd": "132288143.04505634",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "DVLT",
-        "name": "Datavault AI Inc.",
-        "market_cap_usd": "22031086.284571998",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "CLGN",
-        "name": "CollPlant Biotechnologies Ltd",
-        "market_cap_usd": "14270602.629368305",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "OPHI",
-        "name": "CollPlant Biotechnologies Ltd.",
-        "market_cap_usd": "9626506.281970024",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      },
-      {
-        "symbol": "WCUFF",
-        "name": "World Copper Ltd.",
-        "market_cap_usd": "2151389.871912688",
-        "release_window_start": "2026-11-25T16:00:00-05:00"
-      }
-    ],
-    "source_name": "Yahoo Finance",
-    "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-11-25",
-    "fallback": true,
-    "partial": false
+    "companies": []
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1051,14 +998,14 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-24 22:00 local",
+      "updated_at": "2026-11-25 22:01 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-24 22:00 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-24 22:00 local",
+          "generated_at": "2026-11-25 22:01 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-25 22:01 local",
           "highlights": [],
           "tables": [
             {
@@ -1071,47 +1018,47 @@
               ],
               "rows": [
                 [
-                  "Dollar climbs as renewed AI euphoria fuels Fed hike bets - CNBC",
+                  "Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation",
                   "past/upcoming 24h",
                   "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+                  "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
                   "past/upcoming 24h",
                   "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Exclusive | U.S. Prepares to Raise Tariffs on China and Other Countries - WSJ",
+                  "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
                   "past/upcoming 24h",
-                  "WSJ",
+                  "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Next Batch of Trump Tariffs Are Coming Soon as G-20 Looms - Bloomberg.com",
+                  "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
                   "past/upcoming 24h",
-                  "Bloomberg.com",
+                  "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Gold Prices Edge Lower Following Sharp Recovery as Federal Reserve Rate Expectations Weigh on Deman...",
+                  "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
                   "past/upcoming 24h",
-                  "Yahoo Finance",
+                  "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ]
               ],
               "row_titles": [
-                "Dollar climbs as renewed AI euphoria fuels Fed hike bets - CNBC",
-                "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-                "Exclusive | U.S. Prepares to Raise Tariffs on China and Other Countries - WSJ",
-                "Next Batch of Trump Tariffs Are Coming Soon as G-20 Looms - Bloomberg.com",
-                "Gold Prices Edge Lower Following Sharp Recovery as Federal Reserve Rate Expectations Weigh on Demand - Yahoo Finance"
+                "Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation",
+                "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+                "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+                "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+                "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist"
               ]
             },
             {
@@ -1123,42 +1070,21 @@
               ],
               "rows": [
                 [
-                  "Liang Wenfeng’s wealth rises to US$55 billion after new funding round 联合早报 · 2026-11-24T01:01:30+00...",
+                  "Dell earnings beat on AI strength, company authorizes $25 billion buyback CNBC · 2026-11-24T22:07:4...",
                   "-",
                   "待判断",
                   "—"
                 ],
                 [
-                  "LibertyStream Announces Public Filing of Registration Statement on Form S-1 for Proposed U.S. Initi...",
-                  "-",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "How Iceland's Blue Lagoon is faring after its long-awaited stock market debut Yahoo Finance Austral...",
-                  "-",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "What Dycom Earnings Tell Us About AI Growth Barron's · 2026-11-24T12:34:00+00:00",
-                  "-",
-                  "待判断",
-                  "—"
-                ],
-                [
-                  "Anwar: US chip export controls will not hinder Malaysia’s cooperation with China 联合早报 · 2026-11-24T...",
+                  "The Fed is likely to raise rates in December. What it means for your holiday spending CNBC · 2026-1...",
                   "-",
                   "待判断",
                   "—"
                 ]
               ],
               "row_titles": [
-                "Liang Wenfeng’s wealth rises to US$55 billion after new funding round",
-                "LibertyStream Announces Public Filing of Registration Statement on Form S-1 for Proposed U.S. Initial Public Offering",
-                "How Iceland's Blue Lagoon is faring after its long-awaited stock market debut",
-                "What Dycom Earnings Tell Us About AI Growth",
-                "Anwar: US chip export controls will not hinder Malaysia’s cooperation with China"
+                "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+                "The Fed is likely to raise rates in December. What it means for your holiday spending"
               ]
             }
           ]
@@ -1166,63 +1092,15 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "美股开盘信息",
-          "generated_at": "2026-11-24 22:00 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-24 22:00 local",
+          "generated_at": "2026-11-25 22:01 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-25 22:01 local",
           "highlights": [
-            "宏观事件覆盖层：macro_rates=10；oil_shock=7；geopolitical_risk=4；market_stress=4",
+            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "风险缓和/修复：未达到调分门槛；方向证据 4 vs 反向 3；不同标题 1，不同来源 1，一线来源 0；市场代理确认 否",
-            "油价/能源走弱：未达到调分门槛；方向证据 3 vs 反向 0；不同标题 0，不同来源 0，一线来源 0；市场代理确认 否",
-            "Treasury yields steady after inflation warning from New York Fed's Williams, investors await 5-year auction - CNBC"
+            "今日待发布财报 · 市值前五",
+            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
           ],
-          "tables": [
-            {
-              "headers": [
-                "序号",
-                "公司",
-                "代码",
-                "市值（美元）",
-                "预计发布时段（美东）"
-              ],
-              "rows": [
-                [
-                  "1",
-                  "Dell Technologies Inc.",
-                  "DELL",
-                  "212,940,050,431",
-                  "11-24 16:00 EST 后（盘后）"
-                ],
-                [
-                  "2",
-                  "Autodesk, Inc.",
-                  "ADSK",
-                  "53,363,970,383",
-                  "11-24 16:00 EST 后（盘后）"
-                ],
-                [
-                  "3",
-                  "Workday, Inc.",
-                  "WDAY",
-                  "42,435,280,441",
-                  "11-24 16:00 EST 后（盘后）"
-                ],
-                [
-                  "4",
-                  "HP Inc.",
-                  "HPQ",
-                  "26,061,758,660",
-                  "11-24 16:00 EST 后（盘后）"
-                ],
-                [
-                  "5",
-                  "Nutanix, Inc.",
-                  "NTNX",
-                  "15,698,470,584",
-                  "11-24 16:00 EST 后（盘后）"
-                ]
-              ]
-            }
-          ]
+          "tables": []
         }
       ]
     },
@@ -1511,6 +1389,10 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
+    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
+      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+      "en": "Macro-event overlay: no clear macro-event shock detected."
+    },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
       "en": "Used for small weighting adjustments across energy / defense, high-beta technology, financials, consumer cyclicals and semiconductors. Historical policy score adjustments require headline / source diversity. Does not invoke [redacted-model] and is not a conclusion about news facts."
@@ -1522,8 +1404,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 108,
-    "translated": 33,
+    "total": 92,
+    "translated": 34,
     "complete": false
   }
 }
