@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "published_at": "2026-11-27 18:22 local",
+  "published_at": "2026-11-27 22:00 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
     "market_date": "2026-11-27",
-    "checked_at": "2026-11-27T05:22:59.315555-05:00",
-    "calendar_updated_at": "2026-11-27T05:22:57.562161-05:00",
+    "checked_at": "2026-11-27T09:00:48.096231-05:00",
+    "calendar_updated_at": "2026-11-27T09:00:32.428993-05:00",
     "status": "ready",
     "stale": false,
     "limit": 10,
@@ -1006,14 +1006,14 @@
     {
       "id": "us-pre-market",
       "title": "US pre market",
-      "updated_at": "2026-11-25 22:01 local",
+      "updated_at": "2026-11-27 22:00 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股盘前重要金融新闻",
-          "generated_at": "2026-11-25 22:01 中国标准时间；覆盖窗口：过去24小时",
-          "updated_at": "2026-11-25 22:01 local",
+          "generated_at": "2026-11-27 22:00 中国标准时间；覆盖窗口：过去24小时",
+          "updated_at": "2026-11-27 22:00 local",
           "highlights": [],
           "tables": [
             {
@@ -1026,35 +1026,35 @@
               ],
               "rows": [
                 [
-                  "Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation",
+                  "Treasury yields are higher as oil prices rise, investors look ahead to payroll data - CNBC",
                   "past/upcoming 24h",
                   "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+                  "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision...",
                   "past/upcoming 24h",
                   "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+                  "Trump demands probe of GDP data released before midterms - Reuters",
                   "past/upcoming 24h",
-                  "CNBC",
+                  "Reuters",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+                  "U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade - WSJ",
                   "past/upcoming 24h",
-                  "CNBC",
+                  "WSJ",
                   "May affect index risk appetite, rates, FX or sector valuation.",
                   "medium"
                 ],
                 [
-                  "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+                  "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
                   "past/upcoming 24h",
                   "CNBC",
                   "May affect index risk appetite, rates, FX or sector valuation.",
@@ -1062,11 +1062,11 @@
                 ]
               ],
               "row_titles": [
-                "Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation",
-                "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
-                "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-                "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
-                "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist"
+                "Treasury yields are higher as oil prices rise, investors look ahead to payroll data - CNBC",
+                "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+                "Trump demands probe of GDP data released before midterms - Reuters",
+                "U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade - WSJ",
+                "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’"
               ]
             },
             {
@@ -1078,21 +1078,35 @@
               ],
               "rows": [
                 [
-                  "Dell earnings beat on AI strength, company authorizes $25 billion buyback CNBC · 2026-11-24T22:07:4...",
+                  "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding CNBC ·...",
                   "-",
                   "待判断",
                   "—"
                 ],
                 [
-                  "The Fed is likely to raise rates in December. What it means for your holiday spending CNBC · 2026-1...",
+                  "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy Reuters · 2026-11-27T13:28:56...",
+                  "-",
+                  "待判断",
+                  "—"
+                ],
+                [
+                  "Treasury yields are higher as oil prices rise, investors look ahead to payroll data CNBC · 2026-11-...",
+                  "-",
+                  "待判断",
+                  "—"
+                ],
+                [
+                  "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify CNBC · 202...",
                   "-",
                   "待判断",
                   "—"
                 ]
               ],
               "row_titles": [
-                "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
-                "The Fed is likely to raise rates in December. What it means for your holiday spending"
+                "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+                "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy",
+                "Treasury yields are higher as oil prices rise, investors look ahead to payroll data",
+                "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify"
               ]
             }
           ]
@@ -1100,15 +1114,34 @@
         {
           "source": "Trading Recommendation Agent",
           "title": "美股开盘信息",
-          "generated_at": "2026-11-25 22:01 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
-          "updated_at": "2026-11-25 22:01 local",
+          "generated_at": "2026-11-27 22:00 中国标准时间；数据周期：日线；股票池：美股大盘股约 100 只；只展示达到阈值的股票。",
+          "updated_at": "2026-11-27 22:00 local",
           "highlights": [
-            "宏观事件覆盖层：未识别到明显宏观事件冲击。",
+            "宏观事件覆盖层：macro_rates=7；policy_trade=2；oil_shock=1；rates_hawkish=1",
             "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
-            "今日待发布财报 · 市值前五",
-            "财报日历暂不可用，未列出公司；不影响邮件其余内容。"
+            "避险/波动升温：未达到调分门槛；方向证据 1 vs 反向 0；不同标题 2，不同来源 2，一线来源 0；市场代理确认 否",
+            "Treasury Yields Extend Fall After U.S. Data Flurry - WSJ"
           ],
-          "tables": []
+          "tables": [
+            {
+              "headers": [
+                "序号",
+                "公司",
+                "代码",
+                "市值（美元）",
+                "预计发布时段（美东）"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Leslies Inc",
+                  "LESL",
+                  "955,278",
+                  "11-27 13:00 EST 后（盘后）"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1389,10 +1422,6 @@
       "zh": "美股盘前重要金融新闻",
       "en": "US pre-market financial news"
     },
-    "宏观事件覆盖层：未识别到明显宏观事件冲击。": {
-      "zh": "宏观事件覆盖层：未识别到明显宏观事件冲击。",
-      "en": "Macro-event overlay: no clear macro-event shock detected."
-    },
     "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。": {
       "zh": "用于对能源/军工、高 beta 科技、金融、消费周期、半导体等分组做小幅加权或降权；历史 policy 调分需通过标题/来源多样性门槛；不调用 [redacted-model]，不等于新闻事实结论。",
       "en": "Used for small weighting adjustments across energy / defense, high-beta technology, financials, consumer cyclicals and semiconductors. Historical policy score adjustments require headline / source diversity. Does not invoke [redacted-model] and is not a conclusion about news facts."
@@ -1404,8 +1433,8 @@
   },
   "translation_status": {
     "mode": "local_only",
-    "total": 87,
-    "translated": 32,
+    "total": 96,
+    "translated": 31,
     "complete": false
   }
 }
