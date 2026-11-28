@@ -1,26 +1,15 @@
 {
   "ok": true,
-  "published_at": "2026-11-27 22:00 local",
+  "published_at": "2026-11-28 09:20 local",
   "scope": "accordion_report_digest_latest_only",
   "us_upcoming_earnings": {
-    "market_date": "2026-11-27",
-    "checked_at": "2026-11-27T09:00:48.096231-05:00",
-    "calendar_updated_at": "2026-11-27T09:00:32.428993-05:00",
-    "status": "ready",
+    "market_date": "2026-11-30",
+    "checked_at": "2026-11-27T20:20:00.523954-05:00",
+    "calendar_updated_at": null,
+    "status": "unavailable",
     "stale": false,
     "limit": 10,
-    "companies": [
-      {
-        "symbol": "LESL",
-        "name": "Leslies Inc",
-        "market_cap_usd": "955278.4321367741",
-        "release_window_start": "2026-11-27T13:00:00-05:00"
-      }
-    ],
-    "source_name": "Yahoo Finance",
-    "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-11-27",
-    "fallback": true,
-    "partial": false
+    "companies": []
   },
   "ashare_maturity_validation": {
     "ok": true,
@@ -1148,14 +1137,14 @@
     {
       "id": "us-post-market",
       "title": "US post market",
-      "updated_at": "2026-11-26 09:19 local",
+      "updated_at": "2026-11-28 09:19 local",
       "summary": "Latest web-formatted report digest. Click to expand; click again to collapse.",
       "reports": [
         {
           "source": "Market News Agent",
           "title": "美股收盘总结",
-          "generated_at": "2026-11-26 09:19 中国标准时间",
-          "updated_at": "2026-11-26 09:19 local",
+          "generated_at": "2026-11-28 09:19 中国标准时间",
+          "updated_at": "2026-11-28 09:19 local",
           "highlights": [
             "主要驱动 - 自动分析暂不可用，暂不推断市场驱动。",
             "下一交易日关注 - 自动分析暂不可用；请关注宏观数据、政策消息及公司重要公告。"
@@ -1173,36 +1162,36 @@
                 [
                   "中国",
                   "上证指数",
-                  "3476.41",
-                  "-0.00%",
+                  "3606.49",
+                  "+3.73%",
                   "最近收盘"
                 ],
                 [
                   "中国",
                   "沪深300",
-                  "3898.17",
-                  "-0.00%",
+                  "4063.06",
+                  "+4.17%",
                   "最近收盘"
                 ],
                 [
                   "香港",
                   "恒生指数",
-                  "21966.01",
-                  "+0.00%",
+                  "22694.77",
+                  "+2.11%",
                   "最近收盘"
                 ],
                 [
                   "日本",
                   "日经225",
-                  "58064.17",
-                  "+1.85%",
-                  "盘中"
+                  "58711.11",
+                  "+2.11%",
+                  "最近收盘"
                 ],
                 [
                   "英国",
                   "富时100",
-                  "10426.94",
-                  "-0.38%",
+                  "10698.81",
+                  "+0.84%",
                   "最近收盘"
                 ]
               ]
@@ -1218,20 +1207,20 @@
                 [
                   "标普500",
                   "^GSPC",
-                  "7182.78",
-                  "-0.25%"
+                  "7297.49",
+                  "+1.60%"
                 ],
                 [
                   "纳斯达克",
                   "^IXIC",
-                  "23585.8",
-                  "-0.62%"
+                  "24129.5",
+                  "+2.31%"
                 ],
                 [
                   "道琼斯",
                   "^DJI",
-                  "50182.95",
-                  "+0.33%"
+                  "50774.94",
+                  "+1.18%"
                 ],
                 [
                   "VIX",
@@ -1242,8 +1231,8 @@
                 [
                   "Apple",
                   "AAPL",
-                  "355.58",
-                  "+0.43%"
+                  "358.54",
+                  "+0.83%"
                 ]
               ]
             }
